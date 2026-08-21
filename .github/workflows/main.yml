@@ -5,6 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       KIE_API_KEY: ${{ secrets.KIE_API_KEY }}
+      VITE_KIE_API_KEY: ${{ secrets.KIE_API_KEY }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
