@@ -18,16 +18,13 @@ jobs:
       - run: npm install
       - run: npm run build
       - run: npm install @capacitor/core@5.7.0 @capacitor/cli@5.7.0 @capacitor/android@5.7.0
+      - run: rm -rf android
       - run: npx cap init "Musika Nusantara" com.musikanusantara.app --web-dir=dist
       - run: npx cap add android
       - run: npx cap copy android
-
-      # INI KUNCINYA BIAR BISA AKSES INTERNET / SUNO!
       - run: |
           MANIFEST=android/app/src/main/AndroidManifest.xml
           grep -q "android.permission.INTERNET" $MANIFEST || sed -i '/<manifest/a \ <uses-permission android:name="android.permission.INTERNET" />' $MANIFEST
-          cat $MANIFEST | grep -A2 -B2 INTERNET
-
       - run: cd android && chmod +x gradlew &&./gradlew assembleDebug
       - uses: actions/upload-artifact@v4
         with:
