@@ -5,12 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Setup Node 20
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Setup Java 17
-        uses: actions/setup-java@v4
+      - uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
           java-version: '17'
@@ -21,7 +19,7 @@ jobs:
       - name: Create Android Project
         run: |
           npm install @capacitor/core @capacitor/cli @capacitor/android
-          npx cap init "Musika Nusantara" com.musikanusantara.app --web-dir=dist
+          npx cap init "Musika Nusantara" com.musikanusantara.app --web-dir=dist --npm-client npm
           npx cap add android
           npx cap copy android
       - name: Build APK
