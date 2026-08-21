@@ -3,6 +3,8 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      KIE_API_KEY: ${{ secrets.KIE_API_KEY }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -19,7 +21,7 @@ jobs:
       - run: npx cap add android
       - run: npx cap copy android
 
-      # TAMBAHAN INI KUNCINYA BIAR ADA SUARA NYANYIAN!
+      # INI KUNCINYA BIAR BISA AKSES INTERNET / SUNO!
       - run: |
           MANIFEST=android/app/src/main/AndroidManifest.xml
           grep -q "android.permission.INTERNET" $MANIFEST || sed -i '/<manifest/a \ <uses-permission android:name="android.permission.INTERNET" />' $MANIFEST
