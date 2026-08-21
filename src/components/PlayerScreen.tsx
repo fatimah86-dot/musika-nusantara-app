@@ -1,36 +1,34 @@
-import { useRef, useState } from 'react';
+import { useState } from 'react';
 
-export const PlayerScreen = () => {
-  const audioRef = useRef<HTMLAudioElement>(null);
-  const [isPlaying, setIsPlaying] = useState(false);
-  const [track, setTrack] = useState(0);
+export default function PlayerScreen() {
+  const [prompt, setPrompt] = useState("Aku kangen kampung halaman pas lebaran");
+  const [genre, setGenre] = useState("Reggae Gambus Klasik, koplo, dangdut modern");
+  const [loading, setLoading] = useState(false);
+  const [songs, setSongs] = useState<any[]>([]);
+  const [status, setStatus] = useState("");
 
-  const tracks = [
-    { title: "Ditinggal Pas Sayang Sayange V1", file: "/music/lagu1.mp3" },
-    { title: "Ditinggal Pas Sayang Sayange V2", file: "/music/lagu2.mp3" },
-  ];
+  const generateMusic = async () => {
+    setLoading(true);
+    setStatus("Lagi bikin lagu dari text lu... 30 detik ya Cang...");
+    setSongs([]);
 
-  // kalau nama file kamu masih panjang dari suno, ganti jadi nama aslinya ya!
-  // contoh: "/music/Ditinggal%20Pas%20Sayang%20-%20Suno.mp3"
-
-  const toggle = () => {
-    if(!audioRef.current) return;
-    if(isPlaying){ audioRef.current.pause(); setIsPlaying(false); }
-    else{ audioRef.current.play(); setIsPlaying(true); }
-  };
-
-  return (
-    <div style={{padding:24, background:'linear-gradient(to bottom, #4a1a6b, #000)', minHeight:'100vh', color:'white'}}>
-      <h2 style={{fontWeight:'bold', fontSize:20, color:'#facc15'}}>{tracks[track].title}</h2>
-      <audio ref={audioRef} src={tracks[track].file} controls style={{width:'100%', marginTop:16}} onEnded={()=>setIsPlaying(false)} />
-      <button onClick={toggle} style={{marginTop:16, width:'100%', padding:16, borderRadius:999, background:'#facc15', color:'black', fontWeight:'bold', fontSize:18}}>
-        {isPlaying? "⏸️ Pause" : "▶️ Tarik Sis! Hak e Hak e!"}
-      </button>
-      <div style={{display:'flex', gap:8, marginTop:12}}>
-        <button onClick={()=>setTrack((track-1+tracks.length)%tracks.length)} style={{flex:1, padding:12, background:'rgba(255,255,255,0.2)', borderRadius:12}}>Prev</button>
-        <button onClick={()=>setTrack((track+1)%tracks.length)} style={{flex:1, padding:12, background:'rgba(255,255,255,0.2)', borderRadius:12}}>Next</button>
-      </div>
-      <p style={{marginTop:20, opacity:0.7, fontSize:12}}>File ada di: {tracks[track].file} - kalau gagal muter, cek nama file di public/music ya!</p>
-    </div>
-  );
-};
+    try {
+      // 1. MINTA BIKIN LAGU
+      const res = await fetch("https://api.kie.ai/api/v1/generate", {
+        method: "POST",
+        headers: {
+          "Authorization": `Bearer ${import.meta.env.VITE_KIE_API_KEY}`,
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          prompt: `${prompt}, ${genre}, indonesian vocal, high quality`,
+          model: "suno-v4.5",
+          make_instrumental: false
+        })
+      });
+      const data = await res.json();
+      const taskId = data.data?.taskId || data.taskId;
+      
+      // 2. TUNGGU JADI (POLLING)
+      let tries = 0;
+      while (
