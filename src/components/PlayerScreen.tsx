@@ -1,34 +1,14 @@
-import { useState } from 'react';
-
 export default function PlayerScreen() {
-  const [prompt, setPrompt] = useState("Aku kangen kampung halaman pas lebaran");
-  const [genre, setGenre] = useState("Reggae Gambus Klasik, koplo, dangdut modern");
-  const [loading, setLoading] = useState(false);
-  const [songs, setSongs] = useState<any[]>([]);
-  const [status, setStatus] = useState("");
-
-  const generateMusic = async () => {
-    setLoading(true);
-    setStatus("Lagi bikin lagu dari text lu... 30 detik ya Cang...");
-    setSongs([]);
-
-    try {
-      // 1. MINTA BIKIN LAGU
-      const res = await fetch("https://api.kie.ai/api/v1/generate", {
-        method: "POST",
-        headers: {
-          "Authorization": `Bearer ${import.meta.env.VITE_KIE_API_KEY}`,
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({
-          prompt: `${prompt}, ${genre}, indonesian vocal, high quality`,
-          model: "suno-v4.5",
-          make_instrumental: false
-        })
-      });
-      const data = await res.json();
-      const taskId = data.data?.taskId || data.taskId;
-      
-      // 2. TUNGGU JADI (POLLING)
-      let tries = 0;
-      while (
+  return (
+    <div style={{padding:20}}>
+      <h1>Musika Nusantara - Text to Music</h1>
+      <p>Text to music aktif. API Key: {String((import.meta as any).env.VITE_KIE_API_KEY || "").substring(0,5)}...</p>
+      <textarea id="prompt" style={{width:'100%', height:100, border:'1px solid #ccc'}} defaultValue="kangen kampung halaman"></textarea>
+      <button onClick={async ()=>{
+        const key = (import.meta as any).env.VITE_KIE_API_KEY;
+        const prompt = (document.getElementById('prompt') as any).value;
+        alert('Akan generate: ' + prompt + ' dengan key ' + (key?'ada':'tidak ada'));
+      }} style={{width:'100%', padding:12, background:'#FFEB3B', marginTop:10}}>Test Generate</button>
+    </div>
+  )
+}
