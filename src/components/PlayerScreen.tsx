@@ -1,8 +1,8 @@
 import { useRef, useState } from 'react';
 
 const TRACKS = [
-  { id: 1, title: "Ditinggal Pas Sayang Sayange V1", file: "/music/lagu 1.mp3", artist: "Sinden Koplo AI", lirik: "Pas wingi kowe mblenjani janji..." },
-  { id: 2, title: "Ditinggal Pas Sayang Sayange V2", file: "/music/lagu 2.mp3", artist: "Sinden Koplo AI", lirik: "Pas wingi kowe mblenjani janji..." },
+  { id: 1, title: "Ditinggal Pas Sayang Sayange V1", file: "/music/lagu1.mp3", artist: "Sinden Koplo AI", lirik: "Pas wingi kowe mblenjani janji..." },
+  { id: 2, title: "Ditinggal Pas Sayang Sayange V2", file: "/music/lagu2.mp3", artist: "Sinden Koplo AI", lirik: "Pas wingi kowe mblenjani janji..." },
 ];
 
 export default function PlayerScreen() {
