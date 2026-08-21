@@ -10,25 +10,16 @@ jobs:
           node-version: 20
       - uses: actions/setup-java@v4
         with:
-          distribution: 'temurin'
+          distribution: temurin
           java-version: '17'
-      - name: Install & Build Web
-        run: |
-          npm install
-          npm run build
-      - name: Create Android Project
-        run: |
-          npm install @capacitor/core @capacitor/cli @capacitor/android
-          npx cap init "Musika Nusantara" com.musikanusantara.app --web-dir=dist --npm-client npm
-          npx cap add android
-          npx cap copy android
-      - name: Build APK
-        run: |
-          cd android
-          chmod +x gradlew
-         ./gradlew assembleDebug
-      - name: Upload APK
-        uses: actions/upload-artifact@v4
+      - run: npm install
+      - run: npm run build
+      - run: npm install @capacitor/core @capacitor/cli @capacitor/android
+      - run: npx cap init "Musika Nusantara" com.musikanusantara.app --web-dir=dist --npm-client npm
+      - run: npx cap add android
+      - run: npx cap copy android
+      - run: cd android && chmod +x gradlew &&./gradlew assembleDebug
+      - uses: actions/upload-artifact@v4
         with:
           name: Musika-Nusantara-APK
           path: android/app/build/outputs/apk/debug/app-debug.apk
