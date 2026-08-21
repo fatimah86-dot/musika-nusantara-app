@@ -18,6 +18,13 @@ jobs:
       - run: npx cap init "Musika Nusantara" com.musikanusantara.app --web-dir=dist
       - run: npx cap add android
       - run: npx cap copy android
+
+      # TAMBAHAN INI KUNCINYA BIAR ADA SUARA NYANYIAN!
+      - run: |
+          MANIFEST=android/app/src/main/AndroidManifest.xml
+          grep -q "android.permission.INTERNET" $MANIFEST || sed -i '/<manifest/a \ <uses-permission android:name="android.permission.INTERNET" />' $MANIFEST
+          cat $MANIFEST | grep -A2 -B2 INTERNET
+
       - run: cd android && chmod +x gradlew &&./gradlew assembleDebug
       - uses: actions/upload-artifact@v4
         with:
