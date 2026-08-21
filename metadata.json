@@ -1,0 +1,7 @@
+{
+  "name": "Musika Nusantara",
+  "description": "Platform AI Pembuat Lagu Koplo & Musik Tradisional Nusantara: Teks Jadi Lagu Koplo? Iso Bos!",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
