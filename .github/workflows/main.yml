@@ -15,7 +15,7 @@ jobs:
       - run: npm install
       - run: npm run build
       - run: npm install @capacitor/core @capacitor/cli @capacitor/android
-      - run: npx cap init "Musika Nusantara" com.musikanusantara.app --web-dir=dist --npm-client npm
+      - run: npx cap init "Musika Nusantara" com.musikanusantara.app --web-dir=dist
       - run: npx cap add android
       - run: npx cap copy android
       - run: cd android && chmod +x gradlew &&./gradlew assembleDebug
