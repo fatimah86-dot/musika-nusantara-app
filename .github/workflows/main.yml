@@ -11,10 +11,9 @@ jobs:
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: '17'
+          java-version: '21'
       - run: npm install
       - run: npm run build
-      - run: ls -la dist || ls -la build || ls -la
       - run: npm install @capacitor/core @capacitor/cli @capacitor/android
       - run: npx cap init "Musika Nusantara" com.musikanusantara.app --web-dir=dist
       - run: npx cap add android
