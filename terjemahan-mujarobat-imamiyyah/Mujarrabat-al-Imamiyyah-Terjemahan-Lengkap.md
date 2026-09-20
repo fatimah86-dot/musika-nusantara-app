@@ -60,25 +60,24 @@ Dokumen ini adalah gabungan utuh seluruh terjemahan kitab: **mukadimah, Bab 1–
 > آمَنُوا هُدًى وَشِفَاءٌ﴾ (٣).
 >
 > وكذلك الدعاء والتوسّل بالله تعالى والاستعاذة بأسمائه عزّ وجلّ كما ورد عن
-> الرسول الكريم ﷺ وعن الأئمة الأطهار سلام الله عليهم أجمعين، فهي من
+> الرسول الكريم صلى الله عليه وسلم وعن الأئمة الأطهار سلام الله عليهم أجمعين، فهي من
 > المجربات عند كثير من المؤمنين، حيث أدّت إلى شفائهم بقدرة الباري عزّ وجلّ.
 >
-> فعن النبي (٤) أنه قال: «مَنْ لَمْ يَسْتَشْفِ بِالْقُرْآنِ فَلَا شَفَاهُ اللهُ».
+> فعن النبي صلى الله عليه وسلم أنه قال: «مَنْ لَمْ يَسْتَشْفِ بِالْقُرْآنِ فَلَا شَفَاهُ اللهُ».
 >
-> وعنه (٥) أنه قال: «أَلَا أَدُلُّكُمْ عَلَى سِلَاحٍ يُنْجِيكُمْ مِنْ أَعْدَائِكُمْ
+> وعنه صلى الله عليه وسلم أنه قال: «أَلَا أَدُلُّكُمْ عَلَى سِلَاحٍ يُنْجِيكُمْ مِنْ أَعْدَائِكُمْ
 > وَيُدِرُّ أَرْزَاقَكُمْ؟ قَالُوا: بَلَى. قَالَ: تَدْعُونَ رَبَّكُمْ بِاللَّيْلِ
 > وَالنَّهَارِ، فَإِنَّ سِلَاحَ الْمُؤْمِنِ الدُّعَاءُ».
 >
-> وعن أبي عبد الله (٦) قال: «عَلَيْكُمْ بِالدُّعَاءِ فَإِنَّهُ شِفَاءٌ مِنْ كُلِّ دَاءٍ».
+> وعن أبي عبد الله (٤) قال: «عَلَيْكُمْ بِالدُّعَاءِ فَإِنَّهُ شِفَاءٌ مِنْ كُلِّ دَاءٍ».
 
 ### Catatan kaki cetakan asli
 
 > (١) سورة الإسراء، الآية ٨٢.
 > (٢) سورة يونس، الآية ٥٧.
 > (٣) سورة فصلت، الآية ٤٤.
-> (٤) الكافي، ج٢، ص ٤٧١ [angka halaman samar pada pindai].
-> (٥) مكارم الأخلاق [nomor halaman tidak terbaca pada pindai].
-> (٦) الكافي، ج٣، ص ١٤٦ [angka halaman samar pada pindai].
+> (٤) الكافي [nomor halaman samar pada pindai].
+> Dua riwayat Nabi di atas pada cetakan asli ditulis dengan صلى الله عليه وسلم (tanpa nomor); baris sumbernya (مكارم الأخلاق dan الكافي) tertangkap pindai namun titik lekatnya tidak pasti.
 
 ### Terjemahan
 
@@ -102,16 +101,16 @@ semua). Semua itu termasuk perkara yang telah **teruji kemanfaatannya**
 (mujarrab) di kalangan banyak orang beriman, sebab mengantarkan mereka kepada
 kesembuhan dengan kekuasaan Sang Pencipta 'Azza wa Jalla.
 
-Dari Nabi (٤), beliau bersabda: *"Barang siapa tidak berobat-memohon kesembuhan
+Dari Nabi ﷺ, beliau bersabda: *"Barang siapa tidak berobat-memohon kesembuhan
 dengan Al-Qur'an, maka Allah tidak akan menyembuhkannya."*
 
-Dari beliau (٥) pula, beliau bersabda: *"Maukah kutunjukkan kepada kalian sebuah
+Dari beliau ﷺ pula, beliau bersabda: *"Maukah kutunjukkan kepada kalian sebuah
 senjata yang menyelamatkan kalian dari musuh-musuh kalian dan melancarkan
 rezeki-rezeki kalian?" Mereka menjawab, "Tentu." Beliau bersabda, "Berdoalah
 kalian kepada Tuhan kalian di waktu malam dan siang, karena sesungguhnya senjata
 orang mukmin adalah doa."*
 
-Dari Abu Abdillah (٦ — Imam Ja'far ash-Shadiq), beliau berkata:
+Dari Abu Abdillah (٤ — Imam Ja'far ash-Shadiq), beliau berkata:
 *"Hendaklah kalian berpegang pada doa, karena sesungguhnya ia adalah kesembuhan
 dari segala penyakit."*
 
@@ -141,19 +140,19 @@ dari segala penyakit."*
 > لَيُدْخِلُ بِصِدْقِ النِّيَّةِ وَالسَّرِيرَةِ الْخَالِصَةِ جَمّاً مِنْ عِبَادِهِ
 > الْجَنَّةَ».
 >
-> **في عيادة المريض:** قال النبي (١): «مِنْ حَقِّ الْمُسْلِمِ عَلَى الْمُسْلِمِ
+> **في عيادة المريض:** قال النبي صلى الله عليه وسلم: «مِنْ حَقِّ الْمُسْلِمِ عَلَى الْمُسْلِمِ
 > إِذَا لَقِيَهُ أَنْ يُسَلِّمَ عَلَيْهِ، وَإذَا مَرِضَ أَنْ يَعُودَهُ، وَإذَا
 > مَاتَ أَنْ يُشَيِّعَ جِنَازَتَهُ».
 >
-> وقال (٢): «تَمَامُ عِيَادَةِ الْمَرِيضِ أَنْ يَضَعَ أَحَدُكُمْ يَدَهُ عَلَيْهِ
+> وقال صلى الله عليه وسلم: «تَمَامُ عِيَادَةِ الْمَرِيضِ أَنْ يَضَعَ أَحَدُكُمْ يَدَهُ عَلَيْهِ
 > وَيَسْأَلَهُ: كَيْفَ أَنْتَ؟ كَيْفَ أَصْبَحْتَ وَكَيْفَ أَمْسَيْتَ؟ وَتَمَامُ
 > تَحِيَّتِكُمُ الْمُصَافَحَةُ».
 >
-> وعن الصادق (٣) قال: إن أمير المؤمنين قال: «إِنَّ مِنْ أَعْظَمِ الْعَوَّادِ
+> وعن الصادق (١) قال: إن أمير المؤمنين قال: «إِنَّ مِنْ أَعْظَمِ الْعَوَّادِ
 > أَجْراً عِنْدَ اللهِ لَمَنْ إِذَا عَادَ خَفَّفَ الْجُلُوسَ، إِلَّا أَنْ يَكُونَ
 > الْمَرِيضُ يُرِيدُ ذَلِكَ وَيُحِبُّ ذَلِكَ».
 >
-> وعن الباقر (٤) قال: كان فيما ناجى به موسى ربه أنه قال: «يَا رَبِّ، مَا
+> وعن الباقر (٢) قال: كان فيما ناجى به موسى ربه أنه قال: «يَا رَبِّ، مَا
 > بَلَغَ مِنْ عِيَادَةِ الْمَرِيضِ مِنَ الْأَجْرِ؟» فَقَالَ اللهُ عَزَّ وَجَلَّ:
 > «أُوَكِّلُ بِهِ مَلَكاً يَعُودُهُ فِي قَبْرِهِ إِلَى مَحْشَرِهِ».
 
@@ -190,23 +189,23 @@ itu hanya pada ucapan lisan dan amal tangan serta kaki. Dan sesungguhnya Allah
 Ta'ala, berkat kejujuran niat dan batin yang tulus, memasukkan banyak sekali
 hamba-Nya ke dalam surga."*
 
-**Tentang menjenguk orang sakit:** Nabi (١) bersabda: *"Termasuk hak seorang
+**Tentang menjenguk orang sakit:** Nabi ﷺ bersabda: *"Termasuk hak seorang
 muslim atas muslim lainnya: apabila ia bertemu dengannya hendaklah ia
 mengucapakan salam; apabila ia sakit hendaklah ia menjenguknya; dan apabila ia
 meninggal hendaklah ia mengantarkan jenazahnya."*
 
-Beliau (٢) juga bersabda: *"Sempurnanya menjenguk orang sakit ialah salah seorang
+Beliau ﷺ juga bersabda: *"Sempurnanya menjenguk orang sakit ialah salah seorang
 di antara kalian meletakkan tangannya pada si sakit dan bertanya: 'Bagaimana
 keadaanmu? Bagaimana pagimu? Bagaimana malammu?' Dan sempurnanya penghormatan di
 antara kalian adalah berjabat tangan."*
 
-Dari Imam ash-Shadiq (٣), beliau berkata: Amirul Mukminin
+Dari Imam ash-Shadiq (١), beliau berkata: Amirul Mukminin
 bersabda: *"Termasuk penjenguk yang paling besar pahalanya di
 sisi Allah ialah orang yang apabila menjenguk, ia mempersingkat duduknya —
 kecuali bila si sakit justru menginginkan dan menyenangi (kedatangannya yang
 lama)."*
 
-Dari Imam al-Baqir (٤), beliau berkata: Di antara munajat Nabi Musa
+Dari Imam al-Baqir (٢), beliau berkata: Di antara munajat Nabi Musa
 kepada Tuhannya, ia berkata: *"Wahai Tuhanku, seberapa besar
 pahala menjenguk orang sakit?" Maka Allah 'Azza wa Jalla berfirman: "Aku
 utus/serahkan seorang malaikat yang menemaninya di kuburnya hingga ke tempat
@@ -229,45 +228,49 @@ berkumpulnya (mahsyar)."*
 
 ### Teks Arab
 
-> قال النبي (١): «مَنْ لَمْ يَسْتَشْفِ بِالْقُرْآنِ فَلَا شَفَاهُ اللهُ».
+> قال الله تعالى: ﴿وَنُنَزِّلُ مِنَ الْقُرْآنِ مَا هُوَ شِفَاءٌ وَرَحْمَةٌ لِلْمُؤْمِنِينَ﴾.
 >
-> وقال الصادق (٢): «مَنْ قَرَأَ مِائَةَ آيَةٍ مِنْ أَيِّ آيِ الْقُرْآنِ شَاءَ ثُمَّ
+> قال النبي صلى الله عليه وسلم: «مَنْ لَمْ يَسْتَشْفِ بِالْقُرْآنِ فَلَا شَفَاهُ اللهُ».
+>
+> وقال الصادق (١): «مَنْ قَرَأَ مِائَةَ آيَةٍ مِنْ أَيِّ آيِ الْقُرْآنِ شَاءَ ثُمَّ
 > قَالَ سَبْعَ مَرَّاتٍ: يَا اللهُ، فَلَوْ دَعَا عَلَى الصُّخُورِ فَلَقَهَا».
 >
-> عن ابن الحسن (٣) قال: «إِذَا خِفْتَ أَمْراً فَاقْرَأْ مِائَةَ آيَةٍ مِنَ
+> عن ابن الحسن (٢) قال: «إِذَا خِفْتَ أَمْراً فَاقْرَأْ مِائَةَ آيَةٍ مِنَ
 > الْقُرْآنِ مِنْ حَيْثُ شِئْتَ، ثُمَّ قُلْ: اللهُمَّ اكْشِفْ عَنِّي الْبَلَاءَ —
 > ثَلَاثَ مَرَّاتٍ».
 >
-> عن الكاظم (٤) أنه قال: «مَنِ اسْتَكْفَى بِآيَةٍ مِنَ الْقُرْآنِ مِنَ الْمَشْرِقِ
+> عن الكاظم (٣) أنه قال: «مَنِ اسْتَكْفَى بِآيَةٍ مِنَ الْقُرْآنِ مِنَ الْمَشْرِقِ
 > إِلَى الْمَغْرِبِ كُفِيَ، إِذَا كَانَ بِيَقِينٍ».
 >
-> وعنه (٥) أنه قال: «فِي الْقُرْآنِ شِفَاءٌ مِنْ كُلِّ دَاءٍ».
+> وعنه (٤) أنه قال: «فِي الْقُرْآنِ شِفَاءٌ مِنْ كُلِّ دَاءٍ».
 
 ### Catatan kaki cetakan asli
 
-> (١ - ٥) Daftar sumber pada kaki halaman cetakan tidak tertangkap pindai;
+> (١ - ٤) Daftar sumber pada kaki halaman cetakan tidak tertangkap pindai;
 > penomoran di atas mengikuti urutan kemunculan pada cetakan asli.
 
 ### Terjemahan
 
-Nabi (١) bersabda: *"Barang siapa tidak memohon kesembuhan dengan Al-Qur'an, maka
+Allah Ta'ala berfirman: *"Dan Kami turunkan dari Al-Qur'an sesuatu yang menjadi penyembuh dan rahmat bagi orang-orang beriman."*
+
+Nabi ﷺ bersabda: *"Barang siapa tidak memohon kesembuhan dengan Al-Qur'an, maka
 Allah tidak akan menyembuhkannya."*
 
-Imam ash-Shadiq (٢) berkata: *"Barang siapa membaca seratus ayat
+Imam ash-Shadiq (١) berkata: *"Barang siapa membaca seratus ayat
 dari bagian mana saja Al-Qur'an yang ia kehendaki, kemudian mengucapkan tujuh
 kali: 'Yā Allāh' (Wahai Allah), maka seandainya ia berdoa (dengan wasilah itu)
 atas batu-batu besar, niscaya batu-batu itu terbelah."*
 
-Dari Ibn al-Hasan (٣), beliau berkata: *"Apabila
+Dari Ibn al-Hasan (٢), beliau berkata: *"Apabila
 engkau takut akan suatu perkara, bacalah seratus ayat Al-Qur'an dari bagian mana
 saja yang engkau kehendaki, kemudian ucapkanlah: 'Allāhummaksyif 'annī
 al-balāʾ' (Ya Allah, singkaplah dariku bala/bencana) — tiga kali."*
 
-Dari Imam al-Kazhim (٤), beliau berkata: *"Barang siapa memohon
+Dari Imam al-Kazhim (٣), beliau berkata: *"Barang siapa memohon
 kecukupan dengan satu ayat Al-Qur'an dari timur hingga barat, ia akan dicukupi —
 apabila ia melakukannya dengan penuh keyakinan."*
 
-Dari beliau (٥) pula: *"Di dalam Al-Qur'an terdapat kesembuhan dari
+Dari beliau (٤) pula: *"Di dalam Al-Qur'an terdapat kesembuhan dari
 segala penyakit."*
 
 ---
@@ -477,7 +480,7 @@ an-Nahl [16]: 2)
 > "Demikianlah Kami memperlakukan orang-orang yang berdosa. Sesungguhnya mereka
 > dahulu apabila dikatakan kepada mereka: 'Tidak ada tuhan selain Allah,' mereka
 > menyombongkan diri, dan berkata: 'Apakah kami harus meninggalkan tuhan-tuhan
-> kami karena seorang penyair gila?' Padahal dia (Nabi ﷺ) datang membawa
+> kami karena seorang penyair gila?' Padahal dia (Nabi صلى الله عليه وسلم) datang membawa
 > kebenaran dan membenarkan rasul-rasul (sebelumnya)."
 
 **26.** ﴿غَافِرِ الذَّنْبِ وَقَابِلِ التَّوْبِ شَدِيدِ الْعِقَابِ ذِي الطَّوْلِ ۖ
@@ -571,11 +574,11 @@ surah-surah tertentu untuk kesembuhan dan penjagaan.
 > الْكِتَابِ سَبْعَ مَرَّاتٍ، فَإِنْ سَكَنَتْ، وَإِلَّا فَلْيَقْرَأْهَا سَبْعِينَ
 > مَرَّةً، فَإِنَّهَا تَسْكُنُ».
 >
-> روي عن النبي (٢) أنه قال في «الْحَمْدُ لِلَّهِ» — سبع مرات —: «شِفَاءٌ مِنْ كُلِّ
+> روي عن النبي صلى الله عليه وسلم أنه قال في «الْحَمْدُ لِلَّهِ» — سبع مرات —: «شِفَاءٌ مِنْ كُلِّ
 > دَاءٍ، إِنْ عُوِّذَ بِهَا صَاحِبُهَا مِائَةَ مَرَّةٍ وَكَانَ الرُّوحُ قَدْ خَرَجَ
 > مِنَ الْجَسَدِ [لَرُدَّ إِلَيْهِ]».
 >
-> وروي عن أبي عبد الله (٣) أنه قال: «لَوْ قَرَأْتَ الْحَمْدَ عَلَى مَيِّتٍ
+> وروي عن أبي عبد الله (٢) أنه قال: «لَوْ قَرَأْتَ الْحَمْدَ عَلَى مَيِّتٍ
 > سَبْعِينَ مَرَّةً ثُمَّ رُدَّتْ فِيهِ الرُّوحُ مَا كَانَ عَجَباً».
 
 ### Terjemahan
@@ -820,7 +823,7 @@ rumah-rumah kecil di sekitarnya."*
 ### Catatan kaki cetakan asli
 
 > (١ - ٣) مكارم الأخلاق، ص ٣٤٨–٣٤٩ [sebagian angka halaman tidak terbaca pada pindai].
-> (١ - ) مكارم الأخلاق [daftar sumber kaki halaman tidak tertangkap pindai; penomoran mengikuti urutan cetakan].
+> (١ - ٢) مكارم الأخلاق [daftar sumber kaki halaman tidak tertangkap pindai; penomoran mengikuti urutan cetakan].
 
  Lanjut ke [Khasiat Tiap Surah — dinukil dari Kitāb al-Khawāsh](03-bab-01-khasiat-surah-kitab-khawash.md)
 
@@ -951,7 +954,7 @@ kepadanya, dan ia memperoleh derajat serta kedudukan. Dan barang siapa
 menulisnya lalu meminumnya, Allah memudahkan rezeki baginya dari setiap orang.
 
 **12. Ar-Ra'd.**
-> عَنِ النَّبِيِّ (١) قَالَ: «مَنْ قَرَأَ هَذِهِ السُّورَةَ كَانَ لَهُ مِنَ الْأَجْرِ
+> عَنِ النَّبِيِّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ: «مَنْ قَرَأَ هَذِهِ السُّورَةَ كَانَ لَهُ مِنَ الْأَجْرِ
 > بِوَزْنِ سَحَابٍ مَضَى وَكُلِّ سَحَابٍ يَكُونُ عَشْرُ حَسَنَاتٍ، وَيُبْعَثُ يَوْمَ
 > الْقِيَامَةِ مِنَ الْمُوفِينَ بِعَهْدِ اللهِ». وَمَنْ كَتَبَهَا فِي لَيْلَةٍ
 > مُظْلِمَةٍ بَعْدَ صَلَاةِ الْعِشَاءِ الْآخِرَةِ عَلَى ضَوْءِ نَارٍ وَجَعَلَهَا مِنْ
@@ -1900,12 +1903,12 @@ penyembuhan dari segala penyakit."
 
 ### Teks Arab
 
-> روي عن رسول الله ﷺ أنه قال: «عَلَّمَنِي جَبْرَائِيلُ دَوَاءً لَا يُحْتَاجُ مَعَهُ
+> روي عن رسول الله صلى الله عليه وسلم أنه قال: «عَلَّمَنِي جَبْرَائِيلُ دَوَاءً لَا يُحْتَاجُ مَعَهُ
 > إِلَى دَوَاءٍ». فَقِيلَ: يَا رَسُولَ اللهِ، مَا ذَلِكَ الدَّوَاءُ؟ قَالَ: «يُؤْخَذُ مَاءُ
 > الْمَطَرِ قَبْلَ أَنْ يَنْزِلَ إِلَى الْأَرْضِ، ثُمَّ يُجْعَلُ فِي إِنَاءٍ نَظِيفٍ،
 > وَيُقْرَأُ عَلَيْهِ (الْحَمْدُ) إِلَى آخِرِهَا سَبْعِينَ مَرَّةً، وَ﴿قُلْ هُوَ اللَّهُ أَحَدٌ﴾
 > وَالْمُعَوِّذَتَانِ سَبْعِينَ مَرَّةً، ثُمَّ يُشْرَبُ مِنْهُ قَدَحاً بِالْغَدَاةِ وَقَدَحاً
-> بِالْعَشِيِّ». قَالَ رَسُولُ اللهِ ﷺ: «وَالَّذِي بَعَثَنِي بِالْحَقِّ لَيَنْزِعَنَّ اللهُ ذَلِكَ
+> بِالْعَشِيِّ». قَالَ رَسُولُ اللهِ صلى الله عليه وسلم: «وَالَّذِي بَعَثَنِي بِالْحَقِّ لَيَنْزِعَنَّ اللهُ ذَلِكَ
 > الدَّاءَ مِنْ بَدَنِهِ وَعِظَامِهِ وَعُرُوقِهِ».
 >
 > وَأَيْضاً: يُؤْخَذُ سَبْعُ حَبَّاتِ شُونِيزٍ وَسَبْعُ حَبَّاتِ عَدَسٍ وَشَيْءٌ مِنْ طِينِ
@@ -1915,7 +1918,7 @@ penyembuhan dari segala penyakit."
 >
 > قَالَ أَبُو جَعْفَرٍ (١)
 > الْقُرْآنِ مَا هُوَ شِفَاءٌ وَرَحْمَةٌ لِلْمُؤْمِنِينَ﴾، وَقَالَ اللهُ تَعَالَى: ﴿يَخْرُجُ
-> مِنْ بُطُونِهَا شَرَابٌ مُخْتَلِفٌ أَلْوَانُهُ فِيهِ شِفَاءٌ لِلنَّاسِ﴾. وَقَالَ النَّبِيُّ ﷺ:
+> مِنْ بُطُونِهَا شَرَابٌ مُخْتَلِفٌ أَلْوَانُهُ فِيهِ شِفَاءٌ لِلنَّاسِ﴾. وَقَالَ النَّبِيُّ صلى الله عليه وسلم:
 > «الْحَبَّةُ السَّوْدَاءُ شِفَاءٌ مِنْ كُلِّ دَاءٍ إِلَّا السَّامَ، وَنَحْنُ نَقُولُ: بِظَهْرِ
 > الْكُوفَةِ قَبْرٌ لَا يَلُوذُ بِهِ ذُو عَاهَةٍ إِلَّا شَفَاهُ اللهُ تَعَالَى».
 
@@ -2482,7 +2485,7 @@ Ja'far, Musa, Ali, Muhammad, Ali, al-Hasan, Muhammad — semoga shalawat dan
 salam atas mereka.*
 
 > Ditulis lalu diikatkan pada lengan atas (al-'aḍud). Sumber: *aḍ-Ḍiyā'*
-> (sebagaimana dinukil). Catatan: ini adalah rangkaian nama Nabi ﷺ, putri dan
+> (sebagaimana dinukil). Catatan: ini adalah rangkaian nama Nabi صلى الله عليه وسلم, putri dan
 > sebelas Imam (dua belas nama termasuk Nabi).
 
 ---
@@ -2555,7 +2558,7 @@ halaman per bagian tidak tertangkap pindai sehingga tidak ditampilkan penuh.
 > أَرْقِيكَ، مِنْ كُلِّ شَيْءٍ يُؤْذِيكَ، بِسْمِ اللهِ اللهُ شَافِيكَ، بِسْمِ اللهِ
 > [أُعِيذُكَ]، بِسْمِ اللهِ [أَرْقِيكَ مِنَ] الشَّيْطَانِ الرَّجِيمِ: ﴿فَلَا أُقْسِمُ
 > بِمَوَاقِعِ النُّجُومِ ۝ وَإِنَّهُ لَقَسَمٌ لَوْ تَعْلَمُونَ عَظِيمٌ﴾
-> لَتُبْرَأَنَّ بِإِذْنِ اللهِ عَزَّ وَجَلَّ». فَأُطْلِقَ النَّبِيُّ ﷺ مِنْ عِقَالِهِ
+> لَتُبْرَأَنَّ بِإِذْنِ اللهِ عَزَّ وَجَلَّ». فَأُطْلِقَ النَّبِيُّ صلى الله عليه وسلم مِنْ عِقَالِهِ
 > فَقَالَ: «يَا جَبْرَائِيلُ، هَذِهِ عُوذَةٌ بَلِيغَةٌ». قَالَ: «هِيَ مِنْ [مَخْزُونِ
 > مَا] فِي السَّمَاءِ».
 
@@ -2578,7 +2581,7 @@ langit."
 
 ### Teks Arab
 
-> ذكر السيد ابن طاووس (ره) أن النبي ﷺ دخل على فاطمة الزهراء عليه السلام
+> ذكر السيد ابن طاووس (ره) أن النبي صلى الله عليه وسلم دخل على فاطمة الزهراء عليه السلام
 > الحسن عليه السلام
 > عليه السلام
 > بِهَا عَنْهُ مَا يَجِدُهُ؟» قَالَ: «بَلَى». قَالَ: «قُلْ: اَللَّهُمَّ لَا إِلَهَ
@@ -2881,7 +2884,7 @@ melakukannya, lalu seakan-akan aku dilepaskan dari ikatan (sembuh)."
 > (فَاتِحَةَ الْكِتَابِ) وَ﴿قُلْ هُوَ اللَّهُ أَحَدٌ﴾ وَ﴿قُلْ أَعُوذُ بِرَبِّ
 > الْفَلَقِ﴾ وَ﴿قُلْ أَعُوذُ بِرَبِّ النَّاسِ﴾، كُلَّ وَاحِدَةٍ ثَلَاثَ مَرَّاتٍ،
 > وَتَقُولُ: أَعُوذُ بِعِزَّةِ اللهِ وَقُدْرَةِ اللهِ، وَعَظَمَةِ اللهِ
-> وَسُلْطَانِ اللهِ، وَجَمَالِ اللهِ وَجَلَالِ اللهِ، وَبِرَسُولِ اللهِ ﷺ
+> وَسُلْطَانِ اللهِ، وَجَمَالِ اللهِ وَجَلَالِ اللهِ، وَبِرَسُولِ اللهِ صلى الله عليه وسلم
 > [وَبِأَوْلِيَاءِ اللهِ]، مِنْ شَرِّ مَا أُحَافُ وَأَحْذَرُ؛ أَشْهَدُ أَنَّ
 > اللهَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ
 > الْعَلِيِّ الْعَظِيمِ؛ وَصَلَّى اللهُ عَلَى مُحَمَّدٍ وَآلِهِ. اَللَّهُمَّ
@@ -3152,7 +3155,7 @@ ar-Ridha ('alaihissalam): *"Air panas, apabila engkau mendidihkannya tujuh kali
 didih, [bermanfaat …]."* [Ujung hadis rusak pada sumber pindai.]
 
 > Syair yang ditulis dan digantungkan pada lengan atas kanan (maknanya):
-> "… rumah yang memuat lautan dosa … demi al-Mushthafa (Nabi ﷺ), al-Murtadha
+> "… rumah yang memuat lautan dosa … demi al-Mushthafa (Nabi صلى الله عليه وسلم), al-Murtadha
 > (Imam Ali), dan al-Wālidah (Fathimah): jangan kembali, jangan kembali …"
 
 ## 17. Shalat untuk Demam
@@ -3429,7 +3432,7 @@ membahayakanmu setelah itu."* [Sebagian redaksi rusak pada sumber pindai.]
 ### Teks Arab
 
 > عن أمير المؤمنين (١) قال: «هَذِهِ عُوذَةٌ نَزَلَ بِهَا جَبْرَائِيلُ عليه السلام
-> النَّبِيِّ ﷺ وَالنَّبِيُّ ﷺ يَصْدَعُ، فَقَالَ: يَا مُحَمَّدُ، عَوِّذْ
+> النَّبِيِّ صلى الله عليه وسلم وَالنَّبِيُّ صلى الله عليه وسلم يَصْدَعُ، فَقَالَ: يَا مُحَمَّدُ، عَوِّذْ
 > صُدَاعَكَ بِهَذِهِ الْعُوذَةِ يُخَفِّفِ اللهُ عَنْكَ. وَقَالَ: يَا مُحَمَّدُ،
 > مَنْ عَوَّذَ بِهَذِهِ الْعُوذَةِ — سَبْعَ مَرَّاتٍ — عَلَى أَيِّ وَجَعٍ
 > يُصِيبُهُ شَفَاهُ اللهُ بِإِذْنِهِ؛ تَمْسَحُ يَدَكَ عَلَى الْمَوْضِعِ الَّذِي
@@ -3605,7 +3608,7 @@ Ditulis lalu diikatkan pada kepala (dari sumber-sumber kitab ini):
 
 ### Teks Arab (inti)
 
-> كان بالنجاشي الملك صداع، فكتب إلى النبي ﷺ في ذلك، فبعث إليه هذا الحرز
+> كان بالنجاشي الملك صداع، فكتب إلى النبي صلى الله عليه وسلم في ذلك، فبعث إليه هذا الحرز
 > فخاطه في قلنسوته فسكن ذلك عنه. وهو: بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ، يَا
 > أَوَّلُ يَا آخِرُ ... هُوَ اللهُ الَّذِي لَا إِلَهَ إِلَّا هُوَ الرَّحْمَنُ
 > الرَّحِيمُ؛ ﴿شَهِدَ اللَّهُ أَنَّهُ لَا إِلَٰهَ إِلَّا هُوَ﴾ الْآيَةَ؛ لِلَّهِ
@@ -3801,7 +3804,7 @@ jika dibacakan atas mata yang meradang atau berpenyakit lain, bermanfaat.
 ### 4. 'Uwdzah Khaybar — Tangan Imam Ali Menyembuhkan Mata
 
 : قال علي بن أبي طالب (٢)
-> يوم خيبر، قيل له: يا رسول الله، إنه أرمد. فقال رسول الله ﷺ: «ائْتُونِي
+> يوم خيبر، قيل له: يا رسول الله، إنه أرمد. فقال رسول الله صلى الله عليه وسلم: «ائْتُونِي
 > بِهِ». فَأَتَيْتُهُ فَقُلْتُ: يَا رَسُولَ اللهِ، إِنِّي أَرْمَدُ لَا أُبْصِرُ شَيْئاً.
 > قَالَ: «ادْنُ مِنِّي يَا عَلِيُّ». فَدَنَوْتُ مِنْهُ فَمَسَحَ يَدَهُ عَلَى عَيْنِي فَقَالَ:
 > «بِسْمِ اللهِ وَبِاللهِ، وَالسَّلَامُ عَلَى رَسُولِ اللهِ؛ اَللَّهُمَّ اكْفِهِ الْحَرَّ
@@ -3810,7 +3813,7 @@ jika dibacakan atas mata yang meradang atau berpenyakit lain, bermanfaat.
 > بَعْدَ ذَلِكَ حَرّاً وَلَا بَرْداً وَلَا أَذىً فِي عَيْنِي. قَالَ: وَكَانَ عَلِيٌّ عليه السلام
 > رُبَّمَا خَرَجَ فِي الْيَوْمِ الشَّاتِي الشَّدِيدِ الْبَرْدِ وَعَلَيْهِ قَمِيصٌ شَقٌّ
 > فَيُقَالُ: يَا أَمِيرَ الْمُؤْمِنِينَ، أَمَا تُصِيبُكَ الْبَرْدُ؟ فَيَقُولُ: مَا أَصَابَنِي
-> حَرٌّ وَلَا بَرْدٌ مُنْذُ عَوَّذَنِي رَسُولُ اللهِ ﷺ.
+> حَرٌّ وَلَا بَرْدٌ مُنْذُ عَوَّذَنِي رَسُولُ اللهِ صلى الله عليه وسلم.
 
 Dari ash-Shadiq, dari bapak-bapaknya ('alaihimus salam): Ali bin Abi Thalib
 ('alaihissalam) berkata: Ketika Rasulullah ﷺ memanggilku pada hari Khaibar,
@@ -5345,7 +5348,7 @@ Dāniyāla wal-jubbi min syarri hādzal-asad' (Aku berlindung dengan Tuhan Dāni
 dan Tuhan sumur dari kejahatan singa ini)."* Maka ia mengucapkannya, dan singa
 itu pergi darinya.
 
-> عن النبي ﷺ أنه قال: «إِذَا نَزَلْتُمْ مَنْزِلاً تُخَافُ فِيهِ السِّبَاعُ
+> عن النبي صلى الله عليه وسلم أنه قال: «إِذَا نَزَلْتُمْ مَنْزِلاً تُخَافُ فِيهِ السِّبَاعُ
 > فَقُولُوا: أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللهُ وَحْدَهُ لَا شَرِيكَ لَهُ،
 > لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، بِيَدِهِ الْخَيْرُ وَهُوَ عَلَى كُلِّ شَيْءٍ
 > قَدِيرٌ — مِنْ شَرِّ كُلِّ سَبْعٍ». وَعَنْ عَلِيٍّ (٣)
@@ -5367,7 +5370,7 @@ dan mengucapkan: 'Allāhumma Rabba Dāniyāla wal-jubbi, iḥfaẓnī wa iḥfa�
 
 ## D. Racun (as-Samm) — Kisah Kaki Kambing Beracun
 
-> قصة الشاة المسمومة بخيبر: أن امرأة يهودية سمت شاة ثم أهدتها إلى النبي ﷺ،
+> قصة الشاة المسمومة بخيبر: أن امرأة يهودية سمت شاة ثم أهدتها إلى النبي صلى الله عليه وسلم،
 > فلما أكل منها كلمته الذراع: «إني مسمومة». فَقَالَ (١)
 > يَأْكُلَ طَعَاماً يَخَافُ فِيهِ السُّمَّ فَلْيَقُلْ: بِسْمِ اللهِ الْعَلِيِّ
 > الْعَظِيمِ الْمَلِيكِ الْقَدِيرِ الَّذِي لَا إِلَهَ إِلَّا هُوَ؛ ﴿وَنُنَزِّلُ
@@ -5397,7 +5400,7 @@ Mendengar lagi Maha Mengetahui); lalu makan."*
 > لَا يُبْصِرُونَ﴾ …» — وَفِيهِ تَوَسُّلٌ بِالْأَنْبِيَاءِ وَالْأَئِمَّةِ
 > (عَلَيْهِمُ السَّلَامُ)، وَآيَاتُ الْحِجَابِ وَالْأَمْنِ، وَفِي آخِرِهِ:
 > «جِبْرِيلُ عَنْ يَمِينِي، وَمِيكَائِيلُ عَنْ يَسَارِي، وَإِسْرَافِيلُ مِنْ
-> وَرَائِي، وَمُحَمَّدٌ ﷺ شَفِيعِي مِنْ بَيْنِ يَدَيَّ … اَللَّهُمَّ إِنِّي
+> وَرَائِي، وَمُحَمَّدٌ صلى الله عليه وسلم شَفِيعِي مِنْ بَيْنِ يَدَيَّ … اَللَّهُمَّ إِنِّي
 > أَعُوذُ بِكَ مِنْ شُرُورِهِمْ، وَأَدْرَأُ بِكَ فِي نُحُورِهِمْ». [وَهُوَ
 > دُعَاءٌ طَوِيلٌ جِدّاً، أَكْثَرُهُ فِي الْمَصْدَرِ رَدِيئٌ بِسَبَبِ
 > الرَّدَاءَةِ فِي الطَّبْعَةِ؛ نُقِلَ مَطْلَعُهُ وَمَقَاصِدُهُ.]
@@ -5626,9 +5629,9 @@ dengan seagung-agungnya) — karena barang siapa mengucapkan itu ketika tidurnya
 ia dijaga dari pencuri dan reruntuhan, dan para malaikat memintakan ampunan
 untuknya."*
 
-> وكان النبي ﷺ يعلمهم من الفزع: «أَعُوذُ بِكَلِمَاتِ اللهِ التَّامَّةِ مِنْ
+> وكان النبي صلى الله عليه وسلم يعلمهم من الفزع: «أَعُوذُ بِكَلِمَاتِ اللهِ التَّامَّةِ مِنْ
 > غَضَبِهِ وَعِقَابِهِ وَشَرِّ عِبَادِهِ وَمِنْ هَمَزَاتِ الشَّيَاطِينِ وَأَنْ
-> يَحْضُرُونِ». وَلِلْأَرَقِ: شكا خالد إلى النبي ﷺ فقال: «إِذَا أَوَيْتَ
+> يَحْضُرُونِ». وَلِلْأَرَقِ: شكا خالد إلى النبي صلى الله عليه وسلم فقال: «إِذَا أَوَيْتَ
 > إِلَى فِرَاشِكَ فَقُلْ: اَللَّهُمَّ رَبَّ السَّمَاوَاتِ السَّبْعِ وَمَا
 > أَظَلَّتْ، وَرَبَّ الْأَرَضِينَ وَمَا أَقَلَّتْ، وَرَبَّ الشَّيَاطِينِ وَمَا
 > أَضَلَّتْ، كُنْ لِي جَاراً مِنْ خَلْقِكَ كُلِّهِمْ جَمِيعاً، أَنْ يَفْرُطَ
@@ -5671,7 +5674,7 @@ dan Dia melepaskan jiwa yang lain sampai waktu yang ditentukan"* (QS az-Zumar
 Baznūsy, Syārnūsy, Syādnūsy, Kasṭaṭyūsy, dan Qiṭmīr" — sebagaimana datang
 dalam riwayat.
 
-> وللانتباه للصلاة: عن النبي ﷺ: «مَنْ أَرَادَ شَيْئاً مِنْ قِيَامِ اللَّيْلِ
+> وللانتباه للصلاة: عن النبي صلى الله عليه وسلم: «مَنْ أَرَادَ شَيْئاً مِنْ قِيَامِ اللَّيْلِ
 > وَأَخَذَ مَضْجَعَهُ فَلْيَقُلْ: اَللَّهُمَّ لَا تُنْسِنِي ذِكْرَكَ وَلَا
 > تُؤْمِنِّي مَكْرَكَ وَلَا تَجْعَلْنِي مِنَ الْغَافِلِينَ؛ أَقُومُ سَاعَةَ
 > كَذَا وَكَذَا؛ فَإِنَّهُ يُوَكِّلُ اللهُ تَعَالَى بِهِ مَلَكاً يُنَبِّهُهُ
@@ -5783,7 +5786,7 @@ beristighfar dan selesai dari shalat malam."*
 
 ### 5. Cara Nabi ﷺ
 
-> كان النبي ﷺ كثيراً ما يقرأ في أذن المصروع: ﴿أَفَحَسِبْتُمْ أَنَّمَا
+> كان النبي صلى الله عليه وسلم كثيراً ما يقرأ في أذن المصروع: ﴿أَفَحَسِبْتُمْ أَنَّمَا
 > خَلَقْنَاكُمْ عَبَثًا وَأَنَّكُمْ إِلَيْنَا لَا تُرْجَعُونَ﴾، وَكَانَ
 > يُعَالِجُ بِآيَةِ الْكُرْسِيِّ، وَكَانَ يَأْمُرُ بِكَثْرَةِ قِرَاءَةِ
 > الْمَصْرُوعِ وَمَنْ يُعَالِجُهُ بِهَا وَبِقِرَاءَةِ الْمُعَوِّذَتَيْنِ.
@@ -6554,7 +6557,7 @@ dan memberiku tunjangan lima ratus dirham.
 
 > عن أبي جعفر الباقر (١)
 > ذو عيال وعليّ دين وقد اشتدت حالي، فعلمني دعاءً أدعو الله عز وجل به
-> ليرزقني ما أقضي به ديني وأستعين به على عيالي. فقال رسول الله ﷺ: «يَا
+> ليرزقني ما أقضي به ديني وأستعين به على عيالي. فقال رسول الله صلى الله عليه وسلم: «يَا
 > عَبْدَ اللهِ، تَوَضَّأْ وَأَسْبِغْ وُضُوءَكَ، ثُمَّ صَلِّ رَكْعَتَيْنِ تُتِمُّ
 > الرُّكُوعَ وَالسُّجُودَ، ثُمَّ قُلْ: يَا مَاجِدُ يَا وَاجِدُ يَا كَرِيمُ [يَا
 > دَائِمُ]، أَتَوَجَّهُ إِلَيْكَ بِمُحَمَّدٍ نَبِيِّكَ نَبِيِّ الرَّحْمَةِ؛ يَا
@@ -6585,7 +6588,7 @@ memohon kepada-Mu satu hembusan kemurahan dari hembusan-hembusan-Mu, satu
 pembukaan yang mudah, dan rezeki yang luas yang dengannya kurapikan
 keadaanku, kulunasi utangku, dan kutolong keluargaku)."*
 
-> وفي حديث آخر قال ﷺ: «قُلْ: يَا رَازِقَ الْمُقِلِّينَ، يَا رَاحِمَ
+> وفي حديث آخر قال صلى الله عليه وسلم: «قُلْ: يَا رَازِقَ الْمُقِلِّينَ، يَا رَاحِمَ
 > الْمَسَاكِينِ، يَا وَلِيَّ الْمُؤْمِنِينَ، يَا ذَا الْقُوَّةِ الْمَتِينِ،
 > صَلِّ عَلَى مُحَمَّدٍ وَأَهْلِ بَيْتِهِ وَارْزُقْنِي وَاكْفِنِي مَا أَهَمَّنِي؛
 > وَقُلْ: اَللَّهُمَّ إِنِّي أَسْأَلُكَ رِزْقاً وَاسِعاً طَيِّباً جَامِعاً
@@ -6652,7 +6655,7 @@ tangan-Mu aku meminta)."*
 
 ### 4. Doa untuk Sakit dan Kefakiran
 
-> قال النبي ﷺ — وقد فقد رجلاً فقال: ما بطأ بك عنا؟ فقال: السقم والعيال —:
+> قال النبي صلى الله عليه وسلم — وقد فقد رجلاً فقال: ما بطأ بك عنا؟ فقال: السقم والعيال —:
 > «أَلَا أُعَلِّمُكَ كَلِمَاتٍ تَدْعُو بِهِنَّ يَذْهَبُ اللهُ عَنْكَ السُّقْمَ
 > وَيَنْفِي عَنْكَ الْفَقْرَ؟: لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ
 > الْعَلِيِّ الْعَظِيمِ؛ تَوَكَّلْتُ عَلَى الْحَيِّ الَّذِي لَا يَمُوتُ؛
@@ -6986,7 +6989,7 @@ membahayakannya dengan izin Allah Ta'ala."*
 > «مَنْ أَعْجَبَهُ شَيْءٌ مِنْ أَخِيهِ الْمُؤْمِنِ فَلْيُكَبِّرْ عَلَيْهِ؛ فَإِنَّ
 > الْعَيْنَ حَقٌّ». وَقَالَ (٥)
 > أَنَّ أَكْثَرَ مَوْتَاكُمْ بِالْعَيْنِ؛ لِأَنَّ الْعَيْنَ حَقٌّ». وَعَنْ رَسُولِ
-> اللهِ ﷺ: «الْعَيْنُ حَقٌّ؛ فَمَنْ أَعْجَبَهُ مِنْ أَخِيهِ شَيْءٌ فَلْيَذْكُرِ
+> اللهِ صلى الله عليه وسلم: «الْعَيْنُ حَقٌّ؛ فَمَنْ أَعْجَبَهُ مِنْ أَخِيهِ شَيْءٌ فَلْيَذْكُرِ
 > اللهَ فِي ذَلِكَ؛ فَإِنَّهُ إِذَا ذَكَرَ اللهَ لَمْ يَضُرَّهُ».
 
 Dari Imam ash-Shadiq ('alaihissalam): *"Jika engkau takut terkena 'ain [atau
@@ -7092,7 +7095,7 @@ lagi Mahaagung)."*
 
 ### 3. Untuk Keamanan dari Jin dan Manusia
 
-> عن النبي ﷺ: «بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ؛ لَا إِلَهَ إِلَّا اللهُ،
+> عن النبي صلى الله عليه وسلم: «بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ؛ لَا إِلَهَ إِلَّا اللهُ،
 > عَلَيْهِ تَوَكَّلْتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ؛ مَا شَاءَ اللهُ كَانَ
 > وَمَا لَمْ يَشَأْ لَمْ يَكُنْ؛ وَأَشْهَدُ أَنَّ اللهَ عَلَى كُلِّ شَيْءٍ
 > قَدِيرٌ وَأَنَّ اللهَ قَدْ أَحَاطَ بِكُلِّ شَيْءٍ عِلْماً؛ اَللَّهُمَّ إِنِّي
@@ -7114,8 +7117,8 @@ ubun-ubunnya dalam genggaman-Mu; "Sungguh Tuhanku di atas jalan yang lurus").
 
 ### 4. 'Uwdzah Āminah (Ibu Nabi ﷺ)
 
-> روي أن آمنة أم رسول الله ﷺ لما جاءت تضعه، أتاها آتٍ في منامها وأمرها أن
-> تعوذ النبي ﷺ بهذه العوذة: «أُعِيذُهُ بِالْوَاحِدِ الصَّمَدِ مِنْ شَرِّ كُلِّ
+> روي أن آمنة أم رسول الله صلى الله عليه وسلم لما جاءت تضعه، أتاها آتٍ في منامها وأمرها أن
+> تعوذ النبي صلى الله عليه وسلم بهذه العوذة: «أُعِيذُهُ بِالْوَاحِدِ الصَّمَدِ مِنْ شَرِّ كُلِّ
 > عَائِنٍ وَحَاسِدٍ وَشَيْطَانٍ [وَمَارِدٍ] بِالْمَرِاصِدِ».
 
 Diriwayatkan bahwa Āminah, ibu Rasulullah ﷺ, ketika hendak melahirkan beliau,
@@ -7345,7 +7348,7 @@ keteguhan hatinya. Karena ia adalah senjata, dan senjata itu bergantung pada
 pemukulnya.
 
 > وإذا خشي العائن ضرر عينه وإصابتها للمعين، فليدفع شرها بقوله: «اَللَّهُمَّ
-> بَارِكْ عَلَيْهِ»، كَمَا قَالَ النَّبِيُّ ﷺ لِعَامِرِ بْنِ رَبِيعَةَ — لَمَّا
+> بَارِكْ عَلَيْهِ»، كَمَا قَالَ النَّبِيُّ صلى الله عليه وسلم لِعَامِرِ بْنِ رَبِيعَةَ — لَمَّا
 > عَانَ سَهْلَ بْنَ حُنَيْفٍ —: «أَلَا بَرَكْتَ؟»، أَيْ: قُلْتَ: اَللَّهُمَّ
 > بَارِكْ عَلَيْهِ. وَمِنْ ذَلِكَ قَوْلُ: «مَا شَاءَ اللهُ لَا قُوَّةَ إِلَّا
 > بِاللهِ»؛ رَوَى هِشَامُ بْنُ عُرْوَةَ عَنْ أَبِيهِ أَنَّهُ كَانَ إِذَا رَأَى
@@ -7438,12 +7441,12 @@ Yang Mahaagung, Tuhan 'Arsy yang agung)"* [dan sisa ruqyahnya].
 > فَانْزِلْ إِلَى الْقَلِيبِ فَاقْرَأْ آيَةً وَحُلَّ عُقْدَةً. فَنَزَلَ عَلِيٌّ
 > عليه السلام
 > وَفِي رِوَايَةِ ابْنِ عَبَّاسٍ: فَدَفَنَ ذَلِكَ فِي جُفِّ طَلْعَةٍ تَحْتَ
-> رَاعُوفَةِ الْبِئْرِ، فَمَرِضَ رَسُولُ اللهِ ﷺ، فَأَتَاهُ مَلَكَانِ فِي
+> رَاعُوفَةِ الْبِئْرِ، فَمَرِضَ رَسُولُ اللهِ صلى الله عليه وسلم، فَأَتَاهُ مَلَكَانِ فِي
 > مَنَامِهِ فَأَخْبَرَاهُ بِمَكَانِهِ؛ فَبَعَثَ عَلِيّاً وَالزُّبَيْرَ
 > وَعَمَّاراً فَنَزَحُوا مَاءَ تِلْكَ الْبِئْرِ وَرَفَعُوا الصَّخْرَةَ
 > وَأَخْرَجُوا الْجُفَّ، فَإِذَا هُوَ مُعَقَّدٌ فِيهِ إِحْدَى عَشْرَةَ
 > عُقْدَةً مَغْرُوزَةً بِالْإِبَرِ؛ فَنَزَلَتِ السُّورَتَانِ، فَجَعَلَ كُلَّمَا
-> يُقْرَأُ آيَةٌ انْحَلَّتْ عُقْدَةٌ، وَوَجَدَ رَسُولُ اللهِ ﷺ خِفَّةً حَتَّى
+> يُقْرَأُ آيَةٌ انْحَلَّتْ عُقْدَةٌ، وَوَجَدَ رَسُولُ اللهِ صلى الله عليه وسلم خِفَّةً حَتَّى
 > قَامَ كَأَنَّمَا أُنْشِطَ مِنْ عِقَالٍ؛ وَجَعَلَ جِبْرِيلُ يَقُولُ: «بِسْمِ
 > اللهِ أَرْقِيكَ مِنْ كُلِّ شَيْءٍ يُؤْذِيكَ، مِنْ شَرِّ كُلِّ نَفْسٍ أَوْ
 > عَيْنِ حَاسِدٍ، اللهُ يَشْفِيكَ، بِسْمِ اللهِ أَرْقِيكَ».
@@ -7516,7 +7519,7 @@ dengan kekuasaan-Mu dari apa yang kukhawatirkan dan kuhindari).
 
 ### 5. 'Uwdzah Penolak Setan dan Penyihir
 
-> عن النبي ﷺ: «اقْرَأْ آيَةَ الْأَعْرَافِ: ﴿إِنَّ رَبَّكُمُ اللَّهُ الَّذِي
+> عن النبي صلى الله عليه وسلم: «اقْرَأْ آيَةَ الْأَعْرَافِ: ﴿إِنَّ رَبَّكُمُ اللَّهُ الَّذِي
 > خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ فِي سِتَّةِ أَيَّامٍ ثُمَّ اسْتَوَىٰ عَلَى
 > الْعَرْشِ يُغْشِي اللَّيْلَ النَّهَارَ يَطْلُبُهُ حَثِيثًا وَالشَّمْسَ
 > وَالْقَمَرَ وَالنُّجُومَ مُسَخَّرَاتٍ بِأَمْرِهِ ۗ أَلَا لَهُ الْخَلْقُ
@@ -7539,7 +7542,7 @@ harap. Sungguh rahmat Allah sangat dekat kepada orang-orang yang berbuat baik'
 (QS al-A'raf [7]: 54–56)"* — dan dalam sebagian riwayat hingga firman-Nya
 *"Tabārakallāhu Rabbul-'ālamīn"*.
 
-> وعن النبي ﷺ: «مَا أَنْبَتَ اللهُ مِنْ شَجَرَةٍ وَلَا وَرَقَةٍ وَلَا ثَمَرَةٍ
+> وعن النبي صلى الله عليه وسلم: «مَا أَنْبَتَ اللهُ مِنْ شَجَرَةٍ وَلَا وَرَقَةٍ وَلَا ثَمَرَةٍ
 > إِلَّا وَمَلَكٌ مُوَكَّلٌ بِهَا حَتَّى تَصِيرَ حُطَاماً؛ وَإِنَّ فِي أَصْلِهَا
 > وَفَرْعِهَا نُشْرَةً (حِرْزاً مِنَ الْغَمِّ وَالسِّحْرِ)، وَإِنَّ فِي حَبِّهَا
 > الشِّفَاءَ مِنِ اثْنَيْنِ وَسَبْعِينَ دَاءً؛ فَتَدَاوَوْا بِهَا
@@ -7553,7 +7556,7 @@ berobatlah dengannya dan dengan kemenyan (kundur)."*
 
 ### 6. Perlindungan dari Jin
 
-> وعن النبي ﷺ: «مَنْ رَمَتْهُ الْجِنُّ فَلْيَأْخُذِ الْحَجَرَ الَّذِي رُمِيَ
+> وعن النبي صلى الله عليه وسلم: «مَنْ رَمَتْهُ الْجِنُّ فَلْيَأْخُذِ الْحَجَرَ الَّذِي رُمِيَ
 > بِهِ، فَلْيَقُمْ عِنْدَ رَأْسِهِ وَلْيَقُلْ: حَسْبِيَ اللهُ وَكَفَى،
 > وَسَمِعَ اللهُ لِمَنْ دَعَا، لَيْسَ وَرَاءَ اللهِ مُنْتَهًى». وَيَنْفَعُ
 > لِلْأَمْنِ مِنَ الْجِنِّ اتِّخَاذُ الدَّجَاجِ وَالدِّيكِ وَالْجَدْيِ فِي
@@ -7581,9 +7584,9 @@ ghīlān (jin penampak) menampakkan diri, kumandangkanlah azan shalat.
 
 ### 7. Hirz Abu Dujānah — Surat Nabi ﷺ kepada Jin
 
-> عن أبي دجانة قال: شكوت إلى النبي ﷺ شيئاً هالني ذات يوم وليلة: صرير
+> عن أبي دجانة قال: شكوت إلى النبي صلى الله عليه وسلم شيئاً هالني ذات يوم وليلة: صرير
 > كالوحي ودوي كالنحل ولمعان كالبرق وظل أسود يعلو ويطول في صحن داري، فقمت
-> إليه ومسست جلده فإذا هو كجلد القنفذ، فرمى في وجهي مثل شرر النار. فقال ﷺ:
+> إليه ومسست جلده فإذا هو كجلد القنفذ، فرمى في وجهي مثل شرر النار. فقال صلى الله عليه وسلم:
 > «هُوَ عَامِرُ دَارِكَ يَا أَبَا دُجَانَةَ». ثُمَّ اسْتَدْعَى عَلِيّاً عليه السلام
 > فَأَمَرَهُ أَنْ يَكْتُبَ: «بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ: هَذَا كِتَابُ
 > مُحَمَّدٍ رَسُولِ اللهِ رَبِّ الْعَالَمِينَ إِلَى مَنْ طَرَقَ الدَّارَ مِنَ
@@ -8103,7 +8106,7 @@ celakalah orang yang mengingkari dan mendustakannya."* Inilah doanya
 > وَالرِّمَاحِ الْخَطِّيَّةِ وَالْقِسِيِّ الْمَحْنِيَّةِ وَالسِّهَامِ الْمَرْمِيَّةِ …
 > وَأَعِذْهُ بِالْأَسْمَاءِ الَّتِي نَجَّيْتَ بِهَا أَنْبِيَاءَكَ … وَاجْعَلْ لِحَامِلِ
 > هَذِهِ الْأَحْرُفِ كَرَامَةَ جِبْرِيلَ وَمَهَابَةَ إِسْرَافِيلَ وَقَبُولَ مُحَمَّدٍ
-> ﷺ … وَأَعِذْ حَامِلَ كِتَابِي هَذَا بِأَلْفِ لَا حَوْلَ وَلَا قُوَّةَ إِلَّا
+> صلى الله عليه وسلم … وَأَعِذْ حَامِلَ كِتَابِي هَذَا بِأَلْفِ لَا حَوْلَ وَلَا قُوَّةَ إِلَّا
 > بِاللهِ الْعَلِيِّ الْعَظِيمِ؛ وَصَلَوَاتُهُ عَلَى مُحَمَّدٍ وَآلِهِ أَجْمَعِينَ.
 
 *(Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang. Ya Allah, aku
@@ -8227,7 +8230,7 @@ atas jalan yang lurus')." *
  قال: كان علي بن الحسين عليه السلام
 > قُلْتُ هَذِهِ الْكَلِمَاتِ لَوِ اجْتَمَعَ عَلَيَّ الْإِنْسُ وَالْجِنُّ:
 > بِسْمِ اللهِ وَبِاللهِ، وَمِنَ اللهِ وَإِلَى اللهِ، وَفِي سَبِيلِ اللهِ
-> وَعَلَى مِلَّةِ رَسُولِ اللهِ ﷺ؛ اَللَّهُمَّ إِلَيْكَ أَسْلَمْتُ نَفْسِي،
+> وَعَلَى مِلَّةِ رَسُولِ اللهِ صلى الله عليه وسلم؛ اَللَّهُمَّ إِلَيْكَ أَسْلَمْتُ نَفْسِي،
 > وَإِلَيْكَ وَجَّهْتُ وَجْهِي، وَإِلَيْكَ أَلْجَأْتُ ظَهْرِي، وَإِلَيْكَ
 > فَوَّضْتُ أَمْرِي؛ اَللَّهُمَّ احْفَظْنِي بِحِفْظِكَ وَقِنِي بِرُكْنِكَ
 > وَانْصُرْنِي بِجُنْدِكَ، وَأَعِنِّي بِحَوْلِكَ وَقُوَّتِكَ؛ فَإِنَّهُ لَا
@@ -8429,7 +8432,7 @@ hamba-Mu ini." Maka al-Manṣur tidak dapat melihatnya, dan Abu Abdillah
 > بِأَنَّ لَكَ الْحَمْدَ لَا إِلَهَ إِلَّا أَنْتَ الْمَنَّانُ، بَدِيعُ
 > السَّمَاوَاتِ وَالْأَرْضِ، ذُو الْجَلَالِ وَالْإِكْرَامِ؛ رَحْمَنُ الدُّنْيَا
 > وَالْآخِرَةِ وَرَحِيمُهُمَا، ارْحَمْنِي رَحْمَةً تُغْنِينِي بِهَا عَنْ رَحْمَةِ
-> مَنْ سِوَاكَ يَا أَرْحَمَ الرَّاحِمِينَ». قَالَ رَسُولُ اللهِ ﷺ: «مَا دَعَا
+> مَنْ سِوَاكَ يَا أَرْحَمَ الرَّاحِمِينَ». قَالَ رَسُولُ اللهِ صلى الله عليه وسلم: «مَا دَعَا
 > أَحَدٌ مِنَ الْمُسْلِمِينَ بِهَذِهِ ثَلَاثَ مَرَّاتٍ إِلَّا أُعْطِيَ مَسْأَلَتَهُ،
 > إِلَّا أَنْ يَسْأَلَ مَأْثَماً أَوْ قَطِيعَةَ رَحِمٍ».
 
@@ -10044,7 +10047,7 @@ halaman per bagian tidak tertangkap pindai sehingga tidak ditampilkan penuh.
 **الفصل العاشر: في الأحراز والحجب والعوذ والهياكل**
 
 > ⚠️ **Catatan penerjemah:** Bab ini memuat hirz-hirz yang diriwayatkan dari
-> Nabi ﷺ dan para Imam ('alaihimus salam). Sebagian besar sumber pindai pada
+> Nabi صلى الله عليه وسلم dan para Imam ('alaihimus salam). Sebagian besar sumber pindai pada
 > bagian ini — khususnya bagian *hayākil* dan *'uqdah* — rusak berat sehingga
 > bentuk aslinya tidak dapat direkonstruksi; bagian-bagian itu ditandai
 > [bentuk tidak terbaca pada sumber pindai]. Yang kami sajikan adalah bagian
@@ -10471,7 +10474,7 @@ sahabatnya dengannya:
 > وَعَظَمَةِ اللهِ وَجَبَرُوتِ اللهِ وَسُلْطَانِ اللهِ وَرَحْمَةِ اللهِ وَرَأْفَةِ
 > اللهِ وَغُفْرَانِ اللهِ وَقُوَّةِ اللهِ وَقُدْرَةِ اللهِ وَبِآلَاءِ اللهِ
 > وَبِصُنْعِ اللهِ وَأَرْكَانِ اللهِ وَبِجَمْعِ اللهِ عَزَّ وَجَلَّ وَرَسُولِ
-> اللهِ ﷺ وَقُدْرَةِ اللهِ عَلَى مَا يَشَاءُ، مِنْ شَرِّ السَّامَّةِ
+> اللهِ صلى الله عليه وسلم وَقُدْرَةِ اللهِ عَلَى مَا يَشَاءُ، مِنْ شَرِّ السَّامَّةِ
 > وَالْهَامَّةِ، وَمِنْ شَرِّ الْجِنِّ وَالْإِنْسِ، وَمِنْ شَرِّ مَا يَبِيتُ فِي
 > الْأَرْضِ وَمِنْ شَرِّ مَا يَخْرُجُ مِنْهَا، وَمِنْ شَرِّ مَا يَنْزِلُ مِنَ
 > السَّمَاءِ وَمَا يَعْرُجُ فِيهَا، وَمِنْ شَرِّ كُلِّ دَابَّةٍ رَبِّي آخِذٌ
@@ -10673,7 +10676,7 @@ belakangnya, yang diturunkan dari Yang Mahabijaksana lagi Maha Terpuji."
 > اللهِ وَعِزَّةِ اللهِ وَعَظَمَةِ اللهِ وَقُدْرَةِ اللهِ وَسُلْطَانِ اللهِ
 > وَجَلَالِ اللهِ وَمَنَعَةِ اللهِ وَمَنِّ اللهِ وَعَفْوِ اللهِ وَحِلْمِ اللهِ
 > وَحُكْمِ اللهِ وَغُفْرَانِ اللهِ وَمَلَائِكَةِ اللهِ وَكُتُبِ اللهِ وَرُسُلِ اللهِ
-> وَأَنْبِيَاءِ اللهِ وَمُحَمَّدٍ رَسُولِ اللهِ وَأَهْلِ بَيْتِ رَسُولِ اللهِ ﷺ،
+> وَأَنْبِيَاءِ اللهِ وَمُحَمَّدٍ رَسُولِ اللهِ وَأَهْلِ بَيْتِ رَسُولِ اللهِ صلى الله عليه وسلم،
 > مِنْ شَرِّ نَفْسِي وَمِنْ شَرِّ الشَّيْطَانِ وَشِرْكِهِ وَوَسَاوِسِهِ وَهَمَزَاتِهِ
 > وَنَفْخِهِ وَنَفْثِهِ وَتَمَرُّدِهِ وَجَبَرُوتِهِ وَسَطَوَاتِهِ وَنَقَمَاتِهِ
 > وَجَمِيعِ مَكَائِدِهِ … وَمِنَ الْكُفْرِ وَالنِّفَاقِ وَالشَّكِ وَالشِّرْكِ
@@ -12463,11 +12466,11 @@ Ya Allah, ini adalah sunnah-Mu dan sunnah Nabi-Mu... maka rasakanlah ia panasnya
 
 ### 11. Adab mimpi
 
-> Dari Nabi ﷺ: Mimpi baik dari Allah. Jika kalian bermimpi yang disukai, jangan menceritakannya kecuali kepada yang ia sayangi; dan jika bermimpi buruk, hendaklah **meludah kecil ke kiri tiga kali**, berlindung dari setan dan keburukannya, dan **tidak menceritakannya kepada siapa pun** — maka tak akan membahayakannya.
+> Dari Nabi صلى الله عليه وسلم: Mimpi baik dari Allah. Jika kalian bermimpi yang disukai, jangan menceritakannya kecuali kepada yang ia sayangi; dan jika bermimpi buruk, hendaklah **meludah kecil ke kiri tiga kali**, berlindung dari setan dan keburukannya, dan **tidak menceritakannya kepada siapa pun** — maka tak akan membahayakannya.
 >
-> Dari beliau ﷺ: Mimpi (benar) dari Allah dan igauan dari setan.
+> Dari beliau صلى الله عليه وسلم: Mimpi (benar) dari Allah dan igauan dari setan.
 >
-> Dari beliau ﷺ: Mimpi baik dari lelaki saleh adalah satu bagian dari **empat puluh enam bagian** kenabian.
+> Dari beliau صلى الله عليه وسلم: Mimpi baik dari lelaki saleh adalah satu bagian dari **empat puluh enam bagian** kenabian.
 
 ### 12. Doa saat memandang langit
 
@@ -12533,7 +12536,7 @@ Lalu **Ayat as-Sukhra** («إِنَّ رَبَّكُمُ اللهُ الَّذِ
 
 ### 21. Kisah pemuda yang terikat lisannya
 
-> Said bin Yasar berkata: Aku mendengar Aba Abdillah berkata: Rasulullah menghadiri seorang pemuda saat wafatnya dan bersabda: "Ucapkan lâ ilâha illallâh." Lidahnya terkunci berkali-kali. Beliau bertanya kepada wanita di kepalanya: "Apakah pemuda ini punya ibu?" Ia menjawab: "Ya, aku ibunya." Beliau bertanya: "Apakah engkau murka padanya?" Ia menjawab: "Ya, aku tak berbicara dengannya sejak **enam tahun**." Beliau berkata: "Relakanlah ia." Ia berkata: "Semoga Allah merelakannya dengan kerelaanmu, wahai Rasulullah." Maka beliau bersabda kepada pemuda itu: "Ucapkan lâ ilâha illallâh." Ia pun mengucapkannya. Nabi bertanya: "Apa yang kau lihat?" Ia menjawab: "Aku melihat sosok hitam buruk rupa..." Maka Nabi ﷺ bersabda: "Ucapkan:
+> Said bin Yasar berkata: Aku mendengar Aba Abdillah berkata: Rasulullah menghadiri seorang pemuda saat wafatnya dan bersabda: "Ucapkan lâ ilâha illallâh." Lidahnya terkunci berkali-kali. Beliau bertanya kepada wanita di kepalanya: "Apakah pemuda ini punya ibu?" Ia menjawab: "Ya, aku ibunya." Beliau bertanya: "Apakah engkau murka padanya?" Ia menjawab: "Ya, aku tak berbicara dengannya sejak **enam tahun**." Beliau berkata: "Relakanlah ia." Ia berkata: "Semoga Allah merelakannya dengan kerelaanmu, wahai Rasulullah." Maka beliau bersabda kepada pemuda itu: "Ucapkan lâ ilâha illallâh." Ia pun mengucapkannya. Nabi bertanya: "Apa yang kau lihat?" Ia menjawab: "Aku melihat sosok hitam buruk rupa..." Maka Nabi صلى الله عليه وسلم bersabda: "Ucapkan:
 >
 > «يَا مَنْ يَقْبَلُ الْيَسِيرَ وَيَعْفُو عَنِ الْكَثِيرِ، اقْبَلْ مِنِّي الْيَسِيرَ وَاعْفُ عَنِّي الْكَثِيرَ، إِنَّكَ أَنْتَ الْعَفُوُّ الْغَفُورُ»
 >
@@ -12547,7 +12550,7 @@ Lalu **Ayat as-Sukhra** («إِنَّ رَبَّكُمُ اللهُ الَّذِ
 
 > Hendaklah seseorang **tak meninggalkan wasiat** sama sekali, baik sehat maupun sakit, dan sangat ditekankan saat sakit; hendaklah ia membebaskan dirinya dari hak-hak Allah dan hak-hak hamba-hamba-Nya.
 >
-> Dari Nabi ﷺ: "Siapa yang tidak memperbaiki wasiat saat kematiannya, itu adalah kekurangan pada akal dan muru'ahnya." Ditanya: "Bagaimana wasiat itu, wahai Rasulullah?" Beliau bersabda: Jika kematian datang dan orang-orang berkumpul, ia berkata:
+> Dari Nabi صلى الله عليه وسلم: "Siapa yang tidak memperbaiki wasiat saat kematiannya, itu adalah kekurangan pada akal dan muru'ahnya." Ditanya: "Bagaimana wasiat itu, wahai Rasulullah?" Beliau bersabda: Jika kematian datang dan orang-orang berkumpul, ia berkata:
 >
 > «فَاطِرَ السَّمَاوَاتِ وَالْأَرْضِ، عَالِمَ الْغَيْبِ وَالشَّهَادَةِ، الرَّحْمَنَ الرَّحِيمَ، اللهُمَّ إِنِّي أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا أَنْتَ وَحْدَكَ لَا شَرِيكَ لَكَ، وَأَنَّ مُحَمَّدًا عَبْدُكَ وَرَسُولُكَ، وَأَنَّ السَّاعَةَ آتِيَةٌ لَا رَيْبَ فِيهَا، وَأَنَّكَ تَبْعَثُ مَنْ فِي الْقُبُورِ، وَأَنَّ الْحِسَابَ حَقٌّ... وَأَنَّ الْإِيمَانَ حَقٌّ... وَأَنَّ الْقُرْآنَ كَمَا أَنْزَلْتَ... وَإِنِّي أَعْهَدُ إِلَيْكَ فِي دَارِ الدُّنْيَا أَنِّي قَدْ رَضِيتُ بِكَ رَبًّا وَبِالْإِسْلَامِ دِينًا وَبِمُحَمَّدٍ نَبِيًّا وَبِالْقُرْآنِ كِتَابًا وَبِعَلِيٍّ وَلِيًّا وَبِالْأَئِمَّةِ [الطَّاهِرِينَ]... اللهُمَّ أَنْتَ ثِقَتِي عِنْدَ شِدَّتِي وَرَجَائِي عِنْدَ كُرْبَتِي وَعُدَّتِي عِنْدَ الْأُمُورِ الَّتِي [تَرِدُ] عَلَيَّ، وَأَنْتَ وَلِيِّي فِي نِعْمَتِي وَإِلَهِي وَإِلَهُ آبَائِي، صَلِّ عَلَى مُحَمَّدٍ وَآلِهِ وَلَا تَكِلْنِي إِلَى نَفْسِي طَرْفَةَ عَيْنٍ أَبَدًا، وَآنِسْ قَبْرِي فِي وَحْشَتِي فِيهِ، وَاجْعَلْ لِي عَهْدًا يَوْمَ أَلْقَاكَ مَأْمُونًا»
 
@@ -12567,7 +12570,7 @@ Ini adalah **perjanjian mayat** saat berwasiat dengan hajatnya; wasiat itu hak a
 >
 > Dan Imam ash-Shadiq bersabda: "Siapa yang menahan marahnya dari manusia, Allah menahan murka-Nya darinya pada hari kiamat."
 >
-> Dan yang menenangkan marah: bershalawat kepada Nabi ﷺ dan membaca: **«وَيُذْهِبُ غَيْظَ قُلُوبِهِمْ»**, lalu:
+> Dan yang menenangkan marah: bershalawat kepada Nabi صلى الله عليه وسلم dan membaca: **«وَيُذْهِبُ غَيْظَ قُلُوبِهِمْ»**, lalu:
 >
 > «اللهُمَّ اغْفِرْ لِي ذَنْبِي [وَأَذْهِبْ غَيْظَ قَلْبِي]، وَأَجِرْنِي مِنَ الشَّيْطَانِ الرَّجِيمِ، وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ الْعَلِيِّ الْعَظِيمِ»
 >
@@ -12581,7 +12584,7 @@ Ini adalah **perjanjian mayat** saat berwasiat dengan hajatnya; wasiat itu hak a
 
 ### 25. Penulisan Ibn 'Abbas untuk hafalan (dari Majlisi, dari as-Syahid)
 
-> Ibn Abbas berkata: Rasulullah ﷺ mengajarkanku kata-kata yang diajarkan Jibril kepadanya: "Maukah aku hadiahkan kepadamu, wahai Ibn Abbas, hadiah yang diajarkan Jibril kepadaku?" Aku menjawab: "Tentu." Beliau bersabda: Tulislah di baskom dengan **za'faran dan air mawar**: al-Fatihah, al-Ikhlash, al-Mu'awwidzatain, Yâsîn, al-Hasyr, al-Waqi'ah, dan al-Mulk; lalu tuangkan padanya **air zamzam atau air hujan**, dan minumlah **saat perut kosong waktu sahur** bersama **tiga mitsqal kemenyan (lubân)** dan **sepuluh mitsqal madu**; dan shalatlah dua rakaat, setiap rakaat al-Fatihah **10 kali** dan «Qul Huwallahu Ahad»; lalu berpuasalah hari itu — takkan berlalu **empat puluh hari** hingga engkau menjadi penghafal dengan izin Allah.
+> Ibn Abbas berkata: Rasulullah صلى الله عليه وسلم mengajarkanku kata-kata yang diajarkan Jibril kepadanya: "Maukah aku hadiahkan kepadamu, wahai Ibn Abbas, hadiah yang diajarkan Jibril kepadaku?" Aku menjawab: "Tentu." Beliau bersabda: Tulislah di baskom dengan **za'faran dan air mawar**: al-Fatihah, al-Ikhlash, al-Mu'awwidzatain, Yâsîn, al-Hasyr, al-Waqi'ah, dan al-Mulk; lalu tuangkan padanya **air zamzam atau air hujan**, dan minumlah **saat perut kosong waktu sahur** bersama **tiga mitsqal kemenyan (lubân)** dan **sepuluh mitsqal madu**; dan shalatlah dua rakaat, setiap rakaat al-Fatihah **10 kali** dan «Qul Huwallahu Ahad»; lalu berpuasalah hari itu — takkan berlalu **empat puluh hari** hingga engkau menjadi penghafal dengan izin Allah.
 >
 > Catatan: az-Zuhri dahulu menuliskannya untuk anak-anaknya dan meminumkannya. Ibn 'Ashim berkata: Aku menuliskannya berkali-kali saat aku berusia lima puluh dua tahun, dan tak berlalu sebulan hingga aku menjadi penghafal dengan izin Allah Ta'ala.
 
@@ -12599,13 +12602,13 @@ Ya Allah, rahmatilah aku dengan meninggalkan maksiat-Mu selamanya selama Engkau 
 
 ### 28. Penulisan doa dengan za'faran dan madu
 
-> Dari Nabi ﷺ dengan sanad sahih: siapa yang ingin menghafal Al-Qur'an dan ilmu, tulislah doa ini di bejana bersih dengan **za'faran dan madu**, lalu basuh dengan **air hujan yang diambil sebelum menyentuh bumi**, dan minumlah saat perut kosong selama **tiga hari** — ia menghafal apa yang ingin dihafalnya insya Allah. Yaitu:
+> Dari Nabi صلى الله عليه وسلم dengan sanad sahih: siapa yang ingin menghafal Al-Qur'an dan ilmu, tulislah doa ini di bejana bersih dengan **za'faran dan madu**, lalu basuh dengan **air hujan yang diambil sebelum menyentuh bumi**, dan minumlah saat perut kosong selama **tiga hari** — ia menghafal apa yang ingin dihafalnya insya Allah. Yaitu:
 >
 > «يَا مَالِكًا لَا يَزُولُ وَلَمْ يُسْأَلْ مَلِكٌ [مِثْلَهُ]، أَسْأَلُكَ بِحَقِّ مُحَمَّدٍ نَبِيِّكَ وَرَسُولِكَ، وَإِبْرَاهِيمَ خَلِيلِكَ وَصَفِيِّكَ، وَمُوسَى كَلِيمِكَ وَنَجِيِّكَ، وَعِيسَى كَلِمَتِكَ وَرُوحِكَ، وَأَسْأَلُكَ بِصُحُفِ إِبْرَاهِيمَ وَتَوْرَاةِ مُوسَى وَإِنْجِيلِ عِيسَى وَزَبُورِ دَاوُدَ وَقُرْآنِ مُحَمَّدٍ، وَعَلَيْهِمْ أَجْمَعِينَ، وَأَسْأَلُكَ بِكُلِّ وَحْيٍ أَوْحَيْتَهُ، وَبِكُلِّ حَقٍّ قَضَيْتَهُ، وَبِكُلِّ سَائِلٍ أَعْطَيْتَهُ، وَأَسْأَلُكَ بِالِاسْمِ الَّذِي إِذَا دَعَاكَ بِهِ أَوْلِيَاؤُكَ وَأَنْبِيَاؤُكَ اسْتَجَبْتَ لَهُمْ، وَأَسْأَلُكَ بِكُلِّ اسْمٍ أَنْزَلْتَهُ فِي كِتَابٍ مِنْ كُتُبِكَ، وَأَسْأَلُكَ بِالِاسْمِ الَّذِي اهْتَزَّ بِهِ عَرْشُكَ، وَأَسْأَلُكَ بِالِاسْمِ الَّذِي اسْتَقَرَّتْ بِهِ الْأَرَضُونَ، وَأَسْأَلُكَ بِالِاسْمِ الَّذِي اسْتَقَرَّتْ بِهِ السَّمَاوَاتُ، وَأَسْأَلُكَ بِالِاسْمِ الَّذِي اسْتَتَارَ بِهِ النَّهَارُ، وَأَسْأَلُكَ بِالِاسْمِ الَّذِي اسْتَجَارَ بِهِ اللَّيْلُ، وَأَسْأَلُكَ بِالِاسْمِ الَّذِي رَسَتْ بِهِ الْجِبَالُ، وَأَسْأَلُكَ بِاسْمِكَ الْوَاحِدِ الْأَحَدِ الْفَرْدِ الصَّمَدِ الْوَتْرِ الْعَزِيزِ الَّذِي مَلَأَ الْأَرْكَانَ كُلَّهَا، الطَّاهِرِ الطَّاهِرِ الْمُطَهَّرِ، يَا اللهُ يَا رَحْمَنُ... يَا حَيُّ يَا قَيُّومُ يَا ذَا الْجَلَالِ وَالْإِكْرَامِ، أَنْ تُصَلِّيَ عَلَى مُحَمَّدٍ وَآلِ مُحَمَّدٍ وَتُلْهِمَنِي حِفْظَ الْقُرْآنِ الْعَزِيزِ وَالْعِلْمِ بِرَحْمَتِكَ يَا أَرْحَمَ الرَّاحِمِينَ، اللهُمَّ ارْحَمْنِي وَاكْفِنِي يَا كَافِيَ كُلِّ شَيْءٍ بِقُدْرَتِكَ عَلَى كُلِّ شَيْءٍ، اكْفِنِي كُلَّ شَيْءٍ، وَاصْرِفْ عَنِّي كُلَّ ذِي شَرٍّ بِرَحْمَتِكَ يَا أَرْحَمَ الرَّاحِمِينَ»
 
 ### 29. Doa menghafal segala yang didengar
 
-> Rasulullah ﷺ bersabda: "Wahai Ali, jika engkau ingin menghafal segala yang engkau dengar, ucapkanlah selepas setiap shalat:
+> Rasulullah صلى الله عليه وسلم bersabda: "Wahai Ali, jika engkau ingin menghafal segala yang engkau dengar, ucapkanlah selepas setiap shalat:
 >
 > «شُكْرُ مَنْ لَا يُغِيرُ عَلَى مَا عِنْدَ [أَوْلِيَائِهِ]، شُكْرُ مَنْ لَا يَأْلُو أَمْلَ الْأَرْضِ بِالْأَلْوَانِ، شُكْرَ الرَّؤُوفِ... اجْعَلْ لِي فِي قَلْبِي نُورًا وَبَصَرًا وَفَهْمًا وَعِلْمًا، إِنَّكَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ»
 >
@@ -12619,7 +12622,7 @@ Ia mengucapkannya tiga hari, maka Allah menghidupkan hatinya.
 
 ### 30. Madu dan wirid setelah Subuh
 
-> Dari Nabi ﷺ: "Siapa yang ingin hafalan, hendaklah ia makan **madu**."
+> Dari Nabi صلى الله عليه وسلم: "Siapa yang ingin hafalan, hendaklah ia makan **madu**."
 >
 > Siapa yang lemah pikiran dan sedikit hafalannya, ucapkan setiap hari setelah shalat Fajar sebelum berbicara:
 >
@@ -12633,7 +12636,7 @@ Ia mengucapkannya tiga hari, maka Allah menghidupkan hatinya.
 
 ### 32. «Sanaqra'uka fa lâ tansâ»
 
-> [Dari Nabi ﷺ]: Siapa yang membacanya **«سَنُقْرِئُكَ فَلَا تَنْسَى»** saat keluar ke keperluannya, ia takkan lupa; dan ia takkan lupa apa yang dibacanya hari itu.
+> [Dari Nabi صلى الله عليه وسلم]: Siapa yang membacanya **«سَنُقْرِئُكَ فَلَا تَنْسَى»** saat keluar ke keperluannya, ia takkan lupa; dan ia takkan lupa apa yang dibacanya hari itu.
 >
 > Dari Imam ash-Shadiq: "Jika engkau ingin menyampaikan sebuah hadis lalu dilupakan darinya..." *(ia membacanya, maka ia mengingatnya insya Allah — redaksi lanjut rusak pada sumber pindai).*
 
@@ -12685,9 +12688,9 @@ Didapati pada tulisan tangan sebagian keturunan ulama agung as-Sayyid Ali at-Tus
 
 ### 38. Air hujan bulan Nisan
 
-> As-Sayyid Ibnu Thawus meriwayatkan dalam Muhaj ad-Da'awât dari kitab Zâd al-'Âbidîn karya al-Kasyghari, dari Ibn Umar: Kami sedang duduk ketika Rasulullah ﷺ masuk dan kami menjawab salamnya. Beliau bersabda: "Maukah kalian kuajari obat yang diajarkan Jibril kepadaku, hingga aku tak butuh obat dokter?" Ali dan Salman bertanya: "Obat apa itu?" Nabi ﷺ bersabda kepada Ali: "Ambillah **air hujan bulan Nisan**, bacakan padanya **al-Fatihah, Ayat Kursi, Qul Huwallahu Ahad, Qul A'ûdzu bi Rabbil-Falaq, Qul A'ûdzu bi Rabbin-Nâs, dan Qul Yâ Ayyuhal-Kâfirûn** — masing-masing **tujuh puluh kali** (dalam satu riwayat ditambahkan: dan shalawat **«اللهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَآلِ مُحَمَّدٍ»** tujuh puluh kali), lalu minumlah air itu pagi dan petang selama **tujuh hari berturut**."
+> As-Sayyid Ibnu Thawus meriwayatkan dalam Muhaj ad-Da'awât dari kitab Zâd al-'Âbidîn karya al-Kasyghari, dari Ibn Umar: Kami sedang duduk ketika Rasulullah صلى الله عليه وسلم masuk dan kami menjawab salamnya. Beliau bersabda: "Maukah kalian kuajari obat yang diajarkan Jibril kepadaku, hingga aku tak butuh obat dokter?" Ali dan Salman bertanya: "Obat apa itu?" Nabi صلى الله عليه وسلم bersabda kepada Ali: "Ambillah **air hujan bulan Nisan**, bacakan padanya **al-Fatihah, Ayat Kursi, Qul Huwallahu Ahad, Qul A'ûdzu bi Rabbil-Falaq, Qul A'ûdzu bi Rabbin-Nâs, dan Qul Yâ Ayyuhal-Kâfirûn** — masing-masing **tujuh puluh kali** (dalam satu riwayat ditambahkan: dan shalawat **«اللهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَآلِ مُحَمَّدٍ»** tujuh puluh kali), lalu minumlah air itu pagi dan petang selama **tujuh hari berturut**."
 >
-> Nabi ﷺ bersabda: "Demi Yang mengutusku dengan kebenaran sebagai nabi, sungguh Jibril berkata: Allah mengangkat dari orang yang minum air ini **setiap penyakit** di tubuhnya dan menyembuhkannya, dan mengeluarkannya dari urat, tubuh, tulang, dan seluruh anggotanya, serta menghapusnya dari Lauhul Mahfuzh. Dan demi Yang mengutusku dengan kebenaran sebagai nabi: jika ia tak punya anak lalu ingin punya anak, dan ia minum dari air itu, ia akan punya anak; jika wanita mandul minum, Allah memberinya anak; jika lelaki 'innîn minum, Allah melepaskan darinya dan ia mampu berjima'... dan pembenaran hal itu dalam Kitab Allah: ﴿يَهَبُ لِمَنْ يَشَاءُ إِنَاثًا وَيَهَبُ لِمَنْ يَشَاءُ الذُّكُورَ، أَوْ يُزَوِّجُهُمْ ذُكْرَانًا وَإِنَاثًا وَيَجْعَلُ مَنْ يَشَاءُ عَقِيمًا﴾. Jika ia sakit kepala lalu minum, sakitnya reda dengan izin Allah; jika matanya sakit, teteskan ke kedua mata dan minum serta basuh matanya — sembuh. [Dan seterusnya:] ia tak terganggu lendir, tak banyak dahak, tak kembung jika makan dan minum, tak terganggu angin, tak kena falaj (lumpuh), punggungnya tak sakit, tak kembung, tak takut pilek dan sakit gigi, tak sakit lambung, tak cacingan, tak kena qaulanj, tak butuh bekam, tak kena nasur, tak gatal, tak kena cacar, gila, kusta, sopak, mimisan, muntah, tak buta, tak bisu, tak tuli, tak lumpuh duduk, tak kena air hitam di matanya... dan tak ada penyakit yang merusak puasa dan shalatnya, tak terganggu waswas, jin, maupun setan."
+> Nabi صلى الله عليه وسلم bersabda: "Demi Yang mengutusku dengan kebenaran sebagai nabi, sungguh Jibril berkata: Allah mengangkat dari orang yang minum air ini **setiap penyakit** di tubuhnya dan menyembuhkannya, dan mengeluarkannya dari urat, tubuh, tulang, dan seluruh anggotanya, serta menghapusnya dari Lauhul Mahfuzh. Dan demi Yang mengutusku dengan kebenaran sebagai nabi: jika ia tak punya anak lalu ingin punya anak, dan ia minum dari air itu, ia akan punya anak; jika wanita mandul minum, Allah memberinya anak; jika lelaki 'innîn minum, Allah melepaskan darinya dan ia mampu berjima'... dan pembenaran hal itu dalam Kitab Allah: ﴿يَهَبُ لِمَنْ يَشَاءُ إِنَاثًا وَيَهَبُ لِمَنْ يَشَاءُ الذُّكُورَ، أَوْ يُزَوِّجُهُمْ ذُكْرَانًا وَإِنَاثًا وَيَجْعَلُ مَنْ يَشَاءُ عَقِيمًا﴾. Jika ia sakit kepala lalu minum, sakitnya reda dengan izin Allah; jika matanya sakit, teteskan ke kedua mata dan minum serta basuh matanya — sembuh. [Dan seterusnya:] ia tak terganggu lendir, tak banyak dahak, tak kembung jika makan dan minum, tak terganggu angin, tak kena falaj (lumpuh), punggungnya tak sakit, tak kembung, tak takut pilek dan sakit gigi, tak sakit lambung, tak cacingan, tak kena qaulanj, tak butuh bekam, tak kena nasur, tak gatal, tak kena cacar, gila, kusta, sopak, mimisan, muntah, tak buta, tak bisu, tak tuli, tak lumpuh duduk, tak kena air hitam di matanya... dan tak ada penyakit yang merusak puasa dan shalatnya, tak terganggu waswas, jin, maupun setan."
 >
 > Jibril berkata: "Siapa yang membacakan ayat-ayat ini pada air lalu minum, Allah memenuhi hatinya dengan cahaya dan kilau, melemparkan ilham ke hatinya, mengalirkan hikmah di lisannya, memenuhi hatinya dengan paham dan bashirah... dan mengeluarkan dari hatinya kedengkian, khianat, ghibah, hasad, melampaui batas, sombong, kikir, serakah, marah, permusuhan, kebencian, mengadu domba, dan menjatuhkan orang — ia adalah kesembuhan dari setiap penyakit."
 >
@@ -12949,7 +12952,7 @@ Berikut terjemahan **daftar isi (فهرس) asli** dari kitab, dengan tautan ke f
 >
 > *Man lam yastasyfi bil-Qur'âni falâ syafâhullâh.*
 >
-> "Barang siapa tidak berobat dengan Al-Qur'an, maka Allah tidak akan menyembuhkannya." (Hadis Nabi ﷺ, pembuka kitab)
+> "Barang siapa tidak berobat dengan Al-Qur'an, maka Allah tidak akan menyembuhkannya." (Hadis Nabi صلى الله عليه وسلم, pembuka kitab)
 
 > «سِلَاحُ الْمُؤْمِنِ الدُّعَاءُ»
 >
@@ -13013,14 +13016,14 @@ Berikut terjemahan **daftar isi (فهرس) asli** dari kitab, dengan tautan ke f
 >
 > *Yu'khadzu mâ'ul-maṭari qabla an yanzila ilal-arḍ, tsumma yuj'alu fî inâ'in naẓîf, wa yuqra'u 'alaihil-Ḥamdu ilâ âkhirihâ sab'îna marrah, wa Qul Huwallâhu Aḥadu wal-Mu'awwidzatâni sab'îna marrah, tsumma yusyrabu minhu qadaḥan bil-ghadâti wa qadaḥan bil-'asyiyy.*
 >
-> Diambil air hujan sebelum menyentuh tanah, ditaruh di bejana bersih, dibacakan al-Fatihah 70×, al-Ikhlash dan dua Mu'awwidzah 70×, lalu diminum segelas pagi dan segelas petang. Nabi ﷺ: "Demi Yang mengutusku dengan kebenaran, Allah sungguh akan mencabut penyakit itu dari badan, tulang, dan uratnya."
+> Diambil air hujan sebelum menyentuh tanah, ditaruh di bejana bersih, dibacakan al-Fatihah 70×, al-Ikhlash dan dua Mu'awwidzah 70×, lalu diminum segelas pagi dan segelas petang. Nabi صلى الله عليه وسلم: "Demi Yang mengutusku dengan kebenaran, Allah sungguh akan mencabut penyakit itu dari badan, tulang, dan uratnya."
 
 ### 2.2 Ruqyah Jibril untuk demam Nabi ﷺ
 > بِسْمِ اللهِ أَرْقِيكَ، مِنْ كُلِّ شَيْءٍ يُؤْذِيكَ، بِسْمِ اللهِ اللهُ شَافِيكَ، بِسْمِ اللهِ أُعِيذُكَ مِنَ الشَّيْطَانِ الرَّجِيمِ: ﴿فَلَا أُقْسِمُ بِمَوَاقِعِ النُّجُومِ، وَإِنَّهُ لَقَسَمٌ لَوْ تَعْلَمُونَ عَظِيمٌ﴾ — لَتُبْرَأَنَّ بِإِذْنِ اللهِ عَزَّ وَجَلَّ
 >
 > *Bismillâhi arqîka, min kulli syai'in yu'dzîka; bismillâhi Allâhu syâfîka; bismillâhi u'îdzuka minasy-syaiṭânir-rajîm: "Fa lâ uqsimu bimawâqi'in-nujûm, wa innahû laqasamun lau ta'lamûna 'aẓîm" — latubra'anna bi idznillâhi 'Azza wa Jall.*
 >
-> "Dengan nama Allah aku meruqyahmu dari segala yang menyakitimu; dengan nama Allah, Allah-lah Penyembuhmu; dengan nama Allah aku lindungi engkau dari setan yang terkutuk: 'Maka Aku bersumpah dengan tempat-tempat turunnya bintang, dan sungguh itu sumpah yang besar jika kalian mengetahui' (QS al-Waqi'ah: 75-76) — engkau pasti sembuh dengan izin Allah." Maka Nabi ﷺ pun sembuh seketika.
+> "Dengan nama Allah aku meruqyahmu dari segala yang menyakitimu; dengan nama Allah, Allah-lah Penyembuhmu; dengan nama Allah aku lindungi engkau dari setan yang terkutuk: 'Maka Aku bersumpah dengan tempat-tempat turunnya bintang, dan sungguh itu sumpah yang besar jika kalian mengetahui' (QS al-Waqi'ah: 75-76) — engkau pasti sembuh dengan izin Allah." Maka Nabi صلى الله عليه وسلم pun sembuh seketika.
 
 ### 2.3 Sakit kepala (Imam ash-Shadiq)
 Letakkan tangan pada bagian yang sakit, baca Ayat Kursi + al-Fatihah, lalu:
@@ -13157,7 +13160,7 @@ QS al-A'râf: 116-122 (kisah tongkat Musa menelan sihir), QS al-Furqân: 23, QS 
 >
 > *Bismillâhir-Raḥmânir-Raḥîm. Allâhumma innî as'aluka yâ Allâhu yâ Allâhu yâ Raḥmânu yâ Raḥîmu yâ Ḥalîmu yâ Karîmu yâ Qadîmu yâ Muqîmu yâ 'Aẓîmu yâ Allâh, yâ Khaira Mas'ûlin wa Akrama Ma'mûl; yâ Man lahul-ḥamdu wats-tsanâ', biyadihil-faqru wal-ghinâ, wa lahul-Asmâ'ul-Ḥusnâ …*
 >
-> "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang. Ya Allah, aku memohon kepada-Mu, yâ Allâh, yâ Allâh, wahai Yang Maha Pengasih, Maha Penyayang, Maha Penyantun, Maha Mulia, Maha Dahulu, Maha Menegakkan, Maha Agung… wahai Sebaik-baik Yang Diminta dan Semulia-mulia Yang Diharapkan…" — Khasiatnya (sabda Nabi ﷺ): 'ain, syaqiqah, menghadap penguasa, membebaskan tawanan, persalinan sulit, sakit punggung, safar darat-laut, mendamaikan suami-istri, rezeki, perlindungan dari ular-kalajengking, jin-setan, dan tipu daya musuh.
+> "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang. Ya Allah, aku memohon kepada-Mu, yâ Allâh, yâ Allâh, wahai Yang Maha Pengasih, Maha Penyayang, Maha Penyantun, Maha Mulia, Maha Dahulu, Maha Menegakkan, Maha Agung… wahai Sebaik-baik Yang Diminta dan Semulia-mulia Yang Diharapkan…" — Khasiatnya (sabda Nabi صلى الله عليه وسلم): 'ain, syaqiqah, menghadap penguasa, membebaskan tawanan, persalinan sulit, sakit punggung, safar darat-laut, mendamaikan suami-istri, rezeki, perlindungan dari ular-kalajengking, jin-setan, dan tipu daya musuh.
 
 **Ringkasan bab:** tujuh ayat al-Kahfi penolak bala · doa keluar rumah (Imam ash-Shadiq) · 'uwdzah Imam Ali bin al-Husain (kisah al-Manshur) · doa duka dan kesusahan · shalat-shalat kesedihan · keamanan dari ketakutan · doa singgah di perjalanan · munajat safar Imam al-Jawad.
 
@@ -13206,7 +13209,7 @@ QS al-A'râf: 116-122 (kisah tongkat Musa menelan sihir), QS al-Furqân: 23, QS 
 >
 > *Allâhumma innî as'aluka wa atawajjahu ilaika bi Nabiyyika Nabiyyir-Raḥmah Muḥammadin ṣallallâhu 'alaihi wa âlih; yâ Abal-Qâsim, yâ Rasûlallâh, yâ Imâmar-Raḥmah, yâ Saiyidanâ wa Maulânâ, innâ tawajjahnâ wastasyfa'nâ wa tawassalnâ bika ilallâh, wa qaddamnâka baina yadai ḥâjâtinâ, yâ Wajîhan 'indallâh isyfa' lanâ 'indallâh.*
 >
-> "Ya Allah, aku memohon dan menghadap kepada-Mu dengan Nabi-Mu, Nabi rahmat, Muhammad ﷺ. Wahai Abul Qasim, wahai Rasulullah, wahai Imam rahmat, wahai tuan dan pemimpin kami; kami menghadap, beristisyfa', dan bertawassul denganmu kepada Allah, kami dahulukan engkau di depan hajat-hajat kami — wahai yang mulia di sisi Allah, syafaatilah kami di sisi Allah." *(Dilanjutkan untuk masing-masing dari 14: Amirul Mukminin, az-Zahra, al-Hasan, al-Husain, as-Sajjad, al-Baqir, ash-Shadiq, al-Kazhim, ar-Ridha, al-Jawad, al-'Askari, al-Qa'im — dengan redaksi yang sama.)*
+> "Ya Allah, aku memohon dan menghadap kepada-Mu dengan Nabi-Mu, Nabi rahmat, Muhammad صلى الله عليه وسلم. Wahai Abul Qasim, wahai Rasulullah, wahai Imam rahmat, wahai tuan dan pemimpin kami; kami menghadap, beristisyfa', dan bertawassul denganmu kepada Allah, kami dahulukan engkau di depan hajat-hajat kami — wahai yang mulia di sisi Allah, syafaatilah kami di sisi Allah." *(Dilanjutkan untuk masing-masing dari 14: Amirul Mukminin, az-Zahra, al-Hasan, al-Husain, as-Sajjad, al-Baqir, ash-Shadiq, al-Kazhim, ar-Ridha, al-Jawad, al-'Askari, al-Qa'im — dengan redaksi yang sama.)*
 
 **Amalan pilihan bab ini (dengan bilangannya):**
 - «أَمَّنْ يُجِيبُ الْمُضْطَرَّ إِذَا دَعَاهُ» (*Amman yujîbul-muḍṭarra idzâ da'âh*) — 12.000× (atau 40 orang × 12) untuk hajat besar.

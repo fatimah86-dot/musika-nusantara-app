@@ -11,11 +11,11 @@ surah-surah tertentu untuk kesembuhan dan penjagaan.
 > الْكِتَابِ سَبْعَ مَرَّاتٍ، فَإِنْ سَكَنَتْ، وَإِلَّا فَلْيَقْرَأْهَا سَبْعِينَ
 > مَرَّةً، فَإِنَّهَا تَسْكُنُ».
 >
-> روي عن النبي (٢) أنه قال في «الْحَمْدُ لِلَّهِ» — سبع مرات —: «شِفَاءٌ مِنْ كُلِّ
+> روي عن النبي صلى الله عليه وسلم أنه قال في «الْحَمْدُ لِلَّهِ» — سبع مرات —: «شِفَاءٌ مِنْ كُلِّ
 > دَاءٍ، إِنْ عُوِّذَ بِهَا صَاحِبُهَا مِائَةَ مَرَّةٍ وَكَانَ الرُّوحُ قَدْ خَرَجَ
 > مِنَ الْجَسَدِ [لَرُدَّ إِلَيْهِ]».
 >
-> وروي عن أبي عبد الله (٣) أنه قال: «لَوْ قَرَأْتَ الْحَمْدَ عَلَى مَيِّتٍ
+> وروي عن أبي عبد الله (٢) أنه قال: «لَوْ قَرَأْتَ الْحَمْدَ عَلَى مَيِّتٍ
 > سَبْعِينَ مَرَّةً ثُمَّ رُدَّتْ فِيهِ الرُّوحُ مَا كَانَ عَجَباً».
 
 ### Terjemahan
@@ -262,6 +262,6 @@ rumah-rumah kecil di sekitarnya."*
 ### Catatan kaki cetakan asli
 
 > (١ - ٣) مكارم الأخلاق، ص ٣٤٨–٣٤٩ [sebagian angka halaman tidak terbaca pada pindai].
-> (١ - ) مكارم الأخلاق [daftar sumber kaki halaman tidak tertangkap pindai; penomoran mengikuti urutan cetakan].
+> (١ - ٢) مكارم الأخلاق [daftar sumber kaki halaman tidak tertangkap pindai; penomoran mengikuti urutan cetakan].
 
  Lanjut ke [Khasiat Tiap Surah — dinukil dari Kitāb al-Khawāsh](03-bab-01-khasiat-surah-kitab-khawash.md)

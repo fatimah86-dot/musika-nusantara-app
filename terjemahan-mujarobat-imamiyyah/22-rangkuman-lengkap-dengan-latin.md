@@ -16,7 +16,7 @@
 >
 > *Man lam yastasyfi bil-Qur'âni falâ syafâhullâh.*
 >
-> "Barang siapa tidak berobat dengan Al-Qur'an, maka Allah tidak akan menyembuhkannya." (Hadis Nabi ﷺ, pembuka kitab)
+> "Barang siapa tidak berobat dengan Al-Qur'an, maka Allah tidak akan menyembuhkannya." (Hadis Nabi صلى الله عليه وسلم, pembuka kitab)
 
 > «سِلَاحُ الْمُؤْمِنِ الدُّعَاءُ»
 >
@@ -80,14 +80,14 @@
 >
 > *Yu'khadzu mâ'ul-maṭari qabla an yanzila ilal-arḍ, tsumma yuj'alu fî inâ'in naẓîf, wa yuqra'u 'alaihil-Ḥamdu ilâ âkhirihâ sab'îna marrah, wa Qul Huwallâhu Aḥadu wal-Mu'awwidzatâni sab'îna marrah, tsumma yusyrabu minhu qadaḥan bil-ghadâti wa qadaḥan bil-'asyiyy.*
 >
-> Diambil air hujan sebelum menyentuh tanah, ditaruh di bejana bersih, dibacakan al-Fatihah 70×, al-Ikhlash dan dua Mu'awwidzah 70×, lalu diminum segelas pagi dan segelas petang. Nabi ﷺ: "Demi Yang mengutusku dengan kebenaran, Allah sungguh akan mencabut penyakit itu dari badan, tulang, dan uratnya."
+> Diambil air hujan sebelum menyentuh tanah, ditaruh di bejana bersih, dibacakan al-Fatihah 70×, al-Ikhlash dan dua Mu'awwidzah 70×, lalu diminum segelas pagi dan segelas petang. Nabi صلى الله عليه وسلم: "Demi Yang mengutusku dengan kebenaran, Allah sungguh akan mencabut penyakit itu dari badan, tulang, dan uratnya."
 
 ### 2.2 Ruqyah Jibril untuk demam Nabi ﷺ
 > بِسْمِ اللهِ أَرْقِيكَ، مِنْ كُلِّ شَيْءٍ يُؤْذِيكَ، بِسْمِ اللهِ اللهُ شَافِيكَ، بِسْمِ اللهِ أُعِيذُكَ مِنَ الشَّيْطَانِ الرَّجِيمِ: ﴿فَلَا أُقْسِمُ بِمَوَاقِعِ النُّجُومِ، وَإِنَّهُ لَقَسَمٌ لَوْ تَعْلَمُونَ عَظِيمٌ﴾ — لَتُبْرَأَنَّ بِإِذْنِ اللهِ عَزَّ وَجَلَّ
 >
 > *Bismillâhi arqîka, min kulli syai'in yu'dzîka; bismillâhi Allâhu syâfîka; bismillâhi u'îdzuka minasy-syaiṭânir-rajîm: "Fa lâ uqsimu bimawâqi'in-nujûm, wa innahû laqasamun lau ta'lamûna 'aẓîm" — latubra'anna bi idznillâhi 'Azza wa Jall.*
 >
-> "Dengan nama Allah aku meruqyahmu dari segala yang menyakitimu; dengan nama Allah, Allah-lah Penyembuhmu; dengan nama Allah aku lindungi engkau dari setan yang terkutuk: 'Maka Aku bersumpah dengan tempat-tempat turunnya bintang, dan sungguh itu sumpah yang besar jika kalian mengetahui' (QS al-Waqi'ah: 75-76) — engkau pasti sembuh dengan izin Allah." Maka Nabi ﷺ pun sembuh seketika.
+> "Dengan nama Allah aku meruqyahmu dari segala yang menyakitimu; dengan nama Allah, Allah-lah Penyembuhmu; dengan nama Allah aku lindungi engkau dari setan yang terkutuk: 'Maka Aku bersumpah dengan tempat-tempat turunnya bintang, dan sungguh itu sumpah yang besar jika kalian mengetahui' (QS al-Waqi'ah: 75-76) — engkau pasti sembuh dengan izin Allah." Maka Nabi صلى الله عليه وسلم pun sembuh seketika.
 
 ### 2.3 Sakit kepala (Imam ash-Shadiq)
 Letakkan tangan pada bagian yang sakit, baca Ayat Kursi + al-Fatihah, lalu:
@@ -224,7 +224,7 @@ QS al-A'râf: 116-122 (kisah tongkat Musa menelan sihir), QS al-Furqân: 23, QS 
 >
 > *Bismillâhir-Raḥmânir-Raḥîm. Allâhumma innî as'aluka yâ Allâhu yâ Allâhu yâ Raḥmânu yâ Raḥîmu yâ Ḥalîmu yâ Karîmu yâ Qadîmu yâ Muqîmu yâ 'Aẓîmu yâ Allâh, yâ Khaira Mas'ûlin wa Akrama Ma'mûl; yâ Man lahul-ḥamdu wats-tsanâ', biyadihil-faqru wal-ghinâ, wa lahul-Asmâ'ul-Ḥusnâ …*
 >
-> "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang. Ya Allah, aku memohon kepada-Mu, yâ Allâh, yâ Allâh, wahai Yang Maha Pengasih, Maha Penyayang, Maha Penyantun, Maha Mulia, Maha Dahulu, Maha Menegakkan, Maha Agung… wahai Sebaik-baik Yang Diminta dan Semulia-mulia Yang Diharapkan…" — Khasiatnya (sabda Nabi ﷺ): 'ain, syaqiqah, menghadap penguasa, membebaskan tawanan, persalinan sulit, sakit punggung, safar darat-laut, mendamaikan suami-istri, rezeki, perlindungan dari ular-kalajengking, jin-setan, dan tipu daya musuh.
+> "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang. Ya Allah, aku memohon kepada-Mu, yâ Allâh, yâ Allâh, wahai Yang Maha Pengasih, Maha Penyayang, Maha Penyantun, Maha Mulia, Maha Dahulu, Maha Menegakkan, Maha Agung… wahai Sebaik-baik Yang Diminta dan Semulia-mulia Yang Diharapkan…" — Khasiatnya (sabda Nabi صلى الله عليه وسلم): 'ain, syaqiqah, menghadap penguasa, membebaskan tawanan, persalinan sulit, sakit punggung, safar darat-laut, mendamaikan suami-istri, rezeki, perlindungan dari ular-kalajengking, jin-setan, dan tipu daya musuh.
 
 **Ringkasan bab:** tujuh ayat al-Kahfi penolak bala · doa keluar rumah (Imam ash-Shadiq) · 'uwdzah Imam Ali bin al-Husain (kisah al-Manshur) · doa duka dan kesusahan · shalat-shalat kesedihan · keamanan dari ketakutan · doa singgah di perjalanan · munajat safar Imam al-Jawad.
 
@@ -273,7 +273,7 @@ QS al-A'râf: 116-122 (kisah tongkat Musa menelan sihir), QS al-Furqân: 23, QS 
 >
 > *Allâhumma innî as'aluka wa atawajjahu ilaika bi Nabiyyika Nabiyyir-Raḥmah Muḥammadin ṣallallâhu 'alaihi wa âlih; yâ Abal-Qâsim, yâ Rasûlallâh, yâ Imâmar-Raḥmah, yâ Saiyidanâ wa Maulânâ, innâ tawajjahnâ wastasyfa'nâ wa tawassalnâ bika ilallâh, wa qaddamnâka baina yadai ḥâjâtinâ, yâ Wajîhan 'indallâh isyfa' lanâ 'indallâh.*
 >
-> "Ya Allah, aku memohon dan menghadap kepada-Mu dengan Nabi-Mu, Nabi rahmat, Muhammad ﷺ. Wahai Abul Qasim, wahai Rasulullah, wahai Imam rahmat, wahai tuan dan pemimpin kami; kami menghadap, beristisyfa', dan bertawassul denganmu kepada Allah, kami dahulukan engkau di depan hajat-hajat kami — wahai yang mulia di sisi Allah, syafaatilah kami di sisi Allah." *(Dilanjutkan untuk masing-masing dari 14: Amirul Mukminin, az-Zahra, al-Hasan, al-Husain, as-Sajjad, al-Baqir, ash-Shadiq, al-Kazhim, ar-Ridha, al-Jawad, al-'Askari, al-Qa'im — dengan redaksi yang sama.)*
+> "Ya Allah, aku memohon dan menghadap kepada-Mu dengan Nabi-Mu, Nabi rahmat, Muhammad صلى الله عليه وسلم. Wahai Abul Qasim, wahai Rasulullah, wahai Imam rahmat, wahai tuan dan pemimpin kami; kami menghadap, beristisyfa', dan bertawassul denganmu kepada Allah, kami dahulukan engkau di depan hajat-hajat kami — wahai yang mulia di sisi Allah, syafaatilah kami di sisi Allah." *(Dilanjutkan untuk masing-masing dari 14: Amirul Mukminin, az-Zahra, al-Hasan, al-Husain, as-Sajjad, al-Baqir, ash-Shadiq, al-Kazhim, ar-Ridha, al-Jawad, al-'Askari, al-Qa'im — dengan redaksi yang sama.)*
 
 **Amalan pilihan bab ini (dengan bilangannya):**
 - «أَمَّنْ يُجِيبُ الْمُضْطَرَّ إِذَا دَعَاهُ» (*Amman yujîbul-muḍṭarra idzâ da'âh*) — 12.000× (atau 40 orang × 12) untuk hajat besar.

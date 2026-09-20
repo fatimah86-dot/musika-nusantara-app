@@ -79,11 +79,11 @@ Ya Allah, ini adalah sunnah-Mu dan sunnah Nabi-Mu... maka rasakanlah ia panasnya
 
 ### 11. Adab mimpi
 
-> Dari Nabi ﷺ: Mimpi baik dari Allah. Jika kalian bermimpi yang disukai, jangan menceritakannya kecuali kepada yang ia sayangi; dan jika bermimpi buruk, hendaklah **meludah kecil ke kiri tiga kali**, berlindung dari setan dan keburukannya, dan **tidak menceritakannya kepada siapa pun** — maka tak akan membahayakannya.
+> Dari Nabi صلى الله عليه وسلم: Mimpi baik dari Allah. Jika kalian bermimpi yang disukai, jangan menceritakannya kecuali kepada yang ia sayangi; dan jika bermimpi buruk, hendaklah **meludah kecil ke kiri tiga kali**, berlindung dari setan dan keburukannya, dan **tidak menceritakannya kepada siapa pun** — maka tak akan membahayakannya.
 >
-> Dari beliau ﷺ: Mimpi (benar) dari Allah dan igauan dari setan.
+> Dari beliau صلى الله عليه وسلم: Mimpi (benar) dari Allah dan igauan dari setan.
 >
-> Dari beliau ﷺ: Mimpi baik dari lelaki saleh adalah satu bagian dari **empat puluh enam bagian** kenabian.
+> Dari beliau صلى الله عليه وسلم: Mimpi baik dari lelaki saleh adalah satu bagian dari **empat puluh enam bagian** kenabian.
 
 ### 12. Doa saat memandang langit
 
@@ -149,7 +149,7 @@ Lalu **Ayat as-Sukhra** («إِنَّ رَبَّكُمُ اللهُ الَّذِ
 
 ### 21. Kisah pemuda yang terikat lisannya
 
-> Said bin Yasar berkata: Aku mendengar Aba Abdillah berkata: Rasulullah menghadiri seorang pemuda saat wafatnya dan bersabda: "Ucapkan lâ ilâha illallâh." Lidahnya terkunci berkali-kali. Beliau bertanya kepada wanita di kepalanya: "Apakah pemuda ini punya ibu?" Ia menjawab: "Ya, aku ibunya." Beliau bertanya: "Apakah engkau murka padanya?" Ia menjawab: "Ya, aku tak berbicara dengannya sejak **enam tahun**." Beliau berkata: "Relakanlah ia." Ia berkata: "Semoga Allah merelakannya dengan kerelaanmu, wahai Rasulullah." Maka beliau bersabda kepada pemuda itu: "Ucapkan lâ ilâha illallâh." Ia pun mengucapkannya. Nabi bertanya: "Apa yang kau lihat?" Ia menjawab: "Aku melihat sosok hitam buruk rupa..." Maka Nabi ﷺ bersabda: "Ucapkan:
+> Said bin Yasar berkata: Aku mendengar Aba Abdillah berkata: Rasulullah menghadiri seorang pemuda saat wafatnya dan bersabda: "Ucapkan lâ ilâha illallâh." Lidahnya terkunci berkali-kali. Beliau bertanya kepada wanita di kepalanya: "Apakah pemuda ini punya ibu?" Ia menjawab: "Ya, aku ibunya." Beliau bertanya: "Apakah engkau murka padanya?" Ia menjawab: "Ya, aku tak berbicara dengannya sejak **enam tahun**." Beliau berkata: "Relakanlah ia." Ia berkata: "Semoga Allah merelakannya dengan kerelaanmu, wahai Rasulullah." Maka beliau bersabda kepada pemuda itu: "Ucapkan lâ ilâha illallâh." Ia pun mengucapkannya. Nabi bertanya: "Apa yang kau lihat?" Ia menjawab: "Aku melihat sosok hitam buruk rupa..." Maka Nabi صلى الله عليه وسلم bersabda: "Ucapkan:
 >
 > «يَا مَنْ يَقْبَلُ الْيَسِيرَ وَيَعْفُو عَنِ الْكَثِيرِ، اقْبَلْ مِنِّي الْيَسِيرَ وَاعْفُ عَنِّي الْكَثِيرَ، إِنَّكَ أَنْتَ الْعَفُوُّ الْغَفُورُ»
 >
@@ -163,7 +163,7 @@ Lalu **Ayat as-Sukhra** («إِنَّ رَبَّكُمُ اللهُ الَّذِ
 
 > Hendaklah seseorang **tak meninggalkan wasiat** sama sekali, baik sehat maupun sakit, dan sangat ditekankan saat sakit; hendaklah ia membebaskan dirinya dari hak-hak Allah dan hak-hak hamba-hamba-Nya.
 >
-> Dari Nabi ﷺ: "Siapa yang tidak memperbaiki wasiat saat kematiannya, itu adalah kekurangan pada akal dan muru'ahnya." Ditanya: "Bagaimana wasiat itu, wahai Rasulullah?" Beliau bersabda: Jika kematian datang dan orang-orang berkumpul, ia berkata:
+> Dari Nabi صلى الله عليه وسلم: "Siapa yang tidak memperbaiki wasiat saat kematiannya, itu adalah kekurangan pada akal dan muru'ahnya." Ditanya: "Bagaimana wasiat itu, wahai Rasulullah?" Beliau bersabda: Jika kematian datang dan orang-orang berkumpul, ia berkata:
 >
 > «فَاطِرَ السَّمَاوَاتِ وَالْأَرْضِ، عَالِمَ الْغَيْبِ وَالشَّهَادَةِ، الرَّحْمَنَ الرَّحِيمَ، اللهُمَّ إِنِّي أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا أَنْتَ وَحْدَكَ لَا شَرِيكَ لَكَ، وَأَنَّ مُحَمَّدًا عَبْدُكَ وَرَسُولُكَ، وَأَنَّ السَّاعَةَ آتِيَةٌ لَا رَيْبَ فِيهَا، وَأَنَّكَ تَبْعَثُ مَنْ فِي الْقُبُورِ، وَأَنَّ الْحِسَابَ حَقٌّ... وَأَنَّ الْإِيمَانَ حَقٌّ... وَأَنَّ الْقُرْآنَ كَمَا أَنْزَلْتَ... وَإِنِّي أَعْهَدُ إِلَيْكَ فِي دَارِ الدُّنْيَا أَنِّي قَدْ رَضِيتُ بِكَ رَبًّا وَبِالْإِسْلَامِ دِينًا وَبِمُحَمَّدٍ نَبِيًّا وَبِالْقُرْآنِ كِتَابًا وَبِعَلِيٍّ وَلِيًّا وَبِالْأَئِمَّةِ [الطَّاهِرِينَ]... اللهُمَّ أَنْتَ ثِقَتِي عِنْدَ شِدَّتِي وَرَجَائِي عِنْدَ كُرْبَتِي وَعُدَّتِي عِنْدَ الْأُمُورِ الَّتِي [تَرِدُ] عَلَيَّ، وَأَنْتَ وَلِيِّي فِي نِعْمَتِي وَإِلَهِي وَإِلَهُ آبَائِي، صَلِّ عَلَى مُحَمَّدٍ وَآلِهِ وَلَا تَكِلْنِي إِلَى نَفْسِي طَرْفَةَ عَيْنٍ أَبَدًا، وَآنِسْ قَبْرِي فِي وَحْشَتِي فِيهِ، وَاجْعَلْ لِي عَهْدًا يَوْمَ أَلْقَاكَ مَأْمُونًا»
 
@@ -183,7 +183,7 @@ Ini adalah **perjanjian mayat** saat berwasiat dengan hajatnya; wasiat itu hak a
 >
 > Dan Imam ash-Shadiq bersabda: "Siapa yang menahan marahnya dari manusia, Allah menahan murka-Nya darinya pada hari kiamat."
 >
-> Dan yang menenangkan marah: bershalawat kepada Nabi ﷺ dan membaca: **«وَيُذْهِبُ غَيْظَ قُلُوبِهِمْ»**, lalu:
+> Dan yang menenangkan marah: bershalawat kepada Nabi صلى الله عليه وسلم dan membaca: **«وَيُذْهِبُ غَيْظَ قُلُوبِهِمْ»**, lalu:
 >
 > «اللهُمَّ اغْفِرْ لِي ذَنْبِي [وَأَذْهِبْ غَيْظَ قَلْبِي]، وَأَجِرْنِي مِنَ الشَّيْطَانِ الرَّجِيمِ، وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ الْعَلِيِّ الْعَظِيمِ»
 >
@@ -197,7 +197,7 @@ Ini adalah **perjanjian mayat** saat berwasiat dengan hajatnya; wasiat itu hak a
 
 ### 25. Penulisan Ibn 'Abbas untuk hafalan (dari Majlisi, dari as-Syahid)
 
-> Ibn Abbas berkata: Rasulullah ﷺ mengajarkanku kata-kata yang diajarkan Jibril kepadanya: "Maukah aku hadiahkan kepadamu, wahai Ibn Abbas, hadiah yang diajarkan Jibril kepadaku?" Aku menjawab: "Tentu." Beliau bersabda: Tulislah di baskom dengan **za'faran dan air mawar**: al-Fatihah, al-Ikhlash, al-Mu'awwidzatain, Yâsîn, al-Hasyr, al-Waqi'ah, dan al-Mulk; lalu tuangkan padanya **air zamzam atau air hujan**, dan minumlah **saat perut kosong waktu sahur** bersama **tiga mitsqal kemenyan (lubân)** dan **sepuluh mitsqal madu**; dan shalatlah dua rakaat, setiap rakaat al-Fatihah **10 kali** dan «Qul Huwallahu Ahad»; lalu berpuasalah hari itu — takkan berlalu **empat puluh hari** hingga engkau menjadi penghafal dengan izin Allah.
+> Ibn Abbas berkata: Rasulullah صلى الله عليه وسلم mengajarkanku kata-kata yang diajarkan Jibril kepadanya: "Maukah aku hadiahkan kepadamu, wahai Ibn Abbas, hadiah yang diajarkan Jibril kepadaku?" Aku menjawab: "Tentu." Beliau bersabda: Tulislah di baskom dengan **za'faran dan air mawar**: al-Fatihah, al-Ikhlash, al-Mu'awwidzatain, Yâsîn, al-Hasyr, al-Waqi'ah, dan al-Mulk; lalu tuangkan padanya **air zamzam atau air hujan**, dan minumlah **saat perut kosong waktu sahur** bersama **tiga mitsqal kemenyan (lubân)** dan **sepuluh mitsqal madu**; dan shalatlah dua rakaat, setiap rakaat al-Fatihah **10 kali** dan «Qul Huwallahu Ahad»; lalu berpuasalah hari itu — takkan berlalu **empat puluh hari** hingga engkau menjadi penghafal dengan izin Allah.
 >
 > Catatan: az-Zuhri dahulu menuliskannya untuk anak-anaknya dan meminumkannya. Ibn 'Ashim berkata: Aku menuliskannya berkali-kali saat aku berusia lima puluh dua tahun, dan tak berlalu sebulan hingga aku menjadi penghafal dengan izin Allah Ta'ala.
 
@@ -215,13 +215,13 @@ Ya Allah, rahmatilah aku dengan meninggalkan maksiat-Mu selamanya selama Engkau 
 
 ### 28. Penulisan doa dengan za'faran dan madu
 
-> Dari Nabi ﷺ dengan sanad sahih: siapa yang ingin menghafal Al-Qur'an dan ilmu, tulislah doa ini di bejana bersih dengan **za'faran dan madu**, lalu basuh dengan **air hujan yang diambil sebelum menyentuh bumi**, dan minumlah saat perut kosong selama **tiga hari** — ia menghafal apa yang ingin dihafalnya insya Allah. Yaitu:
+> Dari Nabi صلى الله عليه وسلم dengan sanad sahih: siapa yang ingin menghafal Al-Qur'an dan ilmu, tulislah doa ini di bejana bersih dengan **za'faran dan madu**, lalu basuh dengan **air hujan yang diambil sebelum menyentuh bumi**, dan minumlah saat perut kosong selama **tiga hari** — ia menghafal apa yang ingin dihafalnya insya Allah. Yaitu:
 >
 > «يَا مَالِكًا لَا يَزُولُ وَلَمْ يُسْأَلْ مَلِكٌ [مِثْلَهُ]، أَسْأَلُكَ بِحَقِّ مُحَمَّدٍ نَبِيِّكَ وَرَسُولِكَ، وَإِبْرَاهِيمَ خَلِيلِكَ وَصَفِيِّكَ، وَمُوسَى كَلِيمِكَ وَنَجِيِّكَ، وَعِيسَى كَلِمَتِكَ وَرُوحِكَ، وَأَسْأَلُكَ بِصُحُفِ إِبْرَاهِيمَ وَتَوْرَاةِ مُوسَى وَإِنْجِيلِ عِيسَى وَزَبُورِ دَاوُدَ وَقُرْآنِ مُحَمَّدٍ، وَعَلَيْهِمْ أَجْمَعِينَ، وَأَسْأَلُكَ بِكُلِّ وَحْيٍ أَوْحَيْتَهُ، وَبِكُلِّ حَقٍّ قَضَيْتَهُ، وَبِكُلِّ سَائِلٍ أَعْطَيْتَهُ، وَأَسْأَلُكَ بِالِاسْمِ الَّذِي إِذَا دَعَاكَ بِهِ أَوْلِيَاؤُكَ وَأَنْبِيَاؤُكَ اسْتَجَبْتَ لَهُمْ، وَأَسْأَلُكَ بِكُلِّ اسْمٍ أَنْزَلْتَهُ فِي كِتَابٍ مِنْ كُتُبِكَ، وَأَسْأَلُكَ بِالِاسْمِ الَّذِي اهْتَزَّ بِهِ عَرْشُكَ، وَأَسْأَلُكَ بِالِاسْمِ الَّذِي اسْتَقَرَّتْ بِهِ الْأَرَضُونَ، وَأَسْأَلُكَ بِالِاسْمِ الَّذِي اسْتَقَرَّتْ بِهِ السَّمَاوَاتُ، وَأَسْأَلُكَ بِالِاسْمِ الَّذِي اسْتَتَارَ بِهِ النَّهَارُ، وَأَسْأَلُكَ بِالِاسْمِ الَّذِي اسْتَجَارَ بِهِ اللَّيْلُ، وَأَسْأَلُكَ بِالِاسْمِ الَّذِي رَسَتْ بِهِ الْجِبَالُ، وَأَسْأَلُكَ بِاسْمِكَ الْوَاحِدِ الْأَحَدِ الْفَرْدِ الصَّمَدِ الْوَتْرِ الْعَزِيزِ الَّذِي مَلَأَ الْأَرْكَانَ كُلَّهَا، الطَّاهِرِ الطَّاهِرِ الْمُطَهَّرِ، يَا اللهُ يَا رَحْمَنُ... يَا حَيُّ يَا قَيُّومُ يَا ذَا الْجَلَالِ وَالْإِكْرَامِ، أَنْ تُصَلِّيَ عَلَى مُحَمَّدٍ وَآلِ مُحَمَّدٍ وَتُلْهِمَنِي حِفْظَ الْقُرْآنِ الْعَزِيزِ وَالْعِلْمِ بِرَحْمَتِكَ يَا أَرْحَمَ الرَّاحِمِينَ، اللهُمَّ ارْحَمْنِي وَاكْفِنِي يَا كَافِيَ كُلِّ شَيْءٍ بِقُدْرَتِكَ عَلَى كُلِّ شَيْءٍ، اكْفِنِي كُلَّ شَيْءٍ، وَاصْرِفْ عَنِّي كُلَّ ذِي شَرٍّ بِرَحْمَتِكَ يَا أَرْحَمَ الرَّاحِمِينَ»
 
 ### 29. Doa menghafal segala yang didengar
 
-> Rasulullah ﷺ bersabda: "Wahai Ali, jika engkau ingin menghafal segala yang engkau dengar, ucapkanlah selepas setiap shalat:
+> Rasulullah صلى الله عليه وسلم bersabda: "Wahai Ali, jika engkau ingin menghafal segala yang engkau dengar, ucapkanlah selepas setiap shalat:
 >
 > «شُكْرُ مَنْ لَا يُغِيرُ عَلَى مَا عِنْدَ [أَوْلِيَائِهِ]، شُكْرُ مَنْ لَا يَأْلُو أَمْلَ الْأَرْضِ بِالْأَلْوَانِ، شُكْرَ الرَّؤُوفِ... اجْعَلْ لِي فِي قَلْبِي نُورًا وَبَصَرًا وَفَهْمًا وَعِلْمًا، إِنَّكَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ»
 >
@@ -235,7 +235,7 @@ Ia mengucapkannya tiga hari, maka Allah menghidupkan hatinya.
 
 ### 30. Madu dan wirid setelah Subuh
 
-> Dari Nabi ﷺ: "Siapa yang ingin hafalan, hendaklah ia makan **madu**."
+> Dari Nabi صلى الله عليه وسلم: "Siapa yang ingin hafalan, hendaklah ia makan **madu**."
 >
 > Siapa yang lemah pikiran dan sedikit hafalannya, ucapkan setiap hari setelah shalat Fajar sebelum berbicara:
 >
@@ -249,7 +249,7 @@ Ia mengucapkannya tiga hari, maka Allah menghidupkan hatinya.
 
 ### 32. «Sanaqra'uka fa lâ tansâ»
 
-> [Dari Nabi ﷺ]: Siapa yang membacanya **«سَنُقْرِئُكَ فَلَا تَنْسَى»** saat keluar ke keperluannya, ia takkan lupa; dan ia takkan lupa apa yang dibacanya hari itu.
+> [Dari Nabi صلى الله عليه وسلم]: Siapa yang membacanya **«سَنُقْرِئُكَ فَلَا تَنْسَى»** saat keluar ke keperluannya, ia takkan lupa; dan ia takkan lupa apa yang dibacanya hari itu.
 >
 > Dari Imam ash-Shadiq: "Jika engkau ingin menyampaikan sebuah hadis lalu dilupakan darinya..." *(ia membacanya, maka ia mengingatnya insya Allah — redaksi lanjut rusak pada sumber pindai).*
 
@@ -301,9 +301,9 @@ Didapati pada tulisan tangan sebagian keturunan ulama agung as-Sayyid Ali at-Tus
 
 ### 38. Air hujan bulan Nisan
 
-> As-Sayyid Ibnu Thawus meriwayatkan dalam Muhaj ad-Da'awât dari kitab Zâd al-'Âbidîn karya al-Kasyghari, dari Ibn Umar: Kami sedang duduk ketika Rasulullah ﷺ masuk dan kami menjawab salamnya. Beliau bersabda: "Maukah kalian kuajari obat yang diajarkan Jibril kepadaku, hingga aku tak butuh obat dokter?" Ali dan Salman bertanya: "Obat apa itu?" Nabi ﷺ bersabda kepada Ali: "Ambillah **air hujan bulan Nisan**, bacakan padanya **al-Fatihah, Ayat Kursi, Qul Huwallahu Ahad, Qul A'ûdzu bi Rabbil-Falaq, Qul A'ûdzu bi Rabbin-Nâs, dan Qul Yâ Ayyuhal-Kâfirûn** — masing-masing **tujuh puluh kali** (dalam satu riwayat ditambahkan: dan shalawat **«اللهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَآلِ مُحَمَّدٍ»** tujuh puluh kali), lalu minumlah air itu pagi dan petang selama **tujuh hari berturut**."
+> As-Sayyid Ibnu Thawus meriwayatkan dalam Muhaj ad-Da'awât dari kitab Zâd al-'Âbidîn karya al-Kasyghari, dari Ibn Umar: Kami sedang duduk ketika Rasulullah صلى الله عليه وسلم masuk dan kami menjawab salamnya. Beliau bersabda: "Maukah kalian kuajari obat yang diajarkan Jibril kepadaku, hingga aku tak butuh obat dokter?" Ali dan Salman bertanya: "Obat apa itu?" Nabi صلى الله عليه وسلم bersabda kepada Ali: "Ambillah **air hujan bulan Nisan**, bacakan padanya **al-Fatihah, Ayat Kursi, Qul Huwallahu Ahad, Qul A'ûdzu bi Rabbil-Falaq, Qul A'ûdzu bi Rabbin-Nâs, dan Qul Yâ Ayyuhal-Kâfirûn** — masing-masing **tujuh puluh kali** (dalam satu riwayat ditambahkan: dan shalawat **«اللهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَآلِ مُحَمَّدٍ»** tujuh puluh kali), lalu minumlah air itu pagi dan petang selama **tujuh hari berturut**."
 >
-> Nabi ﷺ bersabda: "Demi Yang mengutusku dengan kebenaran sebagai nabi, sungguh Jibril berkata: Allah mengangkat dari orang yang minum air ini **setiap penyakit** di tubuhnya dan menyembuhkannya, dan mengeluarkannya dari urat, tubuh, tulang, dan seluruh anggotanya, serta menghapusnya dari Lauhul Mahfuzh. Dan demi Yang mengutusku dengan kebenaran sebagai nabi: jika ia tak punya anak lalu ingin punya anak, dan ia minum dari air itu, ia akan punya anak; jika wanita mandul minum, Allah memberinya anak; jika lelaki 'innîn minum, Allah melepaskan darinya dan ia mampu berjima'... dan pembenaran hal itu dalam Kitab Allah: ﴿يَهَبُ لِمَنْ يَشَاءُ إِنَاثًا وَيَهَبُ لِمَنْ يَشَاءُ الذُّكُورَ، أَوْ يُزَوِّجُهُمْ ذُكْرَانًا وَإِنَاثًا وَيَجْعَلُ مَنْ يَشَاءُ عَقِيمًا﴾. Jika ia sakit kepala lalu minum, sakitnya reda dengan izin Allah; jika matanya sakit, teteskan ke kedua mata dan minum serta basuh matanya — sembuh. [Dan seterusnya:] ia tak terganggu lendir, tak banyak dahak, tak kembung jika makan dan minum, tak terganggu angin, tak kena falaj (lumpuh), punggungnya tak sakit, tak kembung, tak takut pilek dan sakit gigi, tak sakit lambung, tak cacingan, tak kena qaulanj, tak butuh bekam, tak kena nasur, tak gatal, tak kena cacar, gila, kusta, sopak, mimisan, muntah, tak buta, tak bisu, tak tuli, tak lumpuh duduk, tak kena air hitam di matanya... dan tak ada penyakit yang merusak puasa dan shalatnya, tak terganggu waswas, jin, maupun setan."
+> Nabi صلى الله عليه وسلم bersabda: "Demi Yang mengutusku dengan kebenaran sebagai nabi, sungguh Jibril berkata: Allah mengangkat dari orang yang minum air ini **setiap penyakit** di tubuhnya dan menyembuhkannya, dan mengeluarkannya dari urat, tubuh, tulang, dan seluruh anggotanya, serta menghapusnya dari Lauhul Mahfuzh. Dan demi Yang mengutusku dengan kebenaran sebagai nabi: jika ia tak punya anak lalu ingin punya anak, dan ia minum dari air itu, ia akan punya anak; jika wanita mandul minum, Allah memberinya anak; jika lelaki 'innîn minum, Allah melepaskan darinya dan ia mampu berjima'... dan pembenaran hal itu dalam Kitab Allah: ﴿يَهَبُ لِمَنْ يَشَاءُ إِنَاثًا وَيَهَبُ لِمَنْ يَشَاءُ الذُّكُورَ، أَوْ يُزَوِّجُهُمْ ذُكْرَانًا وَإِنَاثًا وَيَجْعَلُ مَنْ يَشَاءُ عَقِيمًا﴾. Jika ia sakit kepala lalu minum, sakitnya reda dengan izin Allah; jika matanya sakit, teteskan ke kedua mata dan minum serta basuh matanya — sembuh. [Dan seterusnya:] ia tak terganggu lendir, tak banyak dahak, tak kembung jika makan dan minum, tak terganggu angin, tak kena falaj (lumpuh), punggungnya tak sakit, tak kembung, tak takut pilek dan sakit gigi, tak sakit lambung, tak cacingan, tak kena qaulanj, tak butuh bekam, tak kena nasur, tak gatal, tak kena cacar, gila, kusta, sopak, mimisan, muntah, tak buta, tak bisu, tak tuli, tak lumpuh duduk, tak kena air hitam di matanya... dan tak ada penyakit yang merusak puasa dan shalatnya, tak terganggu waswas, jin, maupun setan."
 >
 > Jibril berkata: "Siapa yang membacakan ayat-ayat ini pada air lalu minum, Allah memenuhi hatinya dengan cahaya dan kilau, melemparkan ilham ke hatinya, mengalirkan hikmah di lisannya, memenuhi hatinya dengan paham dan bashirah... dan mengeluarkan dari hatinya kedengkian, khianat, ghibah, hasad, melampaui batas, sombong, kikir, serakah, marah, permusuhan, kebencian, mengadu domba, dan menjatuhkan orang — ia adalah kesembuhan dari setiap penyakit."
 >

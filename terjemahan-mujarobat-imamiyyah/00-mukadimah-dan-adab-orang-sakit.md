@@ -18,25 +18,24 @@
 > آمَنُوا هُدًى وَشِفَاءٌ﴾ (٣).
 >
 > وكذلك الدعاء والتوسّل بالله تعالى والاستعاذة بأسمائه عزّ وجلّ كما ورد عن
-> الرسول الكريم ﷺ وعن الأئمة الأطهار سلام الله عليهم أجمعين، فهي من
+> الرسول الكريم صلى الله عليه وسلم وعن الأئمة الأطهار سلام الله عليهم أجمعين، فهي من
 > المجربات عند كثير من المؤمنين، حيث أدّت إلى شفائهم بقدرة الباري عزّ وجلّ.
 >
-> فعن النبي (٤) أنه قال: «مَنْ لَمْ يَسْتَشْفِ بِالْقُرْآنِ فَلَا شَفَاهُ اللهُ».
+> فعن النبي صلى الله عليه وسلم أنه قال: «مَنْ لَمْ يَسْتَشْفِ بِالْقُرْآنِ فَلَا شَفَاهُ اللهُ».
 >
-> وعنه (٥) أنه قال: «أَلَا أَدُلُّكُمْ عَلَى سِلَاحٍ يُنْجِيكُمْ مِنْ أَعْدَائِكُمْ
+> وعنه صلى الله عليه وسلم أنه قال: «أَلَا أَدُلُّكُمْ عَلَى سِلَاحٍ يُنْجِيكُمْ مِنْ أَعْدَائِكُمْ
 > وَيُدِرُّ أَرْزَاقَكُمْ؟ قَالُوا: بَلَى. قَالَ: تَدْعُونَ رَبَّكُمْ بِاللَّيْلِ
 > وَالنَّهَارِ، فَإِنَّ سِلَاحَ الْمُؤْمِنِ الدُّعَاءُ».
 >
-> وعن أبي عبد الله (٦) قال: «عَلَيْكُمْ بِالدُّعَاءِ فَإِنَّهُ شِفَاءٌ مِنْ كُلِّ دَاءٍ».
+> وعن أبي عبد الله (٤) قال: «عَلَيْكُمْ بِالدُّعَاءِ فَإِنَّهُ شِفَاءٌ مِنْ كُلِّ دَاءٍ».
 
 ### Catatan kaki cetakan asli
 
 > (١) سورة الإسراء، الآية ٨٢.
 > (٢) سورة يونس، الآية ٥٧.
 > (٣) سورة فصلت، الآية ٤٤.
-> (٤) الكافي، ج٢، ص ٤٧١ [angka halaman samar pada pindai].
-> (٥) مكارم الأخلاق [nomor halaman tidak terbaca pada pindai].
-> (٦) الكافي، ج٣، ص ١٤٦ [angka halaman samar pada pindai].
+> (٤) الكافي [nomor halaman samar pada pindai].
+> Dua riwayat Nabi di atas pada cetakan asli ditulis dengan صلى الله عليه وسلم (tanpa nomor); baris sumbernya (مكارم الأخلاق dan الكافي) tertangkap pindai namun titik lekatnya tidak pasti.
 
 ### Terjemahan
 
@@ -60,16 +59,16 @@ semua). Semua itu termasuk perkara yang telah **teruji kemanfaatannya**
 (mujarrab) di kalangan banyak orang beriman, sebab mengantarkan mereka kepada
 kesembuhan dengan kekuasaan Sang Pencipta 'Azza wa Jalla.
 
-Dari Nabi (٤), beliau bersabda: *"Barang siapa tidak berobat-memohon kesembuhan
+Dari Nabi ﷺ, beliau bersabda: *"Barang siapa tidak berobat-memohon kesembuhan
 dengan Al-Qur'an, maka Allah tidak akan menyembuhkannya."*
 
-Dari beliau (٥) pula, beliau bersabda: *"Maukah kutunjukkan kepada kalian sebuah
+Dari beliau ﷺ pula, beliau bersabda: *"Maukah kutunjukkan kepada kalian sebuah
 senjata yang menyelamatkan kalian dari musuh-musuh kalian dan melancarkan
 rezeki-rezeki kalian?" Mereka menjawab, "Tentu." Beliau bersabda, "Berdoalah
 kalian kepada Tuhan kalian di waktu malam dan siang, karena sesungguhnya senjata
 orang mukmin adalah doa."*
 
-Dari Abu Abdillah (٦ — Imam Ja'far ash-Shadiq), beliau berkata:
+Dari Abu Abdillah (٤ — Imam Ja'far ash-Shadiq), beliau berkata:
 *"Hendaklah kalian berpegang pada doa, karena sesungguhnya ia adalah kesembuhan
 dari segala penyakit."*
 
@@ -99,19 +98,19 @@ dari segala penyakit."*
 > لَيُدْخِلُ بِصِدْقِ النِّيَّةِ وَالسَّرِيرَةِ الْخَالِصَةِ جَمّاً مِنْ عِبَادِهِ
 > الْجَنَّةَ».
 >
-> **في عيادة المريض:** قال النبي (١): «مِنْ حَقِّ الْمُسْلِمِ عَلَى الْمُسْلِمِ
+> **في عيادة المريض:** قال النبي صلى الله عليه وسلم: «مِنْ حَقِّ الْمُسْلِمِ عَلَى الْمُسْلِمِ
 > إِذَا لَقِيَهُ أَنْ يُسَلِّمَ عَلَيْهِ، وَإذَا مَرِضَ أَنْ يَعُودَهُ، وَإذَا
 > مَاتَ أَنْ يُشَيِّعَ جِنَازَتَهُ».
 >
-> وقال (٢): «تَمَامُ عِيَادَةِ الْمَرِيضِ أَنْ يَضَعَ أَحَدُكُمْ يَدَهُ عَلَيْهِ
+> وقال صلى الله عليه وسلم: «تَمَامُ عِيَادَةِ الْمَرِيضِ أَنْ يَضَعَ أَحَدُكُمْ يَدَهُ عَلَيْهِ
 > وَيَسْأَلَهُ: كَيْفَ أَنْتَ؟ كَيْفَ أَصْبَحْتَ وَكَيْفَ أَمْسَيْتَ؟ وَتَمَامُ
 > تَحِيَّتِكُمُ الْمُصَافَحَةُ».
 >
-> وعن الصادق (٣) قال: إن أمير المؤمنين قال: «إِنَّ مِنْ أَعْظَمِ الْعَوَّادِ
+> وعن الصادق (١) قال: إن أمير المؤمنين قال: «إِنَّ مِنْ أَعْظَمِ الْعَوَّادِ
 > أَجْراً عِنْدَ اللهِ لَمَنْ إِذَا عَادَ خَفَّفَ الْجُلُوسَ، إِلَّا أَنْ يَكُونَ
 > الْمَرِيضُ يُرِيدُ ذَلِكَ وَيُحِبُّ ذَلِكَ».
 >
-> وعن الباقر (٤) قال: كان فيما ناجى به موسى ربه أنه قال: «يَا رَبِّ، مَا
+> وعن الباقر (٢) قال: كان فيما ناجى به موسى ربه أنه قال: «يَا رَبِّ، مَا
 > بَلَغَ مِنْ عِيَادَةِ الْمَرِيضِ مِنَ الْأَجْرِ؟» فَقَالَ اللهُ عَزَّ وَجَلَّ:
 > «أُوَكِّلُ بِهِ مَلَكاً يَعُودُهُ فِي قَبْرِهِ إِلَى مَحْشَرِهِ».
 
@@ -148,23 +147,23 @@ itu hanya pada ucapan lisan dan amal tangan serta kaki. Dan sesungguhnya Allah
 Ta'ala, berkat kejujuran niat dan batin yang tulus, memasukkan banyak sekali
 hamba-Nya ke dalam surga."*
 
-**Tentang menjenguk orang sakit:** Nabi (١) bersabda: *"Termasuk hak seorang
+**Tentang menjenguk orang sakit:** Nabi ﷺ bersabda: *"Termasuk hak seorang
 muslim atas muslim lainnya: apabila ia bertemu dengannya hendaklah ia
 mengucapakan salam; apabila ia sakit hendaklah ia menjenguknya; dan apabila ia
 meninggal hendaklah ia mengantarkan jenazahnya."*
 
-Beliau (٢) juga bersabda: *"Sempurnanya menjenguk orang sakit ialah salah seorang
+Beliau ﷺ juga bersabda: *"Sempurnanya menjenguk orang sakit ialah salah seorang
 di antara kalian meletakkan tangannya pada si sakit dan bertanya: 'Bagaimana
 keadaanmu? Bagaimana pagimu? Bagaimana malammu?' Dan sempurnanya penghormatan di
 antara kalian adalah berjabat tangan."*
 
-Dari Imam ash-Shadiq (٣), beliau berkata: Amirul Mukminin
+Dari Imam ash-Shadiq (١), beliau berkata: Amirul Mukminin
 bersabda: *"Termasuk penjenguk yang paling besar pahalanya di
 sisi Allah ialah orang yang apabila menjenguk, ia mempersingkat duduknya —
 kecuali bila si sakit justru menginginkan dan menyenangi (kedatangannya yang
 lama)."*
 
-Dari Imam al-Baqir (٤), beliau berkata: Di antara munajat Nabi Musa
+Dari Imam al-Baqir (٢), beliau berkata: Di antara munajat Nabi Musa
 kepada Tuhannya, ia berkata: *"Wahai Tuhanku, seberapa besar
 pahala menjenguk orang sakit?" Maka Allah 'Azza wa Jalla berfirman: "Aku
 utus/serahkan seorang malaikat yang menemaninya di kuburnya hingga ke tempat
