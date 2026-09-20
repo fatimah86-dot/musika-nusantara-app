@@ -1,11 +1,17 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """Bangun PDF dari Mujarrabat-al-Imamiyyah-Terjemahan-Lengkap.md
-   Arab: reshaper + bidi, per-segmen bold; Latin: DejaVu."""
-import re, hashlib, html
+
+Arab murni : shaping (arabic-reshaper) + pemenggalan baris RTL mandiri —
+             kata dipecah dalam urutan logis, lebar diukur per font, tiap baris
+             disusun ulang ke urutan visual (kanan-ke-kiri) sehingga urutan
+             baris dan urutan kata benar, termasuk <b> per segmen.
+Arab campur: reshape + python-bidi per segmen (paragraf berbasis LTR).
+Latin      : DejaVu.
+"""
+import os, re, hashlib, html
 import arabic_reshaper
 from bidi.algorithm import get_display
-from fontTools.ttLib import TTFont  # noqa (pastikan font oke)
 
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.units import cm
@@ -14,18 +20,19 @@ from reportlab.lib.styles import ParagraphStyle
 from reportlab.lib.enums import TA_RIGHT, TA_LEFT, TA_CENTER, TA_JUSTIFY
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont as RlTTFont
-from reportlab.pdfbase.pdfmetrics import registerFontFamily
+from reportlab.pdfbase.pdfmetrics import registerFontFamily, stringWidth
 from reportlab.platypus import (BaseDocTemplate, PageTemplate, Frame, Paragraph,
                                 Spacer, HRFlowable, PageBreak, Flowable, NextPageTemplate)
 from reportlab.platypus.tableofcontents import TableOfContents
 
-SRC = "/home/user/musika-nusantara-app/terjemahan-mujarobat-imamiyyah/Mujarrabat-al-Imamiyyah-Terjemahan-Lengkap.md"
-OUT = "/home/user/musika-nusantara-app/terjemahan-mujarobat-imamiyyah/Mujarrabat-al-Imamiyyah-Terjemahan-Lengkap.pdf"
-FONTDIR = "/home/user/fonts"
+HERE = os.path.dirname(os.path.abspath(__file__))
+SRC = os.path.join(HERE, "Mujarrabat-al-Imamiyyah-Terjemahan-Lengkap.md")
+OUT = os.path.join(HERE, "Mujarrabat-al-Imamiyyah-Terjemahan-Lengkap.pdf")
+FONTDIR = os.path.join(HERE, "fonts")
 
 # ---------- registrasi font ----------
-pdfmetrics.registerFont(RlTTFont("Amiri", f"{FONTDIR}/AmiriMerged-Regular.ttf"))
-pdfmetrics.registerFont(RlTTFont("Amiri-Bold", f"{FONTDIR}/AmiriMerged-Bold.ttf"))
+pdfmetrics.registerFont(RlTTFont("Amiri", os.path.join(FONTDIR, "AmiriMerged-Regular.ttf")))
+pdfmetrics.registerFont(RlTTFont("Amiri-Bold", os.path.join(FONTDIR, "AmiriMerged-Bold.ttf")))
 pdfmetrics.registerFont(RlTTFont("DejaVu", "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"))
 pdfmetrics.registerFont(RlTTFont("DejaVu-Bold", "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"))
 pdfmetrics.registerFont(RlTTFont("DejaVuSerif", "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"))
@@ -34,16 +41,18 @@ registerFontFamily("amiri", normal="Amiri", bold="Amiri-Bold", italic="Amiri", b
 registerFontFamily("dv", normal="DejaVu", bold="DejaVu-Bold", italic="DejaVu", boldItalic="DejaVu-Bold")
 
 RE_AR = re.compile(r'[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF]')
+RE_LATIN = re.compile(r'[A-Za-z]')
 def has_arab(t): return bool(RE_AR.search(t))
+def is_pure_arab(t): return has_arab(t) and not RE_LATIN.search(t)
 def is_rtl_base(t):
     for ch in t:
         if RE_AR.match(ch): return True
         if ch.isalpha(): return False
     return False
 
-_reshaper = arabic_reshaper.ArabicReshaper({"configuration": {"delete_harakat": False}})
-def shape_display(t):
-    return get_display(_reshaper.reshape(t)) if has_arab(t) else t
+_reshaper = arabic_reshaper.ArabicReshaper()
+def shape(t): return _reshaper.reshape(t) if has_arab(t) else t
+def shape_display(t): return get_display(shape(t)) if has_arab(t) else t
 
 # ---------- gaya ----------
 INK = colors.HexColor("#1a1a1a")
@@ -51,42 +60,41 @@ GRAY = colors.HexColor("#444444")
 ACCENT = colors.HexColor("#0b5e3f")
 
 S = {}
-S["h1"] = ParagraphStyle("h1", fontName="Amiri-Bold", fontSize=16.5, leading=23,
-                         textColor=ACCENT, spaceBefore=10, spaceAfter=10)
-S["h2"] = ParagraphStyle("h2", fontName="Amiri-Bold", fontSize=13.5, leading=19,
-                         textColor=colors.HexColor("#114a34"), spaceBefore=14, spaceAfter=6)
-S["h3"] = ParagraphStyle("h3", fontName="Amiri-Bold", fontSize=11.8, leading=17,
-                         textColor=INK, spaceBefore=10, spaceAfter=4)
+S["h1"] = ParagraphStyle("h1", fontName="Amiri-Bold", fontSize=16.5, leading=24,
+                         textColor=ACCENT, spaceBefore=10, spaceAfter=10, alignment=TA_RIGHT)
+S["h2"] = ParagraphStyle("h2", fontName="Amiri-Bold", fontSize=13.5, leading=20,
+                         textColor=colors.HexColor("#114a34"), spaceBefore=14, spaceAfter=6, alignment=TA_RIGHT)
+S["h3"] = ParagraphStyle("h3", fontName="Amiri-Bold", fontSize=11.8, leading=18,
+                         textColor=INK, spaceBefore=10, spaceAfter=4, alignment=TA_RIGHT)
 S["body"] = ParagraphStyle("body", fontName="DejaVu", fontSize=10.2, leading=15.2,
                            textColor=INK, alignment=TA_JUSTIFY, spaceAfter=6)
-S["bodyar"] = ParagraphStyle("bodyar", parent=S["body"], fontName="Amiri", fontSize=11,
-                             leading=18, alignment=TA_RIGHT)
+S["bodyar"] = ParagraphStyle("bodyar", fontName="Amiri", fontSize=11, leading=18,
+                             alignment=TA_RIGHT, spaceAfter=6)
 S["quote_ar"] = ParagraphStyle("quote_ar", fontName="Amiri", fontSize=12.6, leading=21,
                                textColor=INK, alignment=TA_RIGHT, leftIndent=10, rightIndent=2,
-                               spaceBefore=2, spaceAfter=2, borderPadding=0)
+                               spaceBefore=2, spaceAfter=2)
 S["quote_id"] = ParagraphStyle("quote_id", fontName="DejaVuSerif", fontSize=10.2, leading=15.5,
                                textColor=GRAY, alignment=TA_JUSTIFY, leftIndent=16, rightIndent=8,
                                spaceBefore=1, spaceAfter=6)
 S["bullet"] = ParagraphStyle("bullet", parent=S["body"], leftIndent=16, bulletIndent=6,
                              alignment=TA_LEFT, spaceAfter=3)
-S["bullet_ar"] = ParagraphStyle("bullet_ar", parent=S["bodyar"], leftIndent=16, rightIndent=10,
-                                spaceAfter=3)
-S["center_ar"] = ParagraphStyle("center_ar", fontName="Amiri-Bold", fontSize=27, leading=40,
-                                alignment=TA_CENTER, textColor=ACCENT)
+S["bullet_ar"] = ParagraphStyle("bullet_ar", parent=S["bodyar"], leftIndent=16, rightIndent=10, spaceAfter=3)
+S["center_ar"] = ParagraphStyle("center_ar", fontName="Amiri-Bold", fontSize=27, leading=42,
+                                alignment=TA_CENTER)
 S["center_id"] = ParagraphStyle("center_id", fontName="DejaVu-Bold", fontSize=17, leading=24,
                                 alignment=TA_CENTER, textColor=INK)
 S["center_sm"] = ParagraphStyle("center_sm", fontName="DejaVu", fontSize=10.5, leading=15,
                                 alignment=TA_CENTER, textColor=GRAY)
 
+FRAME_W = A4[0] - 4 * cm
+
 # ---------- markup ----------
 def clean_inline(t):
-    t = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', t)      # sisa link -> label
-    return t
+    return re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', t)
 
 def seg_split(t):
-    """Pecah jadi segmen (bold?, teks); buang *italic tunggal, tangani **bold**."""
     t = re.sub(r'`([^`]*)`', r'\1', t)
-    t = re.sub(r'\*([^*\n]+)\*(?!\*)', r'\1', t)          # italic -> polos
+    t = re.sub(r'\*([^*\n]+)\*(?!\*)', r'\1', t)
     parts, pos, bold = [], 0, False
     for m in re.finditer(r'\*\*', t):
         parts.append((bold, t[pos:m.start()]))
@@ -95,37 +103,93 @@ def seg_split(t):
     parts.append((bold, t[pos:]))
     return [(b, s) for b, s in parts if s != ""]
 
-def md_paragraph_xml(text):
-    """Teks mentah md -> XML Paragraph siap render (arab: reshape+bidi per segmen)."""
+# ---------- pemenggalan baris RTL ----------
+def rtl_lines_xml(text, maxwidth, size, reg="Amiri", bold="Amiri-Bold", bullet=False):
+    """Pecah paragraf Arab murni jadi baris-baris visual; kembalikan XML dgn <br/>."""
+    # 1) kata-kata dalam urutan logis + flag bold
+    words = []  # (bold, word_logical)
+    if bullet:
+        words.append((False, "•"))
+    for b, seg in seg_split(text):
+        for w in seg.split():
+            if w:
+                words.append((b, w))
+    # 2) ukur lebar tiap kata (setelah reshape; sambungan antar-kata tidak ada di Arab)
+    widths = []
+    space_w = stringWidth(" ", reg, size)
+    for b, w in words:
+        f = bold if b else reg
+        widths.append(stringWidth(shape(w), f, size))
+    # 3) greedy line-break dalam urutan logis
+    lines = []          # tiap baris = list indeks kata
+    cur, cur_w = [], 0.0
+    for idx, w in enumerate(widths):
+        add = w if not cur else cur_w + space_w + w
+        if cur and add > maxwidth:
+            lines.append(cur); cur, cur_w = [], 0.0
+            add = w
+        cur.append(idx); cur_w = add
+    if cur: lines.append(cur)
+    # 4) tiap baris: kelompok segmen bold, reshape+display per segmen, balik urutan segmen
+    out_lines = []
+    for ln in lines:
+        segs = []  # (bold, [kata...])
+        for idx in ln:
+            b, w = words[idx]
+            if segs and segs[-1][0] == b:
+                segs[-1][1].append(w)
+            else:
+                segs.append((b, [w]))
+        rendered = []
+        for b, ws in segs:
+            disp = html.escape(get_display(_reshaper.reshape(" ".join(ws))), quote=False)
+            rendered.append(f"<b>{disp}</b>" if b else disp)
+        rendered.reverse()
+        out_lines.append(" ".join(rendered))
+    return out_lines
+
+def md_to_xml(text, mode_width=None):
+    """-> (xml, mode) ; mode: 'rtl' | 'mix' | 'ltr'."""
     text = clean_inline(text).strip()
-    if not text: return None
-    segs = seg_split(text)
-    rtl = is_rtl_base(text)
-    rendered = []
-    for bold, seg in segs:
-        disp = shape_display(seg)
-        disp = html.escape(disp, quote=False)
-        rendered.append(f"<b>{disp}</b>" if bold else disp)
-    if rtl: rendered.reverse()
-    return " ".join(rendered)
+    if not text: return None, "ltr"
+    if is_pure_arab(text):
+        return "__RTL__", "rtl"   # penanda; pemanggil jalankan rtl_lines_xml dgn parameter gaya
+    if has_arab(text):
+        segs = seg_split(text)
+        rtl = is_rtl_base(text)
+        rendered = []
+        for b, seg in segs:
+            disp = html.escape(shape_display(seg), quote=False)
+            rendered.append(f"<b>{disp}</b>" if b else disp)
+        if rtl: rendered.reverse()
+        return " ".join(rendered), "mix"
+    t = re.sub(r'`([^`]*)`', r'\1', text)
+    t = re.sub(r'\*\*([^*]+)\*\*', '\x01\\1\x02', t)   # bold -> penanda aman
+    t = re.sub(r'\*([^*\n]+)\*', r'\1', t)                 # italic tunggal dibuang
+    t = html.escape(t, quote=False)
+    t = t.replace('\x01', '<b>').replace('\x02', '</b>')
+    return t, "ltr"
+
+
+def rtl_paras(text, style, bullet=False):
+    """Paragraf Arab murni -> beberapa Paragraph satu-baris (tanpa re-wrap)."""
+    from reportlab.lib.styles import ParagraphStyle as _PS
+    reg = "Amiri-Bold" if "Bold" in style.fontName else "Amiri"
+    bold = "Amiri-Bold"
+    lines = rtl_lines_xml(text, avail(style), style.fontSize, reg=reg, bold=bold, bullet=bullet)
+    tight = _PS("tight_" + style.name, parent=style, spaceBefore=0, spaceAfter=0)
+    out = [Paragraph(ln, tight) for ln in lines]
+    if style.spaceBefore: out.insert(0, __import__('reportlab.platypus', fromlist=['Spacer']).Spacer(1, style.spaceBefore))
+    if style.spaceAfter: out.append(__import__('reportlab.platypus', fromlist=['Spacer']).Spacer(1, style.spaceAfter))
+    return out
 
 # ---------- flowables ----------
-class Anchor(Flowable):
-    def __init__(self, key, title, level):
-        Flowable.__init__(self); self.key, self.title, self.level = key, title, level
-        self.width, self.height = 0, 0
-    def wrap(self, *a): return (0, 0)
-    def draw(self):
-        self.canv.bookmarkPage(self.key)
-        self.canv.addOutlineEntry(self.title, self.key, self.level, closed=(self.level > 0))
-
 class DocTemplate(BaseDocTemplate):
     def afterFlowable(self, fl):
         if isinstance(fl, Paragraph):
             name = fl.style.name
             if name in ("h1", "h2", "h3"):
-                txt = re.sub(r'<[^>]+>', '', fl.getPlainText()).strip()
-                txt = shape_display(txt) if has_arab(txt) else txt
+                txt = fl.getPlainText().strip()
                 lvl = {"h1": 0, "h2": 1, "h3": 2}[name]
                 key = hashlib.md5((txt + str(self.page)).encode()).hexdigest()[:10]
                 self.canv.bookmarkPage(key)
@@ -144,13 +208,27 @@ def on_page(canv, doc):
         canv.line(2 * cm, 1.55 * cm, PAGE_W - 2 * cm, 1.55 * cm)
     canv.restoreState()
 
+# lebar tersedia per gaya (pt) — dikurangi margin aman agar mesin layout
+# reportlab tidak memenggal ulang baris yang sudah kita susun
+def avail(style):
+    return FRAME_W - (style.leftIndent or 0) - (style.rightIndent or 0) - 8
+
+def para_for(text):
+    """Buat Paragraph dari teks md mentah, memilih pipeline yg tepat."""
+    xml, mode = md_to_xml(text)
+    if mode == "rtl":
+        return None, "rtl", text
+    if mode == "mix":
+        st = S["bodyar"] if has_arab(text) else S["body"]
+        return Paragraph(xml, st), "mix", text
+    return Paragraph(xml, S["body"]), "ltr", text
+
 # ---------- parser ----------
 def parse_md(path):
     lines = open(path, encoding="utf-8").read().split("\n")
-    # mulai dari akhir blok daftar isi md (anchor pertama <a id="mukadimah">)
     start = 0
     for i, ln in enumerate(lines):
-        if '<a id="mukadimah">' in ln: start = i; break
+        if '<a id="mukakimah">' in ln or '<a id="mukadimah">' in ln: start = i; break
     flow = []
     i, n = start, len(lines)
     quote_buf, in_quote = [], False
@@ -167,9 +245,14 @@ def parse_md(path):
                 cur.append(ql.strip())
         if cur: paras.append(" ".join(cur))
         for p in paras:
-            xml = md_paragraph_xml(p)
-            if not xml: continue
-            flow.append(Paragraph(xml, S["quote_ar"] if has_arab(p) else S["quote_id"]))
+            if is_pure_arab(p):
+                flow.extend(rtl_paras(p, S["quote_ar"]))
+            elif has_arab(p):
+                xml, _ = md_to_xml(p)
+                flow.append(Paragraph(xml, S["quote_id"] if not is_rtl_base(p) else S["bodyar"]))
+            else:
+                xml, _ = md_to_xml(p)
+                flow.append(Paragraph(xml, S["quote_id"]))
         flow.append(Spacer(1, 4))
         quote_buf, in_quote = [], False
 
@@ -182,7 +265,6 @@ def parse_md(path):
                 quote_buf.append(stripped.lstrip(">").lstrip())
                 i += 1; continue
             flush_quote()
-            # jangan i+=; proses baris ini normal
 
         if stripped == "":
             i += 1; continue
@@ -197,14 +279,16 @@ def parse_md(path):
         m = re.match(r'^(#{1,4})\s+(.*)$', stripped)
         if m:
             level, text = len(m.group(1)), clean_inline(m.group(2)).strip()
-            xml = md_paragraph_xml(text)
-            if xml:
-                if level == 1: flow.append(PageBreak())
-                stl = S["h1"] if level == 1 else S["h2"] if level == 2 else S["h3"]
-                flow.append(Paragraph(xml, stl))
-                if level == 1:
-                    flow.append(HRFlowable(width="100%", thickness=1.1, color=ACCENT,
-                                           spaceBefore=0, spaceAfter=8))
+            stl = S["h1"] if level == 1 else S["h2"] if level == 2 else S["h3"]
+            if level == 1: flow.append(PageBreak())
+            if is_pure_arab(text):
+                flow.extend(rtl_paras(text, stl))
+            else:
+                xml, _ = md_to_xml(text)
+                if xml: flow.append(Paragraph(xml, stl))
+            if level == 1:
+                flow.append(HRFlowable(width="100%", thickness=1.1, color=ACCENT,
+                                       spaceBefore=0, spaceAfter=8))
             i += 1; continue
 
         if stripped.startswith(">"):
@@ -214,23 +298,26 @@ def parse_md(path):
 
         if stripped.startswith("- "):
             text = clean_inline(stripped[2:]).strip()
-            xml = md_paragraph_xml(text)
-            if xml:
-                if has_arab(text):
-                    flow.append(Paragraph(xml + " •", S["bullet_ar"]))
-                else:
-                    flow.append(Paragraph(xml, S["bullet"], bulletText="•"))
+            if is_pure_arab(text):
+                flow.extend(rtl_paras(text, S["bullet_ar"], bullet=True))
+            elif has_arab(text):
+                xml, _ = md_to_xml(text)
+                flow.append(Paragraph(xml + " •", S["bullet_ar"]))
+            else:
+                xml, _ = md_to_xml(text)
+                flow.append(Paragraph(xml, S["bullet"], bulletText="•"))
             i += 1; continue
 
         mnum = re.match(r'^(\d+)[.)]\s+(.*)$', stripped)
         if mnum:
             text = f"{mnum.group(1)}. {clean_inline(mnum.group(2)).strip()}"
-            xml = md_paragraph_xml(text)
-            if xml:
+            if is_pure_arab(text):
+                flow.extend(rtl_paras(text, S["bodyar"]))
+            else:
+                xml, _ = md_to_xml(text)
                 flow.append(Paragraph(xml, S["bodyar"] if has_arab(text) else S["body"]))
             i += 1; continue
 
-        # paragraf biasa (mungkin berlanjut beberapa baris)
         buf = [stripped]
         while i + 1 < n:
             nxt = lines[i + 1].strip()
@@ -239,29 +326,30 @@ def parse_md(path):
                     or re.match(r'^\d+[.)]\s', nxt)):
                 break
             buf.append(nxt); i += 1
-        xml = md_paragraph_xml(" ".join(buf))
-        if xml:
-            flow.append(Paragraph(xml, S["bodyar"] if has_arab(" ".join(buf)) else S["body"]))
+        joined = " ".join(buf)
+        if is_pure_arab(joined):
+            flow.extend(rtl_paras(joined, S["bodyar"]))
+        else:
+            xml, _ = md_to_xml(joined)
+            flow.append(Paragraph(xml, S["bodyar"] if has_arab(joined) else S["body"]))
         i += 1
     flush_quote()
     return flow
 
-# ---------- rakit dokumen ----------
+# ---------- rakit ----------
 def build():
     doc = DocTemplate(OUT, pagesize=A4,
                       leftMargin=2 * cm, rightMargin=2 * cm,
                       topMargin=2 * cm, bottomMargin=2 * cm,
                       title="Mujarrabat al-Imamiyyah fi as-Syifa' bil-Qur'an wad-Du'a' — Terjemahan Lengkap",
-                      author="Muhammad Husain Mughniyah",
-                      subject="Terjemahan Indonesia lengkap 12 bab")
+                      author="Muhammad Husain Mughniyah")
     frame = Frame(2 * cm, 1.8 * cm, PAGE_W - 4 * cm, PAGE_H - 3.6 * cm, id="f")
     doc.addPageTemplates([PageTemplate(id="main", frames=[frame], onPage=on_page)])
 
     story = []
-    # --- sampul ---
     story.append(Spacer(1, 3.2 * cm))
-    story.append(Paragraph(shape_display("مُجَرَّبَاتُ الْإِمَامِيَّةِ"), S["center_ar"]))
-    story.append(Paragraph(shape_display("فِي الشِّفَاءِ بِالْقُرْآنِ وَالدُّعَاءِ"), S["center_ar"]))
+    story.append(Paragraph(shape("مُجَرَّبَاتُ الْإِمَامِيَّةِ"), S["center_ar"]))
+    story.append(Paragraph(shape("فِي الشِّفَاءِ بِالْقُرْآنِ وَالدُّعَاءِ"), S["center_ar"]))
     story.append(Spacer(1, 1.1 * cm))
     story.append(HRFlowable(width="55%", thickness=1.2, color=ACCENT, spaceBefore=2, spaceAfter=14))
     story.append(Paragraph("MUJARRABAT AL-IMAMIYYAH", S["center_id"]))
@@ -278,7 +366,6 @@ def build():
     story.append(NextPageTemplate("main"))
     story.append(PageBreak())
 
-    # --- daftar isi (otomatis, dgn nomor halaman) ---
     story.append(Paragraph("Daftar Isi", ParagraphStyle("toctitle", fontName="DejaVu-Bold",
                          fontSize=16, leading=20, textColor=ACCENT, spaceAfter=10)))
     toc = TableOfContents()
@@ -294,5 +381,4 @@ def build():
 
 if __name__ == "__main__":
     build()
-    import os
     print("PDF jadi:", OUT, os.path.getsize(OUT), "bytes")
