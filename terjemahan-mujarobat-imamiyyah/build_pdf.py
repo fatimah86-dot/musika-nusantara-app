@@ -348,15 +348,15 @@ def build():
 
     story = []
     story.append(Spacer(1, 3.2 * cm))
-    story.append(Paragraph(shape("مُجَرَّبَاتُ الْإِمَامِيَّةِ"), S["center_ar"]))
-    story.append(Paragraph(shape("فِي الشِّفَاءِ بِالْقُرْآنِ وَالدُّعَاءِ"), S["center_ar"]))
+    story.append(Paragraph(shape_display("مُجَرَّبَاتُ الْإِمَامِيَّةِ"), S["center_ar"]))
+    story.append(Paragraph(shape_display("فِي الشِّفَاءِ بِالْقُرْآنِ وَالدُّعَاءِ"), S["center_ar"]))
     story.append(Spacer(1, 1.1 * cm))
     story.append(HRFlowable(width="55%", thickness=1.2, color=ACCENT, spaceBefore=2, spaceAfter=14))
     story.append(Paragraph("MUJARRABAT AL-IMAMIYYAH", S["center_id"]))
     story.append(Paragraph("Terjemahan Lengkap Bahasa Indonesia", ParagraphStyle(
         "sub", parent=S["center_id"], fontSize=13, leading=18, textColor=GRAY)))
     story.append(Spacer(1, 1.6 * cm))
-    story.append(Paragraph("Karya: <b>Muhammad Husain Mughniyah</b> (محمد حسين مغنية)", S["center_sm"]))
+    story.append(Paragraph("Karya: <b>Muhammad Husain Mughniyah</b> (" + shape_display("محمد حسين مغنية") + ")", S["center_sm"]))
     story.append(Spacer(1, 4))
     story.append(Paragraph("Edisi rujukan: Cetakan Dâr al-'Ilmi lil-Malâyîn, Beirut (±432 halaman)", S["center_sm"]))
     story.append(Spacer(1, 2.2 * cm))
