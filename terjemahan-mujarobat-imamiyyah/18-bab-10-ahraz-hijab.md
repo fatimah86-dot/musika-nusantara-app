@@ -1732,3 +1732,15 @@ hajat-hajatnya dengan izin Allah Ta'ala.
 ✅ **Bab 10 selesai.**
 
 ➡️ Lanjut ke [Bab 11 — Terkabulnya Hajat dan Hilangnya Kesusahan](19-bab-11-hajat-karab.md)
+
+---
+
+## Catatan kaki edisi cetak
+
+Pada cetakan asli (Mu'assasat al-A'lami, Beirut), tanda kurung setelah nama
+Nabi/Imam berisi **nomor catatan kaki** (angka Arab ١، ٢، …) yang merujuk daftar
+sumber di kaki halaman — untuk bab-bab pengobatan umumnya *Makārim al-Akhlāq*,
+dan untuk bab-bab selanjutnya antara lain *Ṭibb al-A'immah*, *Miṣbā*,
+*Mafātīḥ al-Jinān*, *Biḥār al-Anwār*, *Ḍiyā' aṣ-Ṣāliḥīn*. Dokumen ini memulihkan
+penomoran tersebut sesuai urutan kemunculan pada cetakan; rincian daftar kaki
+halaman per bagian tidak tertangkap pindai sehingga tidak ditampilkan penuh.

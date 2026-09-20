@@ -171,7 +171,7 @@ lurus bagi kami dalam urusan kami'"* (QS al-Kahfi [18]: 4–10).
 
 ### 3. Doa Keluar Rumah — dari Imam ash-Shadiq ('alaihissalam)
 
-> عن أبي حمزة قال: رأيت الصادق (ع) يحرّك شفتيه حين أراد أن يخرج وهو قائم
+> عن أبي حمزة قال: رأيت الصادق عليه السلام
 > على الباب، فقلت: إني رأيتك تحرّك شفتيك حين خرجت، فهل قلت شيئاً؟ قال:
 > «نَعَمْ؛ إِنَّ الْإِنْسَانَ إِذَا خَرَجَ مِنْ مَنْزِلِهِ قَالَ حِينَ يُرِيدُ
 > أَنْ يَخْرُجَ: اَللهُ أَكْبَرُ، اَللهُ أَكْبَرُ، اَللهُ أَكْبَرُ؛ بِاللهِ
@@ -197,7 +197,7 @@ atas jalan yang lurus')." *
 
 ### 4. 'Uwdzah Imam Ali bin al-Husain ('alaihimas salam) dan Kisah al-Manṣūr
 
-> عن أبي عبد الله (ع) قال: كان علي بن الحسين (ع) يقول: «مَا أُبَالِي إِذَا
+ قال: كان علي بن الحسين عليه السلام
 > قُلْتُ هَذِهِ الْكَلِمَاتِ لَوِ اجْتَمَعَ عَلَيَّ الْإِنْسُ وَالْجِنُّ:
 > بِسْمِ اللهِ وَبِاللهِ، وَمِنَ اللهِ وَإِلَى اللهِ، وَفِي سَبِيلِ اللهِ
 > وَعَلَى مِلَّةِ رَسُولِ اللهِ ﷺ؛ اَللَّهُمَّ إِلَيْكَ أَسْلَمْتُ نَفْسِي،
@@ -206,9 +206,9 @@ atas jalan yang lurus')." *
 > وَانْصُرْنِي بِجُنْدِكَ، وَأَعِنِّي بِحَوْلِكَ وَقُوَّتِكَ؛ فَإِنَّهُ لَا
 > حَوْلَ وَلَا قُوَّةَ إِلَّا بِكَ».
 > [وَفِي الْقِصَّةِ: أَنَّ أَبَا جَعْفَرٍ الْمَنْصُورَ لَمَّا أَمَرَ بِقَتْلِهِ،
-> دَخَلَ أَبُو عَبْدِ اللهِ (ع) وَقَالَ فِي نَفْسِهِ: يَا مَنْ يَكْفِي مِنْ كُلِّ
+> دَخَلَ أَبُو عَبْدِ اللهِ عليه السلام
 > شَيْءٍ وَلَا يَكْفِيهِ أَحَدٌ، اِكْفِنِي شَرَّ عَبْدِكَ هَذَا؛ فَصَارَ الْمَنْصُورُ
-> لَا يُبْصِرُهُ، وَصَارَ أَبُو عَبْدِ اللهِ (ع) لَا يَرَى شَيْئاً، وَانْصَرَفَ
+> لَا يُبْصِرُهُ، وَصَارَ أَبُو عَبْدِ اللهِ عليه السلام
 > آمِناً.]
 
 Dari Imam ash-Shadiq ('alaihissalam), Ali bin al-Husain ('alaihimas salam)
@@ -396,7 +396,7 @@ hamba-Mu ini." Maka al-Manṣur tidak dapat melihatnya, dan Abu Abdillah
 
 ### 1. Doa Nabi ﷺ ketika Duka dan Susah
 
-> عن زيد بن علي عن آبائه عن علي بن أبي طالب (ع) قال: كان النبي ﷺ إذا نزل
+> عن زيد بن علي عن آبائه عن علي بن أبي طالب (١)
 > به كرب أو هم دعا: «يَا حَيُّ يَا قَيُّومُ، يَا حَيّاً لَا يَمُوتُ، لَا إِلَهَ
 > إِلَّا أَنْتَ كَاشِفُ الْهَمِّ مُجِيبُ دَعْوَةِ الْمُضْطَرِّينَ؛ أَسْأَلُكَ
 > بِأَنَّ لَكَ الْحَمْدَ لَا إِلَهَ إِلَّا أَنْتَ الْمَنَّانُ، بَدِيعُ
@@ -663,7 +663,7 @@ silaturahim."*
 
 ## C. Keamanan dari Ketakutan
 
-> عن الصادق (ع): «تَنْتَصِبُ قَائِماً أَوْ سَاجِداً وَأَنْتَ طَاهِرٌ وَتَقُولُ:
+> عن الصادق (١)
 > [أَسْأَلُكَ بِأَسْمَائِكَ الَّتِي] … وَتَقْرَأُ (سُورَةَ التَّوْحِيدِ) ثَلَاثاً
 > وَتَقُولُ: مِنْ فَوْقِهِمْ وَعَنْ فَوْقِنَا؛ ثُمَّ ثَلَاثاً: عَنْ أَيْمَانِهِمْ
 > وَعَنْ أَيْمَانِنَا؛ ثُمَّ ثَلَاثاً: عَنْ شَمَائِلِهِمْ وَعَنْ شَمَائِلِنَا؛
@@ -925,3 +925,15 @@ anugerah, kekuatan, dan daya, dan Engkau Mahakuasa atas segala sesuatu).
 ✅ **Bab 8 selesai.**
 
 ➡️ Lanjut ke [Bab 9 — Doa terhadap musuh dan orang zalim, serta keselamatan dari jin](17-bab-09-musuh-dan-jin.md)
+
+---
+
+## Catatan kaki edisi cetak
+
+Pada cetakan asli (Mu'assasat al-A'lami, Beirut), tanda kurung setelah nama
+Nabi/Imam berisi **nomor catatan kaki** (angka Arab ١، ٢، …) yang merujuk daftar
+sumber di kaki halaman — untuk bab-bab pengobatan umumnya *Makārim al-Akhlāq*,
+dan untuk bab-bab selanjutnya antara lain *Ṭibb al-A'immah*, *Miṣbā*,
+*Mafātīḥ al-Jinān*, *Biḥār al-Anwār*, *Ḍiyā' aṣ-Ṣāliḥīn*. Dokumen ini memulihkan
+penomoran tersebut sesuai urutan kemunculan pada cetakan; rincian daftar kaki
+halaman per bagian tidak tertangkap pindai sehingga tidak ditampilkan penuh.

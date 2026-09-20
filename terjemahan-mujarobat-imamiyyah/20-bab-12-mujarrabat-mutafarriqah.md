@@ -335,3 +335,15 @@ Kumpulan ayat-ayat pengusiran; ditulis pada empat batang/lembar untuk empat sudu
 >
 > ---
 > **Catatan penutup penerjemah**: Terjemahan ini ditujukan untuk kajian keagamaan dan ruhani, bukan pengganti pengobatan medis. Untuk penyakit fisik, dahulukan ikhtiar medis; doa dan wirid adalah penyerta, bukan pengganti. Angka-angka wirid dan khasiat dalam kitab ini mengikuti apa yang dinukil Mughniyah dari kitab-kitab terdahulu; kebenarannya dikembalikan kepada Allah dan pembaca menyikapinya dengan bijak.
+
+---
+
+## Catatan kaki edisi cetak
+
+Pada cetakan asli (Mu'assasat al-A'lami, Beirut), tanda kurung setelah nama
+Nabi/Imam berisi **nomor catatan kaki** (angka Arab ١، ٢، …) yang merujuk daftar
+sumber di kaki halaman — untuk bab-bab pengobatan umumnya *Makārim al-Akhlāq*,
+dan untuk bab-bab selanjutnya antara lain *Ṭibb al-A'immah*, *Miṣbā*,
+*Mafātīḥ al-Jinān*, *Biḥār al-Anwār*, *Ḍiyā' aṣ-Ṣāliḥīn*. Dokumen ini memulihkan
+penomoran tersebut sesuai urutan kemunculan pada cetakan; rincian daftar kaki
+halaman per bagian tidak tertangkap pindai sehingga tidak ditampilkan penuh.

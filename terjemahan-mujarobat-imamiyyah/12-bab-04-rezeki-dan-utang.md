@@ -96,7 +96,7 @@ sesuai kebutuhannya.
 
 ### 5. Surah Nuh dan Surah al-Qadr — Kisah Ibnu 'Amr al-Ḥadzdza'
 
-> عن ابن عمرو الحذاء قال: ساءت حالي فكتبت إلى أبي جعفر (ع)، فكتب إليّ:
+> عن ابن عمرو الحذاء قال: ساءت حالي فكتبت إلى أبي جعفر عليه السلام
 > «أَدِمْ قِرَاءَةَ ﴿إِنَّا أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِ﴾». قَالَ:
 > فَقَرَأْتُهَا حَوْلًا فَلَمْ أَرَ شَيْئاً، فَكَتَبْتُ إِلَيْهِ أُخْبِرُهُ
 > بِسُوءِ حَالِي وَأَنِّي قَدْ قَرَأْتُ (إِنَّا أَرْسَلْنَا نُوحاً) حَوْلًا
@@ -239,7 +239,7 @@ dan memberiku tunjangan lima ratus dirham.
 
 ### 1. Shalat dan Doa untuk Orang yang Berutang
 
-> عن أبي جعفر الباقر (ع) قال: جاء رجل إلى النبي ﷺ فقال: يا رسول الله، إني
+> عن أبي جعفر الباقر (١)
 > ذو عيال وعليّ دين وقد اشتدت حالي، فعلمني دعاءً أدعو الله عز وجل به
 > ليرزقني ما أقضي به ديني وأستعين به على عيالي. فقال رسول الله ﷺ: «يَا
 > عَبْدَ اللهِ، تَوَضَّأْ وَأَسْبِغْ وُضُوءَكَ، ثُمَّ صَلِّ رَكْعَتَيْنِ تُتِمُّ
@@ -290,7 +290,7 @@ kepada-Mu rezeki yang luas, baik, dan menghimpun dunia dan akhirat)."*
 
 ### 2. Doa Imam ash-Shadiq ('alaihissalam) — Rezeki Tanggungan Allah
 
-> عن الصادق (ع) قال: «قُلْ: اَللَّهُمَّ إِنَّكَ تَكَفَّلْتَ بِرِزْقِي وَرِزْقِ
+> عن الصادق (١)
 > كُلِّ دَابَّةٍ؛ يَا خَيْرَ مَدْعُوٍّ وَيَا خَيْرَ مَنْ أَعْطَى وَيَا خَيْرَ
 > مَنْ سُئِلَ وَيَا أَفْضَلَ مُرْتَجًى، افْعَلْ بِي كَذَا وَكَذَا». وَقَالَ:
 > «ادْعُ فِي طَلَبِ الرِّزْقِ فِي الْمَكْتُوبَةِ وَأَنْتَ سَاجِدٌ: يَا خَيْرَ
@@ -314,7 +314,7 @@ karunia yang agung)."*
 
 ### 3. Doa Mu'awiyah bin 'Ammār
 
-> عن معاوية بن عمار قال: سألت أبا عبد الله (ع) أن يعلمني دعاءً للرزق،
+> عن معاوية بن عمار قال: سألت أبا عبد الله (١)
 > فعلمني ما رأيت أجلب منه للرزق، قال: «قُلْ: اَللَّهُمَّ ارْزُقْنِي مِنْ
 > فَضْلِكَ الْوَاسِعِ الْحَلَالِ الطَّيِّبِ رِزْقاً وَاسِعاً حَلَالاً طَيِّباً
 > بَلَاغاً لِلدُّنْيَا وَالْآخِرَةِ، صَبّاً صَبّاً هَنِيئاً مَرِيئاً، مِنْ غَيْرِ
@@ -472,8 +472,8 @@ arah yang tidak disangka-sangkanya').
 
 ### 1. Wirid Setelah Subuh — Kisah Abu al-Qamqām
 
-> كان بالمدينة رجل يكنى أبا القمقام وكان محارَفاً، فأتى أبا الحسن (ع) فشكا
-> إليه حرفته، فقال له (ع): «قُلْ فِي آخِرِ دُعَائِكَ مِنْ صَلَاةِ الْفَجْرِ:
+> كان بالمدينة رجل يكنى أبا القمقام وكان محارَفاً، فأتى أبا الحسن عليه السلام
+> إليه حرفته، فقال له (١)
 > سُبْحَانَ اللهِ الْعَظِيمِ وَبِحَمْدِهِ، أَسْتَغْفِرُ اللهَ وَأَسْأَلُهُ مِنْ
 > فَضْلِهِ — عَشْرَ مَرَّاتٍ». قَالَ أَبُو الْقَمْقَامِ: فَلَزِمْتُ ذَلِكَ،
 > فَوَاللهِ مَا لَبِثْتُ إِلَّا قَلِيلًا حَتَّى وَرَدَ عَلَيَّ قَوْمٌ مِنَ
@@ -623,3 +623,15 @@ Maha Mulia).
 ✅ **Bab 4 selesai.**
 
 ➡️ Lanjut ke [Bab 5 — Penjagaan dari 'Ain (pandangan mata jahat)](13-bab-05-ain.md)
+
+---
+
+## Catatan kaki edisi cetak
+
+Pada cetakan asli (Mu'assasat al-A'lami, Beirut), tanda kurung setelah nama
+Nabi/Imam berisi **nomor catatan kaki** (angka Arab ١، ٢، …) yang merujuk daftar
+sumber di kaki halaman — untuk bab-bab pengobatan umumnya *Makārim al-Akhlāq*,
+dan untuk bab-bab selanjutnya antara lain *Ṭibb al-A'immah*, *Miṣbā*,
+*Mafātīḥ al-Jinān*, *Biḥār al-Anwār*, *Ḍiyā' aṣ-Ṣāliḥīn*. Dokumen ini memulihkan
+penomoran tersebut sesuai urutan kemunculan pada cetakan; rincian daftar kaki
+halaman per bagian tidak tertangkap pindai sehingga tidak ditampilkan penuh.

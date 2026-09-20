@@ -42,29 +42,43 @@ Dokumen ini adalah gabungan utuh seluruh terjemahan kitab: **mukadimah, Bab 1–
 
 # Mukadimah Penulis & Adab Orang Sakit dan Penjenguk
 
+> Catatan edisi: Pada cetakan asli (Mu'assasat al-A'lami, Beirut), tanda kurung
+> setelah nama Nabi/Imam berisi **nomor catatan kaki** (angka Arab ١، ٢، …) yang
+> merujuk daftar sumber di kaki halaman. Dokumen ini memulihkan nomor-nomor
+> tersebut sesuai urutan cetakan; sumber yang rusak pada pindaian ditandai.
+
 ## 1. Mukadimah Penulis
 
 ### Teks Arab
 
 > القرآن الكريم فيه من الآيات البيّنات، آيٌ واضحة وصريحة تؤكد أن فيه شفاءً
 > للمؤمنين بإذن الله تعالى، كقوله عزّ وجلّ: ﴿وَنُنَزِّلُ مِنَ الْقُرْآنِ مَا هُوَ
-> شِفَاءٌ وَرَحْمَةٌ لِلْمُؤْمِنِينَ﴾، وقوله تعالى: ﴿يَا أَيُّهَا النَّاسُ قَدْ
+> شِفَاءٌ وَرَحْمَةٌ لِلْمُؤْمِنِينَ﴾ (١)، وقوله تعالى: ﴿يَا أَيُّهَا النَّاسُ قَدْ
 > جَاءَتْكُمْ مَوْعِظَةٌ مِنْ رَبِّكُمْ وَشِفَاءٌ لِمَا فِي الصُّدُورِ وَهُدًى
-> وَرَحْمَةٌ لِلْمُؤْمِنِينَ﴾، وقوله تعالى: ﴿وَلَوْ جَعَلْنَاهُ قُرْآنًا أَعْجَمِيًّا
+> وَرَحْمَةٌ لِلْمُؤْمِنِينَ﴾ (٢)، وقوله تعالى: ﴿وَلَوْ جَعَلْنَاهُ قُرْآنًا أَعْجَمِيًّا
 > لَقَالُوا لَوْلَا فُصِّلَتْ آيَاتُهُ أَأَعْجَمِيٌّ وَعَرَبِيٌّ قُلْ هُوَ لِلَّذِينَ
-> آمَنُوا هُدًى وَشِفَاءٌ﴾.
+> آمَنُوا هُدًى وَشِفَاءٌ﴾ (٣).
 >
 > وكذلك الدعاء والتوسّل بالله تعالى والاستعاذة بأسمائه عزّ وجلّ كما ورد عن
 > الرسول الكريم ﷺ وعن الأئمة الأطهار سلام الله عليهم أجمعين، فهي من
 > المجربات عند كثير من المؤمنين، حيث أدّت إلى شفائهم بقدرة الباري عزّ وجلّ.
 >
-> فعن النبي ﷺ أنه قال: «مَنْ لَمْ يَسْتَشْفِ بِالْقُرْآنِ فَلَا شَفَاهُ اللهُ».
+> فعن النبي (٤) أنه قال: «مَنْ لَمْ يَسْتَشْفِ بِالْقُرْآنِ فَلَا شَفَاهُ اللهُ».
 >
-> وعنه ﷺ أنه قال: «أَلَا أَدُلُّكُمْ عَلَى سِلَاحٍ يُنْجِيكُمْ مِنْ أَعْدَائِكُمْ
+> وعنه (٥) أنه قال: «أَلَا أَدُلُّكُمْ عَلَى سِلَاحٍ يُنْجِيكُمْ مِنْ أَعْدَائِكُمْ
 > وَيُدِرُّ أَرْزَاقَكُمْ؟ قَالُوا: بَلَى. قَالَ: تَدْعُونَ رَبَّكُمْ بِاللَّيْلِ
 > وَالنَّهَارِ، فَإِنَّ سِلَاحَ الْمُؤْمِنِ الدُّعَاءُ».
 >
-> وعن أبي عبد الله (ع) قال: «عَلَيْكُمْ بِالدُّعَاءِ فَإِنَّهُ شِفَاءٌ مِنْ كُلِّ دَاءٍ».
+> وعن أبي عبد الله (٦) قال: «عَلَيْكُمْ بِالدُّعَاءِ فَإِنَّهُ شِفَاءٌ مِنْ كُلِّ دَاءٍ».
+
+### Catatan kaki cetakan asli
+
+> (١) سورة الإسراء، الآية ٨٢.
+> (٢) سورة يونس، الآية ٥٧.
+> (٣) سورة فصلت، الآية ٤٤.
+> (٤) الكافي، ج٢، ص ٤٧١ [angka halaman samar pada pindai].
+> (٥) مكارم الأخلاق [nomor halaman tidak terbaca pada pindai].
+> (٦) الكافي، ج٣، ص ١٤٦ [angka halaman samar pada pindai].
 
 ### Terjemahan
 
@@ -72,14 +86,14 @@ Di dalam Al-Qur'an Al-Karim terdapat ayat-ayat yang jelas lagi gamblang, yang
 tegas menegaskan bahwa padanya terdapat **kesembuhan bagi orang-orang beriman**
 dengan izin Allah Ta'ala. Di antaranya firman-Nya 'Azza wa Jalla: *"Dan Kami
 turunkan dari Al-Qur'an sesuatu yang menjadi penyembuh dan rahmat bagi
-orang-orang yang beriman"* (QS al-Isra' [17]: 82); firman-Nya Ta'ala: *"Wahai
-manusia! Sungguh telah datang kepadamu pelajaran dari Tuhanmu, penyembuh bagi
-penyakit yang ada dalam dada, petunjuk, dan rahmat bagi orang-orang beriman"*
-(QS Yunus [10]: 57); dan firman-Nya Ta'ala: *"Dan seandainya Kami menjadikannya
-bacaan dalam bahasa selain Arab, niscaya mereka berkata, 'Mengapa tidak
-dijelaskan ayat-ayatnya? Apakah patut bahasa asing sedang (rasul adalah) orang
-Arab?' Katakanlah, 'Al-Qur'an itu adalah petunjuk dan penyembuh bagi orang-orang
-yang beriman'"* (QS Fushshilat [41]: 44).
+orang-orang yang beriman"* (١ — QS al-Isra' [17]: 82); firman-Nya Ta'ala:
+*"Wahai manusia! Sungguh telah datang kepadamu pelajaran dari Tuhanmu, penyembuh
+bagi penyakit yang ada dalam dada, petunjuk, dan rahmat bagi orang-orang
+beriman"* (٢ — QS Yunus [10]: 57); dan firman-Nya Ta'ala: *"Dan seandainya Kami
+menjadikannya bacaan dalam bahasa selain Arab, niscaya mereka berkata, 'Mengapa
+tidak dijelaskan ayat-ayatnya? Apakah patut bahasa asing sedang (rasul adalah)
+orang Arab?' Katakanlah, 'Al-Qur'an itu adalah petunjuk dan penyembuh bagi
+orang-orang yang beriman'"* (٣ — QS Fushshilat [41]: 44).
 
 Demikian pula **doa, bertawasul kepada Allah Ta'ala, dan memohon perlindungan
 dengan nama-nama-Nya 'Azza wa Jalla**, sebagaimana telah diriwayatkan dari
@@ -88,22 +102,18 @@ semua). Semua itu termasuk perkara yang telah **teruji kemanfaatannya**
 (mujarrab) di kalangan banyak orang beriman, sebab mengantarkan mereka kepada
 kesembuhan dengan kekuasaan Sang Pencipta 'Azza wa Jalla.
 
-Dari Nabi ﷺ, beliau bersabda: *"Barang siapa tidak berobat-memohon kesembuhan
+Dari Nabi (٤), beliau bersabda: *"Barang siapa tidak berobat-memohon kesembuhan
 dengan Al-Qur'an, maka Allah tidak akan menyembuhkannya."*
 
-Dari beliau ﷺ pula, beliau bersabda: *"Maukah kutunjukkan kepada kalian sebuah
+Dari beliau (٥) pula, beliau bersabda: *"Maukah kutunjukkan kepada kalian sebuah
 senjata yang menyelamatkan kalian dari musuh-musuh kalian dan melancarkan
 rezeki-rezeki kalian?" Mereka menjawab, "Tentu." Beliau bersabda, "Berdoalah
 kalian kepada Tuhan kalian di waktu malam dan siang, karena sesungguhnya senjata
 orang mukmin adalah doa."*
 
-Dari Abu Abdillah (Imam Ja'far ash-Shadiq 'alaihissalam), beliau berkata:
+Dari Abu Abdillah (٦ — Imam Ja'far ash-Shadiq), beliau berkata:
 *"Hendaklah kalian berpegang pada doa, karena sesungguhnya ia adalah kesembuhan
 dari segala penyakit."*
-
-> Catatan: Rujukan hadis-hadis mukadimah ini pada cetakan asli tercantum antara
-> lain dalam *Makārim al-Akhlāq* dan *al-Kāfī*; sebagian nomor halaman tidak
-> terbaca pada sumber pindai.
 
 ---
 
@@ -111,94 +121,99 @@ dari segala penyakit."*
 
 ### Teks Arab
 
-> عن أبي عبد الله (ع) قال: «مَنِ اشْتَكَى لَيْلَةً فَقَبِلَهَا بِقَبُولِهَا
+> عن أبي عبد الله (١) قال: «مَنِ اشْتَكَى لَيْلَةً فَقَبِلَهَا بِقَبُولِهَا
 > وَأَدَّى إِلَى اللهِ شُكْرَهَا كَانَتْ لَهُ كَفَّارَةَ سِتِّينَ سَنَةً».
 > قِيلَ: «وَمَا قَبِلَهَا بِقَبُولِهَا؟» قَالَ: «صَبَرَ عَلَى مَا كَانَ فِيهَا».
 >
-> عن الباقر (ع) قال: «سَهَرُ لَيْلَةٍ مِنْ مَرَضٍ أَفْضَلُ مِنْ عِبَادَةِ سَنَةٍ».
+> عن الباقر (٢) قال: «سَهَرُ لَيْلَةٍ مِنْ مَرَضٍ أَفْضَلُ مِنْ عِبَادَةِ سَنَةٍ».
 >
-> عن أبي عبد الله (ع) قال: «صُدَاعُ لَيْلَةٍ يَحُطُّ كُلَّ خَطِيئَةٍ إِلَّا
+> عن أبي عبد الله (٣) قال: «صُدَاعُ لَيْلَةٍ يَحُطُّ كُلَّ خَطِيئَةً إِلَّا
 > الْكَبَائِرَ».
 >
-> عن أبي إبراهيم (ع) قال: قال رسول الله ﷺ: «لِلْمَرِيضِ [يُكْتَبُ لَهُ مِنَ
+> عن أبي إبراهيم (٤) قال: قال رسول الله: «لِلْمَرِيضِ [يُكْتَبُ لَهُ مِنَ
 > الْأَجْرِ مِثْلُ مَا كَانَ يَعْمَلُ] فِي صِحَّتِهِ، وَيَتْبَعُ مَرَضَهُ كُلُّ
 > عُضْوٍ فِي جَسَدِهِ فَيَسْتَخْرِجُ ذُنُوبَهُ مِنْهُ؛ فَإِنْ مَاتَ مَاتَ
 > مَغْفُوراً لَهُ، وَإِنْ عَاشَ عَاشَ مَغْفُوراً لَهُ».
 >
-> **في الصبر على المرض:** رُوي عن أمير المؤمنين (ع) أنه قال: «الْمَرَضُ لَا
+> **في الصبر على المرض:** رُوي عن أمير المؤمنين (٥) أنه قال: «الْمَرَضُ لَا
 > أَجْرَ فِيهِ، وَلَكِنْ لَا يَدَعُ ذَنْباً إِلَّا حَطَّهُ؛ وَإِنَّمَا الْأَجْرُ
 > بِالْقَوْلِ وَاللِّسَانِ وَالْعَمَلِ بِالْيَدِ وَالرِّجْلِ، وَإِنَّ اللهَ تَعَالَى
 > لَيُدْخِلُ بِصِدْقِ النِّيَّةِ وَالسَّرِيرَةِ الْخَالِصَةِ جَمّاً مِنْ عِبَادِهِ
 > الْجَنَّةَ».
 >
-> **في عيادة المريض:** قال النبي ﷺ: «مِنْ حَقِّ الْمُسْلِمِ عَلَى الْمُسْلِمِ
-> إِذَا لَقِيَهُ أَنْ يُسَلِّمَ عَلَيْهِ، وَإِذَا مَرِضَ أَنْ يَعُودَهُ، وَإِذَا
+> **في عيادة المريض:** قال النبي (١): «مِنْ حَقِّ الْمُسْلِمِ عَلَى الْمُسْلِمِ
+> إِذَا لَقِيَهُ أَنْ يُسَلِّمَ عَلَيْهِ، وَإذَا مَرِضَ أَنْ يَعُودَهُ، وَإذَا
 > مَاتَ أَنْ يُشَيِّعَ جِنَازَتَهُ».
 >
-> وقال ﷺ: «تَمَامُ عِيَادَةِ الْمَرِيضِ أَنْ يَضَعَ أَحَدُكُمْ يَدَهُ عَلَيْهِ
+> وقال (٢): «تَمَامُ عِيَادَةِ الْمَرِيضِ أَنْ يَضَعَ أَحَدُكُمْ يَدَهُ عَلَيْهِ
 > وَيَسْأَلَهُ: كَيْفَ أَنْتَ؟ كَيْفَ أَصْبَحْتَ وَكَيْفَ أَمْسَيْتَ؟ وَتَمَامُ
 > تَحِيَّتِكُمُ الْمُصَافَحَةُ».
 >
-> وعن الصادق (ع) قال: إن أمير المؤمنين (ع) قال: «إِنَّ مِنْ أَعْظَمِ الْعَوَّادِ
+> وعن الصادق (٣) قال: إن أمير المؤمنين قال: «إِنَّ مِنْ أَعْظَمِ الْعَوَّادِ
 > أَجْراً عِنْدَ اللهِ لَمَنْ إِذَا عَادَ خَفَّفَ الْجُلُوسَ، إِلَّا أَنْ يَكُونَ
 > الْمَرِيضُ يُرِيدُ ذَلِكَ وَيُحِبُّ ذَلِكَ».
 >
-> وعن الباقر (ع) قال: كان فيما ناجى به موسى (ع) ربه أنه قال: «يَا رَبِّ، مَا
+> وعن الباقر (٤) قال: كان فيما ناجى به موسى ربه أنه قال: «يَا رَبِّ، مَا
 > بَلَغَ مِنْ عِيَادَةِ الْمَرِيضِ مِنَ الْأَجْرِ؟» فَقَالَ اللهُ عَزَّ وَجَلَّ:
 > «أُوَكِّلُ بِهِ مَلَكاً يَعُودُهُ فِي قَبْرِهِ إِلَى مَحْشَرِهِ».
 
+### Catatan kaki cetakan asli
+
+> (١ - ٥) مكارم الأخلاق، ص ٣٤٣ – ٣٤٧ [sebagian angka halaman tidak terbaca pada pindai].
+> (١ - ٤) مكارم الأخلاق، ص ٣٤ – ٣٧ [sebagian angka halaman tidak terbaca pada pindai].
+
 ### Terjemahan
 
-Dari Abu Abdillah (Imam ash-Shadiq 'alaihissalam), beliau berkata: *"Barang
+Dari Abu Abdillah (١ — Imam ash-Shadiq), beliau berkata: *"Barang
 siapa jatuh sakit semalam lalu ia menerimanya dengan penerimaan yang semestinya
 dan menunaikan syukurnya kepada Allah atas malam itu, maka sakitnya menjadi
 penghapus (kafarat) dosa enam puluh tahun." Beliau ditanya, "Apa artinya
 menerimanya dengan penerimaan yang semestinya?" Beliau menjawab, "Yaitu ia
 bersabar atas apa pun yang terjadi di dalamnya."*
 
-Dari Imam al-Baqir ('alaihissalam), beliau berkata: *"Begadang semalam karena
+Dari Imam al-Baqir (٢), beliau berkata: *"Begadang semalam karena
 sakit lebih utama daripada ibadah setahun."*
 
-Dari Abu Abdillah ('alaihissalam), beliau berkata: *"Sakit kepala semalam
+Dari Abu Abdillah (٣), beliau berkata: *"Sakit kepala semalam
 menggugurkan setiap dosa selain dosa-dosa besar."*
 
-Dari Abu Ibrahim (Imam Musa al-Kazhim 'alaihissalam), beliau berkata: Rasulullah
-ﷺ bersabda: *"Bagi orang sakit [dituliskan pahala seperti amal yang biasa ia
+Dari Abu Ibrahim (٤ — Imam Musa al-Kazhim), beliau berkata: Rasulullah
+bersabda: *"Bagi orang sakit [dituliskan pahala seperti amal yang biasa ia
 kerjakan] di masa sehatnya, dan sakitnya itu menelusuri setiap anggota tubuhnya
 lalu mengeluarkan dosa-dosanya darinya; jika ia meninggal, ia meninggal dalam
 keadaan diampuni; dan jika ia sembuh, ia hidup dalam keadaan diampuni."*
 
-**Tentang bersabar atas sakit:** Diriwayatkan dari Amirul Mukminin (Imam Ali
-'alaihissalam) bahwa beliau berkata: *"Sakit itu sendiri tidak mengandung
+**Tentang bersabar atas sakit:** Diriwayatkan dari Amirul Mukminin (٥ — Imam Ali)
+bahwa beliau berkata: *"Sakit itu sendiri tidak mengandung
 pahala, namun ia tidak menyisakan satu dosa pun kecuali digugurkannya. Pahala
 itu hanya pada ucapan lisan dan amal tangan serta kaki. Dan sesungguhnya Allah
 Ta'ala, berkat kejujuran niat dan batin yang tulus, memasukkan banyak sekali
 hamba-Nya ke dalam surga."*
 
-**Tentang menjenguk orang sakit:** Nabi ﷺ bersabda: *"Termasuk hak seorang
+**Tentang menjenguk orang sakit:** Nabi (١) bersabda: *"Termasuk hak seorang
 muslim atas muslim lainnya: apabila ia bertemu dengannya hendaklah ia
 mengucapakan salam; apabila ia sakit hendaklah ia menjenguknya; dan apabila ia
 meninggal hendaklah ia mengantarkan jenazahnya."*
 
-Beliau ﷺ juga bersabda: *"Sempurnanya menjenguk orang sakit ialah salah seorang
+Beliau (٢) juga bersabda: *"Sempurnanya menjenguk orang sakit ialah salah seorang
 di antara kalian meletakkan tangannya pada si sakit dan bertanya: 'Bagaimana
 keadaanmu? Bagaimana pagimu? Bagaimana malammu?' Dan sempurnanya penghormatan di
 antara kalian adalah berjabat tangan."*
 
-Dari Imam ash-Shadiq ('alaihissalam), beliau berkata: Amirul Mukminin
-('alaihissalam) bersabda: *"Termasuk penjenguk yang paling besar pahalanya di
+Dari Imam ash-Shadiq (٣), beliau berkata: Amirul Mukminin
+bersabda: *"Termasuk penjenguk yang paling besar pahalanya di
 sisi Allah ialah orang yang apabila menjenguk, ia mempersingkat duduknya —
 kecuali bila si sakit justru menginginkan dan menyenangi (kedatangannya yang
 lama)."*
 
-Dari Imam al-Baqir ('alaihissalam), beliau berkata: Di antara munajat Nabi Musa
-('alaihissalam) kepada Tuhannya, ia berkata: *"Wahai Tuhanku, seberapa besar
+Dari Imam al-Baqir (٤), beliau berkata: Di antara munajat Nabi Musa
+kepada Tuhannya, ia berkata: *"Wahai Tuhanku, seberapa besar
 pahala menjenguk orang sakit?" Maka Allah 'Azza wa Jalla berfirman: "Aku
 utus/serahkan seorang malaikat yang menemaninya di kuburnya hingga ke tempat
 berkumpulnya (mahsyar)."*
 
 > Catatan: Sumber riwayat-riwayat bab ini dalam cetakan asli: *Makārim
-> al-Akhlāq* (sekitar h. 343–348); sebagian redaksi hadis rusak pada sumber
+> al-Akhlāq* (sekitar h. 343–347); sebagian redaksi hadis rusak pada sumber
 > pindai dan telah direkonstruksi dari sumber-sumber rujukan tersebut. Tanda
 > [kurung siku] menunjukkan bagian yang direkonstruksi.
 
@@ -214,40 +229,45 @@ berkumpulnya (mahsyar)."*
 
 ### Teks Arab
 
-> قال النبي ﷺ: «مَنْ لَمْ يَسْتَشْفِ بِالْقُرْآنِ فَلَا شَفَاهُ اللهُ».
+> قال النبي (١): «مَنْ لَمْ يَسْتَشْفِ بِالْقُرْآنِ فَلَا شَفَاهُ اللهُ».
 >
-> وقال الصادق (ع): «مَنْ قَرَأَ مِائَةَ آيَةٍ مِنْ أَيِّ آيِ الْقُرْآنِ شَاءَ ثُمَّ
+> وقال الصادق (٢): «مَنْ قَرَأَ مِائَةَ آيَةٍ مِنْ أَيِّ آيِ الْقُرْآنِ شَاءَ ثُمَّ
 > قَالَ سَبْعَ مَرَّاتٍ: يَا اللهُ، فَلَوْ دَعَا عَلَى الصُّخُورِ فَلَقَهَا».
 >
-> عن ابن الحسن (ع) قال: «إِذَا خِفْتَ أَمْراً فَاقْرَأْ مِائَةَ آيَةٍ مِنَ
+> عن ابن الحسن (٣) قال: «إِذَا خِفْتَ أَمْراً فَاقْرَأْ مِائَةَ آيَةٍ مِنَ
 > الْقُرْآنِ مِنْ حَيْثُ شِئْتَ، ثُمَّ قُلْ: اللهُمَّ اكْشِفْ عَنِّي الْبَلَاءَ —
 > ثَلَاثَ مَرَّاتٍ».
 >
-> عن الكاظم (ع) أنه قال: «مَنِ اسْتَكْفَى بِآيَةٍ مِنَ الْقُرْآنِ مِنَ الْمَشْرِقِ
+> عن الكاظم (٤) أنه قال: «مَنِ اسْتَكْفَى بِآيَةٍ مِنَ الْقُرْآنِ مِنَ الْمَشْرِقِ
 > إِلَى الْمَغْرِبِ كُفِيَ، إِذَا كَانَ بِيَقِينٍ».
 >
-> وعنه (ع) أنه قال: «فِي الْقُرْآنِ شِفَاءٌ مِنْ كُلِّ دَاءٍ».
+> وعنه (٥) أنه قال: «فِي الْقُرْآنِ شِفَاءٌ مِنْ كُلِّ دَاءٍ».
+
+### Catatan kaki cetakan asli
+
+> (١ - ٥) Daftar sumber pada kaki halaman cetakan tidak tertangkap pindai;
+> penomoran di atas mengikuti urutan kemunculan pada cetakan asli.
 
 ### Terjemahan
 
-Nabi ﷺ bersabda: *"Barang siapa tidak memohon kesembuhan dengan Al-Qur'an, maka
+Nabi (١) bersabda: *"Barang siapa tidak memohon kesembuhan dengan Al-Qur'an, maka
 Allah tidak akan menyembuhkannya."*
 
-Imam ash-Shadiq ('alaihissalam) berkata: *"Barang siapa membaca seratus ayat
+Imam ash-Shadiq (٢) berkata: *"Barang siapa membaca seratus ayat
 dari bagian mana saja Al-Qur'an yang ia kehendaki, kemudian mengucapkan tujuh
 kali: 'Yā Allāh' (Wahai Allah), maka seandainya ia berdoa (dengan wasilah itu)
 atas batu-batu besar, niscaya batu-batu itu terbelah."*
 
-Dari Ibn al-Hasan ('alaihissalam), beliau berkata: *"Apabila
+Dari Ibn al-Hasan (٣), beliau berkata: *"Apabila
 engkau takut akan suatu perkara, bacalah seratus ayat Al-Qur'an dari bagian mana
 saja yang engkau kehendaki, kemudian ucapkanlah: 'Allāhummaksyif 'annī
 al-balāʾ' (Ya Allah, singkaplah dariku bala/bencana) — tiga kali."*
 
-Dari Imam al-Kazhim ('alaihissalam), beliau berkata: *"Barang siapa memohon
+Dari Imam al-Kazhim (٤), beliau berkata: *"Barang siapa memohon
 kecukupan dengan satu ayat Al-Qur'an dari timur hingga barat, ia akan dicukupi —
 apabila ia melakukannya dengan penuh keyakinan."*
 
-Dari beliau ('alaihissalam) pula: *"Di dalam Al-Qur'an terdapat kesembuhan dari
+Dari beliau (٥) pula: *"Di dalam Al-Qur'an terdapat kesembuhan dari
 segala penyakit."*
 
 ---
@@ -547,15 +567,15 @@ surah-surah tertentu untuk kesembuhan dan penjagaan.
 
 ### Teks Arab
 
-> روي عن العالم (ع) أنه قال: «مَنْ نَالَتْهُ عِلَّةٌ فَلْيَقْرَأْ عَلَيْهَا أُمَّ
+> روي عن العالم (١) أنه قال: «مَنْ نَالَتْهُ عِلَّةٌ فَلْيَقْرَأْ عَلَيْهَا أُمَّ
 > الْكِتَابِ سَبْعَ مَرَّاتٍ، فَإِنْ سَكَنَتْ، وَإِلَّا فَلْيَقْرَأْهَا سَبْعِينَ
 > مَرَّةً، فَإِنَّهَا تَسْكُنُ».
 >
-> روي عن النبي ﷺ أنه قال في «الْحَمْدُ لِلَّهِ» — سبع مرات —: «شِفَاءٌ مِنْ كُلِّ
+> روي عن النبي (٢) أنه قال في «الْحَمْدُ لِلَّهِ» — سبع مرات —: «شِفَاءٌ مِنْ كُلِّ
 > دَاءٍ، إِنْ عُوِّذَ بِهَا صَاحِبُهَا مِائَةَ مَرَّةٍ وَكَانَ الرُّوحُ قَدْ خَرَجَ
 > مِنَ الْجَسَدِ [لَرُدَّ إِلَيْهِ]».
 >
-> وروي عن أبي عبد الله (ع) أنه قال: «لَوْ قَرَأْتَ الْحَمْدَ عَلَى مَيِّتٍ
+> وروي عن أبي عبد الله (٣) أنه قال: «لَوْ قَرَأْتَ الْحَمْدَ عَلَى مَيِّتٍ
 > سَبْعِينَ مَرَّةً ثُمَّ رُدَّتْ فِيهِ الرُّوحُ مَا كَانَ عَجَباً».
 
 ### Terjemahan
@@ -584,21 +604,21 @@ mengherankan."*
 
 ### Teks Arab
 
-> عن الباقر (ع) قال: «إِذَا كَانَتْ بِكَ عِلَّةٌ تَتَخَوَّفُ عَلَى نَفْسِكَ
+> عن الباقر (١) قال: «إِذَا كَانَتْ بِكَ عِلَّةٌ تَتَخَوَّفُ عَلَى نَفْسِكَ
 > مِنْهَا فَاقْرَأْ سُورَةَ الْأَنْعَامِ، فَإِنَّهُ لَا يَنَالُكَ مِنْ تِلْكَ
 > الْعِلَّةِ مَا تَكْرَهُ».
 >
-> عنه (ع) قال: «مَنْ قَرَأَ سُورَةَ النَّحْلِ فِي كُلِّ شَهْرٍ كُفِيَ الْمَغْرَمَ
+> عنه (٢) قال: «مَنْ قَرَأَ سُورَةَ النَّحْلِ فِي كُلِّ شَهْرٍ كُفِيَ الْمَغْرَمَ
 > فِي الدُّنْيَا وَسَبْعِينَ نَوْعاً مِنْ أَنْوَاعِ الْبَلَاءِ، أَهْوَنُهَا
 > الْجُنُونُ وَالْجُذَامُ وَالْبَرَصُ». وَفِي رِوَايَةٍ: «لِلتَّحَرُّزِ مِنْ
 > إِبْلِيسَ وَجُنُودِهِ وَأَشْيَاعِهِ».
 >
-> وعنه (ع) قال: «مَنْ قَرَأَ سُورَةَ لُقْمَانَ فِي كُلِّ لَيْلَةٍ وَكَّلَ اللهُ
+> وعنه (٣) قال: «مَنْ قَرَأَ سُورَةَ لُقْمَانَ فِي كُلِّ لَيْلَةٍ وَكَّلَ اللهُ
 > عَزَّ وَجَلَّ بِهِ فِي لَيْلَتِهِ مَلَائِكَةً يَحْفَظُونَهُ مِنْ إِبْلِيسَ
 > وَجُنُودِهِ حَتَّى يُصْبِحَ؛ فَإِنْ قَرَأَهَا بِالنَّهَارِ لَمْ يَزَالُوا
 > يَحْفَظُونَهُ مِنْ إِبْلِيسَ وَجُنُودِهِ حَتَّى يُمْسِيَ».
 >
-> عن أبي عبد الله (ع) قال: «إِنَّ لِكُلِّ شَيْءٍ قَلْباً، وَقَلْبُ الْقُرْآنِ
+> عن أبي عبد الله (٤) قال: «إِنَّ لِكُلِّ شَيْءٍ قَلْباً، وَقَلْبُ الْقُرْآنِ
 > (يس)؛ فَمَنْ قَرَأَ (يس) قَبْلَ أَنْ يُمْسِيَ كَانَ فِي نَهَارِهِ مِنَ
 > الْمَحْفُوظِينَ وَالْمَرْزُوقِينَ حَتَّى يُمْسِيَ. وَمَنْ قَرَأَهَا فِي
 > لَيْلَتِهِ قَبْلَ أَنْ يَنَامَ وَكَّلَ اللهُ بِهِ أَلْفَ مَلَكٍ يَحْفَظُونَهُ مِنْ
@@ -611,14 +631,14 @@ mengherankan."*
 > وَسُقِيَهَا فَإِنَّهُ يَبْرَأُ؛ فَإِنْ كَتَبْتَهَا بِمَاءِ الزَّعْفَرَانِ فِي
 > إِنَاءٍ مِنْ زُجَاجٍ فَهُوَ خَيْرٌ.
 >
-> وعن أبي عبد الله (ع) قال: «مَنْ قَرَأَ سُورَةَ الصَّافَّاتِ فِي كُلِّ يَوْمِ
+> وعن أبي عبد الله (٥) قال: «مَنْ قَرَأَ سُورَةَ الصَّافَّاتِ فِي كُلِّ يَوْمِ
 > جُمُعَةٍ لَمْ يَزَلْ مَحْفُوظاً مِنْ كُلِّ آفَةٍ، مَدْفُوعاً عَنْهُ كُلُّ بَلِيَّةٍ
 > فِي حَيَاةِ الدُّنْيَا، مَرْزُوقاً فِي الدُّنْيَا بِأَوْسَعِ مَا يَكُونُ مِنَ
 > الرِّزْقِ، وَلَمْ يُصِبْهُ اللهُ فِي مَالِهِ وَلَا فِي وَلَدِهِ وَلَا فِي بَدَنِهِ
 > بِسُوءٍ مِنْ شَيْطَانٍ رَجِيمٍ وَلَا مِنْ جَارٍ عَنِيدٍ». وَفِي رِوَايَةٍ:
 > تُقْرَأُ لِلشَّرَفِ وَالْجَاهِ وَالْعِزِّ فِي الدُّنْيَا وَالْآخِرَةِ.
 >
-> وعنه (ع) قال: «مَنْ قَرَأَ سُورَةَ الزُّمَرِ فِي يَوْمِهِ أَوْ لَيْلَتِهِ
+> وعنه (٦) قال: «مَنْ قَرَأَ سُورَةَ الزُّمَرِ فِي يَوْمِهِ أَوْ لَيْلَتِهِ
 > أَعْطَاهُ اللهُ شَرَفَ الدُّنْيَا وَالْآخِرَةِ، وَأَعَزَّهُ بِلَا عَشِيرَةٍ وَلَا
 > مَالٍ».
 >
@@ -628,18 +648,18 @@ mengherankan."*
 > وَمَنْ قَرَأَ سُورَةَ الْوَاقِعَةِ فِي كُلِّ لَيْلَةِ جُمُعَةٍ أَحَبَّهُ اللهُ
 > وَحَبَّبَهُ إِلَى النَّاسِ أَجْمَعِينَ، وَلَمْ يَرَ فِي الدُّنْيَا بُؤْساً أَبَداً
 > وَلَا فَقْراً وَلَا فَاقَةً وَلَا آفَةً مِنْ آفَاتِ الدُّنْيَا؛ وَهِيَ فِي أَمِيرِ
-> الْمُؤْمِنِينَ وَأَوْلَادِهِ (ع).
+> الْمُؤْمِنِينَ وَأَوْلَادِهِ عَلَيْهِمُ السَّلَامُ.
 >
 > وَمَنْ قَرَأَ سُورَتَيِ الْحَدِيدِ وَالْمُجَادَلَةِ فِي صَلَاةِ فَرِيضَةٍ
 > وَأَدْمَنَهُمَا، لَمْ يَرَ فِي أَهْلِهِ وَبَدَنِهِ وَمَالِهِ سُوءاً وَلَا
 > خَصَاصَةً.
 >
-> عن علي بن الحسين (ع) قال: «مَنْ قَرَأَ سُورَةَ الْمُمْتَحَنَةِ فِي فَرَائِضِهِ
+> عن علي بن الحسين (٧) قال: «مَنْ قَرَأَ سُورَةَ الْمُمْتَحَنَةِ فِي فَرَائِضِهِ
 > وَنَوَافِلِهِ امْتَحَنَ اللهُ قَلْبَهُ لِلْإِيمَانِ، وَنَوَّرَ لَهُ بَصَرَهُ، وَلَا
 > يُصِيبُهُ فَقْرٌ أَبَداً وَلَا جُنُونٌ فِي بَدَنِهِ وَلَا فِي وَلَدِهِ». وَفِي
 > رِوَايَةٍ: «وَيَكُونُ مَحْمُوداً عِنْدَ النَّاسِ».
 >
-> عن أبي عبد الله (ع) قال: «مَنْ أَكْثَرَ قِرَاءَةَ (قُلْ أُوحِيَ) [سورة الجن]
+> عن أبي عبد الله (٨) قال: «مَنْ أَكْثَرَ قِرَاءَةَ (قُلْ أُوحِيَ) [سورة الجن]
 > لَمْ يُصِبْهُ فِي حَيَاتِهِ الدُّنْيَا شَيْءٌ مِنْ أَعْيُنِ الْجِنِّ وَالْإِنْسِ
 > وَلَا السَّحَرَةِ، وَلَا نَفْثُهُمْ وَلَا سِحْرُهُمْ وَلَا كَيْدُهُمْ».
 >
@@ -671,7 +691,7 @@ mengherankan."*
 > وَمَنْ قَرَأَ ﴿إِذَا جَاءَ نَصْرُ اللَّهِ﴾ فِي نَافِلَةٍ أَوْ فَرِيضَةٍ نَصَرَهُ
 > اللهُ عَلَى [عَدُوِّهِ].
 >
-> عن أبي عبد الله (ع) قال: «مَنْ أَصَابَهُ مَرَضٌ أَوْ شِدَّةٌ فَلَمْ يَقْرَأْ فِي
+> عن أبي عبد الله (٩) قال: «مَنْ أَصَابَهُ مَرَضٌ أَوْ شِدَّةٌ فَلَمْ يَقْرَأْ فِي
 > مَرَضِهِ أَوْ شِدَّتِهِ ﴿قُلْ هُوَ اللَّهُ أَحَدٌ﴾ ثُمَّ مَاتَ فِي مَرَضِهِ أَوْ فِي
 > تِلْكَ الشِّدَّةِ [فَهُوَ مِنْ أَهْلِ النَّارِ]».
 >
@@ -797,6 +817,12 @@ Dan berkata 'Uqbah: *"Barang siapa beranjak ke tempat tidurnya lalu membaca
 rumah-rumah kecil di sekitarnya."*
 
 ---
+### Catatan kaki cetakan asli
+
+> (١ - ٣) مكارم الأخلاق، ص ٣٤٨–٣٤٩ [sebagian angka halaman tidak terbaca pada pindai].
+> (١ - ) مكارم الأخلاق [daftar sumber kaki halaman tidak tertangkap pindai; penomoran mengikuti urutan cetakan].
+
+ Lanjut ke [Khasiat Tiap Surah — dinukil dari Kitāb al-Khawāsh](03-bab-01-khasiat-surah-kitab-khawash.md)
 
 ---
 
@@ -925,7 +951,7 @@ kepadanya, dan ia memperoleh derajat serta kedudukan. Dan barang siapa
 menulisnya lalu meminumnya, Allah memudahkan rezeki baginya dari setiap orang.
 
 **12. Ar-Ra'd.**
-> عَنِ النَّبِيِّ ﷺ قَالَ: «مَنْ قَرَأَ هَذِهِ السُّورَةَ كَانَ لَهُ مِنَ الْأَجْرِ
+> عَنِ النَّبِيِّ (١) قَالَ: «مَنْ قَرَأَ هَذِهِ السُّورَةَ كَانَ لَهُ مِنَ الْأَجْرِ
 > بِوَزْنِ سَحَابٍ مَضَى وَكُلِّ سَحَابٍ يَكُونُ عَشْرُ حَسَنَاتٍ، وَيُبْعَثُ يَوْمَ
 > الْقِيَامَةِ مِنَ الْمُوفِينَ بِعَهْدِ اللهِ». وَمَنْ كَتَبَهَا فِي لَيْلَةٍ
 > مُظْلِمَةٍ بَعْدَ صَلَاةِ الْعِشَاءِ الْآخِرَةِ عَلَى ضَوْءِ نَارٍ وَجَعَلَهَا مِنْ
@@ -1713,7 +1739,7 @@ Barang siapa membacanya di laut, ia selamat darinya.
 > تَعَالَى. وَإِنْ كُتِبَتْ فِي فَخَّارٍ جَدِيدٍ وَغُسِلَ بِمَاءِ الْمَطَرِ
 > وَجُعِلَ فِيهِ شَيْءٌ مِنْ سُكَّرٍ وَشَرِبَهُ مَنْ بِهِ وَجَعُ الْكَبِدِ بَرِئَ
 > بِإِذْنِهِ تَعَالَى. وَمَنْ قَرَأَهَا عِنْدَ زَوَالِ الشَّمْسِ مِائَةً رَأَى
-> النَّبِيَّ ﷺ فِي نَوْمِهِ؛ وَمَنْ قَرَأَهَا كُلَّ لَيْلَةِ جُمُعَةٍ مِائَةً لَمْ
+> النَّبِيَّ (صَلَّى اللهُ عَلَيْهِ وَآلِهِ) فِي نَوْمِهِ؛ وَمَنْ قَرَأَهَا كُلَّ لَيْلَةِ جُمُعَةٍ مِائَةً لَمْ
 > يَفْتَقِرْ أَبَداً. وَمَنْ أَرَادَ الْحَجَّ فَلْيَلْبَسْ ثَوْباً جَدِيداً
 > وَيَأْخُذْ قَدَحَ مَاءٍ وَيَقْرَأْهَا عَلَيْهِ خَمْساً وَثَلَاثِينَ مَرَّةً
 > وَيَرُشَّهُ عَلَيْهِ، ثُمَّ يُصَلِّي أَرْبَعَ رَكَعَاتٍ بِتَسْلِيمَتَيْنِ يَقْرَأُ
@@ -1857,6 +1883,8 @@ berbisa.
 
 ---
 
+⬅️ [Kembali ke daftar isi](README.md) · ⏳ Bab 2 (doa-doa penyembuhan rasa sakit) menyusul pada bagian berikutnya.
+
 ---
 
 <a id="bab2-a"></a>
@@ -1881,11 +1909,11 @@ penyembuhan dari segala penyakit."
 > الدَّاءَ مِنْ بَدَنِهِ وَعِظَامِهِ وَعُرُوقِهِ».
 >
 > وَأَيْضاً: يُؤْخَذُ سَبْعُ حَبَّاتِ شُونِيزٍ وَسَبْعُ حَبَّاتِ عَدَسٍ وَشَيْءٌ مِنْ طِينِ
-> قَبْرِ الْحُسَيْنِ (ع) وَسَبْعُ قَطَرَاتِ عَسَلٍ، فَتُجْعَلُ فِي مَاءٍ أَوْ دُهْنٍ،
+> قَبْرِ الْحُسَيْنِ عليه السلام
 > وَيُقْرَأُ عَلَيْهِ: فَاتِحَةُ الْكِتَابِ، وَالْمُعَوِّذَتَانِ، وَ﴿قُلْ هُوَ اللَّهُ أَحَدٌ﴾،
 > وَآيَةُ الْكُرْسِيِّ، وَأَوَّلُ الْحَدِيدِ إِلَى قَوْلِهِ: ﴿وَإِلَى اللَّهِ تُرْجَعُ الْأُمُورُ﴾.
 >
-> قَالَ أَبُو جَعْفَرٍ (ع): قَالَ اللهُ تَعَالَى: [...] وَقَالَ: ﴿وَنُنَزِّلُ مِنَ
+> قَالَ أَبُو جَعْفَرٍ (١)
 > الْقُرْآنِ مَا هُوَ شِفَاءٌ وَرَحْمَةٌ لِلْمُؤْمِنِينَ﴾، وَقَالَ اللهُ تَعَالَى: ﴿يَخْرُجُ
 > مِنْ بُطُونِهَا شَرَابٌ مُخْتَلِفٌ أَلْوَانُهُ فِيهِ شِفَاءٌ لِلنَّاسِ﴾. وَقَالَ النَّبِيُّ ﷺ:
 > «الْحَبَّةُ السَّوْدَاءُ شِفَاءٌ مِنْ كُلِّ دَاءٍ إِلَّا السَّامَ، وَنَحْنُ نَقُولُ: بِظَهْرِ
@@ -1930,11 +1958,11 @@ berlindung kepadanya kecuali Allah Ta'ala menyembuhkannya."*
 
 ### Teks Arab
 
-> عن أبي عبد الله (ع) قال: «[إِذَا مَسَّكَ وَجَعٌ فَضَعْ يَدَكَ عَلَيْهِ
+> عن أبي عبد الله (١)
 > وَقُلْ] — وَتَقُولُ ثَلَاثَ مَرَّاتٍ —: اَللَّهُ اللهُ رَبِّي حَقّاً لَا أُشْرِكُ بِهِ
 > شَيْئاً، وَأَنْتَ لَهَا وَلِكُلِّ عَظِيمَةٍ فَرَجُهَا عَجِّلْهَا».
 >
-> وَعَنْهُ (ع) قَالَ: «تَضَعُ يَدَكَ عَلَى مَوْضِعِ الْوَجَعِ وَتَقُولُ: اَللَّهُمَّ
+> وَعَنْهُ عليه السلام
 > إِنِّي أَسْأَلُكَ بِحَقِّ الْقُرْآنِ الْعَظِيمِ الَّذِي نَزَلَ بِهِ الرُّوحُ الْأَمِينُ
 > وَهُوَ عِنْدَكَ فِي أُمِّ الْكِتَابِ عَلِيٌّ حَكِيمٌ، أَنْ تَشْفِيَنِي بِشِفَائِكَ
 > وَتُدَاوِيَنِي بِدَوَائِكَ وَتُعَافِيَنِي مِنْ بَلَائِكَ» — ثَلَاثَ مَرَّاتٍ.
@@ -1949,19 +1977,19 @@ berlindung kepadanya kecuali Allah Ta'ala menyembuhkannya."*
 > الْحُسْنَى، وَآمِنِّي مِنَ النَّارِ كَمَا آمَنْتَ أَوْلِيَاءَكَ الَّذِينَ سَبَقَتْ لَهُمْ
 > مِنْكَ الْحُسْنَى».
 >
-> قَالَ الصَّادِقُ (ع): «تَقُولُ: بِسْمِ اللهِ، يَا اللهُ، كَمْ مِنْ نِعْمَةٍ لِلَّهِ
+> قَالَ الصَّادِقُ (٢)
 > عَزَّ وَجَلَّ فِي عِرْقٍ سَاكِنٍ وَغَيْرِ سَاكِنٍ عَلَى عَبْدٍ شَاكِرٍ وَغَيْرِ شَاكِرٍ».
 > ثُمَّ تَأْخُذُ لِحْيَتَكَ بِيَدِكَ الْيُمْنَى بَعْدَ صَلَاةٍ مَفْرُوضَةٍ وَتَقُولُ:
 > «اَللَّهُمَّ فَرِّجْ كَرْبِي وَعَجِّلْ عَافِيَتِي وَاكْشِفْ ضُرِّي» — ثَلَاثَ مَرَّاتٍ —
 > وَاحْرِصْ أَنْ يَكُونَ ذَلِكَ مَعَ دُمُوعٍ وَبُكَاءٍ.
 >
-> وَعَنْ بَعْضِهِمْ قَالَ: «شَكَوْتُ إِلَى أَبِي عَبْدِ اللهِ (ع) وَجَعاً فِي [بَدَنِي]،
+> وَعَنْ بَعْضِهِمْ قَالَ: «شَكَوْتُ إِلَى أَبِي عَبْدِ اللهِ عليه السلام
 > فَقَالَ: قُلْ: يَا سَامِعَ [الصَّوْتِ] ... أَعُوذُ بِعِزِّ اللهِ، وَأَعُوذُ بِجَلَالِ
 > اللهِ، وَأَعُوذُ بِعَظَمَةِ اللهِ، وَأَعُوذُ بِرَسُولِ اللهِ، وَأَعُوذُ بِعِزَّةِ اللهِ
 > [وَقُدْرَتِهِ] مِنْ شَرِّ مَا أَحْذَرُ» — مِرَاراً. قَالَ: فَفَعَلْتُ ذَلِكَ فَأَذْهَبَ
 > اللهُ عَنِّي.
 >
-> وَعَنْهُ (ع) قَالَ: «تَضَعُ يَدَكَ عَلَى مَوْضِعِ الْوَجَعِ وَتَقُولُ: بِسْمِ
+> وَعَنْهُ عليه السلام
 > اللهِ وَبِاللهِ وَإِلَى اللهِ، مَا شَاءَ اللهُ، مُحَمَّدٌ رَسُولُ اللهِ، لَا حَوْلَ وَلَا
 > قُوَّةَ إِلَّا بِاللهِ؛ اَللَّهُمَّ امْسَحْ عَنِّي مَا أَجِدُ» — وَتَمْسَحُ الْوَجَعَ ثَلَاثَ
 > مَرَّاتٍ.
@@ -2036,7 +2064,7 @@ kali.*
 
 ### Teks Arab
 
-> عن أبي عبد الله (ع) قال: «تَضَعُ يَدَكَ عَلَى رَأْسِ الْمَرِيضِ ثُمَّ تَقُولُ:
+> عن أبي عبد الله (١)
 > بِسْمِ اللهِ وَبِاللهِ وَمِنَ اللهِ وَإِلَى اللهِ وَمَا شَاءَ اللهُ، وَلَا حَوْلَ وَلَا
 > قُوَّةَ إِلَّا بِاللهِ؛ إِبْرَاهِيمُ خَلِيلُ اللهِ، مُوسَى كَلِيمُ اللهِ، عِيسَى رُوحُ
 > اللهِ، مُحَمَّدٌ رَسُولُ اللهِ؛ وَأَعُوذُ بِاللهِ مِنَ الْأَرْوَاحِ وَالْأَوْجَاعِ؛ بِسْمِ
@@ -2047,7 +2075,7 @@ kali.*
 > بِشِفَائِكَ وَدَاوِهِ بِدَوَائِكَ وَعَافِهِ مِنْ بَلَائِكَ»، وَتَسْأَلُهُ بِحَقِّ مُحَمَّدٍ
 > وَآلِهِ صَلَوَاتُ اللهِ عَلَيْهِ وَعَلَيْهِمْ.
 >
-> عن زرارة، عن أحدهما (ع) قال: «[إِذَا عُدْتَ مَرِيضاً] فَقُلْ: أُعِيذُكَ
+> عن زرارة، عن أحدهما (٢)
 > بِاللهِ الْعَظِيمِ، رَبِّ الْعَرْشِ الْعَظِيمِ، مِنْ كُلِّ عِرْقٍ نَعَّارٍ وَمِنْ شَرِّ حَرِّ
 > النَّارِ» — سَبْعَ مَرَّاتٍ.
 >
@@ -2122,7 +2150,7 @@ sembuh). [Sebagian redaksi rusak pada sumber pindai.]
 > وَاخْتَارَ لِنَفْسِهِ أَحْسَنَ الْأَسْمَاءِ، صَلِّ عَلَى مُحَمَّدٍ وَآلِ مُحَمَّدٍ
 > وَافْعَلْ بِي كَذَا وَكَذَا، وَارْزُقْنِي وَعَافِنِي مِنْ كَذَا وَكَذَا.
 >
-> وَعَنِ الصَّادِقِ (ع): «مَنْ كَانَتْ بِهِ عِلَّةٌ فَلْيَقُلْ عَلَيْهَا فِي كُلِّ صَبَاحٍ
+> وَعَنِ الصَّادِقِ (١)
 > وَمَسَاءٍ ... أَرْبَعِينَ يَوْماً: بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ، حَسْبُنَا اللهُ
 > وَنِعْمَ الْوَكِيلُ، اللهُ أَحْسَنُ الْخَالِقِينَ، وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ
 > الْعَلِيِّ الْعَظِيمِ».
@@ -2152,10 +2180,10 @@ daya dan kekuatan kecuali dengan Allah Yang Mahatinggi lagi Mahaagung)."*
 
 ### Teks Arab
 
-> رواه سعيد بن عبد الله قال: كنت جالساً عند أبي، والباقر (ع) عنده رجلٌ قد
+> رواه سعيد بن عبد الله قال: كنت جالساً عند أبي، والباقر عليه السلام
 > سقطت إحدى يديه من فالجٍ به، ويطلب أن يدعو له، وذكر أن به حصاة فلا يقدر
-> على البول إلا بشدة، فأمره أبي (ع) أن يدعو بهذا الدعاء بعد صلاة الليل وهو
-> ساجد، ففعل فبرئ بإذن الله تعالى. فأخبرت أبي (ع) بعافيته فقال: «يَا بُنَيَّ،
+> على البول إلا بشدة، فأمره أبي (١)
+> ساجد، ففعل فبرئ بإذن الله تعالى. فأخبرت أبي عليه السلام
 > مَنْ كَتَمَ بَلَاءً ابْتُلِيَ بِهِ مِنَ النَّاسِ وَشَكَا إِلَى اللهِ وَسَأَلَهُ أَنْ يُعَافِيَهُ
 > عِنْدَ قِرَاءَةِ هَذَا الدُّعَاءِ عُوفِيَ بِإِذْنِ اللهِ عَزَّ وَجَلَّ». وَهُوَ: يُقَالُ بَعْدَ
 > سَجْدَةِ الرَّكْعَتَيْنِ الْأُولَيَيْنِ مِنْ صَلَاةِ اللَّيْلِ: «يَا عَلِيُّ يَا عَظِيمُ، يَا
@@ -2198,7 +2226,7 @@ berdoa, karena keselamatan akan disegerakan, insya Allah Ta'ala.
 
 ### Teks Arab
 
-> عَنِ الصَّادِقِ (ع): «قُلْ عِنْدَ الْعِلَّةِ وَأَنْتَ بَارِزٌ تَحْتَ السَّمَاءِ،
+> عَنِ الصَّادِقِ (١)
 > رَافِعٌ يَدَيْكَ: ﴿وَإِنْ يَمْسَسْكَ اللَّهُ بِضُرٍّ فَلَا كَاشِفَ لَهُ إِلَّا هُوَ﴾،
 > ﴿وَإِنْ يَمْسَسْكَ بِخَيْرٍ فَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ﴾، يَا كَاشِفَ الضُّرِّ،
 > يَا رَافِعَ الْبَلَاءِ، اكْشِفْ ضُرِّي وَحَوِّلْهُ إِلَى مَنْ يَدْعُو مَعَكَ إِلَهاً
@@ -2222,7 +2250,7 @@ sumber pindai.]
 
 ### Teks Arab
 
-> وَعَنِ الصَّادِقِ (ع) أَنَّهُ كَتَبَ إِلَى دَاوُدَ بْنِ زُرْبِيٍّ وَكَانَ مَرِيضاً:
+> وَعَنِ الصَّادِقِ عليه السلام
 > «[بَلَغَنِي عِلَّتُكَ ...]» ثُمَّ اسْتَوِ جَالِساً وَاجْمَعِ الْبُرَّ مِنْ حَوْلِكَ وَقُلْ
 > مِثْلَ ذَلِكَ، وَاقْسِمْهُ مُدّاً مُدّاً لِكُلِّ مِسْكِينٍ وَقُلْ مِثْلَ ذَلِكَ. قَالَ دَاوُدُ:
 > فَفَعَلْتُ ذَلِكَ فَكَأَنَّمَا أُنْشِطْتُ مِنْ عِقَالٍ. وَقَدْ فَعَلَهُ غَيْرُ وَاحِدٍ
@@ -2246,10 +2274,10 @@ Zurbi". Sumber: *al-Kāfī* dan *'Uddat ad-Dā'ī*.]
 
 ### Teks Arab
 
-> عن ابن عباس قال: كنت جالساً عند علي (ع) فدخل إليه رجل متغير اللون
+> عن ابن عباس قال: كنت جالساً عند علي عليه السلام
 > فقال: يا أمير المؤمنين، إني رجل مسقام كثير العلل والأوجاع، فعلمني دعاء
-> أنتفع به. فقال (ع): «ادْعُ بِهَذَا الدُّعَاءِ، فَإِنَّ جَبْرَائِيلَ عَلَّمَهُ النَّبِيَّ ﷺ فِي
-> مَرَضِ الْحَسَنَيْنِ (ع)، وَهُوَ هَذَا الدُّعَاءُ: يَا مَنْ كُلَّمَا دَعَوْتُهُ أَجَابَنِي،
+> أنتفع به. فقال (١)
+> مَرَضِ الْحَسَنَيْنِ عليه السلام
 > وَكُلَّمَا سَأَلْتُهُ أَعْطَانِي ... يَا مَنْ رَآنِي عَلَى الْمَعَاصِي فَلَمْ يُعَاقِبْنِي
 > عَلَيْهَا، صَلِّ عَلَى مُحَمَّدٍ وَآلِ مُحَمَّدٍ وَاغْفِرْ لِي ذَنْبِي وَاشْفِنِي مِنْ
 > مَرَضِي، إِنَّكَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ». قَالَ ابْنُ عَبَّاسٍ: فَرَأَيْتُ الرَّجُلَ
@@ -2285,7 +2313,7 @@ penguasa kecuali Allah 'Azza wa Jalla menolaknya (keburukannya) dariku.'"
 
 ### Teks Arab
 
-> وَمِنْ دُعَاءِ زَيْنِ الْعَابِدِينَ (ع) إِذَا مَرِضَ أَوْ نَزَلَ بِهِ كَرْبٌ أَوْ بَلِيَّةٌ:
+> وَمِنْ دُعَاءِ زَيْنِ الْعَابِدِينَ عليه السلام
 > «اَللَّهُمَّ لَكَ الْحَمْدُ عَلَى مَا لَمْ أَزَلْ أَتَصَرَّفُ فِيهِ مِنْ سَلَامَةِ بَدَنِي،
 > وَلَكَ الْحَمْدُ عَلَى مَا أَحْدَثْتَ بِي مِنْ عِلَّةٍ فِي جَسَدِي؛ فَمَا أَدْرِي يَا
 > إِلَهِي أَيُّ الْحَالَيْنِ أَحَقُّ بِالشُّكْرِ لَكَ، وَأَيُّ الْوَقْتَيْنِ أَوْلَى
@@ -2343,7 +2371,7 @@ dari sumber-sumber doa Imam Sajjad.]
 
 ### Teks Arab
 
-> وعن الصادق (ع) أنه قال: «إِنِ اسْتَطَعْتَ أَنْ لَا تَبِيتَ حَتَّى تَتَعَوَّذَ
+> وعن الصادق (١)
 > بِالْأَحَدَ عَشَرَ حَرْفاً فَافْعَلْ، وَهِيَ: أَعُوذُ بِعِزَّةِ اللهِ، أَعُوذُ بِقُدْرَةِ
 > اللهِ، أَعُوذُ بِجَلَالِ اللهِ، أَعُوذُ بِجَمَالِ اللهِ، أَعُوذُ بِسُلْطَانِ اللهِ، أَعُوذُ
 > بِدِينِ اللهِ، أَعُوذُ بِأَسْمَاءِ اللهِ، أَعُوذُ بِرِضَا اللهِ، أَعُوذُ بِجَمْعِ اللهِ،
@@ -2351,7 +2379,7 @@ dari sumber-sumber doa Imam Sajjad.]
 > خَلَقَ وَذَرَأَ وَبَرَأَ». وَتَتَعَوَّذُ بِهِ مِمَّا شِئْتَ، فَإِنَّهُ لَا يَضُرُّكَ هَوَامٌّ
 > وَلَا جِنٌّ وَلَا إِنْسٌ وَلَا شَيْطَانٌ، إِنْ شَاءَ اللهُ تَعَالَى.
 >
-> وَعَنِ الصَّادِقِ (ع) أَنَّهُ قَالَ: «كَانَ أَبِي إِذَا أَحْزَنَهُ أَمْرٌ جَمَعَ
+> وَعَنِ الصَّادِقِ عليه السلام
 > النِّسَاءَ وَالصِّبْيَانَ، ثُمَّ دَعَا فَأَمَّنُوا. وَقَدْ جَرَّبَهُ كِبَارُ الْعُلَمَاءِ
 > فَشُفِيَ بِإِذْنِ اللهِ».
 
@@ -2383,7 +2411,7 @@ besar, lalu (si sakit) sembuh dengan izin Allah."*
 
 ### Teks Arab
 
-> وعن علي (ع) — فيما يُسْتَعَاذُ بِهِ لِكُلِّ عَظِيمَةٍ —: «أَعُوذُ بِعِزَّةِ اللهِ
+> وعن علي عليه السلام
 > وَقُدْرَتِهِ عَلَى الْأَشْيَاءِ كُلِّهَا؛ وَأَعُوذُ بِجَبَّارِ السَّمَاوَاتِ وَالْأَرْضِ ...
 > وَأَعِيذُ نَفْسِي بِالَّذِي اسْمُهُ بَرَكَةٌ وَشِفَاءٌ؛ فَمَنْ قَالَهَا لَمْ يَضُرَّهُ [أَحَدٌ]».
 >
@@ -2463,7 +2491,7 @@ salam atas mereka.*
 
 ### Teks Arab
 
-> وَيُنْسَبُ إِلَى أَمِيرِ الْمُؤْمِنِينَ (ع) [شِعْرٌ]:
+> وَيُنْسَبُ إِلَى أَمِيرِ الْمُؤْمِنِينَ عليه السلام
 >
 > [أَبْيَاتٌ فِيهَا]: «تُكْشَفُ الْأَسْقَامُ وَالْأَدْوَاءُ ... وَبِهَا يُرْفَعُ عَنْ
 > حَامِلِهَا ... كُلُّ كَرْبٍ وَبَلَاءٍ ... وَقَدْ عَجَزَتْ عَنْهَا أَطِبَّاءُ [الْبَشَرِ]».
@@ -2486,6 +2514,17 @@ dan simbol-simbol — tidak dapat digambar ulang dalam teks]."
 > utama. Sumber: *at-Tuḥfah ar-Raḍawiyyah* h. 117, *Ḍiyā'uṣ-Ṣāliḥīn* h. 301.
 
 ---
+---
+
+## Catatan kaki edisi cetak
+
+Pada cetakan asli (Mu'assasat al-A'lami, Beirut), tanda kurung setelah nama
+Nabi/Imam berisi **nomor catatan kaki** (angka Arab ١، ٢، …) yang merujuk daftar
+sumber di kaki halaman — untuk bab-bab pengobatan umumnya *Makārim al-Akhlāq*,
+dan untuk bab-bab selanjutnya antara lain *Ṭibb al-A'immah*, *Miṣbā*,
+*Mafātīḥ al-Jinān*, *Biḥār al-Anwār*, *Ḍiyā' aṣ-Ṣāliḥīn*. Dokumen ini memulihkan
+penomoran tersebut sesuai urutan kemunculan pada cetakan; rincian daftar kaki
+halaman per bagian tidak tertangkap pindai sehingga tidak ditampilkan penuh.
 
 ---
 
@@ -2511,7 +2550,7 @@ dan simbol-simbol — tidak dapat digambar ulang dalam teks]."
 
 ### Teks Arab
 
-> عن أمير المؤمنين (ع) أنه قال: «حُمَّ رَسُولُ اللهِ ﷺ حُمّى شَدِيدَةً،
+> عن أمير المؤمنين (١)
 > فَأَتَاهُ جَبْرَائِيلُ صَلَوَاتُ اللهِ عَلَيْهِ فَعَوَّذَهُ وَقَالَ: بِسْمِ اللهِ
 > أَرْقِيكَ، مِنْ كُلِّ شَيْءٍ يُؤْذِيكَ، بِسْمِ اللهِ اللهُ شَافِيكَ، بِسْمِ اللهِ
 > [أُعِيذُكَ]، بِسْمِ اللهِ [أَرْقِيكَ مِنَ] الشَّيْطَانِ الرَّجِيمِ: ﴿فَلَا أُقْسِمُ
@@ -2539,9 +2578,9 @@ langit."
 
 ### Teks Arab
 
-> ذكر السيد ابن طاووس (ره) أن النبي ﷺ دخل على فاطمة الزهراء (ع) فوجد
-> الحسن (ع) مَوْعُوكاً، فَشَقَّ ذَلِكَ عَلَى النَّبِيِّ ﷺ، فَنَزَلَ جَبْرَائِيلُ
-> (ع) فَقَالَ: «يَا مُحَمَّدُ، أَلَا أُعَلِّمُكَ مُعَاذَةً تَدْعُو بِهَا فَيَنْجَلِي
+> ذكر السيد ابن طاووس (ره) أن النبي ﷺ دخل على فاطمة الزهراء عليه السلام
+> الحسن عليه السلام
+> عليه السلام
 > بِهَا عَنْهُ مَا يَجِدُهُ؟» قَالَ: «بَلَى». قَالَ: «قُلْ: اَللَّهُمَّ لَا إِلَهَ
 > إِلَّا أَنْتَ الْعَلِيُّ الْعَظِيمُ، ذُو السُّلْطَانِ الْقَدِيمِ الْعَظِيمِ، [ذُو]
 > الْكَلِمِ الْكَرِيمِ؛ لَا إِلَهَ إِلَّا أَنْتَ الْعَلِيُّ الْعَظِيمُ، [وَبِكَلِمَاتِكَ
@@ -2567,12 +2606,12 @@ al-Hasan [hari ini …])."* [Sebagian redaksi rusak pada sumber pindai.]
 
 > Sumber: *Mahj ad-Da'awāt*.
 
-## 3. Doa Nūr untuk Demam — dari Sayyidah Fathimah (ع)
+## 3. Doa Nūr untuk Demam — dari Sayyidah Fathimah (‘alaihas-salām)
 
 ### Teks Arab
 
-> روى سلمان (رض) عن الزهراء (ع) — وَقَدْ سَأَلَتْهَا امْرَأَةٌ عَنِ الْحُمَّى —
-> فَقَالَتْ (ع): «[اُكْتُبِي]: بِسْمِ اللهِ نُورٌ، وَبِسْمِ اللهِ نُورُ
+> روى سلمان (رض) عن الزهراء عليه السلام
+> فَقَالَتْ (١)
 > النُّورِ، بِسْمِ اللهِ نُورٌ عَلَى نُورٍ، بِسْمِ اللهِ الَّذِي هُوَ مُدَبِّرُ
 > الْأُمُورِ، بِسْمِ اللهِ الَّذِي خَلَقَ النُّورَ مِنَ النُّورِ؛ الْحَمْدُ لِلَّهِ
 > الَّذِي خَلَقَ النُّورَ مِنَ النُّورِ، وَأَنْزَلَ النُّورَ عَلَى الطُّورِ فِي
@@ -2610,7 +2649,7 @@ Ta'ala."
 
 ### Teks Arab
 
-> عن أمير المؤمنين (ع) أنه قال: «مَرِضْتُ فَعَادَنِي رَسُولُ اللهِ ﷺ وَأَنَا
+> عن أمير المؤمنين (١)
 > لَا أَنْقَادُ عَلَى فِرَاشِي، فَقَالَ: يَا عَلِيُّ، إِنَّ أَشَدَّ النَّاسِ
 > بَلَاءً النَّبِيُّونَ، ثُمَّ الَّذِينَ يَلُونَهُمْ ... قَالَ: قُلْ:
 > اَللَّهُمَّ ارْحَمْ جِلْدِيَ الرَّقِيقَ وَعَظْمِيَ الدَّقِيقَ، وَأَعُوذُ بِكَ مِنْ
@@ -2690,13 +2729,13 @@ semoga shalawat Allah atas Muhammad dan keluarganya yang suci.
 
 ### Teks Arab
 
-> عن أبي جعفر (ع) قال: «إِذَا مَرِضَ الرَّجُلُ فَأَرَدْتَ أَنْ تُعَوِّذَهُ
+> عن أبي جعفر (١)
 > فَقُلْ: أُخُوجْ عَلَيْكَ يَا عِرْقُ، أَوْ يَا عَيْنَ الْجِنِّ، أَوْ يَا عَيْنَ
 > الْإِنْسِ، أَوْ يَا وَجَعَ (فُلَانِ بْنِ فُلَانٍ)؛ خَرَجْتُ عَلَيْكَ بِاللهِ
 > الَّذِي كَلَّمَ مُوسَى تَكْلِيماً، وَاتَّخَذَ إِبْرَاهِيمَ صَلَوَاتُ اللهِ عَلَيْهِ
 > خَلِيلاً، وَرَبِّ عِيسَى ابْنِ مَرْيَمَ رُوحِ اللهِ وَكَلِمَتِهِ، وَرَبِّ
 > مُحَمَّدٍ وَآلِ مُحَمَّدٍ الْهُدَاةِ؛ وَطُفِئْتَ كَمَا طَفِئَتْ نَارُ إِبْرَاهِيمَ
-> الْخَلِيلِ (ع)».
+> الْخَلِيلِ عليه السلام
 
 ### Terjemahan
 
@@ -2714,11 +2753,11 @@ Isa putra Maryam — ruh Allah dan kalimat-Nya — dan demi Tuhan Muhammad dan
 keluarga Muhammad, para pemberi petunjuk; dan padamlah engkau sebagaimana
 padamnya api Ibrahim al-Khalil, 'alaihissalam).'"*
 
-## 7. Menulis dengan Tanah (Turbah) al-Husain (ع)
+## 7. Menulis dengan Tanah (Turbah) al-Husain (‘alaihissalam)
 
 ### Teks Arab (inti)
 
-> عن بعض الصادقين (ع) قال: «يُؤْخَذُ مِنْ تُرْبَةِ الْحُسَيْنِ (ع) وَتُدَافُ
+> عن بعض الصادقين (١) قال: «يُؤْخَذُ مِنْ تُرْبَةِ الْحُسَيْنِ عليه السلام
 > بِالْمَاءِ وَتُكْتَبُ فِي جَامِ زُجَاجٍ بِقَلَمِ حَدِيدٍ، وَيُسْقَى مَنْ بِهِ
 > أَلَمٌ ...» وَيُكْتَبُ: حَسْبِيَ اللهُ وَنِعْمَ الْوَكِيلُ، ﴿طه ۝ مَا
 > أَنْزَلْنَا عَلَيْكَ الْقُرْآنَ لِتَشْقَىٰ﴾، ﴿إِنَّ اللَّهَ يُمْسِكُ
@@ -2810,7 +2849,7 @@ tiada yang menang selain Allah.
 
 ### Teks Arab
 
-> عن الحضرمي أنه قال: إن أبا الحسن الأول (ع) كتب له هذا — وكان ابنه يحم
+> عن الحضرمي أنه قال: إن أبا الحسن الأول عليه السلام
 > حمى الربع — فأمره أن يكتب على يده اليمنى: «بِسْمِ اللهِ جَبْرَائِيلُ»،
 > وَعَلَى يَدِهِ الْيُسْرَى: «بِسْمِ اللهِ مِيكَائِيلُ»، وَعَلَى رِجْلِهِ
 > الْيُمْنَى: «بِسْمِ اللهِ إِسْرَافِيلُ»، وَعَلَى رِجْلِهِ الْيُسْرَى:
@@ -2834,11 +2873,11 @@ kerah bajumu, masukkan kepalamu ke dalam kerahmu, kumandangkan adzan dan
 iqamah, lalu bacalah al-Hamdu (al-Fatihah) tujuh kali."* Ia berkata: "Maka aku
 melakukannya, lalu seakan-akan aku dilepaskan dari ikatan (sembuh)."
 
-## 10. Tata Cara Imam ar-Ridha (ع) untuk Demam
+## 10. Tata Cara Imam ar-Ridha (‘alaihissalam) untuk Demam
 
 ### Teks Arab
 
-> عنه (ع) قال: «تُدْخِلُ رَأْسَكَ فِي جَيْبِكَ فَتُؤَذِّنُ وَتُقِيمُ وَتَقْرَأُ
+> عنه (١)
 > (فَاتِحَةَ الْكِتَابِ) وَ﴿قُلْ هُوَ اللَّهُ أَحَدٌ﴾ وَ﴿قُلْ أَعُوذُ بِرَبِّ
 > الْفَلَقِ﴾ وَ﴿قُلْ أَعُوذُ بِرَبِّ النَّاسِ﴾، كُلَّ وَاحِدَةٍ ثَلَاثَ مَرَّاتٍ،
 > وَتَقُولُ: أَعُوذُ بِعِزَّةِ اللهِ وَقُدْرَةِ اللهِ، وَعَظَمَةِ اللهِ
@@ -2850,7 +2889,7 @@ melakukannya, lalu seakan-akan aku dilepaskan dari ikatan (sembuh)."
 > [بِحَقِّ أَنْبِيَائِكَ وَأَوْلِيَائِكَ بِرَحْمَتِكَ يَا أَرْحَمَ
 > الرَّاحِمِينَ]».
 >
-> وَعَنْهُ (ع): «إِذَا حُمَّ أَحَدُكُمْ فَلْيَكْتُبْ (آيَةَ الْكُرْسِيِ) فِي
+> وَعَنْهُ (٢)
 > إِنَاءٍ، ثُمَّ يَدُفَّهُ بِجُرْعَةٍ مِنْ مَاءٍ فَلْيَشْرَبْهُ».
 
 ### Terjemahan
@@ -2878,11 +2917,11 @@ Dari beliau ('alaihissalam) pula: *"Apabila salah seorang kalian demam,
 hendaklah ia menulis Ayat al-Kursi pada sebuah bejana, lalu melarutkannya
 dengan seteguk air dan meminumnya."*
 
-## 11. Tiga Lembaran dari Tulisan Tangan Imam ar-Ridha (ع)
+## 11. Tiga Lembaran dari Tulisan Tangan Imam ar-Ridha (‘alaihissalam)
 
 ### Teks Arab
 
-> ووجد بخط الرضا (ع) أنه تكتب للحمى على ثلاث قطع من الكاغذ: يُكْتَبُ عَلَى
+> ووجد بخط الرضا (١)
 > الْأُولَى: «بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ ﴿لَا تَخَفْ إِنَّكَ أَنْتَ
 > الْأَعْلَى﴾»؛ وَعَلَى الثَّانِيَةِ بَعْدَ الْبَسْمَلَةِ: «﴿لَا تَخَفْ نَجَوْتَ
 > مِنَ الْقَوْمِ الظَّالِمِينَ﴾»؛ وَعَلَى الثَّالِثَةِ بَعْدَ الْبَسْمَلَةِ: «﴿أَلَا
@@ -2934,7 +2973,7 @@ setiap hari satu lembar; ia sembuh, insya Allah Ta'ala.
 
 ### Teks Arab
 
-> الحسن بن علي الوشاء، عن أبي الحسن الرضا (ع) قال: قال لي: «مَا لِي
+> الحسن بن علي الوشاء، عن أبي الحسن الرضا (١)
 > أَرَاكَ مُصْفَرّاً؟» فَقُلْتُ: هَذِهِ الْحُمَّى الرُّبْعُ قَدْ أَلَحَّتْ عَلَيَّ.
 > قَالَ: فَدَعَا بِدَوَاةٍ وَقِرْطَاسٍ ثُمَّ كَتَبَ: «بِسْمِ اللهِ الرَّحْمَنِ
 > الرَّحِيمِ: أَبْجَدْ هَوَّزْ حُطِّي عَنْ فُلَانِ ابْنِ فُلَانَةَ». ثُمَّ دَعَا
@@ -3089,16 +3128,16 @@ dengan cincin Sulaiman bin Dawud; dan dengan Fatihatul Kitab.*
    Jalla Jalaluh. [Bentuk ketiga talisman berupa gambar pada sumber pindai,
    tidak dapat direproduksi.]
 
-## 16. Nasihat Medis para Imam (ع) untuk Demam
+## 16. Nasihat Medis para Imam (‘alaihimus-salām) untuk Demam
 
 ### Teks Arab
 
-> وعن الصادق (ع) أنه قال للحمى: «اسْحَقِ السُّكَّرَ ثُمَّ خُذْهُ بِالْمَاءِ عَلَى
-> الرِّيقِ عِنْدَ الْحَاجَةِ إِلَى الْمَاءِ». وَعَنْهُ (ع): «الْمَاءُ الْبَارِدُ
+> وعن الصادق (١)
+> الرِّيقِ عِنْدَ الْحَاجَةِ إِلَى الْمَاءِ». وَعَنْهُ (٢)
 > يُطْفِئُ الْحَرَارَةَ، وَيُسَكِّنُ الصَّفْرَاءَ، وَيُذِيبُ الطَّعَامَ فِي
-> الْمَعِدَةِ، وَيَذْهَبُ بِالْعَطَشِ». وَعَنْ أَمِيرِ الْمُؤْمِنِينَ (ع) أَنَّهُ
+> الْمَعِدَةِ، وَيَذْهَبُ بِالْعَطَشِ». وَعَنْ أَمِيرِ الْمُؤْمِنِينَ عليه السلام
 > قَالَ: «صُبُّوا عَلَى الْمَحْمُومِ الْمَاءَ الْبَارِدَ، فَإِنَّهُ يُطْفِئُ
-> حَرَّهُ». وَعَنِ الرِّضَا (ع) أَنَّهُ قَالَ: «الْمَاءُ السَّاخِنُ إِذَا
+> حَرَّهُ». وَعَنِ الرِّضَا عليه السلام
 > غَلَيْتَهُ سَبْعَ غَلَيَاتٍ [فَإِنَّهُ يَنْفَعُ ...]».
 
 ### Terjemahan
@@ -3120,7 +3159,7 @@ didih, [bermanfaat …]."* [Ujung hadis rusak pada sumber pindai.]
 
 ### Teks Arab
 
-> عن أبي عبد الله (ع) أنه قال: «إِذَا حُمَّ أَحَدُكُمْ فَلْيَدْخُلِ الْبَيْتَ
+> عن أبي عبد الله (١)
 > وَحْدَهُ وَيُصَلِّي رَكْعَتَيْنِ، وَيَضَعُ خَدَّهُ الْأَيْمَنَ عَلَى الْأَرْضِ
 > وَيَقُولُ: يَا فَاطِمَةُ — عَشْرَ مَرَّاتٍ — أَسْتَشْفِعُ بِكِ إِلَى اللهِ
 > فِيمَا نَزَلَ بِي، فَإِنَّهُ يَبْرَأُ إِنْ شَاءَ اللهُ تَعَالَى».
@@ -3185,6 +3224,17 @@ dan mereka mengambil manfaat.
 > *at-Tuḥfah ar-Raḍawiyyah*, dan *Baḥār al-Anwār*.
 
 ---
+---
+
+## Catatan kaki edisi cetak
+
+Pada cetakan asli (Mu'assasat al-A'lami, Beirut), tanda kurung setelah nama
+Nabi/Imam berisi **nomor catatan kaki** (angka Arab ١، ٢، …) yang merujuk daftar
+sumber di kaki halaman — untuk bab-bab pengobatan umumnya *Makārim al-Akhlāq*,
+dan untuk bab-bab selanjutnya antara lain *Ṭibb al-A'immah*, *Miṣbā*,
+*Mafātīḥ al-Jinān*, *Biḥār al-Anwār*, *Ḍiyā' aṣ-Ṣāliḥīn*. Dokumen ini memulihkan
+penomoran tersebut sesuai urutan kemunculan pada cetakan; rincian daftar kaki
+halaman per bagian tidak tertangkap pindai sehingga tidak ditampilkan penuh.
 
 ---
 
@@ -3200,27 +3250,27 @@ dan mereka mengambil manfaat.
 
 ### Teks Arab
 
-> اشتكى إلى الصادق (ع) رجل من الصداع، فقال: «ضَعْ يَدَكَ عَلَى الْمَوْضِعِ
+> اشتكى إلى الصادق عليه السلام
 > الَّذِي يَصْدَعُكَ وَاقْرَأْ (آيَةَ الْكُرْسِيِّ) وَ(فَاتِحَةَ الْكِتَابِ) وَقُلْ:
 > اَللَّهُ أَكْبَرُ اَللَّهُ أَكْبَرُ، لَا إِلَهَ إِلَّا اللهُ وَاللهُ أَكْبَرُ، اَللَّهُ
 > أَجَلُّ وَأَكْبَرُ مِمَّا أَخَافُ وَأَحْذَرُ؛ أَعُوذُ بِاللهِ مِنْ عِرْقٍ نَعَّارٍ،
 > وَأَعُوذُ بِاللهِ مِنْ حَرِّ النَّارِ».
 >
-> وروى عمر بن حنظلة قال: شكوت إلى أبي جعفر (ع) صداعاً يصيبني، [فقال:]
+> وروى عمر بن حنظلة قال: شكوت إلى أبي جعفر عليه السلام
 > «قُلْ إِذَا أَصَابَكَ: ﴿لَوْ كَانَ مَعَهُ آلِهَةٌ كَمَا يَقُولُونَ إِذًا
 > لَابْتَغَوْا إِلَىٰ ذِي الْعَرْشِ سَبِيلًا﴾، ﴿وَإِذَا قِيلَ لَهُمْ تَعَالَوْا
 > إِلَىٰ مَا أَنْزَلَ اللَّهُ وَإِلَى الرَّسُولِ رَأَيْتَ الْمُنَافِقِينَ
 > يَصُدُّونَ عَنْكَ صُدُودًا﴾».
 >
-> وعن الصادق (ع) قال: «مَنْ كَانَ بِهِ صُدَاعٌ أَوْ غَيْرُهُ فَلْيَضَعْ يَدَهُ
+> وعن الصادق (١)
 > عَلَى ذَلِكَ الْمَوْضِعِ وَلْيَقُلْ: أُسْكُنْ، سَكَنْتُكَ بِالَّذِي لَهُ مَا
 > سَكَنَ فِي اللَّيْلِ وَالنَّهَارِ وَهُوَ السَّمِيعُ الْعَلِيمُ».
 >
-> وَعَنْهُ (ع) قَالَ: «كَانَ النَّبِيُّ ﷺ إِذَا كَسِلَ أَوْ أَصَابَتْهُ عَيْنٌ
+> وَعَنْهُ عليه السلام
 > أَوْ صُدَاعٌ بَسَطَ يَدَهُ فَقَرَأَ (فَاتِحَةَ الْكِتَابِ) وَالْمُعَوِّذَتَيْنِ،
 > ثُمَّ مَسَحَ يَدَهُ عَلَى وَجْهِهِ فَيَذْهَبُ عَنْهُ مَا كَانَ يَجِدُهُ».
 >
-> وعن العسكري (ع) لوجع الرأس أيضاً: أن تُقرأ على قدحٍ فيه ماء: ﴿أَوَلَمْ
+> وعن العسكري عليه السلام
 > يَرَ الَّذِينَ كَفَرُوا أَنَّ السَّمَاوَاتِ وَالْأَرْضَ كَانَتَا رَتْقًا
 > فَفَتَقْنَاهُمَا وَجَعَلْنَا مِنَ الْمَاءِ كُلَّ شَيْءٍ حَيٍّ أَفَلَا
 > يُؤْمِنُونَ﴾.
@@ -3270,7 +3320,7 @@ lalu airnya diminum.
 
 ### Teks Arab
 
-> عن أبي عبد الله (ع) أنه قال: «اقْرَأْ: ﴿وَلَوْ أَنَّ قُرْآنًا سُيِّرَتْ بِهِ
+> عن أبي عبد الله (١)
 > الْجِبَالُ أَوْ قُطِّعَتْ بِهِ الْأَرْضُ أَوْ كُلِّمَ بِهِ الْمَوْتَىٰ بَلْ
 > لِلَّهِ الْأَمْرُ جَمِيعًا﴾، ﴿تَكَادُ السَّمَاوَاتُ يَتَفَطَّرْنَ مِنْهُ﴾ —
 > إِلَى قَوْلِهِ — ﴿أَحَدًا﴾، ﴿وَجَعَلْنَا مِنْ بَيْنِ أَيْدِيهِمْ سَدًّا﴾
@@ -3306,17 +3356,17 @@ lagi Maha Mengetahui).
 
 ### Teks Arab
 
-> عن الرضا (ع) قال: قال رسول الله ﷺ: «إِذَا أَصَابَ أَحَدَكُمْ صُدَاعٌ أَوْ
+> عن الرضا (١)
 > غَيْرُ ذَلِكَ فَلْيَبْسُطْ يَدَيْهِ وَلْيَقْرَأْ (فَاتِحَةَ الْكِتَابِ)
 > وَ﴿قُلْ هُوَ اللَّهُ أَحَدٌ﴾ وَالْمُعَوِّذَتَيْنِ، وَيَمْسَحْ بِهِمَا
 > وَجْهَهُ؛ يَذْهَبُ عَنْهُ مَا يَجِدُهُ».
 >
-> وقال عمرو بن إبراهيم: شكوت إلى الرضا (ع) مِرَّةً كُنْتُ أَجِدُ مِنْهَا
+> وقال عمرو بن إبراهيم: شكوت إلى الرضا عليه السلام
 > شِبْهَ الْجُنُونِ وَصُدَاعاً غَالِباً، فَقَالَ: «عَلَيْكَ بِهَذِهِ الْبَقْلَةِ
 > الَّتِي تَلْتَفُّ، فَدُقَّهَا فَضَعْهَا عَلَى رَأْسِكَ، وَمُرْ أَهْلَكَ
 > فَلْيَضَعُوهَا عَلَى رُؤُوسِهِمْ» — وَالْبَقْلَةُ هِيَ اللَّبْلَابُ.
 >
-> شكا رجل إلى أبي عبد الله (ع) الصداع، فقال: «ادْنُ مِنِّي»، فَمَسَحَ رَأْسَهُ
+> شكا رجل إلى أبي عبد الله عليه السلام
 > ثُمَّ قَالَ: «﴿إِنَّ اللَّهَ يُمْسِكُ السَّمَاوَاتِ وَالْأَرْضَ أَنْ تَزُولَا
 > وَلَئِنْ زَالَتَا إِنْ أَمْسَكَهُمَا مِنْ أَحَدٍ مِنْ بَعْدِهِ إِنَّهُ كَانَ
 > حَلِيمًا غَفُورًا﴾».
@@ -3347,7 +3397,7 @@ dapat menahannya selain Dia. Sungguh Dia Maha Penyantun lagi Maha Pengampun"*
 
 ### Teks Arab
 
-> حدّث الديلمي عن داود الرقي، عن موسى بن جعفر (ع) قال: قلت له: يابن رسول
+> حدّث الديلمي عن داود الرقي، عن موسى بن جعفر (١)
 > الله، لا أزال أجد في رأسي [وجعاً] وربما أسهرتني وشغلتني عن الصلاة بالليل.
 > قال: «يَا دَاوُدُ، إِذَا أَحْسَسْتَ بِشَيْءٍ مِنْ ذَلِكَ فَامْسَحْ يَدَكَ
 > عَلَيْهِ وَقُلْ: أَعُوذُ بِاللهِ وَأَعِيذُ [نَفْسِي] بِهِ مِنْ جَمِيعِ مَا
@@ -3378,7 +3428,7 @@ membahayakanmu setelah itu."* [Sebagian redaksi rusak pada sumber pindai.]
 
 ### Teks Arab
 
-> عن أمير المؤمنين (ع) قال: «هَذِهِ عُوذَةٌ نَزَلَ بِهَا جَبْرَائِيلُ (ع) عَلَى
+> عن أمير المؤمنين (١) قال: «هَذِهِ عُوذَةٌ نَزَلَ بِهَا جَبْرَائِيلُ عليه السلام
 > النَّبِيِّ ﷺ وَالنَّبِيُّ ﷺ يَصْدَعُ، فَقَالَ: يَا مُحَمَّدُ، عَوِّذْ
 > صُدَاعَكَ بِهَذِهِ الْعُوذَةِ يُخَفِّفِ اللهُ عَنْكَ. وَقَالَ: يَا مُحَمَّدُ،
 > مَنْ عَوَّذَ بِهَذِهِ الْعُوذَةِ — سَبْعَ مَرَّاتٍ — عَلَى أَيِّ وَجَعٍ
@@ -3413,7 +3463,7 @@ Muhammad, dan usaplah apa yang ada padaku berupa sakit kepala dan migrain."*
 
 ### Teks Arab
 
-> عن أبي أسامة قال: قال أبو عبد الله (ع): «خُذْ لِكُلِّ وَجَعٍ وَحَرَارَةٍ مِنْ
+> عن أبي أسامة قال: قال أبو عبد الله (١)
 > قِبَلِ الرَّأْسِ: تُكْتَبُ مُرَبَّعَةً فِي وَسَطِهَا (حَرُّ النَّارِ) عَلَى
 > هَذِهِ الصُّورَةِ، ثُمَّ تَقُولُ: بِسْمِ اللهِ وَصَلَّى اللهُ عَلَى مُحَمَّدٍ
 > النَّبِيِّ وَآلِهِ وَسَلَّمَ؛ وَتُكْتُبُ [أَلْفَاظُ] الْأَذَانِ وَالْإِقَامَةِ
@@ -3466,7 +3516,7 @@ teruji.
 > الرَّحِيمِ، ﴿اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ﴾ — إِلَى
 > قَوْلِهِ — ﴿أُولُو الْأَلْبَابِ﴾، ﴿اخْرُجْ مِنْهَا مَذْءُومًا مَدْحُورًا﴾.
 >
-> وعن الباقر (ع) قال: يُكْتَبُ فِي كِتَابٍ وَيُعَلَّقُ عَلَى صَاحِبِ الصُّدَاعِ
+> وعن الباقر (١)
 > مِنَ الشِّقِّ الَّذِي يَشْتَكِي: «اَللَّهُمَّ إِنَّكَ لَسْتَ بِإِلَهٍ
 > اسْتَحْدَثْنَاهُ، وَلَا بِرَبٍّ يَبِيدُ ذِكْرُهُ، وَلَا مَعَكَ شُرَكَاءُ
 > يُفْضُونَ مَعَكَ، وَلَا كَانَ قَبْلَكَ إِلَهٌ نَدْعُوهُ وَنَتَعَوَّذُ بِهِ
@@ -3508,8 +3558,8 @@ gua (Ashabul Kahfi) … dan agar Engkau menyembuhkan Fulan bin Fulanah."*
 
 ### Teks Arab
 
-> عن داود الرقي قال: حضرت أبا عبد الله الصادق (ع) وقد جاءه خراساني حاج فدخل
-> عليه وسلّم، ثم سأله عن شيء من أمر الدين فجعل الصادق (ع) يفسره، ثم قال له:
+> عن داود الرقي قال: حضرت أبا عبد الله الصادق عليه السلام
+> عليه وسلّم، ثم سأله عن شيء من أمر الدين فجعل الصادق عليه السلام
 > يابن رسول الله، ما زلت شاكياً منذ خرجت من منزلي من وجع الرأس. فقال له:
 > «قُمْ مِنْ سَاعَتِكَ هَذِهِ فَادْخُلِ الْحَمَّامَ وَلَا تَبْتَدِئَنَّ بِشَيْءٍ
 > حَتَّى تَصُبَّ عَلَى رَأْسِكَ سَبْعَةَ أَكُفٍّ مَاءً حَارّاً، بِسْمِ اللهِ
@@ -3615,7 +3665,7 @@ mengalir pada dahan-dahan."*
 > وَهَنَ الْعَظْمُ مِنِّي وَاشْتَعَلَ الرَّأْسُ شَيْبًا وَلَمْ أَكُنْ بِدُعَائِكَ
 > رَبِّ شَقِيًّا﴾.
 >
-> عن عمّار [الأحمسي] قال: شكوت إلى أبي عبد الله (ع) ذلك، فقال: «إِذَا فَرَغْتَ
+> عن عمّار [الأحمسي] قال: شكوت إلى أبي عبد الله عليه السلام
 > مِنَ الْفَرِيضَةِ فَضَعْ سَبَّابَتَكَ الْيُمْنَى عَلَى عَيْنَيْكَ وَقُلْ —
 > سَبْعَ مَرَّاتٍ —: [كَذَا وَكَذَا]، ثُمَّ ضَعْهَا عَلَى حَاجِبِكَ الْأَيْسَرِ
 > وَقُلْ: يَا شَافِي اشْفِنِي — [مِرَاراً]؛ ثُمَّ ضَعْ رَاحَتَكَ الْيُمْنَى عَلَى
@@ -3674,7 +3724,19 @@ tundukkanlah apa yang menimpaku); kemudian bangkitlah untuk shalat sunah."*
 > *at-Tuḥfah ar-Raḍawiyyah*, *Mafātīḥ al-Jinān*, *Ḥayāt al-Ḥayawān*.
 
 ---
+tenggorokan](07-bab-02-mata-telinga-gigi.md)
 
+---
+
+## Catatan kaki edisi cetak
+
+Pada cetakan asli (Mu'assasat al-A'lami, Beirut), tanda kurung setelah nama
+Nabi/Imam berisi **nomor catatan kaki** (angka Arab ١، ٢، …) yang merujuk daftar
+sumber di kaki halaman — untuk bab-bab pengobatan umumnya *Makārim al-Akhlāq*,
+dan untuk bab-bab selanjutnya antara lain *Ṭibb al-A'immah*, *Miṣbā*,
+*Mafātīḥ al-Jinān*, *Biḥār al-Anwār*, *Ḍiyā' aṣ-Ṣāliḥīn*. Dokumen ini memulihkan
+penomoran tersebut sesuai urutan kemunculan pada cetakan; rincian daftar kaki
+halaman per bagian tidak tertangkap pindai sehingga tidak ditampilkan penuh.
 
 ---
 
@@ -3682,6 +3744,7 @@ tundukkanlah apa yang menimpaku); kemudian bangkitlah untuk shalat sunah."*
 
 # Bab 2 (Bagian D): Sakit Mata, Radang Mata, Telinga, Gigi, Mulut, dan Tenggorokan
 
+⬅️ [Bagian C — Sakit kepala dan syaqiqah](06-bab-02-sakit-kepala-dan-syaqiqah.md)
 
 **لِوَجَعِ الْعَيْنِ وَالرَّمَدِ، وَوَجَعِ الْأُذُنِ وَالصَّمَمِ، وَوَجَعِ الْأَسْنَانِ
 وَالْأَضْرَاسِ، وَوَجَعِ الْفَمِ وَالْحَلْقِ**
@@ -3692,7 +3755,7 @@ tundukkanlah apa yang menimpaku); kemudian bangkitlah untuk shalat sunah."*
 
 ### 1. Ayat al-Kursi untuk Mata
 
-> عن أمير المؤمنين (ع) قال: «إِذَا اشْتَكَى أَحَدُكُمْ عَيْنَهُ فَلْيَقْرَأْ عَلَيْهَا
+> عن أمير المؤمنين (١)
 > (آيَةَ الْكُرْسِيِّ)، وَفِي قَلْبِهِ أَنَّهُ يُبْرَأُ وَيُعَافَى، فَإِنَّهُ يُعَافَى إِنْ
 > شَاءَ اللهُ تَعَالَى». وَقِيلَ: إِنَّ مَنْ يَقُولُ كُلَّ يَوْمٍ: ﴿فَجَعَلْنَاهُ سَمِيعًا
 > بَصِيرًا﴾ تَسْلَمُ عَيْنُهُ مِنَ الْآفَاتِ.
@@ -3723,7 +3786,7 @@ tidak lain adalah peringatan bagi seluruh alam"* (QS al-Qalam [68]: 51–52).
 
 ### 3. Khasiat Penutup Surah at-Takwir
 
-> نقل عن الصادق (ع) أنها تُقرأ — واحداً وعشرين مرة — للخلاص من البليات؛ وإذا
+> نقل عن الصادق (١)
 > قرأها صاحب الحاجة — مئة مرة — عند هطول المطر وطلب حاجته من الله تعالى
 > قضيت حاجته حتماً؛ وإذا قرئت هذه السورة على ماء الورد ثم مسح عينيه بشيء
 > منه زاد نور العين؛ وإذا قرئت على عين فيها رمد أو مرض آخر [نفعت].
@@ -3737,14 +3800,14 @@ jika dibacakan atas mata yang meradang atau berpenyakit lain, bermanfaat.
 
 ### 4. 'Uwdzah Khaybar — Tangan Imam Ali Menyembuhkan Mata
 
-> عن الصادق عن آبائه (ع): قال علي بن أبي طالب (ع): لما دعاني رسول الله ﷺ
+: قال علي بن أبي طالب (٢)
 > يوم خيبر، قيل له: يا رسول الله، إنه أرمد. فقال رسول الله ﷺ: «ائْتُونِي
 > بِهِ». فَأَتَيْتُهُ فَقُلْتُ: يَا رَسُولَ اللهِ، إِنِّي أَرْمَدُ لَا أُبْصِرُ شَيْئاً.
 > قَالَ: «ادْنُ مِنِّي يَا عَلِيُّ». فَدَنَوْتُ مِنْهُ فَمَسَحَ يَدَهُ عَلَى عَيْنِي فَقَالَ:
 > «بِسْمِ اللهِ وَبِاللهِ، وَالسَّلَامُ عَلَى رَسُولِ اللهِ؛ اَللَّهُمَّ اكْفِهِ الْحَرَّ
-> وَالْبَرْدَ وَقِهِ الْأَذَى وَالْبَلَاءَ». قَالَ عَلِيٌّ (ع): فَبَرَأْتُ وَالَّذِي
+> وَالْبَرْدَ وَقِهِ الْأَذَى وَالْبَلَاءَ». قَالَ عَلِيٌّ (٣)
 > أَكْرَمَهُ بِالنُّبُوَّةِ وَخَصَّهُ بِالرِّسَالَةِ وَاصْطَفَاهُ عَلَى الْعِبَادِ، مَا وَجَدْتُ
-> بَعْدَ ذَلِكَ حَرّاً وَلَا بَرْداً وَلَا أَذىً فِي عَيْنِي. قَالَ: وَكَانَ عَلِيٌّ (ع)
+> بَعْدَ ذَلِكَ حَرّاً وَلَا بَرْداً وَلَا أَذىً فِي عَيْنِي. قَالَ: وَكَانَ عَلِيٌّ عليه السلام
 > رُبَّمَا خَرَجَ فِي الْيَوْمِ الشَّاتِي الشَّدِيدِ الْبَرْدِ وَعَلَيْهِ قَمِيصٌ شَقٌّ
 > فَيُقَالُ: يَا أَمِيرَ الْمُؤْمِنِينَ، أَمَا تُصِيبُكَ الْبَرْدُ؟ فَيَقُولُ: مَا أَصَابَنِي
 > حَرٌّ وَلَا بَرْدٌ مُنْذُ عَوَّذَنِي رَسُولُ اللهِ ﷺ.
@@ -3771,7 +3834,7 @@ untukku.")
 ### 5. Doa untuk Dunia-Akhirat Sekaligus Sakit Mata
 
 > عن محمد الجعفي عن أبيه قال: كنت كثيراً ما أشتكي عيني، فشكوت ذلك إلى
-> الصادق (ع) فقال: «أَلَا أُعَلِّمُكَ دُعَاءً لِدُنْيَاكَ وَآخِرَتِكَ وَيُكْفَى بِهِ وَجَعُ
+> الصادق عليه السلام
 > عَيْنِكَ؟» فَقُلْتُ: بَلَى. قَالَ: «تَقُولُ فِي دُبُرِ الْفَجْرِ وَالْمَغْرِبِ:
 > اَللَّهُمَّ إِنِّي أَسْأَلُكَ بِحَقِّ مُحَمَّدٍ أَنْ تُصَلِّيَ عَلَى مُحَمَّدٍ وَآلِ
 > مُحَمَّدٍ، وَأَسْأَلُكَ أَنْ تَجْعَلَ النُّورَ فِي بَصَرِي، وَالْبَصِيرَةَ فِي دِينِي،
@@ -3827,7 +3890,7 @@ riwayat: ucapkan tujuh kali setelah shalat Subuh sebelum bangkit.
 
 ### 7. 'Uwdzah Imam ash-Shadiq untuk Mata Meradang
 
-> عن عمر بن سليمان قال: رأيت أبا عبد الله الصادق (ع) [رَمِداً] ولم يكن به
+> عن عمر بن سليمان قال: رأيت أبا عبد الله الصادق عليه السلام
 > رمد، فسألته عن ذلك فقال: «عَالَجْتُهَا بِشَيْءٍ وَهُوَ عُوذَةٌ عِنْدِي
 > عَوَّذْتُ بِهَا»، قَالَ: فَأَخْبَرَنِي بِهَا وَهَذِهِ نُسْخَتُهَا: «أَعُوذُ بِعِرْوَةِ
 > اللهِ، أَعُوذُ بِقُدْرَةِ اللهِ، أَعُوذُ بِعَظَمَةِ اللهِ، أَعُوذُ بِجَلَالِ اللهِ، أَعُوذُ
@@ -3848,7 +3911,7 @@ rusak pada sumber pindai.]
 
 ### 8. Doa Amirul Mukminin yang Menyembuhkan Orang Buta
 
-> دعاء أمير المؤمنين (ع): «اَللَّهُمَّ إِنِّي أَسْأَلُكَ يَا رَبَّ الْأَرْوَاحِ
+> دعاء أمير المؤمنين (١)
 > الْفَانِيَةِ، وَرَبَّ الْأَجْسَادِ الْبَالِيَةِ، أَسْأَلُكَ بِطَاعَةِ الْأَرْوَاحِ
 > الرَّاجِعَةِ إِلَى أَجْسَادِهَا، وَبِطَاعَةِ الْأَجْسَادِ الْمُلْتَئِمَةِ إِلَى أَكْفَانِهَا،
 > وَبِانْشِقَاقِ الْقُبُورِ عَنْ أَهْلِهَا، وَبِدَعْوَتِكَ الصَّادِقَةِ فِيهِمْ، وَبِالْحَقِّ
@@ -3927,7 +3990,7 @@ pula QS al-An'am [6]: 25) dan *"Sesungguhnya pendengaran, penglihatan, dan
 hati, semuanya itu akan dimintai pertanggungjawabannya"* (QS al-Isra' [17]:
 36), lalu diteteskan ke telinga.
 
-> وعن الصادق (ع) قال لوجع الأذن: «ضَعْ يَدَكَ عَلَيْهِ وَقُلْ سَبْعاً: أَعُوذُ
+> وعن الصادق (١)
 > بِاللهِ الَّذِي سَكَنَ لَهُ مَا فِي الْبَرِّ وَالْبَحْرِ وَمَا فِي السَّمَاوَاتِ
 > وَالْأَرْضِ وَهُوَ السَّمِيعُ الْعَلِيمُ».
 
@@ -3938,8 +4001,8 @@ kepada Allah yang tunduk kepada-Nya apa yang di darat dan di laut serta apa
 yang di langit dan di bumi, dan Dia Maha Mendengar lagi Maha Mengetahui)."*
 
 > **لِلْحَصَاةِ فِي الْأُذُنِ:** روي عن سدير قال: أخذت حصاة فحككت بها أذني
-> فغاصت فيها، فجهدت كل جهد أن أخرجها فلم أقدر. فحججت ولقيت الباقر (ع)
-> فشكوت إليه، فقال للصادق (ع): «يَا جَعْفَرُ، خُذْ بِيَدِهِ فَأَخْرِجْهُ إِلَى
+> فغاصت فيها، فجهدت كل جهد أن أخرجها فلم أقدر. فحججت ولقيت الباقر عليه السلام
+> فشكوت إليه، فقال للصادق (٢)
 > الضَّوْءِ فَانْظُرْ»، فَنَظَرَ فِيهِ وَقَالَ: لَا أَرَى شَيْئاً. وَقَالَ: «ادْنُ مِنِّي»،
 > فَدَنَوْتُ، ثُمَّ قَالَ: «اَللَّهُمَّ أَخْرِجْهَا كَمَا أَدْخَلْتَهَا بِلَا مَئُونَةٍ وَلَا
 > مَصَفَّةٍ». وَقَالَ: «قُلْ ثَلَاثَ مَرَّاتٍ كَمَا قُلْتُ». فَقُلْتُهَا، فَقَالَ: «أَدْخِلْ
@@ -3961,7 +4024,7 @@ mengucapkannya, lalu beliau berkata, "Masukkan jarimu." Aku memasukkannya dan
 mengeluarkan (kerikil) itu dengan jari yang kumasukkan. Segala puji bagi Allah,
 Tuhan semesta alam.
 
-> **عُوذَةٌ لِلصَّمَمِ:** عن الباقر (ع) أن رجلاً شكا إليه صمماً فقال: «امْسَحْ
+> **عُوذَةٌ لِلصَّمَمِ:** عن الباقر (٣)
 > يَدَكَ عَلَيْهِ وَاقْرَأْ عَلَيْهِ: ﴿لَوْ أَنْزَلْنَا هَٰذَا الْقُرْآنَ عَلَىٰ جَبَلٍ
 > لَرَأَيْتَهُ خَاشِعًا مُتَصَدِّعًا مِنْ خَشْيَةِ اللَّهِ وَتِلْكَ الْأَمْثَالُ نَضْرِبُهَا
 > لِلنَّاسِ لَعَلَّهُمْ يَتَفَكَّرُونَ ۝ هُوَ اللَّهُ الَّذِي لَا إِلَٰهَ إِلَّا هُوَ ۖ عَالِمُ
@@ -3976,8 +4039,8 @@ kepada Allah… Dialah Allah yang tidak ada tuhan selain Dia, Yang Mengetahui
 yang gaib dan yang nyata; Dialah Yang Maha Pengasih lagi Maha Penyayang…'
 hingga akhir surah."*
 
-> وقال بعض أصحاب أبي عبد الله (ع): شكوت إليه ثقلاً في أذني، فقال: «عَلَيْكَ
-> بِتَسْبِيحِ فَاطِمَةَ (ع)». وَعَنِ الرَّسُولِ ﷺ أَنَّهُ قَالَ: «مَنْ طَنَّتْ
+> وقال بعض أصحاب أبي عبد الله (٤)
+> بِتَسْبِيحِ فَاطِمَةَ عليه السلام
 > أُذُنُهُ فَلْيُصَلِّ عَلَيَّ وَلْيَقُلْ: مَنْ ذَكَرَنِي بِخَيْرٍ ذَكَرَهُ اللهُ بِخَيْرٍ».
 
 Sebagian sahabat Abu Abdillah ('alaihissalam) berkata: Aku mengadukan rasa
@@ -3992,12 +4055,12 @@ menyebutku dengan kebaikan, Allah menyebutnya dengan kebaikan.'"*
 
 ### 1. Ruqyah Imam al-Baqir untuk Abu Bashir
 
-> عن أبي بصير قال: شكوت إلى الباقر (ع) وجع أضراسي وأنه يسهرني الليل، فقال
-> (ع): «يَا أَبَا بَصِيرِ، إِذَا أَحْسَسْتَ بِذَلِكَ فَضَعْ يَدَكَ عَلَيْهِ وَاقْرَأْ
+> عن أبي بصير قال: شكوت إلى الباقر عليه السلام
+> (١)
 > سُورَةَ (الْحَمْدِ) وَ﴿قُلْ هُوَ اللَّهُ أَحَدٌ﴾، ثُمَّ اقْرَأْ: ﴿وَتَرَى الْجِبَالَ
 > تَحْسَبُهَا جَامِدَةً وَهِيَ تَمُرُّ مَرَّ السَّحَابِ ۚ صُنْعَ اللَّهِ الَّذِي أَتْقَنَ
 > كُلَّ شَيْءٍ ۚ إِنَّهُ خَبِيرٌ بِمَا تَفْعَلُونَ﴾؛ فَإِنَّهُ يَسْكُنُ ثُمَّ لَا يَعُودُ».
-> وَعَنِ الصَّادِقِ (ع) أَنَّهُ أَمَرَ رَجُلًا بِذَلِكَ وَزَادَ فِيهِ: «اقْرَأْ: ﴿إِنَّا
+> وَعَنِ الصَّادِقِ عليه السلام
 > أَنْزَلْنَاهُ فِي لَيْلَةِ الْقَدْرِ﴾؛ فَإِنَّهُ يَسْكُنُ وَلَا يَعُودُ».
 
 Dari Abu Bashir: Aku mengadukan kepada Imam al-Baqir ('alaihissalam) sakit
@@ -4014,7 +4077,7 @@ maka ia akan reda dan tidak kembali."*
 
 ### 2. Cara Amirul Mukminin
 
-> عن أمير المؤمنين (ع) قال: «إِمْسَحْ مَوْضِعَ سُجُودِكَ ثُمَّ إِمْسَحِ
+> عن أمير المؤمنين (١)
 > الضِّرْسَ الْمَوْجُوعَ وَقُلْ: بِسْمِ اللهِ وَالشَّافِي اللهُ، وَلَا حَوْلَ وَلَا
 > قُوَّةَ إِلَّا بِاللهِ الْعَلِيِّ الْعَظِيمِ».
 
@@ -4063,7 +4126,7 @@ merujuk QS al-An'am [6]: 8, QS an-Naml [27]: 88, dan QS Yasin [36]: 78–79.]
 
 ### 5. Ruqyah Jibril untuk Imam Husain Kecil
 
-> رُقْيَةُ جِبْرَائِيلَ لِلْحُسَيْنِ بْنِ عَلِيٍّ (ع): «الْعَجَبُ كُلُّ الْعَجَبِ
+> رُقْيَةُ جِبْرَائِيلَ لِلْحُسَيْنِ بْنِ عَلِيٍّ (١)
 > لِدَابَّةٍ تَكُونُ [بَيْنَ اللَّحْمِ وَالدَّمِ وَالْعَظْمِ] … أَرْقِي، وَاللهُ عَزَّ
 > وَجَلَّ الشَّافِي الْكَافِي، لَا إِلَهَ إِلَّا اللهُ [وَالْكَيْدُ لَهُ] … ﴿وَإِذْ
 > قَتَلْتُمْ نَفْسًا فَادَّارَأْتُمْ فِيهَا وَاللَّهُ مُخْرِجٌ مَا كُنْتُمْ تَكْتُمُونَ ۝
@@ -4163,7 +4226,7 @@ Mahaagung."* Lalu pukulkan paku itu ke dinding dan ucapkan: "Allāh, Allāh
 
 ### 1. Untuk Sakit Mulut
 
-> عن الصادق (ع): «ضَعْ يَدَكَ عَلَيْهِ وَقُلْ: بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ؛
+> عن الصادق (١)
 > بِسْمِ اللهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ؛ أَعُوذُ بِكَلِمَاتِ اللهِ
 > الَّتِي لَا يَضُرُّ مَعَهَا شَيْءٌ؛ قُدُّوسٌ قُدُّوسٌ؛ أَسْأَلُكَ يَا رَبِّ
 > بِاسْمِكَ الطَّاهِرِ الْمُقَدَّسِ الْمُبَارَكِ الَّذِي مَنْ سَأَلَكَ بِهِ أَعْطَيْتَهُ،
@@ -4192,7 +4255,7 @@ dan seluruh anggota tubuhku)."* Engkau akan sembuh, insya Allah Ta'ala.
 
 ### 2. Doa al-Jāmi'ah untuk Tenggorokan dan Batuk
 
-> عن أبي جعفر (ع) قال: قال أمير المؤمنين (ع): «مَنِ اشْتَكَى حَلْقَهُ وَكَثُرَ
+ قال: قال أمير المؤمنين (٢)
 > سُعَالُهُ وَاشْتَدَّ نَفَسُهُ فَلْيَتَعَوَّذْ بِهَذِهِ الْكَلِمَاتِ» — وَكَانَ
 > يُسَمِّيهَا الْجَامِعَةَ لِكُلِّ شَيْءٍ —: «اَللَّهُمَّ أَنْتَ رَجَائِي [وَرَافِعِي]
 > وَعِمَادِي وَغِيَاثِي وَرِفْعَتِي وَجَمَالِي … لَيْسَ لِلْهَارِبِينَ مَهْرَبٌ
@@ -4239,7 +4302,19 @@ tersaji adalah inti yang terselamatkan. Sumber: *Makārim al-Akhlāq* h. 339 dan
   rusak pada sumber pindai] hingga akhirnya.
 
 ---
+kencing](08-bab-02-dada-punggung-perut.md)
 
+---
+
+## Catatan kaki edisi cetak
+
+Pada cetakan asli (Mu'assasat al-A'lami, Beirut), tanda kurung setelah nama
+Nabi/Imam berisi **nomor catatan kaki** (angka Arab ١، ٢، …) yang merujuk daftar
+sumber di kaki halaman — untuk bab-bab pengobatan umumnya *Makārim al-Akhlāq*,
+dan untuk bab-bab selanjutnya antara lain *Ṭibb al-A'immah*, *Miṣbā*,
+*Mafātīḥ al-Jinān*, *Biḥār al-Anwār*, *Ḍiyā' aṣ-Ṣāliḥīn*. Dokumen ini memulihkan
+penomoran tersebut sesuai urutan kemunculan pada cetakan; rincian daftar kaki
+halaman per bagian tidak tertangkap pindai sehingga tidak ditampilkan penuh.
 
 ---
 
@@ -4247,6 +4322,7 @@ tersaji adalah inti yang terselamatkan. Sumber: *Makārim al-Akhlāq* h. 339 dan
 
 # Bab 2 (Bagian E): Dada, Jantung, Punggung, Perut, Limpa, Kandung Kemih, dan Wasir
 
+⬅️ [Bagian D — Mata, telinga, gigi, mulut, dan tenggorokan](07-bab-02-mata-telinga-gigi.md)
 
 **لِأَوْجَاعِ الصَّدْرِ وَالظَّهْرِ وَالْبَطْنِ وَالطِّحَالِ وَالْمَثَانَةِ
 وَاحْتِبَاسِ الْبَوْلِ وَالْبَوَاسِيرِ وَالْقُولَنْجِ وَنَحْوِهَا**
@@ -4257,9 +4333,9 @@ tersaji adalah inti yang terselamatkan. Sumber: *Makārim al-Akhlāq* h. 339 dan
 
 ### 1. Berobatlah dengan Al-Qur'an
 
-> شكا رجل إلى الصادق (ع) وجعاً يجده في صدره فقال (ع): «اسْتَشْفِ
+ وجعاً يجده في صدره فقال (١)
 > بِالْقُرْآنِ؛ فَإِنَّ اللهَ عَزَّ وَجَلَّ يَقُولُ: ﴿وَشِفَاءٌ لِمَا فِي
-> الصُّدُورِ﴾. ثُمَّ قَالَ (ع): اكْتُبْ: ﴿وَإِذْ قَتَلْتُمْ نَفْسًا
+> الصُّدُورِ﴾. ثُمَّ قَالَ (٢)
 > فَادَّارَأْتُمْ فِيهَا وَاللَّهُ مُخْرِجٌ مَا كُنْتُمْ تَكْتُمُونَ ۝ فَقُلْنَا
 > اضْرِبُوهُ بِبَعْضِهَا ۚ كَذَٰلِكَ يُحْيِي اللَّهُ الْمَوْتَىٰ وَيُرِيكُمْ
 > آيَاتِهِ لَعَلَّكُمْ تَعْقِلُونَ﴾؛ فَإِنَّهُ يَبْرَأُ إِنْ شَاءَ اللهُ تَعَالَى».
@@ -4277,7 +4353,7 @@ maka ia akan sembuh, insya Allah Ta'ala."*
 
 ### 2. Shalat untuk Sakit Dada
 
-> عن الصادق (ع) قال: «مَنْ وَجَدَ وَجَعاً فِي صَدْرِهِ فَلْيُصَلِّ أَرْبَعَ
+> عن الصادق (١)
 > رَكَعَاتٍ: يَقْرَأُ فِي الْأُولَى: (فَاتِحَةَ الْكِتَابِ) وَ﴿أَلَمْ نَشْرَحْ
 > لَكَ صَدْرَكَ﴾؛ وَفِي الثَّانِيَةِ: (فَاتِحَةَ الْكِتَابِ) وَ﴿قُلْ هُوَ
 > اللَّهُ أَحَدٌ﴾ — ثَلَاثَ مَرَّاتٍ —؛ وَفِي الثَّالِثَةِ: (فَاتِحَةَ
@@ -4296,7 +4372,7 @@ dada' — QS Ghafir [40]: 19); maka ia akan sembuh, insya Allah Ta'ala."*
 
 ### 3. Untuk Balābil ash-Shadr (Kegelisahan dan Waswas Dada)
 
-> عن الصادق (ع) قال: كانَ أَمِيرُ الْمُؤْمِنِينَ (ع) إِذَا وَجَدَ وَجَعاً فِي
+ قال: كانَ أَمِيرُ الْمُؤْمِنِينَ عليه السلام
 > صَدْرِهِ أَوْ بَلَابِلَ قَالَ: «بِسْمِ اللهِ وَبِاللهِ؛ اَللَّهُمَّ مَنَنْتَ
 > عَلَيَّ بِالْإِيمَانِ، وَأَوْدَعْتَنِي الْقُرْآنَ، وَرَزَقْتَنِي صِيَامَ شَهْرِ
 > رَمَضَانَ، وَأَوْلَيْتَنِي مِنَّكَ إِحْسَاناً … يَا دَائِمُ يَا رَحْمَنُ،
@@ -4323,7 +4399,7 @@ Abdullah as-Sijistani.]
 
 ## B. Sakit Punggung dan Pinggang
 
-> شكا رجل من أهل همدان إلى أمير المؤمنين (ع) وجعاً في ظهره، فقال (ع):
+ وجعاً في ظهره، فقال (١)
 > «اكْتُبْ عَلَى ظَهْرِكَ: ﴿وَمَا كَانَ لِنَفْسٍ أَنْ تَمُوتَ إِلَّا بِإِذْنِ
 > اللَّهِ كِتَابًا مُؤَجَّلًا ۗ وَمَنْ يُرِدْ ثَوَابَ الدُّنْيَا نُؤْتِهِ مِنْهَا
 > وَمَنْ يُرِدْ ثَوَابَ الْآخِرَةِ نُؤْتِهِ مِنْهَا ۚ وَسَنَجْزِي الشَّاكِرِينَ﴾،
@@ -4341,7 +4417,7 @@ bersyukur' (QS Ali Imran [3]: 145), dan ⟨إِنَّا أَنْزَلْنَاه
 
 > **رُقْيَةٌ أُخْرَى لِلظَّهْرِ وَالْبَطْنِ:** روي أن إِسْمَاعِيلَ بْنَ
 > عَبْدِ الْعَزِيزِ اشْتَكَى ظَهْرَهُ وَبَطْنَهُ، فَدَخَلَ عَلَيْهِ الصَّادِقُ
-> (ع) يَعُودُهُ، فَأَمَرَهُ أَنْ يَسْتَلْقِيَ عَلَى ظَهْرِهِ، ثُمَّ قَالَ:
+> عليه السلام
 > «بِسْمِ اللهِ وَبِاللهِ؛ صُنْعَ اللهِ الَّذِي أَتْقَنَ كُلَّ شَيْءٍ؛ إِنَّهُ
 > خَبِيرٌ بِمَا تَفْعَلُونَ؛ أُسْكُنْ بِالَّذِي سَكَنَ لَهُ مَا فِي اللَّيْلِ
 > وَالنَّهَارِ وَهُوَ السَّمِيعُ الْعَلِيمُ». قَالَ إِسْمَاعِيلُ: فَمَا
@@ -4382,7 +4458,7 @@ tuhan selain Allah semata, tiada sekutu bagi-Nya; bagi-Nya kerajaan dan bagi-Nya
 pujian; Dia menghidupkan dan mematikan; Dia Mahahidup yang tidak mati; di
 tangan-Nya kebaikan dan Dia Mahakuasa atas segala sesuatu."*
 
-> وعن الصادق (ع): «يُكْتَبُ لِهَذَا: بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ؛
+> وعن الصادق (١)
 > ﴿وَذَا النُّونِ إِذْ ذَهَبَ مُغَاضِبًا فَظَنَّ أَنْ لَنْ نَقْدِرَ عَلَيْهِ
 > فَنَادَىٰ فِي الظُّلُمَاتِ أَنْ لَا إِلَٰهَ إِلَّا أَنْتَ سُبْحَانَكَ إِنِّي
 > كُنْتُ مِنَ الظَّالِمِينَ ۝ فَاسْتَجَبْنَا لَهُ وَنَجَّيْنَاهُ مِنَ الْغَمِّ ۚ
@@ -4399,7 +4475,7 @@ yang beriman' (QS al-Anbiya' [21]: 87–88)."*
 
 ### 2. Doa Amirul Mukminin untuk Sakit Perut
 
-> عن أمير المؤمنين (ع) أنه قال لرجل اشتكى بطنه: «يَا إِلَهَ الْآلِهَةِ، يَا
+> عن أمير المؤمنين (١)
 > مَلِكَ الْمُلُوكِ، يَا سَيِّدَ السَّادَاتِ، يَا جَبَّارَ الْجَبَابِرَةِ، يَا
 > قَاهِرَ الْجَبَابِرَةِ، يَا كَاسِرَ الْجَبَابِرَةِ، اشْفِنِي بِشِفَائِكَ،
 > وَدَاوِنِي بِدَوَائِكَ، وَعَافِنِي مِنْ بَلَائِكَ؛ فَإِنِّي عَبْدُكَ وَابْنُ
@@ -4417,7 +4493,7 @@ dan putra hamba-Mu, berbolak-balik dalam genggaman-Mu).
 
 ### 3. Madu dan Air Hujan — Resep Amirul Mukminin
 
-> عن أمير المؤمنين (ع) أنه كان إذا اشتكى بطنه قال لِأَهْلِهِ: «هَاتُوا لِي
+> عن أمير المؤمنين (١)
 > عَسَلاً»، فَيُؤْتَى بِهِ، فَيَأْخُذُهُ وَيَجْعَلُهُ فِي إِنَاءٍ وَيَصُبُّ
 > عَلَيْهِ مَاءَ الْمَطَرِ، ثُمَّ يَقْرَأُ عَلَيْهِ: ﴿وَأَنْزَلْنَا مِنَ السَّمَاءِ
 > مَاءً مُبَارَكًا فَأَنْبَتْنَا بِهِ جَنَّاتٍ وَحَبَّ الْحَصِيدِ﴾،
@@ -4439,10 +4515,10 @@ Ta'ala.
 
 ### 4. Untuk Perut Kembung dan Buang Angin (an-Nafkh)
 
-> عن الصادق (ع): «إِذَا شَكَوْتَ نَفْخاً فِي بَطْنِكَ فَضَعْ يَدَكَ عَلَيْهِ
+> عن الصادق (١)
 > وَقُلْ: بِسْمِ اللهِ الَّذِي اتَّخَذَ إِبْرَاهِيمَ خَلِيلًا، وَكَلَّمَ مُوسَىٰ
 > تَكْلِيمًا؛ يَا رِيحُ، اخْرُجِي بِإِذْنِ اللهِ تَعَالَى» — ثَلَاثَ مَرَّاتٍ —.
-> وَقَالَ (ع): «مَنْ قَالَ عِنْدَ كُلِّ نَفْخَةٍ: اَللَّهُمَّ لَا تَجْعَلْ لِي
+> وَقَالَ (٢)
 > فِيهَا أَلَماً وَلَا وَجَعاً وَلَا دَاءً — عُوفِيَ».
 
 Dari Imam ash-Shadiq ('alaihissalam): *"Jika engkau mengeluh kembung pada
@@ -4457,8 +4533,8 @@ penyakit) — ia akan selamat."*
 
 ### 5. 'Uwdzah untuk Perut — dari Yunus bin Ya'qub
 
-> عن يونس بن يعقوب قال: شَكَوْتُ إِلَى أَبِي عَبْدِ اللهِ (ع) وَجَعاً فِي
-> بَطْنِي، فَقَالَ (ع): «قُلْ: يَا اللهُ يَا رَبِّي يَا رَحْمَنُ يَا رَبَّ
+> عن يونس بن يعقوب قال: شَكَوْتُ إِلَى أَبِي عَبْدِ اللهِ عليه السلام
+> بَطْنِي، فَقَالَ (١)
 > الْأَرْبَابِ يَا سَيِّدَ السَّادَاتِ، اشْفِنِي وَعَافِنِي مِنْ كُلِّ دَاءٍ
 > وَسَقَمٍ؛ فَإِنِّي عَبْدُكَ وَابْنُ عَبْدِكَ، أَتَقَلَّبُ فِي قَبْضَتَيْكَ».
 > قَالَ: فَقُلْتُهُ فَعُوفِيتُ.
@@ -4474,7 +4550,7 @@ Ia berkata: Maka aku mengucapkannya dan aku sembuh.
 
 ### 6. Sakit Pusar (an-Nufāj / as-Surrah)
 
-> عن الصادق (ع) قال: «إِذَا وَجَدْتَ وَجَعاً فِي سُرَّتِكَ فَضَعْ يَدَكَ
+> عن الصادق (١)
 > عَلَيْهَا وَقُلْ ثَلَاثاً: ﴿وَإِنَّهُ لَكِتَابٌ عَزِيزٌ ۝ لَا يَأْتِيهِ
 > الْبَاطِلُ مِنْ بَيْنِ يَدَيْهِ وَلَا مِنْ خَلْفِهِ ۖ تَنْزِيلٌ مِنْ حَكِيمٍ
 > حَمِيدٍ﴾؛ فَإِنَّهُ يَبْرَأُ إِنْ شَاءَ اللهُ».
@@ -4490,8 +4566,8 @@ Allah."*
 
 ## D. Limpa (ath-Thihāl)
 
-> عن جابر عن الباقر (ع): أن رجلاً من أهل خراسان شكا إلى علي بن الحسين (ع)
-> وجع الطحال، فقال (ع): «اكْتُبْ بِزَعْفَرَانٍ بِمَاءِ زَمْزَمَ: ﴿قُلِ ادْعُوا
+: أن رجلاً من أهل خراسان شكا إلى علي بن الحسين عليه السلام
+> وجع الطحال، فقال (٢)
 > اللَّهَ أَوِ ادْعُوا الرَّحْمَٰنَ ۖ أَيًّا مَا تَدْعُوا فَلَهُ الْأَسْمَاءُ
 > الْحُسْنَىٰ ۚ وَلَا تَجْهَرْ بِصَلَاتِكَ وَلَا تُخَافِتْ بِهَا وَابْتَغِ بَيْنَ
 > ذَٰلِكَ سَبِيلًا﴾، وَاشْرَبْهُ؛ فَإِنَّهُ يَبْرَأُ إِنْ شَاءَ اللهُ تَعَالَى».
@@ -4527,7 +4603,7 @@ Pengasih lagi Maha Penyayang"* (QS an-Naml [27]: 30).
 
 ## E. Kandung Kemih, Sulit Buang Air Kecil, dan Batu Ginjal
 
-> **لِوَجَعِ الْمَثَانَةِ:** عن الصادق (ع): «يُقْرَأُ عَلَيْهَا ثَلَاثَ
+> **لِوَجَعِ الْمَثَانَةِ:** عن الصادق (١)
 > مَرَّاتٍ عِنْدَ النَّوْمِ وَمَرَّةً عِنْدَ الِانْتِبَاهِ: ﴿أَلَمْ تَعْلَمْ
 > أَنَّ اللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ ۝ أَلَمْ تَعْلَمْ أَنَّ اللَّهَ لَهُ
 > مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ وَمَا لَكُمْ مِنْ دُونِ اللَّهِ مِنْ وَلِيٍّ
@@ -4539,7 +4615,7 @@ bahwa Allah Mahakuasa atas segala sesuatu? Tidakkah engkau tahu bahwa milik
 Allah kerajaan langit dan bumi? Dan tiada bagi kalian selain Allah seorang
 pelindung pun dan tiada (pula) seorang penolong' (QS al-Baqarah [2]: 106–107)."*
 
-> **لِاحْتِبَاسِ الْبَوْلِ:** عن الصادق (ع): «اغْسِلْ رِجْلَيْكَ وَاكْتُبْ
+> **لِاحْتِبَاسِ الْبَوْلِ:** عن الصادق (٢)
 > عَلَى سَاقِكَ الْيُسْرَى: ﴿فَفَتَحْنَا أَبْوَابَ السَّمَاءِ بِمَاءٍ
 > مُنْهَمِرٍ ۝ وَفَجَّرْنَا الْأَرْضَ عُيُونًا فَالْتَقَى الْمَاءُ عَلَىٰ أَمْرٍ
 > قَدْ قُدِرَ﴾؛ فَإِنَّهُ يَخْرُجُ إِنْ شَاءَ اللهُ».
@@ -4580,8 +4656,8 @@ sumber pindai.]
 
 ## F. Wasir (al-Bawāsīr)
 
-> عن الصادق (ع): «يُكْتَبُ (يس) بِعَسَلٍ وَيُشْرَبُ؛ فَإِنَّهُ يَنْفَعُ مِنَ
-> الْبَوَاسِيرِ». وَعَنْ أَمِيرِ الْمُؤْمِنِينَ (ع): «يَا جَوَادُ يَا مَاجِدُ،
+> عن الصادق (١)
+> الْبَوَاسِيرِ». وَعَنْ أَمِيرِ الْمُؤْمِنِينَ (٢)
 > يَا رَحِيمُ يَا قَرِيبُ يَا مُجِيبُ، يَا بَارِئُ يَا رَاحِمُ، صَلِّ عَلَى
 > مُحَمَّدٍ وَآلِهِ، وَارْدُدْ عَلَيَّ نِعْمَتَكَ، وَاكْفِنِي أَمْرَ وَجَعِي».
 
@@ -4623,7 +4699,7 @@ dengan air hujan dan diminum. Dan shalat dua rakaat yang dibaca padanya:
 *"Maka Kami bukakan pintu-pintu langit dengan air yang tercurah"* (QS al-Qamar
 [54]: 11).
 
-> **لِلِّوَاءِ (التواء البطن):** عن الكاظم (ع): «يُؤْخَذُ مَاءٌ فَيُرْقَى
+> **لِلِّوَاءِ (التواء البطن):** عن الكاظم (١)
 > عَلَيْهِ بِغَيْرِ زَيْتٍ: ﴿يُرِيدُ اللَّهُ بِكُمُ الْيُسْرَ وَلَا يُرِيدُ
 > بِكُمُ الْعُسْرَ﴾ — ثَلَاثَ مَرَّاتٍ —، وَ﴿أَوَلَمْ يَرَ الَّذِينَ كَفَرُوا
 > أَنَّ السَّمَاوَاتِ وَالْأَرْضَ كَانَتَا رَتْقًا فَفَتَقْنَاهُمَا﴾، وَيُشْرَبُ
@@ -4636,7 +4712,7 @@ bagi kalian dan tidak menghendaki kesukaran bagi kalian' (QS al-Baqarah [2]:
 bumi dahulu keduanya menyatu, lalu Kami pisahkan keduanya' (QS al-Anbiya' [21]:
 30); lalu diminum dan diusapkan ke perut."*
 
-> وعن الصادق (ع): «يُقْرَأُ عَلَى الزَّيْتِ وَيُصَبُّ عَلَى الْبَطْنِ:
+> وعن الصادق (٢)
 > ﴿فَفَتَحْنَا أَبْوَابَ السَّمَاءِ بِمَاءٍ مُنْهَمِرٍ ۝ وَفَجَّرْنَا الْأَرْضَ
 > عُيُونًا فَالْتَقَى الْمَاءُ عَلَىٰ أَمْرٍ قَدْ قُدِرَ﴾، وَ﴿بِسْمِ اللهِ؛
 > كَذَلِكَ بِاسْمِ فُلَانِ بْنِ فُلَانَةَ﴾، وَ﴿أَوَلَمْ يَرَ الَّذِينَ كَفَرُوا
@@ -4647,7 +4723,7 @@ Dari Imam ash-Shadiq ('alaihissalam): *"Dibacakan atas minyak lalu dituangkan
 ke perut: QS al-Qamar ayat 11–12; dan 'Bismillāh; demikianlah dengan nama Fulan
 bin Fulanah'; dan QS al-Anbiya' ayat 30 hingga 'afalā yu'minūn'."*
 
-> وعن الصادق (ع) أيضاً في اللِّواء: يُقْرَأُ عَلَيْهِ: ﴿إِذَا السَّمَاءُ
+> وعن الصادق عليه السلام
 > انْشَقَّتْ﴾ مَرَّةً، وَ﴿إِذْ قَالَتِ امْرَأَتُ عِمْرَانَ رَبِّ إِنِّي
 > نَذَرْتُ لَكَ مَا فِي بَطْنِي مُحَرَّرًا فَتَقَبَّلْ مِنِّي ۖ إِنَّكَ أَنْتَ
 > السَّمِيعُ الْعَلِيمُ﴾، وَ﴿وَنُنَزِّلُ مِنَ الْقُرْآنِ مَا هُوَ شِفَاءٌ
@@ -4664,7 +4740,19 @@ apa yang menjadi obat dan rahmat bagi orang-orang yang beriman"* (QS al-Isra'
 [17]: 82). [Dan bentuk-bentuk lain yang serupa dalam sumber, sebagiannya rusak.]
 
 ---
+anggota badan](09-bab-02-kulit-tulang-anggota.md)
 
+---
+
+## Catatan kaki edisi cetak
+
+Pada cetakan asli (Mu'assasat al-A'lami, Beirut), tanda kurung setelah nama
+Nabi/Imam berisi **nomor catatan kaki** (angka Arab ١، ٢، …) yang merujuk daftar
+sumber di kaki halaman — untuk bab-bab pengobatan umumnya *Makārim al-Akhlāq*,
+dan untuk bab-bab selanjutnya antara lain *Ṭibb al-A'immah*, *Miṣbā*,
+*Mafātīḥ al-Jinān*, *Biḥār al-Anwār*, *Ḍiyā' aṣ-Ṣāliḥīn*. Dokumen ini memulihkan
+penomoran tersebut sesuai urutan kemunculan pada cetakan; rincian daftar kaki
+halaman per bagian tidak tertangkap pindai sehingga tidak ditampilkan penuh.
 
 ---
 
@@ -4672,6 +4760,7 @@ apa yang menjadi obat dan rahmat bagi orang-orang yang beriman"* (QS al-Isra'
 
 # Bab 2 (Bagian F): Penyakit Kulit, Luka, Patah Tulang, Kutil, Cacar, Belang, Kelenjar, Mimisan, dan Tulang
 
+⬅️ [Bagian E — Dada, punggung, perut, limpa, dan saluran kencing](08-bab-02-dada-punggung-perut.md)
 
 **لِلْجَرَبِ وَالدَّمَامِيلِ وَالْقُرُوحِ وَالْبُثُورِ وَالْأَوْرَامِ وَالْجِرَاحِ
 وَكَسْرِ الْعِظَامِ وَالثَّآلِيلِ وَالْجُدَرِيِّ وَالْبَرَصِ وَالْبَهَقِ
@@ -4700,7 +4789,7 @@ sedangkan engkau tidak kekal; dan Allah Mahakuasa atas segala sesuatu."*
 
 ### Untuk Bisul yang Baru Muncul (al-Buṡr)
 
-> عن الصادق (ع): «إِذَا رَأَيْتَ أَوَّلَ بُثْرَةٍ تَخْرُجُ فَضَعْ سَبَّابَتَكَ
+> عن الصادق (١)
 > عَلَيْهَا وَدُرْ حَوْلَهَا سَبْعَ مَرَّاتٍ وَقُلْ فِي كُلِّ دَوْرَةٍ: لَا إِلَهَ
 > إِلَّا اللهُ الْحَلِيمُ الْكَرِيمُ؛ ثُمَّ افْعَلْ بِهَا مَا أَمَرْتُكَ؛
 > فَإِنَّهَا لَا تَتَرَبَّى».
@@ -4734,7 +4823,7 @@ ke tanah.
 
 ### 2. Nasihat Imam ash-Shadiq tentang Darah Panas
 
-> عن الصادق (ع) قال: «أَكْثَرُ الدَّمَامِيلِ وَالْقُرُوحِ مِنَ الدَّمِ
+> عن الصادق (١)
 > الْحَارِّ الَّذِي يَحْتَبِسُ فِي الْبَدَنِ؛ فَإِذَا أَوَيْتَ إِلَى فِرَاشِكَ
 > فَقُلْ: أَعُوذُ بِوَجْهِ اللهِ الْعَظِيمِ وَكَلِمَاتِهِ التَّامَّاتِ الَّتِي
 > لَا يُجَاوِزُهُنَّ بَرٌّ وَلَا فَاجِرٌ، مِنْ شَرِّ مَا يَنْزِلُ مِنَ السَّمَاءِ
@@ -4758,7 +4847,7 @@ Maha Pengasih)."*
 
 ### 3. Bengkak pada Sendi (Awrām al-Mafāṣil)
 
-> عن الباقر (ع): «إِذَا كَانَ بِإِنْسَانٍ وَرَمٌ فِي مَفَاصِلِهِ فَلْيُصَلِّ
+> عن الباقر (١)
 > رَكْعَتَيْنِ بِطُهْرٍ، ثُمَّ لِيَقْرَأْ عَلَى الْوَرَمِ خَوَاتِيمَ سُورَةِ
 > الْحَشْرِ — ثَلَاثَ مَرَّاتٍ —: ﴿لَوْ أَنْزَلْنَا هَٰذَا الْقُرْآنَ عَلَىٰ
 > جَبَلٍ لَرَأَيْتَهُ خَاشِعًا مُتَصَدِّعًا مِنْ خَشْيَةِ اللَّهِ﴾ إِلَى آخِرِ
@@ -4776,7 +4865,7 @@ sembuh, insya Allah Ta'ala."*
 ## C. Patah Tulang — Doa Imam Zainal Abidin (Kisah Abu Hamzah ats-Tsumali)
 
 > روي عن أبي حمزة الثمالي قال: كُسِرَ ذِرَاعُ ابْنِي، فَكَتَبْتُ إِلَى
-> عَلِيِّ بْنِ الْحُسَيْنِ (ع) أَسْأَلُهُ الدُّعَاءَ، فَكَتَبَ إِلَيَّ:
+> عَلِيِّ بْنِ الْحُسَيْنِ عليه السلام
 > «بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ: يَا حَيَّ كُلِّ حَيٍّ، وَيَا حَيّاً
 > قَبْلَ كُلِّ حَيٍّ، وَيَا حَيّاً بَعْدَ كُلِّ حَيٍّ، وَيَا حَيّاً لَيْسَ
 > مَعَهُ حَيٌّ، وَيَا حَيّاً يُفْنِي كُلَّ حَيٍّ، وَيَا حَيّاً يَرْزُقُ كُلَّ
@@ -4818,7 +4907,7 @@ di sini disajikan pokok-pokoknya; versi lengkapnya dalam *Ṭibb al-A'immah* dan
 
 ### 1. Untuk Benjolan (Tumor)
 
-> شكا رجل إلى الصادق (ع) سلعةً خرجت به فقال (ع): «صُمْ ثَلَاثَةَ أَيَّامٍ،
+ سلعةً خرجت به فقال (١)
 > فَإِذَا كَانَ يَوْمُ الرَّابِعِ فَاغْتَسِلْ عِنْدَ زَوَالِ الشَّمْسِ وَصَلِّ
 > أَرْبَعَ رَكَعَاتٍ، ثُمَّ ضَعْ خَدَّكَ عَلَى الْأَرْضِ وَقُلْ: يَا وَاحِدُ يَا
 > أَحَدُ، يَا كَرِيمُ يَا حَنَّانُ، يَا جَبَّارُ يَا قَرِيبُ يَا مُجِيبُ …
@@ -4842,7 +4931,7 @@ mencukupi dan menyembuhkan; dan kuatkanlah aku dengan keyakinan)."* Ia berkata:
 
 ### 2. Amalan Kutil dengan Jauz (Kacang)
 
-> **لِلثَّآلِيلِ:** عَنِ الرِّضَا (ع): «انْظُرْ إِلَى أَوَّلِ كَوْكَبٍ
+> **لِلثَّآلِيلِ:** عَنِ الرِّضَا (١)
 > يَطْلُعُ عِنْدَ الْمَسَاءِ، وَخُذْ بِيَدِكَ تُرَاباً فَادْلُكْهُ عَلَى
 > الثَّآلِيلِ وَقُلْ: بِسْمِ اللهِ وَبِاللهِ؛ رَأَيْتُكَ وَلَمْ تَرَنِي؛
 > [اِرْفَعْ ثَآلِيلِي]؛ وَاقْرَأْ خَوَاتِيمَ الْحَشْرِ — ثَلَاثَ مَرَّاتٍ —،
@@ -4856,7 +4945,7 @@ engkau tidak melihatku; [angkatlah kutil-kutilku]); bacakan penutup surah
 al-Hasyr tiga kali; lalu lemparkan tanah itu ke dalam baskom dan jangan
 menoleh ke belakang."*
 
-> وعن الصادق (ع) أنه عوَّذ رجلاً له ثآليل، فأخذ سبع شعيرات، فقرأ على كل
+> وعن الصادق (٢)
 > شعيرة سبع مرات: ﴿إِذَا وَقَعَتِ الْوَاقِعَةُ﴾ إِلَى ﴿فَكَانَتْ هَبَاءً
 > مُنْبَثًّا﴾، وَ﴿وَيَسْأَلُونَكَ عَنِ الْجِبَالِ فَقُلْ يَنْسِفُهَا رَبِّي
 > نَسْفًا﴾ إِلَى ﴿وَلَا أَمْتًا﴾، ثُمَّ يَمْسَحُ بِهَا عَلَى الثَّآلِيلِ،
@@ -4895,8 +4984,8 @@ dua, tiga, dan empat' (QS Fathir [35]: 1); dengan nama Fulan bin Fulanah."*
 
 ### 2. Untuk Belang dan Bercak Putih
 
-> عن يونس بن يعقوب قال: كان بي بياض بين عيني، فأتيت الصادق (ع) فشكوت إليه،
-> فقال (ع): «صَلِّ رَكْعَتَيْنِ وَقُلْ: يَا عَلِيُّ يَا عَظِيمُ، يَا رَحْمَنُ يَا
+> عن يونس بن يعقوب قال: كان بي بياض بين عيني، فأتيت الصادق عليه السلام
+> فقال (١)
 > رَحِيمُ، يَا سَمِيعَ الدَّعَوَاتِ يَا مُعْطِيَ الْخَيْرَاتِ، أَعْطِنِي خَيْرَ
 > الدُّنْيَا وَخَيْرَ الْآخِرَةِ، وَقِنِي شَرَّ الدُّنْيَا وَشَرَّ الْآخِرَةِ،
 > وَأَذْهِبْ عَنِّي مَا أَجِدُ؛ فَقَدْ أَفْزَعَنِي الْأَمْرُ وَأَحْرَقَنِي».
@@ -4915,8 +5004,8 @@ dan hilangkanlah dariku apa yang kurasakan; sungguh keadaan ini telah
 menakutkan dan membakarku)."* Ia berkata: "Maka aku melakukannya, dan Allah
 menghilangkannya dariku."
 
-> وعن الصادق (ع): «يَا مُنْزِلَ الشِّفَاءِ وَمُذْهِبَ الدَّاءِ، أَنْزِلْ عَلَى
-> مَا بِي مِنْ دَاءٍ شِفَاءً». وَعَنْ أَبِي الْحَسَنِ (ع): «مَنْ قَالَ
+> وعن الصادق (٢)
+> مَا بِي مِنْ دَاءٍ شِفَاءً». وَعَنْ أَبِي الْحَسَنِ (٣)
 > بَعْدَ الْمَغْرِبِ مِائَةَ مَرَّةٍ وَبَعْدَ الْفَجْرِ مِائَةَ مَرَّةٍ:
 > بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ، لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ
 > الْعَلِيِّ الْعَظِيمِ — صُرِفَ عَنْهُ مِائَةُ نَوْعٍ مِنَ الْبَلَاءِ،
@@ -4936,9 +5025,9 @@ yang paling ringannya kusta, belang, setan, dan (keburukan) penguasa."*
 
 ### 1. Khanāzīr
 
-> عن الرضا (ع): أن جاريةً كان في عنقها خنازير، فقال (ع): «قُولِي: يَا
+: أن جاريةً كان في عنقها خنازير، فقال (٢)
 > رَؤُوفُ يَا رَحِيمُ يَا رَبِّ يَا سَيِّدِي» — كَرِّرْهَا —؛ فَمَا لَبِثَتْ
-> أَنْ بَرِئَتْ. وَعَنِ الصَّادِقِ (ع): يُرْقَى عَلَيْهِ ثَلَاثَةَ أَيَّامٍ:
+> أَنْ بَرِئَتْ. وَعَنِ الصَّادِقِ (٣)
 > «بِسْمِ اللهِ وَبِاللهِ وَهُوَ الشَّافِي» — ثَلَاثَ مَرَّاتٍ فِي كُلِّ
 > يَوْمٍ —.
 
@@ -4951,11 +5040,11 @@ hari: *"Bismillāhi wa billāhi wa huwasy-Syāfī"* — tiga kali setiap hari.
 
 ### 2. Keletihan dan Kelemahan (at-Ta'ab wal-Futar)
 
-> عن الصادق (ع): «يُكْتَبُ عَلَيْهِ: ﴿وَلَقَدْ خَلَقْنَا السَّمَاوَاتِ
+> عن الصادق (١)
 > وَالْأَرْضَ وَمَا بَيْنَهُمَا فِي سِتَّةِ أَيَّامٍ وَمَا مَسَّنَا مِنْ
-> لُغُوبٍ﴾». وَقَالَ (ع): «مَنْ ضَعُفَ قَلْبُهُ أَوْ بَدَنُهُ فَلْيَأْكُلِ
+> لُغُوبٍ﴾». وَقَالَ (٢)
 > اللَّحْمَ بِاللَّبَنِ، وَلْيَقُلْ عِنْدَ نَوْمِهِ: لَا إِلَهَ إِلَّا اللهُ
-> عَشْرَ مَرَّاتٍ، وَلْيُسَبِّحْ تَسْبِيحَ فَاطِمَةَ (ع)، وَلْيَقْرَأْ آيَةَ
+> عَشْرَ مَرَّاتٍ، وَلْيُسَبِّحْ تَسْبِيحَ فَاطِمَةَ عليه السلام
 > الْكُرْسِيِّ وَ﴿قُلْ هُوَ اللَّهُ أَحَدٌ﴾».
 
 Dari Imam ash-Shadiq ('alaihissalam): *"Dituliskan atasnya: 'Dan sungguh Kami
@@ -4984,9 +5073,9 @@ diselesaikan, dan bahtera itu berlabuh di atas gunung Judi, dan dikatakan:
 
 ### 1. Sakit Lutut dan Tulang Kering
 
-> شكا أبو حمزة الثمالي إلى الصادق (ع) وجع ركبتيه، فقال (ع): «ادْعُ بِهَذَا
+ وجع ركبتيه، فقال (١)
 > الدُّعَاءِ وَأَنْتَ سَاجِدٌ». [مَتْنُهُ فِي الْمَصْدَرِ رَدِيئٌ.] وَعَنْهُ
-> (ع): «يُقْرَأُ عَلَى الرُّكْبَةِ وَالسَّاقِ: ﴿وَلَقَدْ خَلَقْنَا السَّمَاوَاتِ
+> (٢)
 > وَالْأَرْضَ وَمَا بَيْنَهُمَا فِي سِتَّةِ أَيَّامٍ وَمَا مَسَّنَا مِنْ
 > لُغُوبٍ﴾».
 
@@ -4997,7 +5086,7 @@ sujud."* [Redaksi doa rusak pada sumber pindai.] Dari beliau ('alaihissalam):
 langit dan bumi serta apa yang ada antara keduanya dalam enam hari, dan Kami
 tidak ditimpa keletihan sedikit pun' (QS Qaf [50]: 38)."*
 
-> **لِعِرْقِ النَّسَا:** عن أمير المؤمنين (ع): «ضَعْ يَدَكَ عَلَيْهِ وَقُلْ:
+> **لِعِرْقِ النَّسَا:** عن أمير المؤمنين (٣)
 > بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ؛ بِسْمِ اللهِ وَبِاللهِ؛ أَعُوذُ بِاسْمِ
 > اللهِ الْكَبِيرِ وَأَعُوذُ بِاسْمِ اللهِ الْعَظِيمِ مِنْ شَرِّ كُلِّ عِرْقٍ
 > نَعَّارٍ وَمِنْ شَرِّ حَرِّ النَّارِ».
@@ -5011,7 +5100,7 @@ dengan Allah; aku berlindung dengan nama Allah Yang Mahabesar dan aku berlindung
 dengan nama Allah Yang Mahaagung dari kejahatan setiap urat yang mengucurkan
 darah dan dari kejahatan panas neraka)."*
 
-> **لِلْعِرْقِ الْمَدَنِيِّ (الرِّشْتَة):** عن الصادق (ع): «إِذَا أَحْسَسْتَ
+> **لِلْعِرْقِ الْمَدَنِيِّ (الرِّشْتَة):** عن الصادق (٤)
 > بِهِ فَخُذْ خَيْطاً مِنْ صُوفٍ وَاعْقِدْ عَلَيْهِ عُقَداً، وَاقْرَأْ عَلَى
 > كُلِّ عُقْدَةٍ (فَاتِحَةَ الْكِتَابِ) — ثَلَاثَ مَرَّاتٍ —، وَقُلْ: بِسْمِ
 > اللهِ الْأَبَدِ الْأَبَدِ، الْمُحْصِي بِلَا عَدَدٍ … ثُمَّ ارْبِطْهُ
@@ -5027,7 +5116,19 @@ Yang Abadi selamanya, Yang Menghitung tanpa bilangan …)' lalu ikatkan padanya.
 ### 2. Sakit Dada karena Urat (al-Blābil) — telah disebutkan pada bagian A.
 
 ---
+ayan, dan wabah](10-bab-02-bisa-racun-tidur-ayan.md)
 
+---
+
+## Catatan kaki edisi cetak
+
+Pada cetakan asli (Mu'assasat al-A'lami, Beirut), tanda kurung setelah nama
+Nabi/Imam berisi **nomor catatan kaki** (angka Arab ١، ٢، …) yang merujuk daftar
+sumber di kaki halaman — untuk bab-bab pengobatan umumnya *Makārim al-Akhlāq*,
+dan untuk bab-bab selanjutnya antara lain *Ṭibb al-A'immah*, *Miṣbā*,
+*Mafātīḥ al-Jinān*, *Biḥār al-Anwār*, *Ḍiyā' aṣ-Ṣāliḥīn*. Dokumen ini memulihkan
+penomoran tersebut sesuai urutan kemunculan pada cetakan; rincian daftar kaki
+halaman per bagian tidak tertangkap pindai sehingga tidak ditampilkan penuh.
 
 ---
 
@@ -5035,6 +5136,7 @@ Yang Abadi selamanya, Yang Menghitung tanpa bilangan …)' lalu ikatkan padanya.
 
 # Bab 2 (Bagian G): Sengatan Berbisa, Binatang Buas, Racun, Pencernaan, Wabah, Tidur, dan Ayan — Penutup Bab 2
 
+⬅️ [Bagian F — Kulit, kutil, cacar, luka, dan patah tulang](09-bab-02-kulit-tulang-anggota.md)
 
 **لِ الْعَقَارِبِ وَالْحَيَّاتِ وَالْبَرَاغِيثِ وَعَضَّةِ الْكَلْبِ وَالذِّئْبِ
 وَالسِّبَاعِ وَالْأَسَدِ وَالسُّمِّ وَالتُّخْمَةِ وَالطَّاعُونِ وَالنَّوْمِ
@@ -5046,11 +5148,11 @@ Yang Abadi selamanya, Yang Menghitung tanpa bilangan …)' lalu ikatkan padanya.
 
 ### 1. 'Uwdzah Pagi-Petang dari Imam ash-Shadiq
 
-> عن الصادق (ع) قال: «إِذَا أَمْسَيْتَ فَقُلْ: بِسْمِ اللهِ وَاللهُ،
+> عن الصادق (١)
 > وَصَلَوَاتُ اللهِ عَلَى مُحَمَّدٍ وَآلِهِ؛ أَحَطْتُ الْعَقَارِبَ
 > وَالْحَيَّاتِ كُلَّهَا بِإِذْنِ اللهِ تَعَالَى: بِأَقْوَاهَا وَأَذْنَابِهَا
 > وَأَسْمَاعِهَا وَأَنْصَارِهَا وَفُؤَادِهَا، عَنِّي وَعَمَّنْ أُحِبُّ، إِلَى
-> ضَحْوَةِ النَّهَارِ إِنْ شَاءَ اللهُ تَعَالَى». وَقَالَ (ع): «إِذَا أَمْسَيْتَ
+> ضَحْوَةِ النَّهَارِ إِنْ شَاءَ اللهُ تَعَالَى». وَقَالَ (٢)
 > فَقُلْ: بِسْمِ اللهِ وَبِاللهِ، تَوَكَّلْتُ عَلَى اللهِ؛ ﴿وَمَنْ يَتَوَكَّلْ
 > عَلَى اللَّهِ فَهُوَ حَسْبُهُ ۚ إِنَّ اللَّهَ بَالِغُ أَمْرِهِ﴾؛ اَللَّهُمَّ
 > اجْعَلْنِي فِي كَنَفِكَ وَفِي جِوَارِكَ، وَاجْعَلْنِي فِي حِصْنِكَ، وَاجْعَلْنِي
@@ -5076,7 +5178,7 @@ benteng-Mu, dan dalam keamanan-Mu)."*
 
 ### 2. Jaminan Imam al-Baqir
 
-> عن الباقر (ع) قال: «مَنْ قَالَ حِينَ يُمْسِي وَحِينَ يُصْبِحُ — سَبْعَ
+> عن الباقر (١)
 > مَرَّاتٍ —: أَعُوذُ بِكَلِمَاتِ اللهِ التَّامَّاتِ كُلِّهَا الَّتِي لَا
 > يُجَاوِزُهُنَّ بَرٌّ وَلَا فَاجِرٌ، مِنَ الَّذِي لَا يَحْفِرُ جَارَهُ، مِنْ
 > شَرِّ مَا ذَرَأَ وَمَا بَرَأَ، وَمِنَ الشَّيْطَانِ وَشِرْكِهِ، وَمِنْ شَرِّ
@@ -5113,10 +5215,10 @@ Rabba Hūd [wa Nūḥ], ādzinnī min syarri kulli 'aqrabin wa ḥayyah"* — ti
 balasan kepada orang-orang yang berbuat baik. Sungguh dia termasuk
 hamba-hamba Kami yang beriman"* (QS aṣ-Ṣāffāt [37]: 79–81).
 
-> وعن الصادق (ع): أن نوحاً (ع) لما كان في السفينة أذاه عقرب، فقال: «يَا
+: أن نوحاً عليه السلام
 > عَقْرَبُ، لِمَ لَسَعْتَنِي؟» فَقَالَتْ: إِنَّمَا أُمِرْتُ بِالسُّمِّ.
-> فَعَاهَدَهَا نُوحٌ (ع) أَنْ لَا تَلْسَعَ أَحَداً مِنْ شِيعَةِ مُحَمَّدٍ وَآلِهِ.
-> وَقَالَ (ع): «مَنْ خَافَ لَسْعَ الْعَقْرَبِ فَلْيَقُلْ عِنْدَ مَسَائِهِ:
+> فَعَاهَدَهَا نُوحٌ عليه السلام
+> وَقَالَ (٢)
 > سَلَامٌ عَلَى مُحَمَّدٍ وَآلِهِ، وَعَلَى نُوحٍ فِي الْعَالَمِينَ».
 
 Dari Imam ash-Shadiq ('alaihissalam): Bahwa Nuh ('alaihissalam) ketika berada
@@ -5197,7 +5299,7 @@ terpaksa, dan hanya kepada-Nya mereka dikembalikan?"* (QS Ali Imran [3]: 83).
 
 ### 2. Bertemu Binatang Buas — Kisah al-Kahili
 
-> عَنِ الصَّادِقِ (ع): «إِذَا لَقِيتَ السَّبُعَ فَاقْرَأْ فِي وَجْهِهِ
+> عَنِ الصَّادِقِ (١)
 > (آيَةَ الْكُرْسِيِّ)، ثُمَّ قُلْ: عَزَمْتُ عَلَيْكَ بِعَزِيمَةِ اللهِ،
 > وَبِعَزِيمَةِ مُحَمَّدٍ رَسُولِ اللهِ، وَبِعَزِيمَةِ سُلَيْمَانَ بْنِ دَاوُدَ،
 > وَبِعَزِيمَةِ عَلِيِّ بْنِ أَبِي طَالِبٍ وَالْأَئِمَّةِ مِنْ بَعْدِهِ:
@@ -5221,13 +5323,13 @@ kakinya, dan pergi.
 
 ### 3. Hirz al-Jubb — Kisah Nabi Dāniyāl ('alaihissalam)
 
-> عن الصادق (ع) قال: «مَنْ خَافَ أَسَداً أَوْ سَبُعاً أَوْ كَلْباً أَوْ
+> عن الصادق (١)
 > عَقْرَباً فَلْيُكَبِّرْ فِي وَجْهِهِ ثَلَاثاً وَلْيَقُلْ: يَا مَعْشَرَ
 > الْجِنِّ وَالْإِنْسِ إِنِ اسْتَطَعْتُمْ أَنْ تَنْفُذُوا مِنْ أَقْطَارِ
 > السَّمَاوَاتِ وَالْأَرْضِ فَانْفُذُوا ۚ لَا تَنْفُذُونَ إِلَّا بِسُلْطَانٍ؛
 > فَإِنَّهُ يَنْصَرِفُ إِنْ شَاءَ اللهُ».
 > وَعَنْ جُعْدَةَ بْنِ أَبِي هُبَيْرَةَ: أن رجلاً خاف أسداً فقال له أمير
-> المؤمنين (ع): «قُلْ ثَلَاثاً: أَعُوذُ بِرَبِّ دَانْيَالَ وَالْجُبِّ مِنْ
+> المؤمنين (٢)
 > شَرِّ هَذَا الْأَسَدِ». فَقَالَهَا فَانْصَرَفَ الْأَسَدُ عَنْهُ.
 
 Dari Imam ash-Shadiq ('alaihissalam): *"Barang siapa takut singa, binatang
@@ -5246,7 +5348,7 @@ itu pergi darinya.
 > عن النبي ﷺ أنه قال: «إِذَا نَزَلْتُمْ مَنْزِلاً تُخَافُ فِيهِ السِّبَاعُ
 > فَقُولُوا: أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللهُ وَحْدَهُ لَا شَرِيكَ لَهُ،
 > لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، بِيَدِهِ الْخَيْرُ وَهُوَ عَلَى كُلِّ شَيْءٍ
-> قَدِيرٌ — مِنْ شَرِّ كُلِّ سَبْعٍ». وَعَنْ عَلِيٍّ (ع): «مَنْ خَافَ
+> قَدِيرٌ — مِنْ شَرِّ كُلِّ سَبْعٍ». وَعَنْ عَلِيٍّ (٣)
 > الْأَسَدَ عَلَى نَفْسِهِ أَوْ عَلَى غَنَمِهِ فَلْيَخُطَّ خَطّاً وَلْيَقُلْ:
 > اَللَّهُمَّ رَبَّ دَانْيَالَ وَالْجُبِّ، احْفَظْنِي وَاحْفَظْ غَنَمِي».
 
@@ -5266,7 +5368,7 @@ dan mengucapkan: 'Allāhumma Rabba Dāniyāla wal-jubbi, iḥfaẓnī wa iḥfa�
 ## D. Racun (as-Samm) — Kisah Kaki Kambing Beracun
 
 > قصة الشاة المسمومة بخيبر: أن امرأة يهودية سمت شاة ثم أهدتها إلى النبي ﷺ،
-> فلما أكل منها كلمته الذراع: «إني مسمومة». فَقَالَ (ع): «مَنْ أَرَادَ أَنْ
+> فلما أكل منها كلمته الذراع: «إني مسمومة». فَقَالَ (١)
 > يَأْكُلَ طَعَاماً يَخَافُ فِيهِ السُّمَّ فَلْيَقُلْ: بِسْمِ اللهِ الْعَلِيِّ
 > الْعَظِيمِ الْمَلِيكِ الْقَدِيرِ الَّذِي لَا إِلَهَ إِلَّا هُوَ؛ ﴿وَنُنَزِّلُ
 > مِنَ الْقُرْآنِ مَا هُوَ شِفَاءٌ وَرَحْمَةٌ لِلْمُؤْمِنِينَ وَلَا يَزِيدُ
@@ -5288,7 +5390,7 @@ wa lā fis-samā'i wa huwas-Samī'ul-'Alīm' (Dengan nama Allah yang bersama nam
 tidak ada sesuatu pun di bumi dan di langit yang membahayakan, dan Dia Maha
 Mendengar lagi Maha Mengetahui); lalu makan."*
 
-> **عُوذَةُ أَمِيرِ الْمُؤْمِنِينَ (ع) حِينَ طُرِحَ فِي بِرْكَةِ السِّبَاعِ:**
+> **عُوذَةُ أَمِيرِ الْمُؤْمِنِينَ عليه السلام
 > دعاء طويل جليل، أوله: «بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ … آمَنْتُ بِاللهِ
 > وَاسْتَعَنْتُ عَلَى أَعْدَائِي بِاللهِ وَفَوَّضْتُ أَمْرِي إِلَى اللهِ؛
 > حَسْبِيَ اللهُ وَنِعْمَ الْوَكِيلُ … ﴿وَتَرَاهُمْ يَنْظُرُونَ إِلَيْكَ وَهُمْ
@@ -5319,12 +5421,12 @@ inti-intinya.]
 
 ## E. Pencernaan: Kembung Makanan (at-Tukhmah)
 
-> عن أمير المؤمنين (ع): «إِذَا اتَّخَمْتَ فَقُلْ: بِسْمِ اللهِ خَيْرِ
+> عن أمير المؤمنين (١)
 > الْأَسْمَاءِ، مِلْءَ الْأَرْضِ وَالسَّمَاءِ؛ الرَّحْمَنِ الرَّحِيمِ؛ الَّذِي
-> لَا يَضُرُّ مَعَ اسْمِهِ سُمٌّ وَلَا دَاءٌ». وَعَنِ الصَّادِقِ (ع): «مَا
+> لَا يَضُرُّ مَعَ اسْمِهِ سُمٌّ وَلَا دَاءٌ». وَعَنِ الصَّادِقِ (٢)
 > اتَّخَمْتُ قَطُّ؛ وَذَلِكَ أَنِّي لَمْ أَبْدَأْ بِطَعَامٍ إِلَّا قُلْتُ:
 > بِسْمِ اللهِ؛ وَلَمْ أَفْرَغْ مِنْ طَعَامٍ إِلَّا قُلْتُ: الْحَمْدُ لِلَّهِ».
-> وَعَنْ عَلِيٍّ (ع): «مَنِ ابْتَدَأَ غَدَاءَهُ بِالْمِلْحِ، أَذْهَبَ اللهُ
+> وَعَنْ عَلِيٍّ (٣)
 > عَنْهُ سَبْعِينَ نَوْعاً مِنْ أَنْوَاعِ الْبَلَاءِ».
 
 Dari Amirul Mukminin ('alaihissalam): *"Jika engkau kembung karena makanan,
@@ -5338,11 +5440,11 @@ aku tidak selesai dari makanan kecuali aku mengucapkan 'Alḥamdulillāh'."* Dar
 Ali ('alaihissalam): *"Barang siapa memulai makannya dengan garam, Allah
 menghilangkan darinya tujuh puluh jenis bala."*
 
-> وقال (ع) لابنه الحسن (ع): «يَا بُنَيَّ، لَا تَطْعَمَنَّ لُقْمَةً مِنْ
+ لابنه الحسن (٤)
 > حَارٍّ وَلَا بَارِدٍ، وَلَا تَشْرَبَنَّ شَرْبَةً وَلَا جُرْعَةً إِلَّا
 > وَأَنْتَ تَقُولُ قَبْلَ أَنْ تَأْكُلَهُ: بِسْمِ اللهِ؛ وَبَعْدَ أَنْ
 > تَفْرَغَ: الْحَمْدُ لِلَّهِ؛ فَإِنَّكَ إِذَا فَعَلْتَ ذَلِكَ أَمِنْتَ
-> وَكَعَتَهُ وَغَائِلَتَهُ». وَعَنِ الصَّادِقِ (ع): «امْسَحْ يَدَكَ عَلَى
+> وَكَعَتَهُ وَغَائِلَتَهُ». وَعَنِ الصَّادِقِ (٥)
 > بَطْنِكَ وَقُلْ: اَللَّهُمَّ [مَنْ] أَطْعَمَنِيهِ فَسَوِّغْنِيهِ؛ اَللَّهُمَّ
 > أَهْنِئْنِيهِ».
 
@@ -5360,7 +5462,7 @@ jadikanlah ia lezat untukku)."*
 
 ## F. Wabah dan Tha'un (aṭ-Ṭā'ūn)
 
-> **دُعَاءُ (الدُّرُوعِ الْوَاقِيَةِ) عَنِ الرِّضَا (ع):** «بِسْمِ اللهِ
+> **دُعَاءُ (الدُّرُوعِ الْوَاقِيَةِ) عَنِ الرِّضَا (١)
 > الرَّحْمَنِ الرَّحِيمِ؛ لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ الْعَلِيِّ
 > الْعَظِيمِ؛ وَلَا مَانِعَ لِشَيْءٍ إِلَّا اللهُ؛ تَوَكَّلْتُ عَلَى اللهِ؛
 > وَلَا بِالشِّفَاءِ إِلَّا اللهُ؛ مَا شَاءَ اللهُ لَا يَصْرِفُ السُّوءَ إِلَّا
@@ -5389,11 +5491,11 @@ beriman. Ya Allah, karuniakanlah kepadaku keselamatan; janganlah Engkau
 pisahkan antara aku dan keselamatan; wahai Pencipta keselamatan, dengan rahmat-Mu
 wahai Maha Penyayang di antara para penyayang).
 
-> وعن الصادق (ع): «مَشْطُ الرَّأْسِ يُذْهِبُ بِالْوَبَاءِ». وَعَنِ الْكَاظِمِ
-> (ع): «إِذَا سَرَّحْتَ لِحْيَتَكَ وَرَأْسَكَ فَأَمِرَّ الْمُشْطَ عَلَى
+> وعن الصادق (٢)
+> (٣)
 > رَأْسِكَ وَصَدْرِكَ؛ فَإِنَّهُ يُذْهِبُ بِالْهَمِّ وَالْوَبَاءِ». وَقَالَ
-> (ع): «تَمَشَّطُوا بِالْعَاجِ؛ فَإِنَّهُ يُذْهِبُ بِالْوَبَاءِ».
-> وَعَنِ الصَّادِقِ (ع): «أُحِبُّ أَنْ يَكُونَ فِي غِلَافِ سَيْفِ الْمُؤْمِنِ
+> (٤)
+> وَعَنِ الصَّادِقِ (٥)
 > أَوْ تَحْتَ خَاتَمِهِ أَوْ تَحْتَ عِمَامَتِهِ هَذَا الدُّعَاءُ، يَأْمَنُ مِنْ
 > طَوَارِقِ اللَّيْلِ وَالنَّهَارِ: بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ؛ يَا
 > هُوَ يَا مَنْ هُوَ هُوَ، يَا مَنْ لَيْسَ هُوَ إِلَّا هُوَ، يَا حَيُّ يَا
@@ -5444,12 +5546,12 @@ delapan kali setiap hari-semalam untuk menolak tha'un.
 
 ## G. Ayan Anak-Anak (Rīḥ aṣ-Ṣibyān)
 
-> شكا رجل إلى الصادق (ع) فقال: إن لي صبياً تعتريه ريح أم الصبيان، فآيس
-> منه لشدة ما يأخذه؛ فقال (ع): «اكْتُبْ لَهُ سَبْعَ مَرَّاتٍ سُورَةَ
+> شكا رجل إلى الصادق عليه السلام
+> منه لشدة ما يأخذه؛ فقال (١)
 > (الْحَمْدِ) بِزَعْفَرَانٍ وَمِسْكٍ، ثُمَّ اغْسِلْهُ بِالْمَاءِ، وَلْيَكُنْ
 > شَرَابُهُ مِنْهُ شَهْراً وَاحِداً؛ فَإِنَّهُ يُعَافَى مِنْهُ». قَالَ:
 > فَفَعَلْنَا بِهِ لَيْلَةً وَاحِدَةً فَمَا عَادَتْ إِلَيْهِ وَاسْتَرَاحَ
-> وَاسْتَرَحْنَا. وَعَنْهُ (ع): «مَا قُرِئَ (الْحَمْدُ) عَلَى وَجَعٍ مِنَ
+> وَاسْتَرَحْنَا. وَعَنْهُ (٢)
 > الْأَوْجَاعِ — سَبْعِينَ مَرَّةً — إِلَّا سَكَنَ».
 
 Seorang lelaki mengadu kepada Imam ash-Shadiq ('alaihissalam): "Aku memiliki
@@ -5485,7 +5587,7 @@ al-A'raf [7]: 143), lalu diusapkan ke kepala, wajah, dan kedua lengannya.
 
 ### 2. Untuk Bangun pada Waktu yang Diinginkan
 
-> عن الصادق (ع) قال: «مَا مِنْ عَبْدٍ يَقْرَأُ آخِرَ الْكَهْفِ حِينَ يَنَامُ
+> عن الصادق (١)
 > إِلَّا اسْتَيْقَظَ فِي السَّاعَةِ الَّتِي يُرِيدُ». آخِرُ الْكَهْفِ قَوْلُهُ
 > تَعَالَى: ﴿قُلْ إِنَّمَا أَنَا بَشَرٌ مِثْلُكُمْ يُوحَىٰ إِلَيَّ أَنَّمَا
 > إِلَٰهُكُمْ إِلَٰهٌ وَاحِدٌ ۖ فَمَنْ كَانَ يَرْجُو لِقَاءَ رَبِّهِ
@@ -5503,7 +5605,7 @@ mempersekutukan seorang pun dalam beribadah kepada Tuhannya'"* (QS al-Kahfi
 
 ### 3. Doa Ketika Tidur dari Nabi ﷺ dan Amirul Mukminin
 
-> قال أمير المؤمنين (ع): «إِذَا أَرَادَ أَحَدُكُمُ النَّوْمَ فَلْيَضَعْ
+> قال أمير المؤمنين (١)
 > يَدَهُ الْيُمْنَى تَحْتَ خَدِّهِ الْأَيْمَنِ وَلْيَقُلْ: بِسْمِ اللهِ،
 > وَضَعْتُ جَنْبِي لِلَّهِ، وَعَلَى مِلَّةِ إِبْرَاهِيمَ وَدِينِ مُحَمَّدٍ
 > وَوَلَايَةِ مَنِ افْتَرَضَ اللهُ طَاعَتَهُ؛ مَا شَاءَ اللهُ كَانَ وَمَا لَمْ
@@ -5586,7 +5688,7 @@ menugaskan seorang malaikat yang membangunkannya pada waktu itu."*
 
 ### 5. 'Uwdzah untuk Anak dan untuk yang Kesurupan
 
-> كان (ع) يعوذ ابناً له صغيراً وهو يقول: «بِسْمِ اللهِ أُعْزِمُ عَلَيْكَ يَا
+> كان عليه السلام
 > وَجَعُ وَيَا رِيحٌ كَائِناً مَا كَانَ، بِالْعَزِيمَةِ الَّتِي عَزَّمَ بِهَا
 > رَسُولُ اللهِ وَعَلِيُّ بْنُ أَبِي طَالِبٍ عَلَى جِنِّ وَادِي الصَّبْرَةِ
 > فَأَجَابُوا وَأَطَاعُوا: لَمَا أَجَبْتَ وَأَطَعْتَ وَخَرَجْتَ عَنْ فُلَانِ
@@ -5609,7 +5711,7 @@ beliau mengucapkannya tiga kali.
 
 ### 1. Ruqyah dengan Ayat
 
-> عن الصادق (ع): «تُعَوَّذُ الْمَصْرُوعُ وَتَقُولُ: عَزَمْتُ عَلَيْكَ يَا
+> عن الصادق (١)
 > رَبِّ بِالْعَزِيمَةِ الَّتِي عَزَّمَ بِهَا عَلِيُّ بْنُ أَبِي طَالِبٍ
 > وَرَسُولُ اللهِ عَلَى جِنِّ وَادِي الصَّيْرَةِ فَأَجَابُوا وَأَطَاعُوا:
 > لَمَا أَجَبْتَ وَأَطَعْتَ وَخَرَجْتَ عَنْ فُلَانِ بْنِ فُلَانَةَ السَّاعَةَ».
@@ -5625,7 +5727,7 @@ Fulan bin Fulanah sekarang)."*
 
 ### 2. Pengobatan Imam ar-Ridha
 
-> عن الرضا (ع) أنه رأى مصروعاً، فدعا له بقدح فيه ماء، ثم قرأ عليه (الْحَمْدَ)
+> عن الرضا (١)
 > وَالْمُعَوِّذَتَيْنِ، وَنَفَثَ فِي الْقَدَحِ، ثُمَّ أَمَرَ بِصَبِّ الْمَاءِ
 > عَلَى رَأْسِهِ؛ فَعُوفِيَ بِإِذْنِ اللهِ تَعَالَى.
 
@@ -5661,7 +5763,7 @@ dan kengerian-kengeriannya.
 
 ### 4. Doa Sebelum Tidur untuk Orang yang Tersiksa (al-Makhlū')
 
-> عن الصادق (ع): «مَنْ أَصَابَهُ خَبَلٌ فَلْيَتَعَوَّذْ نَفْسَهُ لَيْلَةَ
+> عن الصادق (١)
 > الْجُمُعَةِ بِهَذِهِ الْعُوذَةِ النَّافِعَةِ الشَّافِيَةِ: بِسْمِ اللهِ
 > وَبِاللهِ، آمَنْتُ بِاللهِ وَكَفَرْتُ بِالطَّاغُوتِ؛ اَللَّهُمَّ احْفَظْنِي
 > فِي مَنَامِي وَيَقَظَتِي؛ أَعُوذُ بِعِزَّةِ اللهِ وَجَلَالِهِ مِمَّا أَجِدُ
@@ -5707,6 +5809,17 @@ rusak dan ditandai dengan kurung siku atau catatan. Semua amalan dalam bab ini
 bersifat doa dan tawassul — **bukan pengganti pengobatan medis**. Untuk penyakit
 fisik, tetaplah berkonsultasi dengan tenaga kesehatan, dan jadikan doa sebagai
 ikhtiar batin.
+---
+
+## Catatan kaki edisi cetak
+
+Pada cetakan asli (Mu'assasat al-A'lami, Beirut), tanda kurung setelah nama
+Nabi/Imam berisi **nomor catatan kaki** (angka Arab ١، ٢، …) yang merujuk daftar
+sumber di kaki halaman — untuk bab-bab pengobatan umumnya *Makārim al-Akhlāq*,
+dan untuk bab-bab selanjutnya antara lain *Ṭibb al-A'immah*, *Miṣbā*,
+*Mafātīḥ al-Jinān*, *Biḥār al-Anwār*, *Ḍiyā' aṣ-Ṣāliḥīn*. Dokumen ini memulihkan
+penomoran tersebut sesuai urutan kemunculan pada cetakan; rincian daftar kaki
+halaman per bagian tidak tertangkap pindai sehingga tidak ditampilkan penuh.
 
 ---
 
@@ -5733,7 +5846,7 @@ ikhtiar batin.
 
 ### 1. Doa Imam ash-Shadiq bila Anak Tak Kunjung Hadir
 
-> عن الصادق (ع) قال: «إِذَا أَبْطَأَ عَلَى أَحَدِكُمُ الْوَلَدُ فَلْيَقُلْ:
+> عن الصادق (١)
 > اَللَّهُمَّ لَا تَذَرْنِي فَرْداً وَأَنْتَ خَيْرُ الْوَارِثِينَ، وَاجْعَلْ لِي مِنْ
 > لَدُنْكَ وَلِيّاً يَرِثُنِي فِي حَيَاتِي وَيَسْتَغْفِرُ لِي بَعْدَ مَمَاتِي،
 > وَاجْعَلْهُ خَلْقاً سَوِيّاً وَلَا تَجْعَلْ لِلشَّيْطَانِ فِيهِ شَرِكاً وَلَا
@@ -5843,9 +5956,9 @@ menimpanya sesuatu yang tidak disukai dengan izin Allah.
 
 ### 'Uwdzah Jābir bin Yazīd al-Ju'fī — Perlindungan Lengkap Kehamilan
 
-> عن جابر بن يزيد الجعفي قال: جاء رجل من بني أمية إلى أبي جعفر (ع) — وكان
+> عن جابر بن يزيد الجعفي قال: جاء رجل من بني أمية إلى أبي جعفر عليه السلام
 > مؤمناً — فقال: يابن رسول الله، إن جاريتي قد دخلت في شهرها وليس لي ولد، فادع
-> الله أن يرزقني ابناً. فقال (ع): «اَللَّهُمَّ ارْزُقْهُ ابْناً ذَكَراً
+> الله أن يرزقني ابناً. فقال (١)
 > سَوِيّاً». ثُمَّ قَالَ: «إِذَا دَخَلَتْ فِي شَهْرِهَا فَاكْتُبْ لَهَا:
 > ﴿إِنَّا أَنْزَلْنَاهُ فِي لَيْلَةِ الْقَدْرِ﴾ — السُّورَةَ — وَعَوِّذْهَا
 > بِهَذِهِ الْعُوذَةِ وَمَا فِي بَطْنِهَا بِمِسْكٍ وَزَعْفَرَانٍ، وَاغْسِلْهَا
@@ -5910,7 +6023,7 @@ dengan izin Allah Ta'ala."*
 
 ### 1. 'Uwdzah Utama — dari Imam al-Baqir ('alaihissalam)
 
-> عن أبي جعفر (ع) أنه قال: «إِذَا عَسُرَ عَلَى الْمَرْأَةِ وِلَادَتُهَا
+> عن أبي جعفر (١)
 > يُكْتَبُ لَهَا هَذِهِ الْآيَاتُ فِي إِنَاءٍ نَظِيفٍ بِمِسْكٍ وَزَعْفَرَانٍ،
 > ثُمَّ يُغْسَلُ بِمَاءِ الْبِئْرِ وَتُسْقَى مِنْهُ الْمَرْأَةُ وَيُنْضَحُ
 > بَطْنُهَا وَفَرْجُهَا؛ فَإِنَّهَا تَلِدُ مِنْ سَاعَتِهَا: ﴿كَأَنَّهُمْ يَوْمَ
@@ -5934,7 +6047,7 @@ yang berakal' (QS Yusuf [12]: 111) …"*
 
 ### 2. Ayat-Ayat yang Ditulis untuk Persalinan
 
-> عن الصادق (ع): «تُكْتَبُ هَذِهِ الْآيَاتُ فِي قِرْطَاسٍ لِلْحَامِلِ إِذَا
+> عن الصادق (١)
 > دَخَلَتْ فِي شَهْرِهَا الَّذِي تَلِدُ فِيهِ؛ فَإِنَّهَا لَا يُصِيبُهَا طَلْقٌ
 > وَلَا عُسْرُ وِلَادَةٍ؛ وَلْيُلَفَّ عَلَى الْقِرْطَاسِ سَحَاةٌ لَفّاً
 > خَفِيفاً وَلَا يُرْبَطْ؛ وَيُكْتَبُ: ﴿أَوَلَمْ يَرَ الَّذِينَ كَفَرُوا أَنَّ
@@ -6053,7 +6166,7 @@ mereka' (QS Yasin [36]: 51). Dan ditulis pada punggung kertas: QS al-Ahqaf
 
 ## D. Perlindungan Masa Nifas
 
-> عن الباقر (ع) قال: «مَنْ أَرَادَ أَنْ لَا يَعْبَثَ الشَّيْطَانُ بِأَهْلِهِ مَا
+> عن الباقر (١)
 > دَامَتِ الْمَرْأَةُ فِي نِفَاسِهَا، فَلْيَكْتُبْ هَذِهِ الْعُوذَةَ بِمِسْكٍ
 > وَزَعْفَرَانٍ بِمَاءِ الْمَطَرِ الصَّافِي، وَلْيَعْصُرْ بِثَوْبٍ جَدِيدٍ لَمْ
 > يُلْبَسْ، وَلْبَسْ مِنْهُ أَهْلَهُ وَوَلَدَهُ، وَلْيَرُشَّ الْمَوْضِعَ
@@ -6123,7 +6236,7 @@ tak ada harganya; adapun yang memberi manfaat kepada manusia, maka ia tetap di
 bumi"* (QS ar-Ra'd [13]: 17), dan ayat an-Nahl [16]: 66 di atas, lalu
 digantung pada perempuan itu.
 
-> وعن الصادق (ع) أنه قال لأم إسماعيل: «اصْعَدِي إِلَى فَوْقِ الْبَيْتِ
+> وعن الصادق (١)
 > فَابْرِزِي إِلَى السَّمَاءِ وَصَلِّي رَكْعَتَيْنِ، فَإِذَا سَلَّمْتِ فَقُولِي:
 > اَللَّهُمَّ [أَنْتَ اللهُ] … [ارْزُقْنِي لَبَناً]». [بَقِيَّةُ الْحَدِيثِ
 > رَدِيئٌ فِي الْمَصْدَرِ.]
@@ -6140,7 +6253,7 @@ hadis rusak pada sumber pindai.]
 
 ### 1. Bersuci dari Haid di Tempat Ziarah
 
-> قال الصادق (ع): «إِذَا كَانَتِ الْمَرْأَةُ فِي أَحَدِ الْمَشَاهِدِ وَهِيَ
+> قال الصادق (١)
 > حَائِضٌ وَلَيْسَ لَهَا التَّوَقُّفُ إِلَى أَنْ تَطْهُرَ، فَلْتَغْتَسِلْ
 > وَلْتَأْتِ الْبَابَ وَلْتَقُلْ: اَللَّهُمَّ إِنِّي أَسْأَلُكَ بِأَنَّ لَكَ
 > الْحَمْدَ، أَنْتَ اللهُ الَّذِي لَيْسَ كَمِثْلِكَ شَيْءٌ، أَنْ تَفْعَلَ بِي
@@ -6182,6 +6295,17 @@ bukan bahasa Arab yang bermakna; penulis menukilnya apa adanya.]
 ---
 
 ✅ **Bab 3 selesai.**
+---
+
+## Catatan kaki edisi cetak
+
+Pada cetakan asli (Mu'assasat al-A'lami, Beirut), tanda kurung setelah nama
+Nabi/Imam berisi **nomor catatan kaki** (angka Arab ١، ٢، …) yang merujuk daftar
+sumber di kaki halaman — untuk bab-bab pengobatan umumnya *Makārim al-Akhlāq*,
+dan untuk bab-bab selanjutnya antara lain *Ṭibb al-A'immah*, *Miṣbā*,
+*Mafātīḥ al-Jinān*, *Biḥār al-Anwār*, *Ḍiyā' aṣ-Ṣāliḥīn*. Dokumen ini memulihkan
+penomoran tersebut sesuai urutan kemunculan pada cetakan; rincian daftar kaki
+halaman per bagian tidak tertangkap pindai sehingga tidak ditampilkan penuh.
 
 ---
 
@@ -6285,7 +6409,7 @@ sesuai kebutuhannya.
 
 ### 5. Surah Nuh dan Surah al-Qadr — Kisah Ibnu 'Amr al-Ḥadzdza'
 
-> عن ابن عمرو الحذاء قال: ساءت حالي فكتبت إلى أبي جعفر (ع)، فكتب إليّ:
+> عن ابن عمرو الحذاء قال: ساءت حالي فكتبت إلى أبي جعفر عليه السلام
 > «أَدِمْ قِرَاءَةَ ﴿إِنَّا أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِ﴾». قَالَ:
 > فَقَرَأْتُهَا حَوْلًا فَلَمْ أَرَ شَيْئاً، فَكَتَبْتُ إِلَيْهِ أُخْبِرُهُ
 > بِسُوءِ حَالِي وَأَنِّي قَدْ قَرَأْتُ (إِنَّا أَرْسَلْنَا نُوحاً) حَوْلًا
@@ -6428,7 +6552,7 @@ dan memberiku tunjangan lima ratus dirham.
 
 ### 1. Shalat dan Doa untuk Orang yang Berutang
 
-> عن أبي جعفر الباقر (ع) قال: جاء رجل إلى النبي ﷺ فقال: يا رسول الله، إني
+> عن أبي جعفر الباقر (١)
 > ذو عيال وعليّ دين وقد اشتدت حالي، فعلمني دعاءً أدعو الله عز وجل به
 > ليرزقني ما أقضي به ديني وأستعين به على عيالي. فقال رسول الله ﷺ: «يَا
 > عَبْدَ اللهِ، تَوَضَّأْ وَأَسْبِغْ وُضُوءَكَ، ثُمَّ صَلِّ رَكْعَتَيْنِ تُتِمُّ
@@ -6479,7 +6603,7 @@ kepada-Mu rezeki yang luas, baik, dan menghimpun dunia dan akhirat)."*
 
 ### 2. Doa Imam ash-Shadiq ('alaihissalam) — Rezeki Tanggungan Allah
 
-> عن الصادق (ع) قال: «قُلْ: اَللَّهُمَّ إِنَّكَ تَكَفَّلْتَ بِرِزْقِي وَرِزْقِ
+> عن الصادق (١)
 > كُلِّ دَابَّةٍ؛ يَا خَيْرَ مَدْعُوٍّ وَيَا خَيْرَ مَنْ أَعْطَى وَيَا خَيْرَ
 > مَنْ سُئِلَ وَيَا أَفْضَلَ مُرْتَجًى، افْعَلْ بِي كَذَا وَكَذَا». وَقَالَ:
 > «ادْعُ فِي طَلَبِ الرِّزْقِ فِي الْمَكْتُوبَةِ وَأَنْتَ سَاجِدٌ: يَا خَيْرَ
@@ -6503,7 +6627,7 @@ karunia yang agung)."*
 
 ### 3. Doa Mu'awiyah bin 'Ammār
 
-> عن معاوية بن عمار قال: سألت أبا عبد الله (ع) أن يعلمني دعاءً للرزق،
+> عن معاوية بن عمار قال: سألت أبا عبد الله (١)
 > فعلمني ما رأيت أجلب منه للرزق، قال: «قُلْ: اَللَّهُمَّ ارْزُقْنِي مِنْ
 > فَضْلِكَ الْوَاسِعِ الْحَلَالِ الطَّيِّبِ رِزْقاً وَاسِعاً حَلَالاً طَيِّباً
 > بَلَاغاً لِلدُّنْيَا وَالْآخِرَةِ، صَبّاً صَبّاً هَنِيئاً مَرِيئاً، مِنْ غَيْرِ
@@ -6661,8 +6785,8 @@ arah yang tidak disangka-sangkanya').
 
 ### 1. Wirid Setelah Subuh — Kisah Abu al-Qamqām
 
-> كان بالمدينة رجل يكنى أبا القمقام وكان محارَفاً، فأتى أبا الحسن (ع) فشكا
-> إليه حرفته، فقال له (ع): «قُلْ فِي آخِرِ دُعَائِكَ مِنْ صَلَاةِ الْفَجْرِ:
+> كان بالمدينة رجل يكنى أبا القمقام وكان محارَفاً، فأتى أبا الحسن عليه السلام
+> إليه حرفته، فقال له (١)
 > سُبْحَانَ اللهِ الْعَظِيمِ وَبِحَمْدِهِ، أَسْتَغْفِرُ اللهَ وَأَسْأَلُهُ مِنْ
 > فَضْلِهِ — عَشْرَ مَرَّاتٍ». قَالَ أَبُو الْقَمْقَامِ: فَلَزِمْتُ ذَلِكَ،
 > فَوَاللهِ مَا لَبِثْتُ إِلَّا قَلِيلًا حَتَّى وَرَدَ عَلَيَّ قَوْمٌ مِنَ
@@ -6810,6 +6934,17 @@ Maha Mulia).
 ---
 
 ✅ **Bab 4 selesai.**
+---
+
+## Catatan kaki edisi cetak
+
+Pada cetakan asli (Mu'assasat al-A'lami, Beirut), tanda kurung setelah nama
+Nabi/Imam berisi **nomor catatan kaki** (angka Arab ١، ٢، …) yang merujuk daftar
+sumber di kaki halaman — untuk bab-bab pengobatan umumnya *Makārim al-Akhlāq*,
+dan untuk bab-bab selanjutnya antara lain *Ṭibb al-A'immah*, *Miṣbā*,
+*Mafātīḥ al-Jinān*, *Biḥār al-Anwār*, *Ḍiyā' aṣ-Ṣāliḥīn*. Dokumen ini memulihkan
+penomoran tersebut sesuai urutan kemunculan pada cetakan; rincian daftar kaki
+halaman per bagian tidak tertangkap pindai sehingga tidak ditampilkan penuh.
 
 ---
 
@@ -6829,10 +6964,10 @@ Maha Mulia).
 
 ### 1. 'Ain Itu Nyata
 
-> روي عن أبي عبد الله (ع) أنه قال: «الْعَيْنُ حَقٌّ، وَلَيْسَ تَأْمَنُهَا مِنْكَ
+> روي عن أبي عبد الله (١)
 > عَلَى نَفْسِكَ وَلَا مِنْكَ عَلَى غَيْرِكَ؛ فَإِذَا خِفْتَ شَيْئاً فِي ذَلِكَ
 > فَقُلْ: مَا شَاءَ اللهُ لَا قُوَّةَ إِلَّا بِاللهِ الْعَلِيِّ الْعَظِيمِ — ثَلَاثاً».
-> وَقَالَ (ع): «إِذَا تَهَيَّأَ أَحَدُكُمْ تَهْيِئَةً تُعْجِبُهُ، فَلْيَقْرَأْ حِينَ
+> وَقَالَ (٢)
 > يَخْرُجُ مِنْ مَنْزِلِهِ الْمُعَوِّذَتَيْنِ؛ فَإِنَّهُ لَا يَضُرُّهُ شَيْءٌ بِإِذْنِ
 > اللهِ تَعَالَى».
 
@@ -6846,10 +6981,10 @@ kalian berpenampilan dengan penampilan yang mengagumkan, hendaklah ia membaca
 dua Mu'awwidzah ketika keluar dari rumahnya; karena tidak ada sesuatu pun yang
 membahayakannya dengan izin Allah Ta'ala."*
 
-> وعن الصادق (ع) قال: «إِذَا خِفْتَ أَنْ تُصَابَ بِالْعَيْنِ [أَوْ تُصِيبَ
-> غَيْرَكَ] فَقُلْ: مَا شَاءَ اللهُ لَا قُوَّةَ إِلَّا بِاللهِ». وَقَالَ (ع):
+> وعن الصادق (٣)
+> غَيْرَكَ] فَقُلْ: مَا شَاءَ اللهُ لَا قُوَّةَ إِلَّا بِاللهِ». وَقَالَ (٤)
 > «مَنْ أَعْجَبَهُ شَيْءٌ مِنْ أَخِيهِ الْمُؤْمِنِ فَلْيُكَبِّرْ عَلَيْهِ؛ فَإِنَّ
-> الْعَيْنَ حَقٌّ». وَقَالَ (ع): «لَوْ كُشِفَ لَكُمْ عَنِ الْقُبُورِ لَرَأَيْتُمْ
+> الْعَيْنَ حَقٌّ». وَقَالَ (٥)
 > أَنَّ أَكْثَرَ مَوْتَاكُمْ بِالْعَيْنِ؛ لِأَنَّ الْعَيْنَ حَقٌّ». وَعَنْ رَسُولِ
 > اللهِ ﷺ: «الْعَيْنُ حَقٌّ؛ فَمَنْ أَعْجَبَهُ مِنْ أَخِيهِ شَيْءٌ فَلْيَذْكُرِ
 > اللهَ فِي ذَلِكَ؛ فَإِنَّهُ إِذَا ذَكَرَ اللهَ لَمْ يَضُرَّهُ».
@@ -6866,7 +7001,7 @@ hal itu; karena jika ia menyebut Allah, (pandangannya) tidak membahayakannya."*
 
 ### 2. Kisah Mu'ammar dan Minyak Wangi
 
-> عن معمر قال: أمرني أبو عبد الله (ع) أن أتخذ له غالية، فلما اتخذتها
+> عن معمر قال: أمرني أبو عبد الله (١)
 > أعجبه حسنها، فنظر إليها فقال لي: «يَا مَعْمَرُ، إِنَّ الْعَيْنَ حَقٌّ؛
 > فَاكْتُبْ فِي رُقْعَةٍ: (الْحَمْدَ) وَ﴿قُلْ هُوَ اللَّهُ أَحَدٌ﴾
 > وَالْمُعَوِّذَتَيْنِ وَ(آيَةَ الْكُرْسِيِّ)، وَاجْعَلْهَا فِي غِلَافِ
@@ -6935,7 +7070,7 @@ jin dan manusia).
 
 ### 2. Hirz Imam ash-Shadiq ('alaihissalam)
 
-> كان الصادق (ع) يقول: «لَا أُبَالِي إِذَا قُلْتُهُ وَلَوِ اجْتَمَعَ عَلَيَّ
+> كان الصادق عليه السلام
 > الْإِنْسُ وَالْجِنُّ»: «بِسْمِ اللهِ وَبِاللهِ؛ آمَنْتُ بِاللهِ وَتَوَكَّلْتُ
 > عَلَى اللهِ، إِلَيْكَ التَّكَلَانُ وَإِلَيْكَ التَّفْوِيضُ؛ أَللَّهُمَّ احْفَظْنِي
 > بِحِفْظِ الْإِيمَانِ مِنْ بَيْنِ يَدَيَّ وَمِنْ خَلْفِي وَعَنْ يَمِينِي وَعَنْ
@@ -7084,7 +7219,7 @@ yang cacat? Kemudian lihatlah sekali lagi, niscaya penglihatanmu kembali
 kepadamu tanpa menemukan cacat, dan ia dalam keadaan letih"* (QS al-Mulk [67]:
 3–4); dan QS al-Qalam [68]: 51–52 di atas.
 
-> وعن الصادق (ع) في قصة المأمون والفرس الميتة والسباع: «إن في ناصيتها عوذة،
+> وعن الصادق عليه السلام
 > لو أخذت منها لأكلنها». فوجه إليها، فلما أخذها انتهشنها السباع. وهذا ما وجد
 > في العوذة: «بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ؛ اَللَّهُمَّ احْفَظْنِي
 > بِحِفْظِكَ الَّذِي [لَا يَضِيعُ] …» [وَبَاقِيهَا وَاسْمٌ شَرِيفٌ يُكْتَبُ
@@ -7230,6 +7365,17 @@ dari dinding-dindingnya — ia berkata: *"Mā syā'allāh, lā quwwata illā bil
 ---
 
 ✅ **Bab 5 selesai.**
+---
+
+## Catatan kaki edisi cetak
+
+Pada cetakan asli (Mu'assasat al-A'lami, Beirut), tanda kurung setelah nama
+Nabi/Imam berisi **nomor catatan kaki** (angka Arab ١، ٢، …) yang merujuk daftar
+sumber di kaki halaman — untuk bab-bab pengobatan umumnya *Makārim al-Akhlāq*,
+dan untuk bab-bab selanjutnya antara lain *Ṭibb al-A'immah*, *Miṣbā*,
+*Mafātīḥ al-Jinān*, *Biḥār al-Anwār*, *Ḍiyā' aṣ-Ṣāliḥīn*. Dokumen ini memulihkan
+penomoran tersebut sesuai urutan kemunculan pada cetakan; rincian daftar kaki
+halaman per bagian tidak tertangkap pindai sehingga tidak ditampilkan penuh.
 
 ---
 
@@ -7271,7 +7417,7 @@ mengikuti kalian adalah yang menang"* (QS al-Qaṣaṣ [28]: 35).
 
 ### 2. Jawaban Imam ar-Ridha ('alaihissalam) tentang Sihir
 
-> عن محمد بن عيسى قال: سألت الرضا (ع) عن السحر، فقال: «هُوَ حَقٌّ، وَهُوَ
+> عن محمد بن عيسى قال: سألت الرضا عليه السلام
 > يَضُرُّ بِإِذْنِ اللهِ تَعَالَى؛ فَإِذَا أَصَابَكَ ذَلِكَ فَارْفَعْ يَدَكَ
 > حِذَاءَ وَجْهِكَ وَاقْرَأْ عَلَيْهِمَا: بِسْمِ اللهِ الْعَظِيمِ، بِسْمِ اللهِ
 > الْعَظِيمِ رَبِّ الْعَرْشِ الْعَظِيمِ» [وَسَائِرُ الرُّقْيَةِ].
@@ -7285,12 +7431,12 @@ Yang Mahaagung, Tuhan 'Arsy yang agung)"* [dan sisa ruqyahnya].
 
 ### 3. Kisah Nabi ﷺ Dirihir oleh Labīd bin al-A'ṣam
 
-> عن أبي عبد الله (ع) أنه سئل عن المعوذتين، قال: «إِنَّ رَسُولَ اللهِ ﷺ
+> عن أبي عبد الله (١)
 > سَحَرَهُ لَبِيدُ بْنُ الْأَعْصَمِ الْيَهُودِيُّ، فَأَتَاهُ جِبْرِيلُ
 > بِالْمُعَوِّذَتَيْنِ، فَدَعَا عَلِيّاً فَعَقَدَ لَهُ خَيْطاً فِيهِ
 > اثْنَتَا عَشْرَةَ عُقْدَةً، فَقَالَ: انْطَلِقْ إِلَى بِئْرِ ذَرْوَانَ،
 > فَانْزِلْ إِلَى الْقَلِيبِ فَاقْرَأْ آيَةً وَحُلَّ عُقْدَةً. فَنَزَلَ عَلِيٌّ
-> (ع) وَاسْتَخْرَجَ مِنَ الْقَلِيبِ، فَتَحَلَّلَ ذَلِكَ عَنْ رَسُولِ اللهِ ﷺ».
+> عليه السلام
 > وَفِي رِوَايَةِ ابْنِ عَبَّاسٍ: فَدَفَنَ ذَلِكَ فِي جُفِّ طَلْعَةٍ تَحْتَ
 > رَاعُوفَةِ الْبِئْرِ، فَمَرِضَ رَسُولُ اللهِ ﷺ، فَأَتَاهُ مَلَكَانِ فِي
 > مَنَامِهِ فَأَخْبَرَاهُ بِمَكَانِهِ؛ فَبَعَثَ عَلِيّاً وَالزُّبَيْرَ
@@ -7413,7 +7559,7 @@ berobatlah dengannya dan dengan kemenyan (kundur)."*
 > لِلْأَمْنِ مِنَ الْجِنِّ اتِّخَاذُ الدَّجَاجِ وَالدِّيكِ وَالْجَدْيِ فِي
 > الْبَيْتِ؛ وَلِلْأَمْنِ مِنَ الْجِنِّ فِي الْأَسْفَارِ وَالصَّحَارِي
 > وَالْمَوَاضِعِ الْمُفْزِعَةِ [الْأَذَانُ وَنَحْوُهُ]. وَرُوِيَ عَنِ الصَّادِقِ
-> (ع) أَنَّهُ قَالَ: «ضَعْ يَدَكَ عَلَى أُمِّ رَأْسِكَ وَاقْرَأْ بِرَفِيعِ
+> عليه السلام
 > صَوْتِكَ: ﴿أَفَغَيْرَ دِينِ اللَّهِ يَبْغُونَ وَلَهُ أَسْلَمَ مَنْ فِي
 > السَّمَاوَاتِ وَالْأَرْضِ طَوْعًا وَكَرْهًا وَإِلَيْهِ يُرْجَعُونَ﴾».
 > وَرُوِيَ أَنَّهُ إِذَا تَغَوَّلَتِ الْغِيلَانُ فَأَذِّنُوا بِأَذَانِ
@@ -7438,7 +7584,7 @@ ghīlān (jin penampak) menampakkan diri, kumandangkanlah azan shalat.
 > عن أبي دجانة قال: شكوت إلى النبي ﷺ شيئاً هالني ذات يوم وليلة: صرير
 > كالوحي ودوي كالنحل ولمعان كالبرق وظل أسود يعلو ويطول في صحن داري، فقمت
 > إليه ومسست جلده فإذا هو كجلد القنفذ، فرمى في وجهي مثل شرر النار. فقال ﷺ:
-> «هُوَ عَامِرُ دَارِكَ يَا أَبَا دُجَانَةَ». ثُمَّ اسْتَدْعَى عَلِيّاً (ع)
+> «هُوَ عَامِرُ دَارِكَ يَا أَبَا دُجَانَةَ». ثُمَّ اسْتَدْعَى عَلِيّاً عليه السلام
 > فَأَمَرَهُ أَنْ يَكْتُبَ: «بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ: هَذَا كِتَابُ
 > مُحَمَّدٍ رَسُولِ اللهِ رَبِّ الْعَالَمِينَ إِلَى مَنْ طَرَقَ الدَّارَ مِنَ
 > الْعُمَّارِ وَالزُّوَّارِ إِلَّا طَارِقاً يَطْرُقُ بِخَيْرٍ؛ أَمَّا بَعْدُ،
@@ -7558,6 +7704,17 @@ an taḥulla [dzakara] Fulāni bni Fulānata 'an Fulānata binti Fulānata"* —
 ---
 
 ✅ **Bab 6 selesai.**
+---
+
+## Catatan kaki edisi cetak
+
+Pada cetakan asli (Mu'assasat al-A'lami, Beirut), tanda kurung setelah nama
+Nabi/Imam berisi **nomor catatan kaki** (angka Arab ١، ٢، …) yang merujuk daftar
+sumber di kaki halaman — untuk bab-bab pengobatan umumnya *Makārim al-Akhlāq*,
+dan untuk bab-bab selanjutnya antara lain *Ṭibb al-A'immah*, *Miṣbā*,
+*Mafātīḥ al-Jinān*, *Biḥār al-Anwār*, *Ḍiyā' aṣ-Ṣāliḥīn*. Dokumen ini memulihkan
+penomoran tersebut sesuai urutan kemunculan pada cetakan; rincian daftar kaki
+halaman per bagian tidak tertangkap pindai sehingga tidak ditampilkan penuh.
 
 ---
 
@@ -7610,7 +7767,7 @@ bantulah aku).
 
 ### 3. Doa Ketika Menginap di Tempat yang Dikhawatirkan Pencuri
 
-> عن أمير المؤمنين (ع): «إِذَا أَرَادَ أَحَدُكُمْ مَوْضِعاً [يُخَافُ فِيهِ
+> عن أمير المؤمنين (١)
 > اللُّصُوصُ] فَلْيَضَعْ يَدَهُ الْيُمْنَى تَحْتَ خَدِّهِ الْأَيْمَنِ
 > وَلْيَقُلْ: بِسْمِ اللهِ، وَضَعْتُ جَنْبِي لِلَّهِ عَلَى مِلَّةِ إِبْرَاهِيمَ
 > وَدِينِ مُحَمَّدٍ وَوَلَايَةِ مَنِ افْتَرَضَ اللهُ طَاعَتَهُ؛ مَا شَاءَ اللهُ
@@ -7852,6 +8009,17 @@ dan budak yang kabur).
 ---
 
 ✅ **Bab 7 selesai.**
+---
+
+## Catatan kaki edisi cetak
+
+Pada cetakan asli (Mu'assasat al-A'lami, Beirut), tanda kurung setelah nama
+Nabi/Imam berisi **nomor catatan kaki** (angka Arab ١، ٢، …) yang merujuk daftar
+sumber di kaki halaman — untuk bab-bab pengobatan umumnya *Makārim al-Akhlāq*,
+dan untuk bab-bab selanjutnya antara lain *Ṭibb al-A'immah*, *Miṣbā*,
+*Mafātīḥ al-Jinān*, *Biḥār al-Anwār*, *Ḍiyā' aṣ-Ṣāliḥīn*. Dokumen ini memulihkan
+penomoran tersebut sesuai urutan kemunculan pada cetakan; rincian daftar kaki
+halaman per bagian tidak tertangkap pindai sehingga tidak ditampilkan penuh.
 
 ---
 
@@ -8030,7 +8198,7 @@ lurus bagi kami dalam urusan kami'"* (QS al-Kahfi [18]: 4–10).
 
 ### 3. Doa Keluar Rumah — dari Imam ash-Shadiq ('alaihissalam)
 
-> عن أبي حمزة قال: رأيت الصادق (ع) يحرّك شفتيه حين أراد أن يخرج وهو قائم
+> عن أبي حمزة قال: رأيت الصادق عليه السلام
 > على الباب، فقلت: إني رأيتك تحرّك شفتيك حين خرجت، فهل قلت شيئاً؟ قال:
 > «نَعَمْ؛ إِنَّ الْإِنْسَانَ إِذَا خَرَجَ مِنْ مَنْزِلِهِ قَالَ حِينَ يُرِيدُ
 > أَنْ يَخْرُجَ: اَللهُ أَكْبَرُ، اَللهُ أَكْبَرُ، اَللهُ أَكْبَرُ؛ بِاللهِ
@@ -8056,7 +8224,7 @@ atas jalan yang lurus')." *
 
 ### 4. 'Uwdzah Imam Ali bin al-Husain ('alaihimas salam) dan Kisah al-Manṣūr
 
-> عن أبي عبد الله (ع) قال: كان علي بن الحسين (ع) يقول: «مَا أُبَالِي إِذَا
+ قال: كان علي بن الحسين عليه السلام
 > قُلْتُ هَذِهِ الْكَلِمَاتِ لَوِ اجْتَمَعَ عَلَيَّ الْإِنْسُ وَالْجِنُّ:
 > بِسْمِ اللهِ وَبِاللهِ، وَمِنَ اللهِ وَإِلَى اللهِ، وَفِي سَبِيلِ اللهِ
 > وَعَلَى مِلَّةِ رَسُولِ اللهِ ﷺ؛ اَللَّهُمَّ إِلَيْكَ أَسْلَمْتُ نَفْسِي،
@@ -8065,9 +8233,9 @@ atas jalan yang lurus')." *
 > وَانْصُرْنِي بِجُنْدِكَ، وَأَعِنِّي بِحَوْلِكَ وَقُوَّتِكَ؛ فَإِنَّهُ لَا
 > حَوْلَ وَلَا قُوَّةَ إِلَّا بِكَ».
 > [وَفِي الْقِصَّةِ: أَنَّ أَبَا جَعْفَرٍ الْمَنْصُورَ لَمَّا أَمَرَ بِقَتْلِهِ،
-> دَخَلَ أَبُو عَبْدِ اللهِ (ع) وَقَالَ فِي نَفْسِهِ: يَا مَنْ يَكْفِي مِنْ كُلِّ
+> دَخَلَ أَبُو عَبْدِ اللهِ عليه السلام
 > شَيْءٍ وَلَا يَكْفِيهِ أَحَدٌ، اِكْفِنِي شَرَّ عَبْدِكَ هَذَا؛ فَصَارَ الْمَنْصُورُ
-> لَا يُبْصِرُهُ، وَصَارَ أَبُو عَبْدِ اللهِ (ع) لَا يَرَى شَيْئاً، وَانْصَرَفَ
+> لَا يُبْصِرُهُ، وَصَارَ أَبُو عَبْدِ اللهِ عليه السلام
 > آمِناً.]
 
 Dari Imam ash-Shadiq ('alaihissalam), Ali bin al-Husain ('alaihimas salam)
@@ -8255,7 +8423,7 @@ hamba-Mu ini." Maka al-Manṣur tidak dapat melihatnya, dan Abu Abdillah
 
 ### 1. Doa Nabi ﷺ ketika Duka dan Susah
 
-> عن زيد بن علي عن آبائه عن علي بن أبي طالب (ع) قال: كان النبي ﷺ إذا نزل
+> عن زيد بن علي عن آبائه عن علي بن أبي طالب (١)
 > به كرب أو هم دعا: «يَا حَيُّ يَا قَيُّومُ، يَا حَيّاً لَا يَمُوتُ، لَا إِلَهَ
 > إِلَّا أَنْتَ كَاشِفُ الْهَمِّ مُجِيبُ دَعْوَةِ الْمُضْطَرِّينَ؛ أَسْأَلُكَ
 > بِأَنَّ لَكَ الْحَمْدَ لَا إِلَهَ إِلَّا أَنْتَ الْمَنَّانُ، بَدِيعُ
@@ -8522,7 +8690,7 @@ silaturahim."*
 
 ## C. Keamanan dari Ketakutan
 
-> عن الصادق (ع): «تَنْتَصِبُ قَائِماً أَوْ سَاجِداً وَأَنْتَ طَاهِرٌ وَتَقُولُ:
+> عن الصادق (١)
 > [أَسْأَلُكَ بِأَسْمَائِكَ الَّتِي] … وَتَقْرَأُ (سُورَةَ التَّوْحِيدِ) ثَلَاثاً
 > وَتَقُولُ: مِنْ فَوْقِهِمْ وَعَنْ فَوْقِنَا؛ ثُمَّ ثَلَاثاً: عَنْ أَيْمَانِهِمْ
 > وَعَنْ أَيْمَانِنَا؛ ثُمَّ ثَلَاثاً: عَنْ شَمَائِلِهِمْ وَعَنْ شَمَائِلِنَا؛
@@ -8782,6 +8950,17 @@ anugerah, kekuatan, dan daya, dan Engkau Mahakuasa atas segala sesuatu).
 ---
 
 ✅ **Bab 8 selesai.**
+---
+
+## Catatan kaki edisi cetak
+
+Pada cetakan asli (Mu'assasat al-A'lami, Beirut), tanda kurung setelah nama
+Nabi/Imam berisi **nomor catatan kaki** (angka Arab ١، ٢، …) yang merujuk daftar
+sumber di kaki halaman — untuk bab-bab pengobatan umumnya *Makārim al-Akhlāq*,
+dan untuk bab-bab selanjutnya antara lain *Ṭibb al-A'immah*, *Miṣbā*,
+*Mafātīḥ al-Jinān*, *Biḥār al-Anwār*, *Ḍiyā' aṣ-Ṣāliḥīn*. Dokumen ini memulihkan
+penomoran tersebut sesuai urutan kemunculan pada cetakan; rincian daftar kaki
+halaman per bagian tidak tertangkap pindai sehingga tidak ditampilkan penuh.
 
 ---
 
@@ -8837,13 +9016,13 @@ Dan pembacaan Ayat al-Kursi mujarrab untuk itu.
 
 ### 3. Doa Ma'tsūr dan Mujarrab untuk Penjagaan dari Musuh
 
-> عن أمير المؤمنين (ع): من قرأ كل يوم قبل طلوع الشمس هذا الدعاء سبع
+> عن أمير المؤمنين (١)
 > مرات ونفخ في جهاته، حُفظ من شر جميع الأعداء ولم يصبه ضرر أو قهر أو
 > انقادوا له؛ ولهذا الدعاء أثر عظيم وقد جُرّب ولم يتخلّف البتة:
 > «اَللَّهُمَّ سَخِّرْ لِي أَعْدَائِي كَمَا سَخَّرْتَ الرِّيحَ لِسُلَيْمَانَ بْنِ دَاوُدَ
-> (ع)، وَلِنْهُمْ لِي كَمَا لَيَّنْتَ الْحَدِيدَ لِدَاوُدَ (ع)، وَذَلِّلْهُمْ لِي كَمَا
-> ذَلَّلْتَ فِرْعَوْنَ لِمُوسَى (ع)، وَاقْهَرْهُمْ لِي كَمَا قَهَرْتَ نُمْرُودَ
-> لِإِبْرَاهِيمَ (ع). ﴿صُمٌّ بُكْمٌ عُمْيٌ فَهُمْ لَا يُبْصِرُونَ﴾، ﴿صُمٌّ بُكْمٌ
+، وَلِنْهُمْ لِي كَمَا لَيَّنْتَ الْحَدِيدَ لِدَاوُدَ عليه السلام
+> ذَلَّلْتَ فِرْعَوْنَ لِمُوسَى عليه السلام
+> لِإِبْرَاهِيمَ عليه السلام
 > عُمْيٌ فَهُمْ لَا يَعْقِلُونَ﴾، ﴿فَسَيَكْفِيكَهُمُ اللَّهُ وَهُوَ السَّمِيعُ
 > الْعَلِيمُ﴾؛ وَصَلَّى اللهُ عَلَى خَيْرِ خَلْقِهِ مُحَمَّدٍ وَآلِهِ أَجْمَعِينَ. بِسْمِ
 > اللهِ الرَّحْمَنِ الرَّحِيمِ، بِحُرْمَةِ ﴿كهيعص﴾ ﴿حمعسق﴾ وَلَا حَوْلَ وَلَا
@@ -8924,7 +9103,7 @@ pindai.]
 
 ### 6. 'Uwdzah Imam ar-Riḍā ('alaihissalam) — Warisan dari Imam Ali
 
-> وُجدت معلقة في قراب سيفه، وفي آخرها أنها عن الله عز وجل، وأنه (ع)
+> وُجدت معلقة في قراب سيفه، وفي آخرها أنها عن الله عز وجل، وأنه عليه السلام
 > شرط على ولده وأهله أن يعوها؛ فمن دعا بها لم يُحجب دعاؤه عن الله:
 > «اَللَّهُمَّ بِكَ أَسْتَفْتِحُ وَبِكَ أَسْتَنْجِحُ وَبِمُحَمَّدٍ صَلَّى اللهُ عَلَيْهِ
 > وَآلِهِ أَتَوَجَّهُ؛ اَللَّهُمَّ سَهِّلْ لِي حُزُونَتَهُ وَسَهِّلْ لِي كُلَّ حُزُونَةٍ،
@@ -9301,7 +9480,7 @@ dicukupkan.
 
 ### 1. Doa Nabi ﷺ untuk Menjaga Dua Anak (dan Kisah Imam ash-Shadiq dengan al-Manṣūr)
 
-> روي أنه لما بعث أبو الدوانيق إلى أبي عبد الله (ع) رفع يده إلى السماء ثم
+> روي أنه لما بعث أبو الدوانيق إلى أبي عبد الله عليه السلام
 > قال: «اَللَّهُمَّ إِنَّكَ حَفِظْتَ الْغُلَامَيْنِ بِصَلَاحِ أَبَوَيْهِمَا،
 > فَاحْفَظْنِي بِصَلَاحِ آبَائِي مُحَمَّدٍ وَعَلِيٍّ وَالْحَسَنِ وَالْحُسَيْنِ
 > وَعَلِيِّ بْنِ الْحُسَيْنِ وَمُحَمَّدِ بْنِ عَلِيٍّ؛ اَللَّهُمَّ إِنِّي أَدْرَأُ بِكَ
@@ -9797,7 +9976,7 @@ dengan Allah Yang Mahatinggi lagi Mahaagung).
 
 ### 4. Doa Imam al-Jawād untuk al-Faraj (dari 'Ali bin Mahziyār)
 
-> كتب محمد بن حمزة الغنوي إليّ يسألني أن أكتب إلى أبي جعفر (ع) في دعاء
+> كتب محمد بن حمزة الغنوي إليّ يسألني أن أكتب إلى أبي جعفر عليه السلام
 > يعلّمه يرجو به الفرج، فكتب إليّ: «أَمَّا مَا سَأَلَ مُحَمَّدُ بْنُ حَمْزَةَ مِنْ
 > تَعْلِيمِهِ دُعَاءً يَرْجُو بِهِ الْفَرَجَ، فَقُلْ لَهُ يَلْزَمُ: يَا مَنْ
 > يَكْفِي مِنْ كُلِّ شَيْءٍ وَلَا يَكْفِي مِنْهُ شَيْءٌ، إِكْفِنِي مَا أَهَمَّنِي
@@ -9844,6 +10023,17 @@ seketika.
 ---
 
 ✅ **Bab 9 selesai.**
+---
+
+## Catatan kaki edisi cetak
+
+Pada cetakan asli (Mu'assasat al-A'lami, Beirut), tanda kurung setelah nama
+Nabi/Imam berisi **nomor catatan kaki** (angka Arab ١، ٢، …) yang merujuk daftar
+sumber di kaki halaman — untuk bab-bab pengobatan umumnya *Makārim al-Akhlāq*,
+dan untuk bab-bab selanjutnya antara lain *Ṭibb al-A'immah*, *Miṣbā*,
+*Mafātīḥ al-Jinān*, *Biḥār al-Anwār*, *Ḍiyā' aṣ-Ṣāliḥīn*. Dokumen ini memulihkan
+penomoran tersebut sesuai urutan kemunculan pada cetakan; rincian daftar kaki
+halaman per bagian tidak tertangkap pindai sehingga tidak ditampilkan penuh.
 
 ---
 
@@ -11581,6 +11771,17 @@ hajat-hajatnya dengan izin Allah Ta'ala.
 ---
 
 ✅ **Bab 10 selesai.**
+---
+
+## Catatan kaki edisi cetak
+
+Pada cetakan asli (Mu'assasat al-A'lami, Beirut), tanda kurung setelah nama
+Nabi/Imam berisi **nomor catatan kaki** (angka Arab ١، ٢، …) yang merujuk daftar
+sumber di kaki halaman — untuk bab-bab pengobatan umumnya *Makārim al-Akhlāq*,
+dan untuk bab-bab selanjutnya antara lain *Ṭibb al-A'immah*, *Miṣbā*,
+*Mafātīḥ al-Jinān*, *Biḥār al-Anwār*, *Ḍiyā' aṣ-Ṣāliḥīn*. Dokumen ini memulihkan
+penomoran tersebut sesuai urutan kemunculan pada cetakan; rincian daftar kaki
+halaman per bagian tidak tertangkap pindai sehingga tidak ditampilkan penuh.
 
 ---
 
@@ -11589,7 +11790,7 @@ hajat-hajatnya dengan izin Allah Ta'ala.
 # Bab 11: Memenuhi Hajat dan Menghilangkan Kesusahan (قضاء الحاجات وكشف الكربات)
 
 > **مُجَرَّبَاتُ الْإِمَامِيَّةِ فِي الشِّفَاءِ بِالْقُرْآنِ وَالدُّعَاءِ** — Karya Muhammad Husain Mughniyah
-> Bab Kesebelas
+> Bab Kesebelas · [⬅️ Bab 10](18-bab-10-ahraz-hijab.md)
 
 > ⚠️ Bagian ini mengandung banyak khutâm (wirid berangka besar). Angka-angka dirujuk pada sumber; ketekunan dan kehadiran hati adalah kunci.
 
@@ -12164,6 +12365,18 @@ Lalu berdoalah dengan apa yang kau kehendaki. Kisah ini ditulis di kertas, dimas
 ---
 
 > ✅ **Bab 11 Selesai** — bab terpanjang kitab ini: 80-an amaliah pemenuhan hajat dan penghilangan kesusahan.
+> ⬅️ [Kembali ke Bab 10](18-bab-10-ahraz-hijab.md) · 
+---
+
+## Catatan kaki edisi cetak
+
+Pada cetakan asli (Mu'assasat al-A'lami, Beirut), tanda kurung setelah nama
+Nabi/Imam berisi **nomor catatan kaki** (angka Arab ١، ٢، …) yang merujuk daftar
+sumber di kaki halaman — untuk bab-bab pengobatan umumnya *Makārim al-Akhlāq*,
+dan untuk bab-bab selanjutnya antara lain *Ṭibb al-A'immah*, *Miṣbā*,
+*Mafātīḥ al-Jinān*, *Biḥār al-Anwār*, *Ḍiyā' aṣ-Ṣāliḥīn*. Dokumen ini memulihkan
+penomoran tersebut sesuai urutan kemunculan pada cetakan; rincian daftar kaki
+halaman per bagian tidak tertangkap pindai sehingga tidak ditampilkan penuh.
 
 ---
 
@@ -12172,7 +12385,7 @@ Lalu berdoalah dengan apa yang kau kehendaki. Kisah ini ditulis di kertas, dimas
 # Bab 12: Mujarrabat Aneka (مجرّبات متفرّقة)
 
 > **مُجَرَّبَاتُ الْإِمَامِيَّةِ فِي الشِّفَاءِ بِالْقُرْآنِ وَالدُّعَاءِ** — Karya Muhammad Husain Mughniyah
-> Bab Kedua Belas (terakhir)
+> Bab Kedua Belas (terakhir) · [⬅️ Bab 11](19-bab-11-hajat-karab.md)
 
 ---
 
@@ -12502,9 +12715,22 @@ Kumpulan ayat-ayat pengusiran; ditulis pada empat batang/lembar untuk empat sudu
 
 > ✅ **Bab 12 Selesai — KITAB SELESAI** 🎉
 > Seluruh dua belas bab *Mujarrabat al-Imamiyyah fi as-Syifa' bi al-Qur'an wa ad-Du'a* telah diterjemahkan.
+> ⬅️ [Kembali ke Bab 11](19-bab-11-hajat-karab.md) · [📖 Fihrist Kitab](21-fihrist-indeks-kitab.md) · [📚 Ke Daftar Isi](README.md)
 >
 > ---
 > **Catatan penutup penerjemah**: Terjemahan ini ditujukan untuk kajian keagamaan dan ruhani, bukan pengganti pengobatan medis. Untuk penyakit fisik, dahulukan ikhtiar medis; doa dan wirid adalah penyerta, bukan pengganti. Angka-angka wirid dan khasiat dalam kitab ini mengikuti apa yang dinukil Mughniyah dari kitab-kitab terdahulu; kebenarannya dikembalikan kepada Allah dan pembaca menyikapinya dengan bijak.
+
+---
+
+## Catatan kaki edisi cetak
+
+Pada cetakan asli (Mu'assasat al-A'lami, Beirut), tanda kurung setelah nama
+Nabi/Imam berisi **nomor catatan kaki** (angka Arab ١، ٢، …) yang merujuk daftar
+sumber di kaki halaman — untuk bab-bab pengobatan umumnya *Makārim al-Akhlāq*,
+dan untuk bab-bab selanjutnya antara lain *Ṭibb al-A'immah*, *Miṣbā*,
+*Mafātīḥ al-Jinān*, *Biḥār al-Anwār*, *Ḍiyā' aṣ-Ṣāliḥīn*. Dokumen ini memulihkan
+penomoran tersebut sesuai urutan kemunculan pada cetakan; rincian daftar kaki
+halaman per bagian tidak tertangkap pindai sehingga tidak ditampilkan penuh.
 
 ---
 
@@ -12513,26 +12739,27 @@ Kumpulan ayat-ayat pengusiran; ditulis pada empat batang/lembar untuk empat sudu
 # Fihrist (Daftar Isi Asli Kitab) — فهرس الكتاب
 
 > **مُجَرَّبَاتُ الْإِمَامِيَّةِ فِي الشِّفَاءِ بِالْقُرْآنِ وَالدُّعَاءِ** — Karya Muhammad Husain Mughniyah
+> [⬅️ Bab 12](20-bab-12-mujarrabat-mutafarriqah.md) · [📚 Ke Halaman Utama](README.md)
 
-Berikut terjemahan **daftar isi (فهرس) asli** dari kitab, dengan rujukan ke bagian terjemahan masing-masing bab dalam dokumen ini. (Nomor halaman pada pindai asli banyak yang tidak terbaca sehingga tidak dicantumkan.)
+Berikut terjemahan **daftar isi (فهرس) asli** dari kitab, dengan tautan ke file terjemahan masing-masing bab. (Nomor halaman pada pindai asli banyak yang tidak terbaca sehingga tidak dicantumkan.)
 
 ---
 
 ## الفصل الأول — في الاستشفاء بالقرآن
-**Bab 1: Berobat (Istisyfa') dengan Al-Qur'an** → file 01, 02, 03
+**Bab 1: Berobat (Istisyfa') dengan Al-Qur'an** → [file 01](01-bab-01-istisyfa-dengan-alquran.md), [02](02-bab-01-khasiat-surah-riwayat.md), [03](03-bab-01-khasiat-surah-kitab-khawash.md)
 
 - في الاستشفاء بآيات التهليل — Berobat dengan ayat-ayat tahlil
 - في الاستشفاء بالسور والآيات القرآنية وذكر خواصها — Berobat dengan surah dan ayat Al-Qur'an serta penyebutan khasiatnya
 
 ## الفصل الثاني — في أدعية للشفاء من الآلام
-**Bab 2: Doa-Doa Kesembuhan dari Rasa Sakit** → file 04–10
+**Bab 2: Doa-Doa Kesembuhan dari Rasa Sakit** → [file 04–10](04-bab-02-doa-kesembuhan-umum.md)
 
 - للشفاء من كل داء — Untuk kesembuhan dari segala penyakit
 - الدعاء عند المريض — Doa di sisi orang sakit
 - دعاء الأم لولدها المريض — Doa ibu untuk anaknya yang sakit
 - دعاء العافية — Doa 'afiyah (kesejahteraan)
-- أدعية الصادق (ع) في طلب العافية — Doa-doa Imam ash-Shadiq meminta 'afiyah
-- أدعية السيدة الزهراء (ع) — Doa-doa Sayidah az-Zahra
+- أدعية الصادق (عليه السلام) في طلب العافية — Doa-doa Imam ash-Shadiq meminta 'afiyah
+- أدعية السيدة الزهراء (عليه السلام) — Doa-doa Sayidah az-Zahra
 - صلاة لرفع الحمى — Shalat untuk mengangkat demam
 - أدعية لرفع الصداع / للصداع والشقيقة / لوجع الرأس — Doa-doa sakit kepala, syaqiqah (migrain), nyeri kepala
 - عوذة ورقيات مجربة للصداع — 'Udzah dan ruqyah mujarrab untuk sakit kepala
@@ -12542,13 +12769,13 @@ Berikut terjemahan **daftar isi (فهرس) asli** dari kitab, dengan rujukan ke 
 - لوجع الطحال — Nyeri limpa
 - للجرب والدمل والقوباء / للبثر — Kudis, bisul, qawba'; jerawat/bisul kecil
 - للورم والجراح والدماميل / عوذة للورم في المفاصل — Bengkak, luka, bisul-bisul; 'udzzah bengkak sendi
-- دعاء الإمام السجاد (ع) / للكسور — Doa Imam as-Sajjad; untuk patah tulang
+- دعاء الإمام السجاد (عليه السلام) / للكسور — Doa Imam as-Sajjad; untuk patah tulang
 - للعقارب والحيات / لدفع السموم — Kalajengking dan ular; menolak racun
 - بركة السباع — Keberkahan (menundukkan) binatang buas
 - للانتباه من النوم / للأرق / للصرع — Agar terbangun dari tidur; insomnia; ayan (epilepsi)
 
 ## الفصل الثالث — في أدعية الحمل والولادة
-**Bab 3: Doa-Doa Kehamilan dan Persalinan** → file 11
+**Bab 3: Doa-Doa Kehamilan dan Persalinan** → [file 11](11-bab-03-hamil-dan-melahirkan.md)
 
 - لطب الولد — Untuk kesehatan anak
 - عوذة لعسر الولادة / لشدة الطلق وعسر الولادة — 'Udzah persalinan sulit; kerasnya kontraksi dan persalinan sulit
@@ -12558,25 +12785,25 @@ Berikut terjemahan **daftar isi (فهرس) asli** dari kitab, dengan rujukan ke 
 - لزيادة لبن المرأة — Untuk memperbanyak ASI
 
 ## الفصل الرابع — في الرزق والديون
-**Bab 4: Rezeki dan Utang** → file 12
+**Bab 4: Rezeki dan Utang** → [file 12](12-bab-04-rezeki-dan-utang.md)
 
 - آيات مجربة للرزق — Ayat-ayat mujarrab untuk rezeki
 - ختوم للسعة في الرزق — Khutam-khutam keluasan rezeki
 - لطلب الرزق / للتمكن والغنى — Meminta rezeki; kemampuan dan kekayaan
 - المناجاة بطلب الرزق — Munajat meminta rezeki
 - دعاء وصلاة للدين — Doa dan shalat untuk utang
-- دعاء الصادق (ع) للرزق — Doa Imam ash-Shadiq untuk rezeki
+- دعاء الصادق (عليه السلام) للرزق — Doa Imam ash-Shadiq untuk rezeki
 - صلوات لزيادة الرزق — Shalat-shalat untuk menambah rezeki
 - آية لبيع البضاعة — Ayat untuk menjual barang dagangan
 - لقضاء الدين / لأداء الدين — Melunasi utang; membayar utang
 
 ## الفصل الخامس — في العين
-**Bab 5: Ain (Pandangan Mata Jahat)** → file 13
+**Bab 5: Ain (Pandangan Mata Jahat)** → [file 13](13-bab-05-ain.md)
 
 - آيات للحفظ من العين — Ayat-ayat penjagaan dari ain
 
 ## الفصل السادس — في الأمن من السحر ولحل المربوط
-**Bab 6: Keamanan dari Sihir dan Pelepasan yang Terikat** → file 14
+**Bab 6: Keamanan dari Sihir dan Pelepasan yang Terikat** → [file 14](14-bab-06-sihir.md)
 
 - رقية للأمن من السحر — Ruqyah keamanan dari sihir
 - دعاء لإبطال السحر — Doa membatalkan sihir
@@ -12585,7 +12812,7 @@ Berikut terjemahan **daftar isi (فهرس) asli** dari kitab, dengan rujukan ke 
 - عوذة لحل المربوط / رقيات لحل المربوط — 'Udzah dan ruqyah-ruqyah melepas orang yang terikat
 
 ## الفصل السابع — في السارق والضالة
-**Bab 7: Pencuri dan Barang Hilang** → file 15
+**Bab 7: Pencuri dan Barang Hilang** → [file 15](15-bab-07-pencuri-dan-barang-hilang.md)
 
 - دعاء لدفع السارق — Doa menolak pencuri
 - لمعرفة السارق — Untuk mengetahui pencuri
@@ -12596,7 +12823,7 @@ Berikut terjemahan **daftar isi (فهرس) asli** dari kitab, dengan rujukan ke 
 - لحفظ المال من الضياع — Menjaga harta dari kehilangan
 
 ## الفصل الثامن — في الحفظ ودفع البلاء والهم والخوف والسفر
-**Bab 8: Penjagaan, Menolak Bala, Duka, Takut, dan Keamanan Safar** → file 16
+**Bab 8: Penjagaan, Menolak Bala, Duka, Takut, dan Keamanan Safar** → [file 16](16-bab-08-penjagaan-dan-safar.md)
 
 - دعاء التاج — Doa Taj (Mahkota)
 - دعاء لدفع البلاء — Doa menolak bala
@@ -12604,65 +12831,65 @@ Berikut terjemahan **daftar isi (فهرس) asli** dari kitab, dengan rujukan ke 
 - دعاء للهم والفرج والكرب — Doa untuk duka, jalan keluar, dan kesusahan
 - للأمن من الخوف — Keamanan dari rasa takut
 - لمن ضل في السفر — Bagi yang tersesat dalam perjalanan
-- مناجاة الجواد (ع) في السفر — Munajat Imam al-Jawad dalam perjalanan
+- مناجاة الجواد (عليه السلام) في السفر — Munajat Imam al-Jawad dalam perjalanan
 - أدعية للأمن في السفر — Doa-doa keamanan dalam perjalanan
 
 ## الفصل التاسع — في الدعاء على الأعداء والظالمين والخلاص من الجن
-**Bab 9: Doa terhadap Musuh dan Orang Zalim, serta Keselamatan dari Jin** → file 17
+**Bab 9: Doa terhadap Musuh dan Orang Zalim, serta Keselamatan dari Jin** → [file 17](17-bab-09-musuh-dan-jin.md)
 
 - للتمكين والسلطة واستمرارها — Untuk kedudukan, kekuasaan, dan kelangsungannya
 - صلاة الظلامة / صلاة الاستعداء / صلاة الخوف من الظالم / صلاة لكفاية ظلم السلطان — Shalat pengaduan kezaliman, shalat meminta pertolongan, shalat takut orang zalim, shalat mencukupkan dari kezaliman penguasa
-- دعاء للزهراء (ع) في الفرج — Doa az-Zahra untuk jalan keluar
-- دعاء الكاظم (ع) / دعاء لصاحب الأمر (ع) — Doa Imam al-Kazhim; doa Shâhib al-Amr
+- دعاء للزهراء (عليه السلام) في الفرج — Doa az-Zahra untuk jalan keluar
+- دعاء الكاظم (عليه السلام) / دعاء لصاحب الأمر (عليه السلام) — Doa Imam al-Kazhim; doa Shâhib al-Amr
 - دعاء الفرج — Doa faraj
 - آيات للحفظ — Ayat-ayat penjagaan
 - للاحتجاب بالحصيات — Berlindung (dari pandangan) dengan kerikil
-- دعاء النبي (ص) ليلة الأحزاب — Doa Nabi pada malam (perang) Ahzab
+- دعاء النبي (صلى الله عليه وآله) ليلة الأحزاب — Doa Nabi pada malam (perang) Ahzab
 - دعاء الاحتراز من الأعداء — Doa kewaspadaan dari musuh
 - الدعاء على الظالم — Doa terhadap orang zalim
-- مناجاة الجواد (ع) لكشف الظلم — Munajat Imam al-Jawad menyingkap kezaliman
-- أدعية الصادق (ع) للأمن من السلطان — Doa-doa Imam ash-Shadiq untuk keamanan dari penguasa
+- مناجاة الجواد (عليه السلام) لكشف الظلم — Munajat Imam al-Jawad menyingkap kezaliman
+- أدعية الصادق (عليه السلام) للأمن من السلطان — Doa-doa Imam ash-Shadiq untuk keamanan dari penguasa
 - للاحتجاب عن الناس والدخول على السلطان — Berlindung dari pandangan manusia dan masuk menemui penguasa
 - للاحتجاب عن الأعداء — Berlindung dari pandangan musuh
-- دعاء الصادق (ع) عند الشدائد / دعاء الرضا (ع) عند الشدائد — Doa Imam ash-Shadiq dan Imam ar-Ridha saat kesulitan-kesulitan
+- دعاء الصادق (عليه السلام) عند الشدائد / دعاء الرضا (عليه السلام) عند الشدائد — Doa Imam ash-Shadiq dan Imam ar-Ridha saat kesulitan-kesulitan
 - للنصر على العدو — Untuk kemenangan atas musuh
 - لدفع القتل والخوف / للحفظ من القتل / للحفظ من الغرق والقتل — Menolak pembunuhan dan rasa takut; penjagaan dari pembunuhan; penjagaan dari tenggelam dan pembunuhan
 - للشفاء واستجابة الدعاء — Untuk kesembuhan dan terkabulnya doa
 
 ## الفصل العاشر — في الأحراز والحجب والعوذ والهياكل
-**Bab 10: Ahraz, Hijab, 'Uwadz, dan Hayakil** → file 18
+**Bab 10: Ahraz, Hijab, 'Uwadz, dan Hayakil** → [file 18](18-bab-10-ahraz-hijab.md)
 
-- حرز النبي (ص) — Hirz Nabi ﷺ
-- حرز خديجة (ع) — Hirz Khadijah
-- حرز فاطمة (ع) — Hirz Fathimah
-- حرز أمير المؤمنين علي (ع) — Hirz Amirul Mukminin Ali
-- حرز الإمامين الحسنين (ع) — Hirz dua Imam al-Hasan dan al-Husain
-- حرز الإمام الحسن (ع) المعوذات — Hirz Imam al-Hasan (al-Mu'awwidzat)
-- حرز الإمام الحسين (ع) — Hirz Imam al-Husain
-- حرز الإمام السجاد (ع) — Hirz Imam as-Sajjad
-- حرز الإمام الباقر (ع) — Hirz Imam al-Baqir
-- حرز الإمام الصادق (ع) — Hirz Imam ash-Shadiq
-- حرز الإمام الكاظم (ع) — Hirz Imam al-Kazhim
-- حرز الإمام الرضا (ع) — Hirz Imam ar-Ridha
-- حرز الإمام الجواد (ع) — Hirz Imam al-Jawad
-- حرز الإمام الهادي (ع) — Hirz Imam al-Hadi
-- حرز الإمام العسكري (ع) — Hirz Imam al-'Askari
+- حرز النبي (صلى الله عليه وآله) — Hirz Nabi ﷺ
+- حرز خديجة (عليه السلام) — Hirz Khadijah
+- حرز فاطمة (عليه السلام) — Hirz Fathimah
+- حرز أمير المؤمنين علي (عليه السلام) — Hirz Amirul Mukminin Ali
+- حرز الإمامين الحسنين (عليه السلام) — Hirz dua Imam al-Hasan dan al-Husain
+- حرز الإمام الحسن (عليه السلام) المعوذات — Hirz Imam al-Hasan (al-Mu'awwidzat)
+- حرز الإمام الحسين (عليه السلام) — Hirz Imam al-Husain
+- حرز الإمام السجاد (عليه السلام) — Hirz Imam as-Sajjad
+- حرز الإمام الباقر (عليه السلام) — Hirz Imam al-Baqir
+- حرز الإمام الصادق (عليه السلام) — Hirz Imam ash-Shadiq
+- حرز الإمام الكاظم (عليه السلام) — Hirz Imam al-Kazhim
+- حرز الإمام الرضا (عليه السلام) — Hirz Imam ar-Ridha
+- حرز الإمام الجواد (عليه السلام) — Hirz Imam al-Jawad
+- حرز الإمام الهادي (عليه السلام) — Hirz Imam al-Hadi
+- حرز الإمام العسكري (عليه السلام) — Hirz Imam al-'Askari
 - حرز لمولانا القائم (عج) — Hirz Maulana al-Qa'im
-- حجاب رسول الله (ص) — Hijab Rasulullah ﷺ
-- حجاب أمير المؤمنين (ع) — Hijab Amirul Mukminin
+- حجاب رسول الله (صلى الله عليه وآله) — Hijab Rasulullah ﷺ
+- حجاب أمير المؤمنين (عليه السلام) — Hijab Amirul Mukminin
 - حجاب الإمام الحسن / الحسين / السجاد / الباقر / الصادق / الكاظم / الرضا / الجواد / الهادي / العسكري — Hijab para Imam: al-Hasan, al-Husain, as-Sajjad, al-Baqir, ash-Shadiq, al-Kazhim, ar-Ridha, al-Jawad, al-Hadi, al-'Askari
 - حجاب لمولانا القائم (عج) — Hijab Maulana al-Qa'im
 - في العوذ والهياكل — Tentang 'udzzah dan hayakil (tujuh haykal)
 
 ## الفصل الحادي عشر — في قضاء الحاجات وكشف الكربات
-**Bab 11: Memenuhi Hajat dan Menghilangkan Kesusahan** → file 19
+**Bab 11: Memenuhi Hajat dan Menghilangkan Kesusahan** → [file 19](19-bab-11-hajat-karab.md)
 
-- دعاء الزهراء (ع) للحوائج — Doa az-Zahra untuk hajat-hajat
+- دعاء الزهراء (عليه السلام) للحوائج — Doa az-Zahra untuk hajat-hajat
 - أدعية لقضاء الحاجة — Doa-doa pemenuhan hajat
 - لكفاية المهمات وبلوغ المرام — Mencukupi urusan-urusan penting dan mencapai tujuan
 - لجهة أي مدعى ومطلب — Untuk arah doa dan permintaan apa pun
 - ختوم مجربة لكل المطالب — Khutam-khutam mujarrab untuk segala maksud
-- دعاء الهادي (ع) للحاجة — Doa Imam al-Hadi untuk hajat
+- دعاء الهادي (عليه السلام) للحاجة — Doa Imam al-Hadi untuk hajat
 - أدعية الحوائج — Doa-doa hajat
 - لقصد إنسان في طلب حاجة — Menemui seseorang dalam meminta hajat
 - دعاء التوسل لقضاء الحاجة — Doa tawassul untuk pemenuhan hajat
@@ -12674,7 +12901,7 @@ Berikut terjemahan **daftar isi (فهرس) asli** dari kitab, dengan rujukan ke 
 - استغاثة لطلب الحاجة — Istighatsah untuk meminta hajat
 
 ## الفصل الثاني عشر — في مجربات متفرقة
-**Bab 12: Mujarrabat Aneka** → file 20
+**Bab 12: Mujarrabat Aneka** → [file 20](20-bab-12-mujarrabat-mutafarriqah.md)
 
 - المناجاة بطلب الحج — Munajat meminta haji
 - للحج والتوفيق له — Untuk haji dan taufik menunaikannya
@@ -12698,6 +12925,8 @@ Berikut terjemahan **daftar isi (فهرس) asli** dari kitab, dengan rujukan ke 
 
 **تَمَّ الْفِهْرِسُ** — Dengan ini seluruh isi kitab — dari mukadimah hingga fihrist — telah diterjemahkan lengkap.
 
+> [📚 Kembali ke Halaman Utama](README.md)
+
 ---
 
 <a id="rangkuman"></a>
@@ -12706,7 +12935,7 @@ Berikut terjemahan **daftar isi (فهرس) asli** dari kitab, dengan rujukan ke 
 ## Arab · Latin · Terjemahan — dari Awal sampai Akhir
 
 > **مجربات الإمامية في الشفاء بالقرآن والدعاء** — Muhammad Husain Mughniyah
-> Rangkuman seluruh 12 bab; terjemahan lengkap setiap bab termuat di bagian awal dokumen ini.
+> Rangkuman seluruh 12 bab. Untuk versi terjemahan lengkap tiap bab, lihat tautan di setiap bagian · [📚 Halaman Utama](README.md)
 
 **Cara membaca:** Setiap amalan unggulan disajikan tiga lapis: (1) teks **Arab**, (2) **Latin** (cara baca), (3) **terjemahan/makna ringkas**. Transliterasi memakai gaya umum pesantren Indonesia (â = alif panjang, û = wawu panjang, î = ya' panjang, ' = 'ain, ḥ/ṣ/ḍ/ṭ/ẓ = huruf emphatis).
 
@@ -12744,7 +12973,7 @@ Berikut terjemahan **daftar isi (فهرس) asli** dari kitab, dengan rujukan ke 
 ---
 
 ## BAB 1 — BEROBAT DENGAN AL-QUR'AN (الاستشفاء بالقرآن)
-📄 Versi lengkap: 01 · 02 · 03
+📄 Versi lengkap: [01](01-bab-01-istisyfa-dengan-alquran.md) · [02](02-bab-01-khasiat-surah-riwayat.md) · [03](03-bab-01-khasiat-surah-kitab-khawash.md)
 
 **Hadis pembuka:**
 
@@ -12777,7 +13006,7 @@ Berikut terjemahan **daftar isi (فهرس) asli** dari kitab, dengan rujukan ke 
 ---
 
 ## BAB 2 — DOA KESSEMBUHAN DARI RASA SAKIT (أدوية الشفاء من الآلام)
-📄 Versi lengkap: A · B demam · C kepala · D mata-telinga-gigi · E dada-punggung-perut · F kulit-tulang-anggota · G bisa-racun-tidur-ayan
+📄 Versi lengkap: [A](04-bab-02-doa-kesembuhan-umum.md) · [B demam](05-bab-02-pengobatan-demam.md) · [C kepala](06-bab-02-sakit-kepala-dan-syaqiqah.md) · [D mata-telinga-gigi](07-bab-02-mata-telinga-gigi.md) · [E dada-punggung-perut](08-bab-02-dada-punggung-perut.md) · [F kulit-tulang-anggota](09-bab-02-kulit-tulang-anggota.md) · [G bisa-racun-tidur-ayan](10-bab-02-bisa-racun-tidur-ayan.md)
 
 ### 2.1 Obat segala penyakit — air hujan (ajaran Jibril kepada Nabi ﷺ)
 > يُؤْخَذُ مَاءُ الْمَطَرِ قَبْلَ أَنْ يَنْزِلَ إِلَى الْأَرْضِ، ثُمَّ يُجْعَلُ فِي إِنَاءٍ نَظِيفٍ، وَيُقْرَأُ عَلَيْهِ الْحَمْدُ إِلَى آخِرِهَا سَبْعِينَ مَرَّةً، وَ﴿قُلْ هُوَ اللهُ أَحَدٌ﴾ وَالْمُعَوِّذَتَانِ سَبْعِينَ مَرَّةً، ثُمَّ يُشْرَبُ مِنْهُ قَدَحًا بِالْغَدَاةِ وَقَدَحًا بِالْعَشِيِّ
@@ -12835,7 +13064,7 @@ Madu dilarutkan air hujan, lalu dibacakan tiga ayat dan diminum:
 ---
 
 ## BAB 3 — KEHAMILAN DAN PERSALINAN (أدعية الحمل والولادة)
-📄 Versi lengkap: 11-bab-03-hamil-dan-melahirkan.md
+📄 Versi lengkap: [11-bab-03-hamil-dan-melahirkan.md](11-bab-03-hamil-dan-melahirkan.md)
 
 ### 3.1 Persalinan sulit — 'uwdzah Imam al-Baqir
 Ditulis pada bejana bersih dengan misik dan za'faran, dicuci dengan air sumur, diminumkan kepada ibu, lalu dipercikkan ke perutnya:
@@ -12850,7 +13079,7 @@ Ditulis pada bejana bersih dengan misik dan za'faran, dicuci dengan air sumur, d
 ---
 
 ## BAB 4 — REZEKI DAN UTANG (الرزق والديون)
-📄 Versi lengkap: 12-bab-04-rezeki-dan-utang.md
+📄 Versi lengkap: [12-bab-04-rezeki-dan-utang.md](12-bab-04-rezeki-dan-utang.md)
 
 ### 4.1 Ayat utama rezeki
 > ﴿إِنَّ اللهَ هُوَ الرَّزَّاقُ ذُو الْقُوَّةِ الْمَتِينُ﴾
@@ -12878,7 +13107,7 @@ Baca surah **al-Fatihah 1.000 kali**, lalu ayat:
 ---
 
 ## BAB 5 — PENJAGAAN DARI 'AIN (العين)
-📄 Versi lengkap: 13-bab-05-ain.md
+📄 Versi lengkap: [13-bab-05-ain.md](13-bab-05-ain.md)
 
 ### 5.1 'Uwdzah Jibril untuk al-Hasan dan al-Husain
 > اللهُمَّ يَا ذَا السُّلْطَانِ الْعَظِيمِ وَالْمَنِّ الْقَدِيمِ وَالْوَجْهِ الْكَرِيمِ، يَا ذَا الْكَلِمَاتِ التَّامَّاتِ وَالدَّعَوَاتِ الْمُسْتَجَابَاتِ، عَافِ الْحَسَنَ وَالْحُسَيْنَ مِنْ أَذَى الْجِنِّ وَالْإِنْسِ
@@ -12892,7 +13121,7 @@ Baca surah **al-Fatihah 1.000 kali**, lalu ayat:
 ---
 
 ## BAB 6 — KEAMANAN DARI SIHIR (الأمن من السحر)
-📄 Versi lengkap: 14-bab-06-sihir.md
+📄 Versi lengkap: [14-bab-06-sihir.md](14-bab-06-sihir.md)
 
 ### 6.1 Ayat-ayat pembatal sihir (dibaca tiap hari atau dibawa)
 QS al-A'râf: 116-122 (kisah tongkat Musa menelan sihir), QS al-Furqân: 23, QS al-Anbiyâ': 18, QS Ṭâhâ: 69, lalu doa:
@@ -12907,7 +13136,7 @@ QS al-A'râf: 116-122 (kisah tongkat Musa menelan sihir), QS al-Furqân: 23, QS 
 ---
 
 ## BAB 7 — PENCURI DAN BARANG HILANG (السارق والضالة)
-📄 Versi lengkap: 15-bab-07-pencuri-dan-barang-hilang.md
+📄 Versi lengkap: [15-bab-07-pencuri-dan-barang-hilang.md](15-bab-07-pencuri-dan-barang-hilang.md)
 
 ### 7.1 Doa penolak pencuri, pagi dan petang (3×)
 > بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ: ﴿قُلِ ادْعُوا اللهَ أَوِ ادْعُوا الرَّحْمَنَ، أَيًّا مَا تَدْعُوا فَلَهُ الْأَسْمَاءُ الْحُسْنَى، وَلَا تَجْهَرْ بِصَلَاتِكَ وَلَا تُخَافِتْ بِهَا وَابْتَغِ بَيْنَ ذَلِكَ سَبِيلًا، وَقُلِ الْحَمْدُ لِلَّهِ الَّذِي لَمْ يَتَّخِذْ وَلَدًا وَلَمْ يَكُنْ لَهُ شَرِيكٌ فِي الْمُلْكِ وَلَمْ يَكُنْ لَهُ وَلِيٌّ مِنَ الذُّلِّ، وَكَبِّرْهُ تَكْبِيرًا﴾
@@ -12921,7 +13150,7 @@ QS al-A'râf: 116-122 (kisah tongkat Musa menelan sihir), QS al-Furqân: 23, QS 
 ---
 
 ## BAB 8 — PENJAGAAN, BALA, KESEDIHAN, DAN SAFAR (الحفظ ودفع البلاء)
-📄 Versi lengkap: 16-bab-08-penjagaan-dan-safar.md
+📄 Versi lengkap: [16-bab-08-penjagaan-dan-safar.md](16-bab-08-penjagaan-dan-safar.md)
 
 ### 8.1 Doa at-Taj (Mahkota) — doa Nabi ﷺ di medan perang
 > بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ. اللهُمَّ إِنِّي أَسْأَلُكَ يَا اللهُ يَا اللهُ يَا رَحْمَنُ يَا رَحِيمُ يَا حَلِيمُ يَا كَرِيمُ يَا قَدِيمُ يَا مُقِيمُ يَا عَظِيمُ يَا اللهُ، يَا خَيْرَ مَسْئُولٍ وَأَكْرَمَ مَأْمُولٍ؛ يَا مَنْ لَهُ الْحَمْدُ وَالثَّنَاءُ، بِيَدِهِ الْفَقْرُ وَالْغِنَى، وَلَهُ الْأَسْمَاءُ الْحُسْنَى …
@@ -12935,7 +13164,7 @@ QS al-A'râf: 116-122 (kisah tongkat Musa menelan sihir), QS al-Furqân: 23, QS 
 ---
 
 ## BAB 9 — MUSUH, ORANG ZALIM, DAN JIN (الدعاء على الأعداء)
-📄 Versi lengkap: 17-bab-09-musuh-dan-jin.md
+📄 Versi lengkap: [17-bab-09-musuh-dan-jin.md](17-bab-09-musuh-dan-jin.md)
 
 ### 9.1 Doa Imam al-Kazhim ketika masuk menemui Harun ar-Rasyid
 > اللهُمَّ إِنَّكَ حَفِظْتَ الْغُلَامَيْنِ بِصَلَاحِ أَبَوَيْهِمَا، فَاحْفَظْنِي بِصَلَاحِ آبَائِي؛ اللهُمَّ إِنَّكَ تَكْفِي مِنْ كُلِّ أَحَدٍ وَلَا يَكْفِي مِنْكَ أَحَدٌ، فَاكْفِنِيهِ بِمَا شِئْتَ وَكَيْفَ شِئْتَ
@@ -12949,7 +13178,7 @@ QS al-A'râf: 116-122 (kisah tongkat Musa menelan sihir), QS al-Furqân: 23, QS 
 ---
 
 ## BAB 10 — AHRAS, HIJAB, 'UWADZ, DAN HAYAKIL (الأحراز والحجب)
-📄 Versi lengkap: 18-bab-10-ahraz-hijab.md
+📄 Versi lengkap: [18-bab-10-ahraz-hijab.md](18-bab-10-ahraz-hijab.md)
 
 ### 10.1 Hirz Fathimah az-Zahra' (hadiah dari surga, riwayat Salman)
 > كِتَابٌ مَسْطُورٌ، فِي رَقٍّ مَنْشُورٍ، بِقَدَرٍ مَقْدُورٍ، عَلَى نَبِيٍّ مَحْبُورٍ؛ الْحَمْدُ لِلَّهِ الَّذِي هُوَ بِالْعِزِّ مَذْكُورٌ، وَبِالْخَيْرِ مَشْهُورٌ، وَعَلَى السَّرَّاءِ وَالضَّرَّاءِ مَشْكُورٌ؛ وَصَلَّى اللهُ عَلَى مُحَمَّدٍ وَآلِهِ …
@@ -12963,7 +13192,7 @@ QS al-A'râf: 116-122 (kisah tongkat Musa menelan sihir), QS al-Furqân: 23, QS 
 ---
 
 ## BAB 11 — MEMENUHI HAJAT DAN MENGHILANGKAN KESUSAHAN (قضاء الحاجات وكشف الكربات)
-📄 Versi lengkap: 19-bab-11-hajat-karab.md
+📄 Versi lengkap: [19-bab-11-hajat-karab.md](19-bab-11-hajat-karab.md)
 
 ### 11.1 Doa Sayidah az-Zahra' untuk hajat (diajarkan Rasulullah ﷺ)
 > بِسْمِ اللهِ وَبِاللهِ، وَأَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللهُ، وَأَنَّ مُحَمَّدًا رَسُولُ اللهِ وَصَفْوَتُهُ مِنْ خَلْقِهِ وَخِيرَتُهُ فِي عِبَادِهِ؛ اللهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَآلِ مُحَمَّدٍ، وَارْزُقْنِي خَيْرَ الدُّنْيَا وَالْآخِرَةِ، وَاقْضِ حَاجَتِي يَا أَكْرَمَ الْأَكْرَمِينَ
@@ -12995,7 +13224,7 @@ QS al-A'râf: 116-122 (kisah tongkat Musa menelan sihir), QS al-Furqân: 23, QS 
 ---
 
 ## BAB 12 — MUJARRABAT ANEKA (مجرّبات متفرّقة)
-📄 Versi lengkap: 20-bab-12-mujarrabat-mutafarriqah.md
+📄 Versi lengkap: [20-bab-12-mujarrabat-mutafarriqah.md](20-bab-12-mujarrabat-mutafarriqah.md)
 
 ### 12.1 Talqin orang sekarat — kalimat faraj
 > لَا إِلَهَ إِلَّا اللهُ الْحَلِيمُ الْكَرِيمُ، لَا إِلَهَ إِلَّا اللهُ الْعَلِيُّ الْعَظِيمُ، سُبْحَانَ اللهِ رَبِّ السَّمَاوَاتِ السَّبْعِ وَرَبِّ الْأَرَضِينَ السَّبْعِ وَمَا فِيهِنَّ وَمَا بَيْنَهُنَّ وَرَبِّ الْعَرْشِ الْعَظِيمِ، وَسَلَامٌ عَلَى الْمُرْسَلِينَ، وَالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ
@@ -13031,8 +13260,10 @@ QS al-A'râf: 116-122 (kisah tongkat Musa menelan sihir), QS al-Furqân: 23, QS 
 > "Selesailah kitab ini dengan pertolongan Allah. Segala puji bagi Allah Tuhan semesta alam, dan shalawat-salam atas junjungan kami Muhammad dan keluarganya yang suci."
 
 **Catatan penting penerjemah:**
-1. Rangkuman ini memuat amalan-amalan unggulan; versi lengkap setiap bab (Arab + terjemahan penuh) termuat di bagian awal dokumen ini.
+1. Rangkuman ini memuat amalan-amalan unggulan; versi lengkap setiap bab (Arab + terjemahan penuh) ada di file-file yang ditautkan.
 2. Kitab ini warisan literatur doa Syiah Imamiyyah; derajat tiap riwayat beragam. Gunakan untuk kajian dan pengamalan pribadi dengan bijak.
 3. **Untuk sakit jasmani, ikhtiar medis tetap didahulukan**; doa dan wirid adalah ikhtiar ruhani yang menyertainya, bukan pengganti pengobatan.
 
-> — Tamat —
+> [📚 Kembali ke Halaman Utama](README.md) · [📖 Fihrist Kitab](21-fihrist-indeks-kitab.md)
+
+---

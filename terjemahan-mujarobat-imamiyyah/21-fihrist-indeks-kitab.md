@@ -20,8 +20,8 @@ Berikut terjemahan **daftar isi (فهرس) asli** dari kitab, dengan tautan ke f
 - الدعاء عند المريض — Doa di sisi orang sakit
 - دعاء الأم لولدها المريض — Doa ibu untuk anaknya yang sakit
 - دعاء العافية — Doa 'afiyah (kesejahteraan)
-- أدعية الصادق (ع) في طلب العافية — Doa-doa Imam ash-Shadiq meminta 'afiyah
-- أدعية السيدة الزهراء (ع) — Doa-doa Sayidah az-Zahra
+- أدعية الصادق (عليه السلام) في طلب العافية — Doa-doa Imam ash-Shadiq meminta 'afiyah
+- أدعية السيدة الزهراء (عليه السلام) — Doa-doa Sayidah az-Zahra
 - صلاة لرفع الحمى — Shalat untuk mengangkat demam
 - أدعية لرفع الصداع / للصداع والشقيقة / لوجع الرأس — Doa-doa sakit kepala, syaqiqah (migrain), nyeri kepala
 - عوذة ورقيات مجربة للصداع — 'Udzah dan ruqyah mujarrab untuk sakit kepala
@@ -31,7 +31,7 @@ Berikut terjemahan **daftar isi (فهرس) asli** dari kitab, dengan tautan ke f
 - لوجع الطحال — Nyeri limpa
 - للجرب والدمل والقوباء / للبثر — Kudis, bisul, qawba'; jerawat/bisul kecil
 - للورم والجراح والدماميل / عوذة للورم في المفاصل — Bengkak, luka, bisul-bisul; 'udzzah bengkak sendi
-- دعاء الإمام السجاد (ع) / للكسور — Doa Imam as-Sajjad; untuk patah tulang
+- دعاء الإمام السجاد (عليه السلام) / للكسور — Doa Imam as-Sajjad; untuk patah tulang
 - للعقارب والحيات / لدفع السموم — Kalajengking dan ular; menolak racun
 - بركة السباع — Keberkahan (menundukkan) binatang buas
 - للانتباه من النوم / للأرق / للصرع — Agar terbangun dari tidur; insomnia; ayan (epilepsi)
@@ -54,7 +54,7 @@ Berikut terjemahan **daftar isi (فهرس) asli** dari kitab, dengan tautan ke f
 - لطلب الرزق / للتمكن والغنى — Meminta rezeki; kemampuan dan kekayaan
 - المناجاة بطلب الرزق — Munajat meminta rezeki
 - دعاء وصلاة للدين — Doa dan shalat untuk utang
-- دعاء الصادق (ع) للرزق — Doa Imam ash-Shadiq untuk rezeki
+- دعاء الصادق (عليه السلام) للرزق — Doa Imam ash-Shadiq untuk rezeki
 - صلوات لزيادة الرزق — Shalat-shalat untuk menambah rezeki
 - آية لبيع البضاعة — Ayat untuk menjual barang dagangan
 - لقضاء الدين / لأداء الدين — Melunasi utang; membayar utang
@@ -93,7 +93,7 @@ Berikut terjemahan **daftar isi (فهرس) asli** dari kitab, dengan tautan ke f
 - دعاء للهم والفرج والكرب — Doa untuk duka, jalan keluar, dan kesusahan
 - للأمن من الخوف — Keamanan dari rasa takut
 - لمن ضل في السفر — Bagi yang tersesat dalam perjalanan
-- مناجاة الجواد (ع) في السفر — Munajat Imam al-Jawad dalam perjalanan
+- مناجاة الجواد (عليه السلام) في السفر — Munajat Imam al-Jawad dalam perjalanan
 - أدعية للأمن في السفر — Doa-doa keamanan dalam perjalanan
 
 ## الفصل التاسع — في الدعاء على الأعداء والظالمين والخلاص من الجن
@@ -101,19 +101,19 @@ Berikut terjemahan **daftar isi (فهرس) asli** dari kitab, dengan tautan ke f
 
 - للتمكين والسلطة واستمرارها — Untuk kedudukan, kekuasaan, dan kelangsungannya
 - صلاة الظلامة / صلاة الاستعداء / صلاة الخوف من الظالم / صلاة لكفاية ظلم السلطان — Shalat pengaduan kezaliman, shalat meminta pertolongan, shalat takut orang zalim, shalat mencukupkan dari kezaliman penguasa
-- دعاء للزهراء (ع) في الفرج — Doa az-Zahra untuk jalan keluar
-- دعاء الكاظم (ع) / دعاء لصاحب الأمر (ع) — Doa Imam al-Kazhim; doa Shâhib al-Amr
+- دعاء للزهراء (عليه السلام) في الفرج — Doa az-Zahra untuk jalan keluar
+- دعاء الكاظم (عليه السلام) / دعاء لصاحب الأمر (عليه السلام) — Doa Imam al-Kazhim; doa Shâhib al-Amr
 - دعاء الفرج — Doa faraj
 - آيات للحفظ — Ayat-ayat penjagaan
 - للاحتجاب بالحصيات — Berlindung (dari pandangan) dengan kerikil
-- دعاء النبي (ص) ليلة الأحزاب — Doa Nabi pada malam (perang) Ahzab
+- دعاء النبي (صلى الله عليه وآله) ليلة الأحزاب — Doa Nabi pada malam (perang) Ahzab
 - دعاء الاحتراز من الأعداء — Doa kewaspadaan dari musuh
 - الدعاء على الظالم — Doa terhadap orang zalim
-- مناجاة الجواد (ع) لكشف الظلم — Munajat Imam al-Jawad menyingkap kezaliman
-- أدعية الصادق (ع) للأمن من السلطان — Doa-doa Imam ash-Shadiq untuk keamanan dari penguasa
+- مناجاة الجواد (عليه السلام) لكشف الظلم — Munajat Imam al-Jawad menyingkap kezaliman
+- أدعية الصادق (عليه السلام) للأمن من السلطان — Doa-doa Imam ash-Shadiq untuk keamanan dari penguasa
 - للاحتجاب عن الناس والدخول على السلطان — Berlindung dari pandangan manusia dan masuk menemui penguasa
 - للاحتجاب عن الأعداء — Berlindung dari pandangan musuh
-- دعاء الصادق (ع) عند الشدائد / دعاء الرضا (ع) عند الشدائد — Doa Imam ash-Shadiq dan Imam ar-Ridha saat kesulitan-kesulitan
+- دعاء الصادق (عليه السلام) عند الشدائد / دعاء الرضا (عليه السلام) عند الشدائد — Doa Imam ash-Shadiq dan Imam ar-Ridha saat kesulitan-kesulitan
 - للنصر على العدو — Untuk kemenangan atas musuh
 - لدفع القتل والخوف / للحفظ من القتل / للحفظ من الغرق والقتل — Menolak pembunuhan dan rasa takut; penjagaan dari pembunuhan; penjagaan dari tenggelam dan pembunuhan
 - للشفاء واستجابة الدعاء — Untuk kesembuhan dan terkabulnya doa
@@ -121,24 +121,24 @@ Berikut terjemahan **daftar isi (فهرس) asli** dari kitab, dengan tautan ke f
 ## الفصل العاشر — في الأحراز والحجب والعوذ والهياكل
 **Bab 10: Ahraz, Hijab, 'Uwadz, dan Hayakil** → [file 18](18-bab-10-ahraz-hijab.md)
 
-- حرز النبي (ص) — Hirz Nabi ﷺ
-- حرز خديجة (ع) — Hirz Khadijah
-- حرز فاطمة (ع) — Hirz Fathimah
-- حرز أمير المؤمنين علي (ع) — Hirz Amirul Mukminin Ali
-- حرز الإمامين الحسنين (ع) — Hirz dua Imam al-Hasan dan al-Husain
-- حرز الإمام الحسن (ع) المعوذات — Hirz Imam al-Hasan (al-Mu'awwidzat)
-- حرز الإمام الحسين (ع) — Hirz Imam al-Husain
-- حرز الإمام السجاد (ع) — Hirz Imam as-Sajjad
-- حرز الإمام الباقر (ع) — Hirz Imam al-Baqir
-- حرز الإمام الصادق (ع) — Hirz Imam ash-Shadiq
-- حرز الإمام الكاظم (ع) — Hirz Imam al-Kazhim
-- حرز الإمام الرضا (ع) — Hirz Imam ar-Ridha
-- حرز الإمام الجواد (ع) — Hirz Imam al-Jawad
-- حرز الإمام الهادي (ع) — Hirz Imam al-Hadi
-- حرز الإمام العسكري (ع) — Hirz Imam al-'Askari
+- حرز النبي (صلى الله عليه وآله) — Hirz Nabi ﷺ
+- حرز خديجة (عليه السلام) — Hirz Khadijah
+- حرز فاطمة (عليه السلام) — Hirz Fathimah
+- حرز أمير المؤمنين علي (عليه السلام) — Hirz Amirul Mukminin Ali
+- حرز الإمامين الحسنين (عليه السلام) — Hirz dua Imam al-Hasan dan al-Husain
+- حرز الإمام الحسن (عليه السلام) المعوذات — Hirz Imam al-Hasan (al-Mu'awwidzat)
+- حرز الإمام الحسين (عليه السلام) — Hirz Imam al-Husain
+- حرز الإمام السجاد (عليه السلام) — Hirz Imam as-Sajjad
+- حرز الإمام الباقر (عليه السلام) — Hirz Imam al-Baqir
+- حرز الإمام الصادق (عليه السلام) — Hirz Imam ash-Shadiq
+- حرز الإمام الكاظم (عليه السلام) — Hirz Imam al-Kazhim
+- حرز الإمام الرضا (عليه السلام) — Hirz Imam ar-Ridha
+- حرز الإمام الجواد (عليه السلام) — Hirz Imam al-Jawad
+- حرز الإمام الهادي (عليه السلام) — Hirz Imam al-Hadi
+- حرز الإمام العسكري (عليه السلام) — Hirz Imam al-'Askari
 - حرز لمولانا القائم (عج) — Hirz Maulana al-Qa'im
-- حجاب رسول الله (ص) — Hijab Rasulullah ﷺ
-- حجاب أمير المؤمنين (ع) — Hijab Amirul Mukminin
+- حجاب رسول الله (صلى الله عليه وآله) — Hijab Rasulullah ﷺ
+- حجاب أمير المؤمنين (عليه السلام) — Hijab Amirul Mukminin
 - حجاب الإمام الحسن / الحسين / السجاد / الباقر / الصادق / الكاظم / الرضا / الجواد / الهادي / العسكري — Hijab para Imam: al-Hasan, al-Husain, as-Sajjad, al-Baqir, ash-Shadiq, al-Kazhim, ar-Ridha, al-Jawad, al-Hadi, al-'Askari
 - حجاب لمولانا القائم (عج) — Hijab Maulana al-Qa'im
 - في العوذ والهياكل — Tentang 'udzzah dan hayakil (tujuh haykal)
@@ -146,12 +146,12 @@ Berikut terjemahan **daftar isi (فهرس) asli** dari kitab, dengan tautan ke f
 ## الفصل الحادي عشر — في قضاء الحاجات وكشف الكربات
 **Bab 11: Memenuhi Hajat dan Menghilangkan Kesusahan** → [file 19](19-bab-11-hajat-karab.md)
 
-- دعاء الزهراء (ع) للحوائج — Doa az-Zahra untuk hajat-hajat
+- دعاء الزهراء (عليه السلام) للحوائج — Doa az-Zahra untuk hajat-hajat
 - أدعية لقضاء الحاجة — Doa-doa pemenuhan hajat
 - لكفاية المهمات وبلوغ المرام — Mencukupi urusan-urusan penting dan mencapai tujuan
 - لجهة أي مدعى ومطلب — Untuk arah doa dan permintaan apa pun
 - ختوم مجربة لكل المطالب — Khutam-khutam mujarrab untuk segala maksud
-- دعاء الهادي (ع) للحاجة — Doa Imam al-Hadi untuk hajat
+- دعاء الهادي (عليه السلام) للحاجة — Doa Imam al-Hadi untuk hajat
 - أدعية الحوائج — Doa-doa hajat
 - لقصد إنسان في طلب حاجة — Menemui seseorang dalam meminta hajat
 - دعاء التوسل لقضاء الحاجة — Doa tawassul untuk pemenuhan hajat

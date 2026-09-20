@@ -12,10 +12,10 @@
 
 ### 1. 'Ain Itu Nyata
 
-> روي عن أبي عبد الله (ع) أنه قال: «الْعَيْنُ حَقٌّ، وَلَيْسَ تَأْمَنُهَا مِنْكَ
+> روي عن أبي عبد الله (١)
 > عَلَى نَفْسِكَ وَلَا مِنْكَ عَلَى غَيْرِكَ؛ فَإِذَا خِفْتَ شَيْئاً فِي ذَلِكَ
 > فَقُلْ: مَا شَاءَ اللهُ لَا قُوَّةَ إِلَّا بِاللهِ الْعَلِيِّ الْعَظِيمِ — ثَلَاثاً».
-> وَقَالَ (ع): «إِذَا تَهَيَّأَ أَحَدُكُمْ تَهْيِئَةً تُعْجِبُهُ، فَلْيَقْرَأْ حِينَ
+> وَقَالَ (٢)
 > يَخْرُجُ مِنْ مَنْزِلِهِ الْمُعَوِّذَتَيْنِ؛ فَإِنَّهُ لَا يَضُرُّهُ شَيْءٌ بِإِذْنِ
 > اللهِ تَعَالَى».
 
@@ -29,10 +29,10 @@ kalian berpenampilan dengan penampilan yang mengagumkan, hendaklah ia membaca
 dua Mu'awwidzah ketika keluar dari rumahnya; karena tidak ada sesuatu pun yang
 membahayakannya dengan izin Allah Ta'ala."*
 
-> وعن الصادق (ع) قال: «إِذَا خِفْتَ أَنْ تُصَابَ بِالْعَيْنِ [أَوْ تُصِيبَ
-> غَيْرَكَ] فَقُلْ: مَا شَاءَ اللهُ لَا قُوَّةَ إِلَّا بِاللهِ». وَقَالَ (ع):
+> وعن الصادق (٣)
+> غَيْرَكَ] فَقُلْ: مَا شَاءَ اللهُ لَا قُوَّةَ إِلَّا بِاللهِ». وَقَالَ (٤)
 > «مَنْ أَعْجَبَهُ شَيْءٌ مِنْ أَخِيهِ الْمُؤْمِنِ فَلْيُكَبِّرْ عَلَيْهِ؛ فَإِنَّ
-> الْعَيْنَ حَقٌّ». وَقَالَ (ع): «لَوْ كُشِفَ لَكُمْ عَنِ الْقُبُورِ لَرَأَيْتُمْ
+> الْعَيْنَ حَقٌّ». وَقَالَ (٥)
 > أَنَّ أَكْثَرَ مَوْتَاكُمْ بِالْعَيْنِ؛ لِأَنَّ الْعَيْنَ حَقٌّ». وَعَنْ رَسُولِ
 > اللهِ ﷺ: «الْعَيْنُ حَقٌّ؛ فَمَنْ أَعْجَبَهُ مِنْ أَخِيهِ شَيْءٌ فَلْيَذْكُرِ
 > اللهَ فِي ذَلِكَ؛ فَإِنَّهُ إِذَا ذَكَرَ اللهَ لَمْ يَضُرَّهُ».
@@ -49,7 +49,7 @@ hal itu; karena jika ia menyebut Allah, (pandangannya) tidak membahayakannya."*
 
 ### 2. Kisah Mu'ammar dan Minyak Wangi
 
-> عن معمر قال: أمرني أبو عبد الله (ع) أن أتخذ له غالية، فلما اتخذتها
+> عن معمر قال: أمرني أبو عبد الله (١)
 > أعجبه حسنها، فنظر إليها فقال لي: «يَا مَعْمَرُ، إِنَّ الْعَيْنَ حَقٌّ؛
 > فَاكْتُبْ فِي رُقْعَةٍ: (الْحَمْدَ) وَ﴿قُلْ هُوَ اللَّهُ أَحَدٌ﴾
 > وَالْمُعَوِّذَتَيْنِ وَ(آيَةَ الْكُرْسِيِّ)، وَاجْعَلْهَا فِي غِلَافِ
@@ -118,7 +118,7 @@ jin dan manusia).
 
 ### 2. Hirz Imam ash-Shadiq ('alaihissalam)
 
-> كان الصادق (ع) يقول: «لَا أُبَالِي إِذَا قُلْتُهُ وَلَوِ اجْتَمَعَ عَلَيَّ
+> كان الصادق عليه السلام
 > الْإِنْسُ وَالْجِنُّ»: «بِسْمِ اللهِ وَبِاللهِ؛ آمَنْتُ بِاللهِ وَتَوَكَّلْتُ
 > عَلَى اللهِ، إِلَيْكَ التَّكَلَانُ وَإِلَيْكَ التَّفْوِيضُ؛ أَللَّهُمَّ احْفَظْنِي
 > بِحِفْظِ الْإِيمَانِ مِنْ بَيْنِ يَدَيَّ وَمِنْ خَلْفِي وَعَنْ يَمِينِي وَعَنْ
@@ -267,7 +267,7 @@ yang cacat? Kemudian lihatlah sekali lagi, niscaya penglihatanmu kembali
 kepadamu tanpa menemukan cacat, dan ia dalam keadaan letih"* (QS al-Mulk [67]:
 3–4); dan QS al-Qalam [68]: 51–52 di atas.
 
-> وعن الصادق (ع) في قصة المأمون والفرس الميتة والسباع: «إن في ناصيتها عوذة،
+> وعن الصادق عليه السلام
 > لو أخذت منها لأكلنها». فوجه إليها، فلما أخذها انتهشنها السباع. وهذا ما وجد
 > في العوذة: «بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ؛ اَللَّهُمَّ احْفَظْنِي
 > بِحِفْظِكَ الَّذِي [لَا يَضِيعُ] …» [وَبَاقِيهَا وَاسْمٌ شَرِيفٌ يُكْتَبُ
@@ -415,3 +415,15 @@ dari dinding-dindingnya — ia berkata: *"Mā syā'allāh, lā quwwata illā bil
 ✅ **Bab 5 selesai.**
 
 ➡️ Lanjut ke [Bab 6 — Keamanan dari sihir dan pelepasan yang terikat](14-bab-06-sihir.md)
+
+---
+
+## Catatan kaki edisi cetak
+
+Pada cetakan asli (Mu'assasat al-A'lami, Beirut), tanda kurung setelah nama
+Nabi/Imam berisi **nomor catatan kaki** (angka Arab ١، ٢، …) yang merujuk daftar
+sumber di kaki halaman — untuk bab-bab pengobatan umumnya *Makārim al-Akhlāq*,
+dan untuk bab-bab selanjutnya antara lain *Ṭibb al-A'immah*, *Miṣbā*,
+*Mafātīḥ al-Jinān*, *Biḥār al-Anwār*, *Ḍiyā' aṣ-Ṣāliḥīn*. Dokumen ini memulihkan
+penomoran tersebut sesuai urutan kemunculan pada cetakan; rincian daftar kaki
+halaman per bagian tidak tertangkap pindai sehingga tidak ditampilkan penuh.
