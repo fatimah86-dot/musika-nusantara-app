@@ -331,7 +331,7 @@ Kumpulan ayat-ayat pengusiran; ditulis pada empat batang/lembar untuk empat sudu
 
 > ✅ **Bab 12 Selesai — KITAB SELESAI** 🎉
 > Seluruh dua belas bab *Mujarrabat al-Imamiyyah fi as-Syifa' bi al-Qur'an wa ad-Du'a* telah diterjemahkan.
-> ⬅️ [Kembali ke Bab 11](19-bab-11-hajat-karab.md) · [📚 Ke Daftar Isi](README.md)
+> ⬅️ [Kembali ke Bab 11](19-bab-11-hajat-karab.md) · [📖 Fihrist Kitab](21-fihrist-indeks-kitab.md) · [📚 Ke Daftar Isi](README.md)
 >
 > ---
 > **Catatan penutup penerjemah**: Terjemahan ini ditujukan untuk kajian keagamaan dan ruhani, bukan pengganti pengobatan medis. Untuk penyakit fisik, dahulukan ikhtiar medis; doa dan wirid adalah penyerta, bukan pengganti. Angka-angka wirid dan khasiat dalam kitab ini mengikuti apa yang dinukil Mughniyah dari kitab-kitab terdahulu; kebenarannya dikembalikan kepada Allah dan pembaca menyikapinya dengan bijak.

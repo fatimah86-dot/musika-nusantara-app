@@ -49,6 +49,9 @@ ditampilkan) diikuti **terjemahan Indonesia**.
 | 10 | Hirz, hijab, 'uwadz, dan hayākil (jimat-jimat dari Nabi ﷺ dan para Imam) | [18-bab-10-ahraz-hijab.md](18-bab-10-ahraz-hijab.md) | ✅ selesai |
 | 11 | Untuk terkabulnya hajat dan hilangnya kesusahan | [19-bab-11-hajat-karab.md](19-bab-11-hajat-karab.md) | ✅ selesai |
 | 12 | Mujarrabāt lain-lain (haji, akikah, mimpi buruk, talqin, hafalan, hujan Nisan, dll.) | [20-bab-12-mujarrabat-mutafarriqah.md](20-bab-12-mujarrabat-mutafarriqah.md) | ✅ selesai |
+| — | Fihrist (daftar isi asli kitab) | [21-fihrist-indeks-kitab.md](21-fihrist-indeks-kitab.md) | ✅ selesai |
+
+> ✦ **Kitab selesai lengkap** — seluruh 12 bab berikut mukadimah dan fihrist telah diterjemahkan.
 
 ## Peringatan penting
 
