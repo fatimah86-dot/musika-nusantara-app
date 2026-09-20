@@ -4,7 +4,7 @@
 
 ### Teks Arab
 
-> قال الله تعالى: ﴿وَنُنَزِّلُ مِنَ الْقُرْآنِ مَا هُوَ شِفَاءٌ وَرَحْمَةٌ لِلْمُؤْمِنِينَ﴾.
+> قال الله تعالى: ﴿وَنُنَزِّلُ مِنَ الْقُرْآنِ مَا هُوَ شِفَاءٌ وَرَحْمَةٌ لِلْمُؤْمِنِينَ وَلَا يَزِيدُ الظَّالِمِينَ إِلَّا خَسَارًا﴾.
 >
 > قال النبي صلى الله عليه وسلم: «مَنْ لَمْ يَسْتَشْفِ بِالْقُرْآنِ فَلَا شَفَاهُ اللهُ».
 >
@@ -27,7 +27,7 @@
 
 ### Terjemahan
 
-Allah Ta'ala berfirman: *"Dan Kami turunkan dari Al-Qur'an sesuatu yang menjadi penyembuh dan rahmat bagi orang-orang beriman."*
+Allah Ta'ala berfirman: *"Dan Kami turunkan dari Al-Qur'an sesuatu yang menjadi penyembuh dan rahmat bagi orang-orang beriman, dan tidak menambah kepada orang-orang zalim melainkan kerugian."*
 
 Nabi ﷺ bersabda: *"Barang siapa tidak memohon kesembuhan dengan Al-Qur'an, maka
 Allah tidak akan menyembuhkannya."*

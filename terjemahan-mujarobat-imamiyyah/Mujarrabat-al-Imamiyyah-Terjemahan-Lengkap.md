@@ -53,14 +53,14 @@ Dokumen ini adalah gabungan utuh seluruh terjemahan kitab: **mukadimah, Bab 1–
 
 > القرآن الكريم فيه من الآيات البيّنات، آيٌ واضحة وصريحة تؤكد أن فيه شفاءً
 > للمؤمنين بإذن الله تعالى، كقوله عزّ وجلّ: ﴿وَنُنَزِّلُ مِنَ الْقُرْآنِ مَا هُوَ
-> شِفَاءٌ وَرَحْمَةٌ لِلْمُؤْمِنِينَ﴾ (١)، وقوله تعالى: ﴿يَا أَيُّهَا النَّاسُ قَدْ
+> شِفَاءٌ وَرَحْمَةٌ لِلْمُؤْمِنِينَ وَلَا يَزِيدُ الظَّالِمِينَ إِلَّا خَسَارًا﴾ (١)، وقوله تعالى: ﴿يَا أَيُّهَا النَّاسُ قَدْ
 > جَاءَتْكُمْ مَوْعِظَةٌ مِنْ رَبِّكُمْ وَشِفَاءٌ لِمَا فِي الصُّدُورِ وَهُدًى
 > وَرَحْمَةٌ لِلْمُؤْمِنِينَ﴾ (٢)، وقوله تعالى: ﴿وَلَوْ جَعَلْنَاهُ قُرْآنًا أَعْجَمِيًّا
 > لَقَالُوا لَوْلَا فُصِّلَتْ آيَاتُهُ أَأَعْجَمِيٌّ وَعَرَبِيٌّ قُلْ هُوَ لِلَّذِينَ
 > آمَنُوا هُدًى وَشِفَاءٌ﴾ (٣).
 >
 > وكذلك الدعاء والتوسّل بالله تعالى والاستعاذة بأسمائه عزّ وجلّ كما ورد عن
-> الرسول الكريم صلى الله عليه وسلم وعن الأئمة الأطهار سلام الله عليهم أجمعين، فهي من
+> الرسول الكريم صلى الله عليه وسلم وعن الأئمة الأطهار سلام الله عليهم أجمعين، وهي من
 > المجربات عند كثير من المؤمنين، حيث أدّت إلى شفائهم بقدرة الباري عزّ وجلّ.
 >
 > فعن النبي صلى الله عليه وسلم أنه قال: «مَنْ لَمْ يَسْتَشْفِ بِالْقُرْآنِ فَلَا شَفَاهُ اللهُ».
@@ -84,8 +84,7 @@ Dokumen ini adalah gabungan utuh seluruh terjemahan kitab: **mukadimah, Bab 1–
 Di dalam Al-Qur'an Al-Karim terdapat ayat-ayat yang jelas lagi gamblang, yang
 tegas menegaskan bahwa padanya terdapat **kesembuhan bagi orang-orang beriman**
 dengan izin Allah Ta'ala. Di antaranya firman-Nya 'Azza wa Jalla: *"Dan Kami
-turunkan dari Al-Qur'an sesuatu yang menjadi penyembuh dan rahmat bagi
-orang-orang yang beriman"* (١ — QS al-Isra' [17]: 82); firman-Nya Ta'ala:
+turunkan dari Al-Qur'an sesuatu yang menjadi penyembuh dan rahmat bagi orang-orang beriman, dan tidak menambah kepada orang-orang zalim melainkan kerugian"* (١ — QS al-Isra' [17]: 82); firman-Nya Ta'ala:
 *"Wahai manusia! Sungguh telah datang kepadamu pelajaran dari Tuhanmu, penyembuh
 bagi penyakit yang ada dalam dada, petunjuk, dan rahmat bagi orang-orang
 beriman"* (٢ — QS Yunus [10]: 57); dan firman-Nya Ta'ala: *"Dan seandainya Kami
@@ -228,7 +227,7 @@ berkumpulnya (mahsyar)."*
 
 ### Teks Arab
 
-> قال الله تعالى: ﴿وَنُنَزِّلُ مِنَ الْقُرْآنِ مَا هُوَ شِفَاءٌ وَرَحْمَةٌ لِلْمُؤْمِنِينَ﴾.
+> قال الله تعالى: ﴿وَنُنَزِّلُ مِنَ الْقُرْآنِ مَا هُوَ شِفَاءٌ وَرَحْمَةٌ لِلْمُؤْمِنِينَ وَلَا يَزِيدُ الظَّالِمِينَ إِلَّا خَسَارًا﴾.
 >
 > قال النبي صلى الله عليه وسلم: «مَنْ لَمْ يَسْتَشْفِ بِالْقُرْآنِ فَلَا شَفَاهُ اللهُ».
 >
@@ -251,7 +250,7 @@ berkumpulnya (mahsyar)."*
 
 ### Terjemahan
 
-Allah Ta'ala berfirman: *"Dan Kami turunkan dari Al-Qur'an sesuatu yang menjadi penyembuh dan rahmat bagi orang-orang beriman."*
+Allah Ta'ala berfirman: *"Dan Kami turunkan dari Al-Qur'an sesuatu yang menjadi penyembuh dan rahmat bagi orang-orang beriman, dan tidak menambah kepada orang-orang zalim melainkan kerugian."*
 
 Nabi ﷺ bersabda: *"Barang siapa tidak memohon kesembuhan dengan Al-Qur'an, maka
 Allah tidak akan menyembuhkannya."*
