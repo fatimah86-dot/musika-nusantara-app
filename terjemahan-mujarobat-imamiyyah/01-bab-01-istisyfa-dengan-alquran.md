@@ -4,49 +4,45 @@
 
 ### Teks Arab
 
-> قال الله تعالى: ﴿وَنُنَزِّلُ مِنَ الْقُرْآنِ مَا هُوَ شِفَاءٌ وَرَحْمَةٌ لِلْمُؤْمِنِينَ وَلَا يَزِيدُ الظَّالِمِينَ إِلَّا خَسَارًا﴾.
->
 > قال النبي صلى الله عليه وسلم: «مَنْ لَمْ يَسْتَشْفِ بِالْقُرْآنِ فَلَا شَفَاهُ اللهُ».
 >
-> وقال الصادق (١): «مَنْ قَرَأَ مِائَةَ آيَةٍ مِنْ أَيِّ آيِ الْقُرْآنِ شَاءَ ثُمَّ
+> وقال الصادق عليه السلام: «مَنْ قَرَأَ مِائَةَ آيَةٍ مِنْ أَيِّ آيِ الْقُرْآنِ شَاءَ ثُمَّ
 > قَالَ سَبْعَ مَرَّاتٍ: يَا اللهُ، فَلَوْ دَعَا عَلَى الصُّخُورِ فَلَقَهَا».
 >
-> عن ابن الحسن (٢) قال: «إِذَا خِفْتَ أَمْراً فَاقْرَأْ مِائَةَ آيَةٍ مِنَ
+> عن أبي الحسن عليه السلام قال: «إِذَا خِفْتَ أَمْراً فَاقْرَأْ مِائَةَ آيَةٍ مِنَ
 > الْقُرْآنِ مِنْ حَيْثُ شِئْتَ، ثُمَّ قُلْ: اللهُمَّ اكْشِفْ عَنِّي الْبَلَاءَ —
 > ثَلَاثَ مَرَّاتٍ».
 >
-> عن الكاظم (٣) أنه قال: «مَنِ اسْتَكْفَى بِآيَةٍ مِنَ الْقُرْآنِ مِنَ الْمَشْرِقِ
+> عن الكاظم عليه السلام أنه قال: «مَنِ اسْتَكْفَى بِآيَةٍ مِنَ الْقُرْآنِ مِنَ الْمَشْرِقِ
 > إِلَى الْمَغْرِبِ كُفِيَ، إِذَا كَانَ بِيَقِينٍ».
 >
-> وعنه (٤) أنه قال: «فِي الْقُرْآنِ شِفَاءٌ مِنْ كُلِّ دَاءٍ».
+> وعنه عليه السلام أنه قال: «فِي الْقُرْآنِ شِفَاءٌ مِنْ كُلِّ دَاءٍ».
 
 ### Catatan kaki cetakan asli
 
-> (١ - ٤) Daftar sumber pada kaki halaman cetakan tidak tertangkap pindai;
-> penomoran di atas mengikuti urutan kemunculan pada cetakan asli.
+> Hadis-hadis pembuka Bab 1 tidak bernomor pada cetakan asli; nomor catatan kaki
+> dimulai pada ayat-ayat tahlil: (١) سورة البقرة الآية ١٦٣، (٢) سورة البقرة الآية ٢٥٥، dan seterusnya.
 
 ### Terjemahan
-
-Allah Ta'ala berfirman: *"Dan Kami turunkan dari Al-Qur'an sesuatu yang menjadi penyembuh dan rahmat bagi orang-orang beriman, dan tidak menambah kepada orang-orang zalim melainkan kerugian."*
 
 Nabi ﷺ bersabda: *"Barang siapa tidak memohon kesembuhan dengan Al-Qur'an, maka
 Allah tidak akan menyembuhkannya."*
 
-Imam ash-Shadiq (١) berkata: *"Barang siapa membaca seratus ayat
+Imam ash-Shadiq berkata: *"Barang siapa membaca seratus ayat
 dari bagian mana saja Al-Qur'an yang ia kehendaki, kemudian mengucapkan tujuh
 kali: 'Yā Allāh' (Wahai Allah), maka seandainya ia berdoa (dengan wasilah itu)
 atas batu-batu besar, niscaya batu-batu itu terbelah."*
 
-Dari Ibn al-Hasan (٢), beliau berkata: *"Apabila
+Dari Abu al-Hasan, beliau berkata: *"Apabila
 engkau takut akan suatu perkara, bacalah seratus ayat Al-Qur'an dari bagian mana
 saja yang engkau kehendaki, kemudian ucapkanlah: 'Allāhummaksyif 'annī
 al-balāʾ' (Ya Allah, singkaplah dariku bala/bencana) — tiga kali."*
 
-Dari Imam al-Kazhim (٣), beliau berkata: *"Barang siapa memohon
+Dari Imam al-Kazhim berkata: *"Barang siapa memohon
 kecukupan dengan satu ayat Al-Qur'an dari timur hingga barat, ia akan dicukupi —
 apabila ia melakukannya dengan penuh keyakinan."*
 
-Dari beliau (٤) pula: *"Di dalam Al-Qur'an terdapat kesembuhan dari
+Dari beliau pula: *"Di dalam Al-Qur'an terdapat kesembuhan dari
 segala penyakit."*
 
 ---

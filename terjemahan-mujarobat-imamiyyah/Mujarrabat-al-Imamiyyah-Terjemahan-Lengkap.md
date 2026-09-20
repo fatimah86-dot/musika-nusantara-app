@@ -63,21 +63,22 @@ Dokumen ini adalah gabungan utuh seluruh terjemahan kitab: **mukadimah, Bab 1–
 > الرسول الكريم صلى الله عليه وسلم وعن الأئمة الأطهار سلام الله عليهم أجمعين، وهي من
 > المجربات عند كثير من المؤمنين، حيث أدّت إلى شفائهم بقدرة الباري عزّ وجلّ.
 >
-> فعن النبي صلى الله عليه وسلم أنه قال: «مَنْ لَمْ يَسْتَشْفِ بِالْقُرْآنِ فَلَا شَفَاهُ اللهُ».
+> فعن النبي صلى الله عليه وسلم (٤) أنه قال: «مَنْ لَمْ يَسْتَشْفِ بِالْقُرْآنِ فَلَا شَفَاهُ اللهُ».
 >
-> وعنه صلى الله عليه وسلم أنه قال: «أَلَا أَدُلُّكُمْ عَلَى سِلَاحٍ يُنْجِيكُمْ مِنْ أَعْدَائِكُمْ
+> وعنه صلى الله عليه وسلم (٥) أنه قال: «أَلَا أَدُلُّكُمْ عَلَى سِلَاحٍ يُنْجِيكُمْ مِنْ أَعْدَائِكُمْ
 > وَيُدِرُّ أَرْزَاقَكُمْ؟ قَالُوا: بَلَى. قَالَ: تَدْعُونَ رَبَّكُمْ بِاللَّيْلِ
 > وَالنَّهَارِ، فَإِنَّ سِلَاحَ الْمُؤْمِنِ الدُّعَاءُ».
 >
-> وعن أبي عبد الله (٤) قال: «عَلَيْكُمْ بِالدُّعَاءِ فَإِنَّهُ شِفَاءٌ مِنْ كُلِّ دَاءٍ».
+> وعن أبي عبد الله عليه السلام (٦) قال: «عَلَيْكُمْ بِالدُّعَاءِ فَإِنَّهُ شِفَاءٌ مِنْ كُلِّ دَاءٍ».
 
 ### Catatan kaki cetakan asli
 
 > (١) سورة الإسراء، الآية ٨٢.
 > (٢) سورة يونس، الآية ٥٧.
 > (٣) سورة فصلت، الآية ٤٤.
-> (٤) الكافي [nomor halaman samar pada pindai].
-> Dua riwayat Nabi di atas pada cetakan asli ditulis dengan صلى الله عليه وسلم (tanpa nomor); baris sumbernya (مكارم الأخلاق dan الكافي) tertangkap pindai namun titik lekatnya tidak pasti.
+> (٤) مكارم الأخلاق، ص ٣٤٨.
+> (٥) الكافي، ج٣، ص ٤٦٨.
+> (٦) الكافي، ج٢، ص ٤٧٠.
 
 ### Terjemahan
 
@@ -100,16 +101,16 @@ semua). Semua itu termasuk perkara yang telah **teruji kemanfaatannya**
 (mujarrab) di kalangan banyak orang beriman, sebab mengantarkan mereka kepada
 kesembuhan dengan kekuasaan Sang Pencipta 'Azza wa Jalla.
 
-Dari Nabi ﷺ, beliau bersabda: *"Barang siapa tidak berobat-memohon kesembuhan
+Dari Nabi ﷺ (٤), beliau bersabda: *"Barang siapa tidak berobat-memohon kesembuhan
 dengan Al-Qur'an, maka Allah tidak akan menyembuhkannya."*
 
-Dari beliau ﷺ pula, beliau bersabda: *"Maukah kutunjukkan kepada kalian sebuah
+Dari beliau ﷺ (٥) pula, beliau bersabda: *"Maukah kutunjukkan kepada kalian sebuah
 senjata yang menyelamatkan kalian dari musuh-musuh kalian dan melancarkan
 rezeki-rezeki kalian?" Mereka menjawab, "Tentu." Beliau bersabda, "Berdoalah
 kalian kepada Tuhan kalian di waktu malam dan siang, karena sesungguhnya senjata
 orang mukmin adalah doa."*
 
-Dari Abu Abdillah (٤ — Imam Ja'far ash-Shadiq), beliau berkata:
+Dari Abu Abdillah (٦ — Imam Ja'far ash-Shadiq), beliau berkata:
 *"Hendaklah kalian berpegang pada doa, karena sesungguhnya ia adalah kesembuhan
 dari segala penyakit."*
 
@@ -139,25 +140,25 @@ dari segala penyakit."*
 > لَيُدْخِلُ بِصِدْقِ النِّيَّةِ وَالسَّرِيرَةِ الْخَالِصَةِ جَمّاً مِنْ عِبَادِهِ
 > الْجَنَّةَ».
 >
-> **في عيادة المريض:** قال النبي صلى الله عليه وسلم: «مِنْ حَقِّ الْمُسْلِمِ عَلَى الْمُسْلِمِ
+> **في عيادة المريض:** قال النبي صلى الله عليه وسلم (١): «مِنْ حَقِّ الْمُسْلِمِ عَلَى الْمُسْلِمِ
 > إِذَا لَقِيَهُ أَنْ يُسَلِّمَ عَلَيْهِ، وَإذَا مَرِضَ أَنْ يَعُودَهُ، وَإذَا
 > مَاتَ أَنْ يُشَيِّعَ جِنَازَتَهُ».
 >
-> وقال صلى الله عليه وسلم: «تَمَامُ عِيَادَةِ الْمَرِيضِ أَنْ يَضَعَ أَحَدُكُمْ يَدَهُ عَلَيْهِ
+> وقال صلى الله عليه وسلم (٢): «تَمَامُ عِيَادَةِ الْمَرِيضِ أَنْ يَضَعَ أَحَدُكُمْ يَدَهُ عَلَيْهِ
 > وَيَسْأَلَهُ: كَيْفَ أَنْتَ؟ كَيْفَ أَصْبَحْتَ وَكَيْفَ أَمْسَيْتَ؟ وَتَمَامُ
 > تَحِيَّتِكُمُ الْمُصَافَحَةُ».
 >
-> وعن الصادق (١) قال: إن أمير المؤمنين قال: «إِنَّ مِنْ أَعْظَمِ الْعَوَّادِ
+> وعن الصادق (٣) قال: إن أمير المؤمنين قال: «إِنَّ مِنْ أَعْظَمِ الْعَوَّادِ
 > أَجْراً عِنْدَ اللهِ لَمَنْ إِذَا عَادَ خَفَّفَ الْجُلُوسَ، إِلَّا أَنْ يَكُونَ
 > الْمَرِيضُ يُرِيدُ ذَلِكَ وَيُحِبُّ ذَلِكَ».
 >
-> وعن الباقر (٢) قال: كان فيما ناجى به موسى ربه أنه قال: «يَا رَبِّ، مَا
+> وعن الباقر (٤) قال: كان فيما ناجى به موسى ربه أنه قال: «يَا رَبِّ، مَا
 > بَلَغَ مِنْ عِيَادَةِ الْمَرِيضِ مِنَ الْأَجْرِ؟» فَقَالَ اللهُ عَزَّ وَجَلَّ:
 > «أُوَكِّلُ بِهِ مَلَكاً يَعُودُهُ فِي قَبْرِهِ إِلَى مَحْشَرِهِ».
 
 ### Catatan kaki cetakan asli
 
-> (١ - ٥) مكارم الأخلاق، ص ٣٤٣ – ٣٤٧ [sebagian angka halaman tidak terbaca pada pindai].
+> (١ - ٥) مكارم الأخلاق، ص ٣٤٣ – ٣٤٦.
 > (١ - ٤) مكارم الأخلاق، ص ٣٤ – ٣٧ [sebagian angka halaman tidak terbaca pada pindai].
 
 ### Terjemahan
@@ -169,7 +170,7 @@ penghapus (kafarat) dosa enam puluh tahun." Beliau ditanya, "Apa artinya
 menerimanya dengan penerimaan yang semestinya?" Beliau menjawab, "Yaitu ia
 bersabar atas apa pun yang terjadi di dalamnya."*
 
-Dari Imam al-Baqir (٢), beliau berkata: *"Begadang semalam karena
+Dari Imam al-Baqir (٤), beliau berkata: *"Begadang semalam karena
 sakit lebih utama daripada ibadah setahun."*
 
 Dari Abu Abdillah (٣), beliau berkata: *"Sakit kepala semalam
@@ -188,23 +189,23 @@ itu hanya pada ucapan lisan dan amal tangan serta kaki. Dan sesungguhnya Allah
 Ta'ala, berkat kejujuran niat dan batin yang tulus, memasukkan banyak sekali
 hamba-Nya ke dalam surga."*
 
-**Tentang menjenguk orang sakit:** Nabi ﷺ bersabda: *"Termasuk hak seorang
+**Tentang menjenguk orang sakit:** Nabi ﷺ (١) bersabda: *"Termasuk hak seorang
 muslim atas muslim lainnya: apabila ia bertemu dengannya hendaklah ia
 mengucapakan salam; apabila ia sakit hendaklah ia menjenguknya; dan apabila ia
 meninggal hendaklah ia mengantarkan jenazahnya."*
 
-Beliau ﷺ juga bersabda: *"Sempurnanya menjenguk orang sakit ialah salah seorang
+Beliau ﷺ (٢) juga bersabda: *"Sempurnanya menjenguk orang sakit ialah salah seorang
 di antara kalian meletakkan tangannya pada si sakit dan bertanya: 'Bagaimana
 keadaanmu? Bagaimana pagimu? Bagaimana malammu?' Dan sempurnanya penghormatan di
 antara kalian adalah berjabat tangan."*
 
-Dari Imam ash-Shadiq (١), beliau berkata: Amirul Mukminin
+Dari Imam ash-Shadiq (٣), beliau berkata: Amirul Mukminin
 bersabda: *"Termasuk penjenguk yang paling besar pahalanya di
 sisi Allah ialah orang yang apabila menjenguk, ia mempersingkat duduknya —
 kecuali bila si sakit justru menginginkan dan menyenangi (kedatangannya yang
 lama)."*
 
-Dari Imam al-Baqir (٢), beliau berkata: Di antara munajat Nabi Musa
+Dari Imam al-Baqir (٤), beliau berkata: Di antara munajat Nabi Musa
 kepada Tuhannya, ia berkata: *"Wahai Tuhanku, seberapa besar
 pahala menjenguk orang sakit?" Maka Allah 'Azza wa Jalla berfirman: "Aku
 utus/serahkan seorang malaikat yang menemaninya di kuburnya hingga ke tempat
@@ -227,49 +228,45 @@ berkumpulnya (mahsyar)."*
 
 ### Teks Arab
 
-> قال الله تعالى: ﴿وَنُنَزِّلُ مِنَ الْقُرْآنِ مَا هُوَ شِفَاءٌ وَرَحْمَةٌ لِلْمُؤْمِنِينَ وَلَا يَزِيدُ الظَّالِمِينَ إِلَّا خَسَارًا﴾.
->
 > قال النبي صلى الله عليه وسلم: «مَنْ لَمْ يَسْتَشْفِ بِالْقُرْآنِ فَلَا شَفَاهُ اللهُ».
 >
-> وقال الصادق (١): «مَنْ قَرَأَ مِائَةَ آيَةٍ مِنْ أَيِّ آيِ الْقُرْآنِ شَاءَ ثُمَّ
+> وقال الصادق عليه السلام: «مَنْ قَرَأَ مِائَةَ آيَةٍ مِنْ أَيِّ آيِ الْقُرْآنِ شَاءَ ثُمَّ
 > قَالَ سَبْعَ مَرَّاتٍ: يَا اللهُ، فَلَوْ دَعَا عَلَى الصُّخُورِ فَلَقَهَا».
 >
-> عن ابن الحسن (٢) قال: «إِذَا خِفْتَ أَمْراً فَاقْرَأْ مِائَةَ آيَةٍ مِنَ
+> عن أبي الحسن عليه السلام قال: «إِذَا خِفْتَ أَمْراً فَاقْرَأْ مِائَةَ آيَةٍ مِنَ
 > الْقُرْآنِ مِنْ حَيْثُ شِئْتَ، ثُمَّ قُلْ: اللهُمَّ اكْشِفْ عَنِّي الْبَلَاءَ —
 > ثَلَاثَ مَرَّاتٍ».
 >
-> عن الكاظم (٣) أنه قال: «مَنِ اسْتَكْفَى بِآيَةٍ مِنَ الْقُرْآنِ مِنَ الْمَشْرِقِ
+> عن الكاظم عليه السلام أنه قال: «مَنِ اسْتَكْفَى بِآيَةٍ مِنَ الْقُرْآنِ مِنَ الْمَشْرِقِ
 > إِلَى الْمَغْرِبِ كُفِيَ، إِذَا كَانَ بِيَقِينٍ».
 >
-> وعنه (٤) أنه قال: «فِي الْقُرْآنِ شِفَاءٌ مِنْ كُلِّ دَاءٍ».
+> وعنه عليه السلام أنه قال: «فِي الْقُرْآنِ شِفَاءٌ مِنْ كُلِّ دَاءٍ».
 
 ### Catatan kaki cetakan asli
 
-> (١ - ٤) Daftar sumber pada kaki halaman cetakan tidak tertangkap pindai;
-> penomoran di atas mengikuti urutan kemunculan pada cetakan asli.
+> Hadis-hadis pembuka Bab 1 tidak bernomor pada cetakan asli; nomor catatan kaki
+> dimulai pada ayat-ayat tahlil: (١) سورة البقرة الآية ١٦٣، (٢) سورة البقرة الآية ٢٥٥، dan seterusnya.
 
 ### Terjemahan
-
-Allah Ta'ala berfirman: *"Dan Kami turunkan dari Al-Qur'an sesuatu yang menjadi penyembuh dan rahmat bagi orang-orang beriman, dan tidak menambah kepada orang-orang zalim melainkan kerugian."*
 
 Nabi ﷺ bersabda: *"Barang siapa tidak memohon kesembuhan dengan Al-Qur'an, maka
 Allah tidak akan menyembuhkannya."*
 
-Imam ash-Shadiq (١) berkata: *"Barang siapa membaca seratus ayat
+Imam ash-Shadiq berkata: *"Barang siapa membaca seratus ayat
 dari bagian mana saja Al-Qur'an yang ia kehendaki, kemudian mengucapkan tujuh
 kali: 'Yā Allāh' (Wahai Allah), maka seandainya ia berdoa (dengan wasilah itu)
 atas batu-batu besar, niscaya batu-batu itu terbelah."*
 
-Dari Ibn al-Hasan (٢), beliau berkata: *"Apabila
+Dari Abu al-Hasan, beliau berkata: *"Apabila
 engkau takut akan suatu perkara, bacalah seratus ayat Al-Qur'an dari bagian mana
 saja yang engkau kehendaki, kemudian ucapkanlah: 'Allāhummaksyif 'annī
 al-balāʾ' (Ya Allah, singkaplah dariku bala/bencana) — tiga kali."*
 
-Dari Imam al-Kazhim (٣), beliau berkata: *"Barang siapa memohon
+Dari Imam al-Kazhim berkata: *"Barang siapa memohon
 kecukupan dengan satu ayat Al-Qur'an dari timur hingga barat, ia akan dicukupi —
 apabila ia melakukannya dengan penuh keyakinan."*
 
-Dari beliau (٤) pula: *"Di dalam Al-Qur'an terdapat kesembuhan dari
+Dari beliau pula: *"Di dalam Al-Qur'an terdapat kesembuhan dari
 segala penyakit."*
 
 ---
