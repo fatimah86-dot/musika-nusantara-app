@@ -50,6 +50,7 @@ ditampilkan) diikuti **terjemahan Indonesia**.
 | 11 | Untuk terkabulnya hajat dan hilangnya kesusahan | [19-bab-11-hajat-karab.md](19-bab-11-hajat-karab.md) | ✅ selesai |
 | 12 | Mujarrabāt lain-lain (haji, akikah, mimpi buruk, talqin, hafalan, hujan Nisan, dll.) | [20-bab-12-mujarrabat-mutafarriqah.md](20-bab-12-mujarrabat-mutafarriqah.md) | ✅ selesai |
 | — | Fihrist (daftar isi asli kitab) | [21-fihrist-indeks-kitab.md](21-fihrist-indeks-kitab.md) | ✅ selesai |
+| — | Rangkuman lengkap kitab: Arab + Latin + terjemahan | [22-rangkuman-lengkap-dengan-latin.md](22-rangkuman-lengkap-dengan-latin.md) | ✅ selesai |
 
 > ✦ **Kitab selesai lengkap** — seluruh 12 bab berikut mukadimah dan fihrist telah diterjemahkan.
 
