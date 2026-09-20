@@ -476,4 +476,78 @@ an-Nahl [16]: 2)
 
 ---
 
-*(bersambung ke halaman 13 dan seterusnya)*
+## Halaman 13 — lanjutan ayat-ayat tahlil + awal bagian surah-surah
+
+### Teks Arab
+
+> يُحْيِي وَيُمِيتُ رَبُّكُمْ وَرَبُّ آبَائِكُمُ الْأَوَّلِينَ.
+>
+> ﴿فَإِنْ آمَنُوا بِمِثْلِ مَا آمَنْتُمْ بِهِ فَقَدِ اهْتَدَوْا وَإِنْ تَوَلَّوْا فَإِنَّمَا هُمْ فِي شِقَاقٍ فَسَيَكْفِيكَهُمُ اللهُ وَهُوَ السَّمِيعُ الْعَلِيمُ﴾.
+>
+> ﴿وَلِلَّهِ أَسْلَمَ مَنْ فِي السَّمَاوَاتِ وَالْأَرْضِ طَوْعًا وَكَرْهًا وَإِلَيْهِ يُرْجَعُونَ﴾.
+>
+> ﴿شَهِدَ اللهُ أَنَّهُ لَا إِلَهَ إِلَّا هُوَ وَالْمَلَائِكَةُ وَأُولُو الْعِلْمِ قَائِماً بِالْقِسْطِ لَا إِلَهَ إِلَّا هُوَ الْعَزِيزُ الْحَكِيمُ إِنَّ الدِّينَ عِنْدَ اللهِ الْإِسْلَامُ وَمَا اخْتَلَفَ الَّذِينَ أُوتُوا الْكِتَابَ إِلَّا مِنْ بَعْدِ مَا جَاءَهُمُ الْعِلْمُ بَغْياً بَيْنَهُمْ وَمَنْ يَكْفُرْ بِآيَاتِ اللهِ فَإِنَّ اللهَ سَرِيعُ الْحِسَابِ﴾.
+>
+> ﴿إِنَّمَا ذَلِكُمُ الشَّيْطَانُ يُخَوِّفُ أَوْلِيَاءَهُ فَلَا تَخَافُوهُمْ وَخَافُونِ إِنْ كُنْتُمْ مُؤْمِنِينَ﴾.
+>
+> ﴿فَإِنَّمَا عَلَى رَسُولِنَا الْبَلَاغُ الْمُبِينُ ۝ اللهُ لَا إِلَهَ إِلَّا هُوَ وَعَلَى اللهِ فَلْيَتَوَكَّلِ الْمُؤْمِنُونَ﴾.
+>
+> ﴿رَبُّ الْمَشْرِقِ وَالْمَغْرِبِ لَا إِلَهَ إِلَّا هُوَ فَاتَّخِذْهُ وَكِيلًا﴾.
+
+**في الاستشفاء بالسور والأذكار والآيات وذكر خواصها:** روي عن العالم (١) أنه قال:
+«مَنْ نَالَتْهُ عِلَّةٌ فَلْيَقْرَأْ عَلَيْهَا أُمَّ الْكِتَابِ (٦) سَبْعَ مَرَّاتٍ، فَإِنْ
+سَكَنَتْ، وَإِلَّا فَلْيَقْرَأْهَا سَبْعِينَ مَرَّةً، فَإِنَّهَا تَسْكُنُ».
+
+### Terjemahan (mudah dipahami)
+
+(Lanjutan ayat tahlil halaman 12:) "…Dialah yang menghidupkan dan mematikan; Tuhan kalian dan Tuhan bapak-bapak kalian terdahulu." (QS ad-Dukhan [44]: 7-8)
+
+(٣٤) "Maka jika mereka beriman seperti keimanan kalian, sungguh mereka mendapat petunjuk; jika berpaling, mereka dalam perpecahan dan Allah cukupkan bagimu (kejahatan) mereka; Dia Maha Mendengar lagi Maha Mengetahui." (QS al-Baqarah [2]: 137)
+
+(٣٥) "Hanya kepada Allah berserah diri seluruh makhluk langit dan bumi, suka maupun terpaksa, dan kepada-Nya semua kembali." (QS Ali Imran [3]: 83)
+
+(Ulangan QS Ali Imran [3]: 18-19 — lihat nomor (٥) halaman 9.)
+
+(٣٦) "Yang menakut-nakuti kalian itu hanyalah syaitan (dengan para pengikutnya). Jangan takut kepada mereka; takutlah kepada-Ku jika kalian beriman." (QS Ali Imran [3]: 175)
+
+"Kewajiban rasul Kami hanyalah menyampaikan dengan terang; Allah, tiada tuhan selain Dia; dan hanya kepada Allah orang-orang beriman bertawakal." (QS at-Taghabun [64]: 12-13)
+
+"(Dialah) Tuhan timur dan barat; tiada tuhan selain Dia; maka jadikanlah Dia pelindung." (QS al-Muzzammil [73]: 9)
+
+**Bagian berobat dengan surah-surah, zikir, dan ayat serta khasiatnya:** Diriwayatkan dari al-'Alim (Imam) (١) bahwa beliau berkata: *"Barang siapa ditimpa penyakit, bacalah atasnya Umm al-Kitab (٦ — yaitu surah al-Fatihah) tujuh kali; jika (penyakit itu) reda (cukup); jika tidak, bacalah tujuh puluh kali, niscaya reda."*
+
+### Catatan kaki cetakan asli
+
+> (١) سورة محمد، الآيتان ١٨-١٩. — (٢) سورة الحشر، الآيات ٢١-٢٤. — (٣) سورة التغابن، الآيتان ١٢-١٣.
+> (٤) سورة المزمل، الآية ٩. — (٥) أم الكتاب: هي سورة الفاتحة ويُقال لها الحمد أيضاً.
+
+---
+
+## Halaman 14 — khasiat surah al-An'am, an-Nahl, Luqman
+
+### Teks Arab
+
+> عن الباقر عليه السلام قال: «إِذَا كَانَتْ بِكَ عِلَّةٌ تَتَخَوَّفُ عَلَى نَفْسِكَ مِنْهَا فَاقْرَأْ سُورَةَ الْأَنْعَامِ، فَإِنَّهُ لَا يَنَالُكَ مِنْ تِلْكَ الْعِلَّةِ مَا تَكْرَهُ».
+>
+> عنه عليه السلام قال: «مَنْ قَرَأَ سُورَةَ النَّحْلِ فِي كُلِّ شَهْرٍ كُفِيَ الْمَغْرَمَ (١) فِي الدُّنْيَا وَسَبْعِينَ نَوْعاً مِنْ أَنْوَاعِ الْبَلَاءِ، أَهْوَنُهَا الْجُنُونُ وَالْجُذَامُ وَالْبَرَصُ». وَفِي رِوَايَةٍ: «لِلتَّحَرُّزِ مِنْ إِبْلِيسَ وَجُنُودِهِ وَأَشْيَاعِهِ».
+>
+> وعنه عليه السلام قال: «مَنْ قَرَأَ سُورَةَ لُقْمَانَ فِي كُلِّ لَيْلَةٍ وَكَّلَ اللهُ عَزَّ وَجَلَّ بِهِ فِي لَيْلَتِهِ مَلَائِكَةً يَحْفَظُونَهُ مِنْ إِبْلِيسَ وَجُنُودِهِ حَتَّى يُصْبِحَ؛ فَإِنْ قَرَأَهَا بِالنَّهَارِ لَمْ يَزَالُوا يَحْفَظُونَهُ مِنْ إِبْلِيسَ وَجُنُودِهِ حَتَّى يُمْسِيَ».
+
+### Terjemahan (mudah dipahami)
+
+Dari Imam al-Baqir, beliau berkata: *"Jika engkau menderita suatu penyakit yang engkau khawatarkan atas dirimu, bacalah surah al-An'am; niscaya penyakit itu tidak akan menimpamu dengan sesuatu yang engkau benci."*
+
+Dari beliau juga: *"Barang siapa membaca surah an-Nahl setiap bulan, ia dicukupkan dari utang (kerugian) di dunia dan dari tujuh puluh macam bala — yang paling ringannya ialah gila, kusta, dan belang."* Dalam riwayat lain: *"(Dibaca) untuk menjaga diri dari Iblis, bala tentaranya, dan para pengikutnya."*
+
+Dari beliau pula: *"Barang siapa membaca surah Luqman setiap malam, Allah 'Azza wa Jalla menugaskan malaikat-malaikat yang menjaganya dari Iblis dan bala tentaranya hingga pagi; dan jika ia membacanya di siang hari, mereka terus menjaganya hingga petang."*
+
+### Catatan kaki cetakan asli
+
+> (١) المغرم: الدين وما يلحق الإنسان من الغرامة. — (٢) مكارم الأخلاق، ص ٣٤٨-٣٤٩.
+
+*Terjemahan catatan:* (1) al-Mughram = utang / kerugian yang menimpa seseorang; (2) Makārim al-Akhlāq hlm. 348-349.
+
+---
+
+*(bersambung ke halaman 15 dan seterusnya)*
+

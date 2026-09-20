@@ -551,6 +551,27 @@ an-Nahl [16]: 2)
 > "(Dialah) Tuhan timur dan barat; tidak ada tuhan selain Dia, maka jadikanlah
 > Dia sebagai Pelindung (Wakil)."
 
+**34.** ﴿فَإِنْ آمَنُوا بِمِثْلِ مَا آمَنْتُمْ بِهِ فَقَدِ اهْتَدَوْا وَإِنْ تَوَلَّوْا
+فَإِنَّمَا هُمْ فِي شِقَاقٍ فَسَيَكْفِيكَهُمُ اللهُ وَهُوَ السَّمِيعُ الْعَلِيمُ﴾ (QS al-Baqarah [2]: 137)
+
+> "Maka jika mereka beriman seperti apa yang kamu imani, sungguh mereka telah
+> mendapat petunjuk; dan jika mereka berpaling, sesungguhnya mereka berada dalam
+> perpecahan — maka Allah akan memelihara engkau dari mereka. Dialah Yang Maha
+> Mendengar lagi Maha Mengetahui."
+
+**35.** ﴿وَلِلَّهِ أَسْلَمَ مَنْ فِي السَّمَاوَاتِ وَالْأَرْضِ طَوْعًا وَكَرْهًا
+وَإِلَيْهِ يُرْجَعُونَ﴾ (QS Ali Imran [3]: 83)
+
+> "Dan kepada Allah-lah berserah diri siapa pun yang di langit dan di bumi, baik
+> dengan suka maupun terpaksa, dan hanya kepada-Nya mereka dikembalikan."
+
+**36.** ﴿إِنَّمَا ذَلِكُمُ الشَّيْطَانُ يُخَوِّفُ أَوْلِيَاءَهُ فَلَا تَخَافُوهُمْ
+وَخَافُونِ إِنْ كُنْتُمْ مُؤْمِنِينَ﴾ (QS Ali Imran [3]: 175)
+
+> "Sesungguhnya yang demikian itu hanyalah syaitan yang menakut-nakuti (kalian)
+> dengan para pembelanya. Maka janganlah kalian takut kepada mereka; takutlah
+> kepada-Ku, jika kalian orang-orang beriman."
+
 ---
 
 ---
