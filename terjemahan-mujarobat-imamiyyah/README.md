@@ -38,7 +38,7 @@ ditampilkan) diikuti **terjemahan Indonesia**.
 | 1 | Berobat (istisyfa') dengan Al-Qur'an | [`01-bab-01-istisyfa-dengan-alquran.md`](01-bab-01-istisyfa-dengan-alquran.md) | ✅ selesai |
 | 1 | Khasiat surah-surah menurut riwayat hadis | [`02-bab-01-khasiat-surah-riwayat.md`](02-bab-01-khasiat-surah-riwayat.md) | ✅ selesai |
 | 1 | Khasiat tiap surah (dinukil al-Kaf'ami dari Kitāb al-Khawāsh) | [`03-bab-01-khasiat-surah-kitab-khawash.md`](03-bab-01-khasiat-surah-kitab-khawash.md) | ✅ selesai |
-| 2 | Doa-doa penyembuhan dari berbagai rasa sakit | A: [`04-bab-02-doa-kesembuhan-umum.md`](04-bab-02-doa-kesembuhan-umum.md) · B: [`05-bab-02-pengobatan-demam.md`](05-bab-02-pengobatan-demam.md) · C: [`06-bab-02-sakit-kepala-dan-syaqiqah.md`](06-bab-02-sakit-kepala-dan-syaqiqah.md) | 🔄 sebagian selesai (mata/telinga/gigi/kulit/dll. menyusul) |
+| 2 | Doa-doa penyembuhan dari berbagai rasa sakit | A: [`04-bab-02-doa-kesembuhan-umum.md`](04-bab-02-doa-kesembuhan-umum.md) · B: [`05-bab-02-pengobatan-demam.md`](05-bab-02-pengobatan-demam.md) · C: [`06-bab-02-sakit-kepala-dan-syaqiqah.md`](06-bab-02-sakit-kepala-dan-syaqiqah.md) · D: [`07-bab-02-mata-telinga-gigi.md`](07-bab-02-mata-telinga-gigi.md) · E: [`08-bab-02-dada-punggung-perut.md`](08-bab-02-dada-punggung-perut.md) · F: [`09-bab-02-kulit-tulang-anggota.md`](09-bab-02-kulit-tulang-anggota.md) · G: [`10-bab-02-bisa-racun-tidur-ayan.md`](10-bab-02-bisa-racun-tidur-ayan.md) | ✅ selesai |
 | 3 | Doa-doa kehamilan dan persalinan | — | ⏳ menyusul |
 | 4 | Ayat, khatam, dan doa untuk rezeki serta pelunasan utang | — | ⏳ menyusul |
 | 5 | Penjagaan dari ain (pandangan mata jahat) | — | ⏳ menyusul |

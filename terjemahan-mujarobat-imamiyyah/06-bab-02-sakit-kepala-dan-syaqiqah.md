@@ -483,6 +483,5 @@ tundukkanlah apa yang menimpaku); kemudian bangkitlah untuk shalat sunah."*
 
 ---
 
-⏳ Bagian berikutnya dari Bab 2: sakit mata dan radang mata, telinga dan tuli,
-gigi, limpa, kulit (gudik/bisul), patah tulang, sengatan, anjing gila,
-terjaga dari tidur, insomnia, dan ayan.
+➡️ Lanjut ke [Bab 2 Bagian D — Sakit mata, telinga, gigi, mulut, dan
+tenggorokan](07-bab-02-mata-telinga-gigi.md)
