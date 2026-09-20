@@ -50,7 +50,7 @@ def is_rtl_base(t):
         if ch.isalpha(): return False
     return False
 
-_reshaper = arabic_reshaper.ArabicReshaper()
+_reshaper = arabic_reshaper.ArabicReshaper({'delete_harakat': False})
 def shape(t): return _reshaper.reshape(t) if has_arab(t) else t
 def shape_display(t): return get_display(shape(t)) if has_arab(t) else t
 
@@ -350,6 +350,9 @@ def build():
     story.append(Spacer(1, 3.2 * cm))
     story.append(Paragraph(shape_display("مُجَرَّبَاتُ الْإِمَامِيَّةِ"), S["center_ar"]))
     story.append(Paragraph(shape_display("فِي الشِّفَاءِ بِالْقُرْآنِ وَالدُّعَاءِ"), S["center_ar"]))
+    story.append(Spacer(1, 6))
+    story.append(Paragraph("<i>Mujarrabât al-Imâmiyyah fî asy-Syifâ' bil-Qur'ân wad-Du'â'</i>",
+                           ParagraphStyle("latinjudul", parent=S["center_sm"], fontSize=11, textColor=GRAY)))
     story.append(Spacer(1, 1.1 * cm))
     story.append(HRFlowable(width="55%", thickness=1.2, color=ACCENT, spaceBefore=2, spaceAfter=14))
     story.append(Paragraph("MUJARRABAT AL-IMAMIYYAH", S["center_id"]))
