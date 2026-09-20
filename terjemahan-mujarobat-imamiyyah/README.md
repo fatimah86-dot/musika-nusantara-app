@@ -52,6 +52,7 @@ ditampilkan) diikuti **terjemahan Indonesia**.
 | — | Fihrist (daftar isi asli kitab) | [21-fihrist-indeks-kitab.md](21-fihrist-indeks-kitab.md) | ✅ selesai |
 | — | Rangkuman lengkap kitab: Arab + Latin + terjemahan | [22-rangkuman-lengkap-dengan-latin.md](22-rangkuman-lengkap-dengan-latin.md) | ✅ selesai |
 | ★ | **GABUNGAN UTUH** — seluruh terjemahan dalam satu dokumen | [Mujarrabat-al-Imamiyyah-Terjemahan-Lengkap.md](Mujarrabat-al-Imamiyyah-Terjemahan-Lengkap.md) | ✅ selesai |
+| ★ | **Versi PDF** — 270 halaman, siap cetak/baca offline | [Mujarrabat-al-Imamiyyah-Terjemahan-Lengkap.pdf](Mujarrabat-al-Imamiyyah-Terjemahan-Lengkap.pdf) | ✅ selesai |
 
 > ✦ **Kitab selesai lengkap** — seluruh 12 bab berikut mukadimah dan fihrist telah diterjemahkan.
 
