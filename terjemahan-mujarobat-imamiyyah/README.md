@@ -46,9 +46,9 @@ ditampilkan) diikuti **terjemahan Indonesia**.
 | 7 | Menolak pencuri dan mengembalikan barang hilang | [15-bab-07-pencuri-dan-barang-hilang.md](15-bab-07-pencuri-dan-barang-hilang.md) | ✅ selesai |
 | 8 | Doa penjagaan, menolak bala, kesedihan, ketakutan, dan keamanan safar | [16-bab-08-penjagaan-dan-safar.md](16-bab-08-penjagaan-dan-safar.md) | ✅ selesai |
 | 9 | Doa terhadap musuh dan orang zalim, serta keselamatan dari jin | [17-bab-09-musuh-dan-jin.md](17-bab-09-musuh-dan-jin.md) | ✅ selesai |
-| 10 | Hirz, hijab, 'uwadz, dan hayākil (jimat-jimat dari Nabi ﷺ dan para Imam) | — | ⏳ menyusul |
-| 11 | Untuk terkabulnya hajat dan hilangnya kesusahan | — | ⏳ menyusul |
-| 12 | Mujarrabāt lain-lain (haji, akikah, mimpi buruk, talqin, hafalan, hujan Nisan, dll.) | — | ⏳ menyusul |
+| 10 | Hirz, hijab, 'uwadz, dan hayākil (jimat-jimat dari Nabi ﷺ dan para Imam) | [18-bab-10-ahraz-hijab.md](18-bab-10-ahraz-hijab.md) | ✅ selesai |
+| 11 | Untuk terkabulnya hajat dan hilangnya kesusahan | [19-bab-11-hajat-karab.md](19-bab-11-hajat-karab.md) | ✅ selesai |
+| 12 | Mujarrabāt lain-lain (haji, akikah, mimpi buruk, talqin, hafalan, hujan Nisan, dll.) | [20-bab-12-mujarrabat-mutafarriqah.md](20-bab-12-mujarrabat-mutafarriqah.md) | ✅ selesai |
 
 ## Peringatan penting
 
