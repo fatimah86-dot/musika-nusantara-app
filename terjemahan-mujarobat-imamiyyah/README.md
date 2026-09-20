@@ -39,13 +39,13 @@ ditampilkan) diikuti **terjemahan Indonesia**.
 | 1 | Khasiat surah-surah menurut riwayat hadis | [`02-bab-01-khasiat-surah-riwayat.md`](02-bab-01-khasiat-surah-riwayat.md) | ✅ selesai |
 | 1 | Khasiat tiap surah (dinukil al-Kaf'ami dari Kitāb al-Khawāsh) | [`03-bab-01-khasiat-surah-kitab-khawash.md`](03-bab-01-khasiat-surah-kitab-khawash.md) | ✅ selesai |
 | 2 | Doa-doa penyembuhan dari berbagai rasa sakit | A: [`04-bab-02-doa-kesembuhan-umum.md`](04-bab-02-doa-kesembuhan-umum.md) · B: [`05-bab-02-pengobatan-demam.md`](05-bab-02-pengobatan-demam.md) · C: [`06-bab-02-sakit-kepala-dan-syaqiqah.md`](06-bab-02-sakit-kepala-dan-syaqiqah.md) · D: [`07-bab-02-mata-telinga-gigi.md`](07-bab-02-mata-telinga-gigi.md) · E: [`08-bab-02-dada-punggung-perut.md`](08-bab-02-dada-punggung-perut.md) · F: [`09-bab-02-kulit-tulang-anggota.md`](09-bab-02-kulit-tulang-anggota.md) · G: [`10-bab-02-bisa-racun-tidur-ayan.md`](10-bab-02-bisa-racun-tidur-ayan.md) | ✅ selesai |
-| 3 | Doa-doa kehamilan dan persalinan | — | ⏳ menyusul |
-| 4 | Ayat, khatam, dan doa untuk rezeki serta pelunasan utang | — | ⏳ menyusul |
-| 5 | Penjagaan dari ain (pandangan mata jahat) | — | ⏳ menyusul |
-| 6 | Keamanan dari sihir dan pelepasan orang yang "terikat" | — | ⏳ menyusul |
-| 7 | Menolak pencuri dan mengembalikan barang hilang | — | ⏳ menyusul |
-| 8 | Doa penjagaan, menolak bala, kesedihan, ketakutan, dan keamanan safar | — | ⏳ menyusul |
-| 9 | Doa terhadap musuh dan orang zalim, serta keselamatan dari jin | — | ⏳ menyusul |
+| 3 | Doa-doa kehamilan dan persalinan | [11-bab-03-hamil-dan-melahirkan.md](11-bab-03-hamil-dan-melahirkan.md) | ✅ selesai |
+| 4 | Ayat, khatam, dan doa untuk rezeki serta pelunasan utang | [12-bab-04-rezeki-dan-utang.md](12-bab-04-rezeki-dan-utang.md) | ✅ selesai |
+| 5 | Penjagaan dari ain (pandangan mata jahat) | [13-bab-05-ain.md](13-bab-05-ain.md) | ✅ selesai |
+| 6 | Keamanan dari sihir dan pelepasan orang yang "terikat" | [14-bab-06-sihir.md](14-bab-06-sihir.md) | ✅ selesai |
+| 7 | Menolak pencuri dan mengembalikan barang hilang | [15-bab-07-pencuri-dan-barang-hilang.md](15-bab-07-pencuri-dan-barang-hilang.md) | ✅ selesai |
+| 8 | Doa penjagaan, menolak bala, kesedihan, ketakutan, dan keamanan safar | [16-bab-08-penjagaan-dan-safar.md](16-bab-08-penjagaan-dan-safar.md) | ✅ selesai |
+| 9 | Doa terhadap musuh dan orang zalim, serta keselamatan dari jin | [17-bab-09-musuh-dan-jin.md](17-bab-09-musuh-dan-jin.md) | ✅ selesai |
 | 10 | Hirz, hijab, 'uwadz, dan hayākil (jimat-jimat dari Nabi ﷺ dan para Imam) | — | ⏳ menyusul |
 | 11 | Untuk terkabulnya hajat dan hilangnya kesusahan | — | ⏳ menyusul |
 | 12 | Mujarrabāt lain-lain (haji, akikah, mimpi buruk, talqin, hafalan, hujan Nisan, dll.) | — | ⏳ menyusul |

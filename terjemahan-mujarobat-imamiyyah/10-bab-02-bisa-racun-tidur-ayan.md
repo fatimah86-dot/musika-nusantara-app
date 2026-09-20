@@ -674,5 +674,4 @@ bersifat doa dan tawassul — **bukan pengganti pengobatan medis**. Untuk penyak
 fisik, tetaplah berkonsultasi dengan tenaga kesehatan, dan jadikan doa sebagai
 ikhtiar batin.
 
-➡️ **Bab berikutnya:** Bab 3 — Doa-Doa untuk Kehamilan dan Kelahiran
-(*al-Faṣl aṡ-Ṡāliṡ: Ad'iyatul-ḥamli wal-wilādah*) — menyusul, insya Allah.
+➡️ [Bab 3 — Doa-doa Kehamilan dan Kelahiran](11-bab-03-hamil-dan-melahirkan.md)
