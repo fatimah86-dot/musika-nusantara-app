@@ -347,26 +347,66 @@ def build():
     doc.addPageTemplates([PageTemplate(id="main", frames=[frame], onPage=on_page)])
 
     story = []
-    story.append(Spacer(1, 3.2 * cm))
-    story.append(Paragraph(shape_display("مُجَرَّبَاتُ الْإِمَامِيَّةِ"), S["center_ar"]))
+    # ----- Halaman 1: SAMPUL (mengikuti struktur cetakan asli) -----
+    story.append(Spacer(1, 0.6 * cm))
+    story.append(Paragraph(shape_display("مُحَمَّدُ حُسَيْنِ مُغْنِيَّة"), S["center_sm"]))
+    story.append(Paragraph("Muhammad Husain Mughniyah", ParagraphStyle(
+        "covauth", parent=S["center_sm"], fontSize=9.5, textColor=GRAY)))
+    story.append(Spacer(1, 0.6 * cm))
+    story.append(Paragraph(shape_display("مُجَرَّبَاتُ الْإِمَامِيَّةِ"), ParagraphStyle(
+        "covtitle", parent=S["center_ar"], fontSize=30, leading=42)))
     story.append(Paragraph(shape_display("فِي الشِّفَاءِ بِالْقُرْآنِ وَالدُّعَاءِ"), S["center_ar"]))
-    story.append(Spacer(1, 6))
+    story.append(Spacer(1, 4))
     story.append(Paragraph("<i>Mujarrabât al-Imâmiyyah fî asy-Syifâ' bil-Qur'ân wad-Du'â'</i>",
                            ParagraphStyle("latinjudul", parent=S["center_sm"], fontSize=11, textColor=GRAY)))
-    story.append(Spacer(1, 1.1 * cm))
-    story.append(HRFlowable(width="55%", thickness=1.2, color=ACCENT, spaceBefore=2, spaceAfter=14))
-    story.append(Paragraph("MUJARRABAT AL-IMAMIYYAH", S["center_id"]))
-    story.append(Paragraph("Terjemahan Lengkap Bahasa Indonesia", ParagraphStyle(
-        "sub", parent=S["center_id"], fontSize=13, leading=18, textColor=GRAY)))
-    story.append(Spacer(1, 1.6 * cm))
-    story.append(Paragraph("Karya: <b>Muhammad Husain Mughniyah</b> (" + shape_display("محمد حسين مغنية") + ")", S["center_sm"]))
-    story.append(Spacer(1, 4))
-    story.append(Paragraph("Edisi rujukan: Cetakan Dâr al-'Ilmi lil-Malâyîn, Beirut (±432 halaman)", S["center_sm"]))
-    story.append(Spacer(1, 2.2 * cm))
-    story.append(Paragraph("Mukadimah · Bab 1–12 · Fihrist · Rangkuman Berhuruf Latin", S["center_sm"]))
-    story.append(Spacer(1, 6))
-    story.append(Paragraph("Untuk sakit jasmani, ikhtiar medis tetap didahulukan; doa dan wirid adalah ikhtiar ruhani yang menyertainya.", S["center_sm"]))
+    story.append(Paragraph("Kumpulan amalan teruji dari para Imam — penyembuhan dengan Al-Qur'an dan doa",
+                           ParagraphStyle("artijudul", parent=S["center_sm"], fontSize=10, textColor=GRAY)))
+    story.append(Spacer(1, 0.35 * cm))
+    from reportlab.platypus import Image as _Img
+    _img = _Img(os.path.join(HERE, "images", "sampul-ilustrasi.jpg"), width=8.4 * cm, height=11.25 * cm)
+    _img.hAlign = "CENTER"
+    story.append(_img)
+    story.append(Spacer(1, 0.45 * cm))
+    story.append(Paragraph(shape_display("مَنْشُورَاتُ مُؤَسَّسَةِ الْأَعْلَمِيِّ لِلْمَطْبُوعَاتِ — بَيْرُوتُ - لُبْنَان — ص.ب ٧١٢٠"), S["center_sm"]))
+    story.append(Paragraph("Penerbit: Mu'assasat al-A'lami lil-Matbu'at, Beirut - Lebanon · Kotak Pos 7120",
+                           ParagraphStyle("covpub", parent=S["center_sm"], fontSize=9.5, textColor=GRAY)))
     story.append(NextPageTemplate("main"))
+    story.append(PageBreak())
+
+    # ----- Halaman 2: HALAMAN JUDUL + terjemahan -----
+    story.append(Spacer(1, 2.0 * cm))
+    story.append(Paragraph(shape_display("مُجَرَّبَاتُ الْإِمَامِيَّةِ"), ParagraphStyle(
+        "tj1", parent=S["center_ar"], fontSize=24, leading=34)))
+    story.append(Paragraph(shape_display("فِي"), S["center_ar"]))
+    story.append(Paragraph(shape_display("الشِّفَاءِ بِالْقُرْآنِ وَالدُّعَاءِ"), S["center_ar"]))
+    story.append(Spacer(1, 1.0 * cm))
+    story.append(Paragraph(shape_display("تَأْلِيفُ"), S["center_sm"]))
+    story.append(Paragraph(shape_display("مُحَمَّدِ حُسَيْنِ مُغْنِيَّة"), S["center_sm"]))
+    story.append(Spacer(1, 1.8 * cm))
+    story.append(Paragraph(shape_display("مَنْشُورَاتُ مُؤَسَّسَةِ الْأَعْلَمِيِّ لِلْمَطْبُوعَاتِ"), S["center_sm"]))
+    story.append(Paragraph(shape_display("بَيْرُوتُ - لُبْنَان — ص.ب ٧١٢٠"), S["center_sm"]))
+    story.append(Spacer(1, 1.1 * cm))
+    story.append(HRFlowable(width="70%", thickness=0.8, color=ACCENT, spaceBefore=2, spaceAfter=12))
+    story.append(Paragraph("<b>Terjemahan halaman judul:</b> Mujarrabāt al-Imāmiyyah — kumpulan amalan yang teruji (mujarrab) dari para Imam Ahlulbait — tentang penyembuhan dengan Al-Qur'an dan doa. Penyusun: Muhammad Husain Mughniyah. Penerbit: Mu'assasat al-A'lami lil-Matbū'āt, Beirut - Lebanon, Kotak Pos 7120.", S["center_sm"]))
+    story.append(PageBreak())
+
+    # ----- Halaman 3: HALAMAN HAK CIPTA + terjemahan -----
+    story.append(Spacer(1, 2.4 * cm))
+    story.append(Paragraph(shape_display("الطَّبْعَةُ الْأُولَى"), S["center_sm"]))
+    story.append(Paragraph(shape_display("جَمِيعُ الْحُقُوقِ مَحْفُوظَةٌ وَمُسَجَّلَةٌ لِلنَّاشِرِ"), S["center_sm"]))
+    story.append(Paragraph(shape_display("١٤١٧هـ - ١٩٦م"), S["center_sm"]))
+    story.append(Spacer(1, 1.2 * cm))
+    story.append(Paragraph("<b>Terjemahan:</b> Cetakan pertama. Seluruh hak cipta dilindungi dan terdaftar atas nama penerbit. 1417 H - 1996 M.", S["center_sm"]))
+    story.append(Spacer(1, 1.6 * cm))
+    story.append(Paragraph(shape_display("مُؤَسَّسَةُ الْأَعْلَمِيِّ لِلْمَطْبُوعَاتِ"), S["center_sm"]))
+    story.append(Paragraph(shape_display("بَيْرُوتُ - شَارِعُ الْمَطَارِ - قُرْبَ كُلِّيَّةِ الْهَنْدَسَةِ"), S["center_sm"]))
+    story.append(Paragraph(shape_display("ص.ب ٧١٠ — هَاتِف: ٨٣٢١٥٢ - ٨٣٢١٥٣"), S["center_sm"]))
+    story.append(Spacer(1, 4))
+    story.append(Paragraph("PUBLISHED BY Al Alami Library — BEIRUT - LEBANON — P.O. BOX 7120", S["center_sm"]))
+    story.append(Spacer(1, 8))
+    story.append(Paragraph("<b>Terjemahan:</b> Mu'assasat al-A'lami lil-Matbū'āt (Lembaga al-A'lami untuk Percetakan) - Beirut, Jalan Bandara, dekat Fakultas Teknik - Kotak Pos 7120 - Telepon 832152-832153. Diterbitkan oleh Al Alami Library, Beirut - Lebanon, P.O. Box 7120.", S["center_sm"]))
+    story.append(Spacer(1, 1.8 * cm))
+    story.append(Paragraph("Edisi rujukan terjemahan ini: Cetakan I Mu'assasat al-A'lami lil-Matbū'āt, Beirut 1417 H/1996 M (±432 halaman).", S["center_sm"]))
     story.append(PageBreak())
 
     story.append(Paragraph("Daftar Isi", ParagraphStyle("toctitle", fontName="DejaVu-Bold",

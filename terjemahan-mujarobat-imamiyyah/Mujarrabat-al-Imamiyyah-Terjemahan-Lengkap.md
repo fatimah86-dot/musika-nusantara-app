@@ -3,7 +3,7 @@
 
 **Judul asli:** مجربات الإمامية في الشفاء بالقرآن والدعاء (*Mujarrabât al-Imâmiyyah fî asy-Syifâ' bil-Qur'ân wad-Du'â'*)
 **Penulis:** Muhammad Husain Mughniyah (محمد حسين مغنية)
-**Edisi rujukan:** Cetakan Dâr al-'Ilmi lil-Malâyîn, Beirut (±432 halaman)
+**Edisi rujukan:** Cetakan I Mu'assasat al-A'lami lil-Matbū'āt (Beirut, 1417 H/1996 M, ±432 halaman)
 
 Dokumen ini adalah gabungan utuh seluruh terjemahan kitab: **mukadimah, Bab 1–12, fihrist, dan lampiran rangkuman berhuruf Latin.**
 
