@@ -112,15 +112,33 @@ dengan tanda tanya). Gambar menunggu sinkronisasi berkas dari sistem.
 | ٣٧٠ (370) | hal-370.jpg | Bab 12 akhir (li-qada' al-hajah) | — |
 | ٣٧٢ (372)? | hal-372.jpg | Bab 12 akhir | — |
 
-### Catatan sinkronisasi berkas:
+### Catatan sinkronisasi berkas (diperbarui 2026-10-02):
 
-Berkas gambar yang Anda lampirkan pada pesan ini **belum tersalin ke folder
-`pindai-halaman/`** karena sistem sandbox belum menulis berkasnya ke disk.
-Saya sudah mencatat semua nomor halaman di atas. Setelah berkas tersedia
-(dapat diakses pada `/home/user/uploads/`), saya akan segera:
-1.  Salin semua berkas ke `terjemahan-mujarobat-imamiyyah/pindai-halaman/`
-2.  Ubah nama sesuai `hal-NNN.jpg`
-3.  Commit + push ke repo.
+Berkas gambar yang dilampirkan pada 2026-09-20 **tidak pernah tertulis ke disk**
+sandbox, jadi tidak ada yang bisa dipulihkan dari sesi itu — yang tersimpan
+hanya tabel pencatatan di atas. Folder ini sekarang masih berisi `INDEX.md` saja.
 
-*Total sampai batch ini: halaman 5–14 sudah diterjemahkan sebelumnya; 96 gambar
-baru di atas disimpan untuk diproses setelah urutan lengkap.*
+Untuk memproses kiriman berikutnya, gunakan skrip pendamping (stdlib saja,
+tanpa Pillow/tesseract):
+
+```bash
+cd terjemahan-mujarobat-imamiyyah/pindai-halaman
+python3 ingest_pindaian.py --report            # status: mana yang sudah/belum
+python3 ingest_pindaian.py                      # salin dari /home/user/uploads/
+python3 ingest_pindaian.py --promote belum-urut-001.jpg 141   # setelah nomornya dibaca
+```
+
+Skrip menyalin (tidak memindah/menimpa), menamai ulang jadi `hal-NNN.jpg`
+bila nomor halaman terbaca dari nama berkas, selebihnya masuk antrean
+`belum-urut-NNN.jpg` untuk dibaca angka Arab di pojok bawahnya, dan menulis
+`MANIFEST.csv` (berkas asal, ukuran piksel, sha256 pendek, status). Jalan
+berulang kali aman — berkas yang sudah masuk dilewati, berkas identik
+ditandai `sudah-ada(hash-identik)`, dan halaman dengan isi beda ditandai
+`!!ISI-BEDA-periksa`.
+
+*Selisih jumlah: judul batch menyebut 96 gambar, tabel ini memuat 92 baris.
+Empat sisanya belum tercatat nomornya — mohon kirim ulang daftar/nomor
+halamannya bila ada, agar tidak ada yang tercecer.*
+
+*Total sampai batch ini: halaman 5–14 sudah diterjemahkan sebelumnya (lihat
+`../23-terjemahan-per-halaman.md`); 92 halaman di atas menunggu gambarnya.*
