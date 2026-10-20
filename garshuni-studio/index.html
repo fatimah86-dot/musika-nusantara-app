@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Garshuni Studio - Nahwu Sharaf Pro</title>
+
+  <!-- Mesin lokal: harokat kamus, transliterasi Washal, penjaga kesetiaan (offline & jujur) -->
+  <script src="naskah-engine.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['Cairo', 'sans-serif'],
+            arabic: ['Amiri', 'serif'],
+          },
+          colors: {
+            gold: {
+              400: '#E6C766',
+              500: '#D4AF37',
+              600: '#B8962E',
+            },
+          },
+          animation: {
+            'fade-in': 'fadeIn 0.5s ease-out',
+            'slide-up': 'slideUp 0.5s ease-out',
+            'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            'spin-slow': 'spin 3s linear infinite',
+            'ping-slow': 'ping 2s cubic-bezier(0, 0, 0.2, 1) infinite',
+          },
+          keyframes: {
+            fadeIn: {
+              '0%': { opacity: '0' },
+              '100%': { opacity: '1' },
+            },
+            slideUp: {
+              '0%': { opacity: '0', transform: 'translateY(20px)' },
+              '100%': { opacity: '1', transform: 'translateY(0)' },
+            },
+          },
+        },
+      },
+    };
+  </script>
+  <style>
+    @keyframes border-expand {
+      0% { transform: scaleX(0); }
+      100% { transform: scaleX(1); }
+    }
+    .animate-border-expand {
+      animation: border-expand 1.2s linear infinite;
+    }
+    body {
+      background-color: #121212;
+      background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+      background-size: 24px 24px;
+    }
+    .glass-panel {
+      background: rgba(30, 30, 30, 0.7);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+    }
+    .arabic-text {
+      direction: rtl;
+      text-align: right;
+      line-height: 2.2;
+    }
+    .custom-scrollbar::-webkit-scrollbar { width: 8px; height: 8px; }
+    .custom-scrollbar::-webkit-scrollbar-track { background: #1a1a1a; }
+    .custom-scrollbar::-webkit-scrollbar-thumb { background: #333; border-radius: 4px; }
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #444; }
+  </style>
+</head>
+<body class="font-sans text-[#F3F4F6] antialiased selection:bg-gold-500/30 min-h-screen">
+  <div id="root"></div>
+
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script type="text/babel">
+    const { useState, useEffect, useRef } = React;
+    const NaskahEngine = window.NaskahEngine;
+
+    // ==================== IKON (PHOSPHOR) ====================
+    const Icon = ({ name, className = "w-6 h-6" }) => (
+      <i className={`ph-bold ${name} ${className}`} style={{ fontSize: 'inherit' }}></i>
+    );
+
+    const ICONS = {
+      magic: "ph-magic-wand",
+      upload: "ph-upload-simple",
+      camera: "ph-camera",
+      file: "ph-file-text",
+      sparkle: "ph-sparkle",
+      copy: "ph-copy",
+      download: "ph-download-simple",
+      check: "ph-check-circle",
+      warning: "ph-warning-circle",
+      gear: "ph-gear",
+      key: "ph-key",
+      text: "ph-text-aa",
+      translate: "ph-translate",
+      book: "ph-book-open",
+      paperPlane: "ph-paper-plane-right",
+      arrowRight: "ph-arrow-right",
+      x: "ph-x",
+      info: "ph-info",
+    };
+
+    // ==================== KOMPONEN UI KECIL ====================
+    function TabBar({ activeTab, setActiveTab }) {
+      const tabs = [
+        { id: "harokat", label: "Harokat & Analisis", icon: ICONS.book },
+        { id: "translator", label: "Translator", icon: ICONS.translate },
+        { id: "read", label: "Bacaan Washal", icon: ICONS.text },
+      ];
+      return (
+        <div className="flex space-x-2 bg-[#1A1A1A] p-1.5 rounded-2xl border border-[#232323] mb-8 overflow-x-auto custom-scrollbar">
+          {tabs.map((tab) => (
+            <button
+              key={tab.id}
+              onClick={() => setActiveTab(tab.id)}
+              className={`flex items-center gap-2 px-6 py-3 rounded-xl transition-all duration-300 whitespace-nowrap flex-1 justify-center ${
+                activeTab === tab.id
+                  ? "bg-gradient-to-r from-gold-500 to-gold-600 text-[#121212] font-bold shadow-lg shadow-gold-500/20"
+                  : "text-[#9CA3AF] hover:bg-[#232323] hover:text-[#F3F4F6]"
+              }`}
+            >
+              <i className={`ph-bold ${tab.icon} text-lg`}></i>
+              <span>{tab.label}</span>
+            </button>
+          ))}
+        </div>
+      );
+    }
+
+    function WelcomeScreen({ onTryExample }) {
+      return (
+        <div className="glass-panel rounded-3xl p-12 text-center border border-[#232323] relative overflow-hidden">
+          <div className="absolute inset-0 bg-gradient-to-b from-gold-500/5 to-transparent pointer-events-none"></div>
+          <div className="relative z-10">
+            <div className="w-24 h-24 mx-auto mb-8 rounded-full bg-gradient-to-br from-[#232323] to-[#121212] border border-[#333] flex items-center justify-center shadow-2xl">
+              <i className="ph-fill ph-translate text-[#D4AF37] text-5xl animate-pulse-slow"></i>
+            </div>
+            <h2 className="text-3xl font-bold text-[#F3F4F6] font-display mb-4">Analisis Bahasa Arab Presisi</h2>
+            <p className="text-[#9CA3AF] text-lg max-w-2xl mx-auto leading-relaxed mb-8">
+              Unggah dokumen, foto, atau ketik teks Arab gundul untuk mendapatkan
+              <span className="text-[#D4AF37] font-semibold"> harokat otomatis</span>,
+              <span className="text-[#D4AF37] font-semibold"> transliterasi</span>, dan
+              <span className="text-[#D4AF37] font-semibold"> terjemahan Indonesia</span>.
+            </p>
+            <div className="flex flex-wrap justify-center gap-4">
+              <button onClick={onTryExample} className="bg-gradient-to-r from-gold-500 to-gold-600 text-[#121212] font-bold px-8 py-4 rounded-xl shadow-xl hover:scale-105 transition-transform duration-300 flex items-center gap-2">
+                <i className="ph-bold ph-sparkle text-xl"></i>
+                <span>Coba Contoh Teks</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      );
+    }
+
+    function ProcessingOverlay() {
+      return (
+        <div className="glass-panel rounded-3xl p-16 text-center border border-gold-500/30 relative overflow-hidden">
+          <div className="absolute inset-0 bg-gradient-to-b from-gold-500/10 to-transparent"></div>
+          <div className="relative z-10">
+            <div className="w-32 h-32 mx-auto mb-8 relative">
+              <div className="absolute inset-0 border-4 border-gold-500/20 rounded-full"></div>
+              <div className="absolute inset-0 border-4 border-transparent border-t-gold-500 rounded-full animate-spin-slow"></div>
+              <div className="absolute inset-4 border-4 border-gold-500/10 rounded-full"></div>
+              <div className="absolute inset-4 border-4 border-transparent border-b-gold-500 rounded-full animate-spin-slow animation-delay-500" style={{ animationDirection: 'reverse' }}></div>
+              <div className="absolute inset-0 flex items-center justify-center">
+                <i className="ph-fill ph-brain text-[#D4AF37] text-5xl animate-pulse-slow"></i>
+              </div>
+            </div>
+            <h3 className="text-2xl font-bold text-[#F3F4F6] font-display mb-2">Menganalisis Bahasa...</h3>
+            <p className="text-[#9CA3AF] text-sm mb-6">AI sedang memproses teks dengan algoritma Nahwu Sharaf</p>
+            <div className="w-full max-w-md mx-auto bg-[#232323] rounded-full h-2 overflow-hidden">
+              <div className="h-full bg-gradient-to-r from-gold-500 to-gold-400 rounded-full animate-border-expand origin-left"></div>
+            </div>
+            <div className="flex justify-center gap-8 mt-8">
+              <div className="flex items-center gap-2 text-[#9CA3AF] text-xs">
+                <div className="w-2 h-2 rounded-full bg-gold-500 animate-ping-slow"></div>
+                <span>Tokenisasi</span>
+              </div>
+              <div className="flex items-center gap-2 text-[#9CA3AF] text-xs">
+                <div className="w-2 h-2 rounded-full bg-gold-500 animate-ping-slow animation-delay-200"></div>
+                <span>Analisis I'rab</span>
+              </div>
+              <div className="flex items-center gap-2 text-[#9CA3AF] text-xs">
+                <div className="w-2 h-2 rounded-full bg-gold-500 animate-ping-slow animation-delay-500"></div>
+                <span>Render Harokat</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      );
+    }
+
+    function EditingArea({ inputText, setInputText, isLoading, onUpload, fileName, parsing }) {
+      return (
+        <div className="space-y-4">
+          <div className="relative group">
+            <div className="absolute -inset-0.5 bg-gradient-to-r from-gold-500 to-gold-600 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
+            <div className="relative bg-[#1A1A1A] rounded-2xl p-6 border border-[#333] transition-colors">
+              <textarea
+                value={inputText}
+                onChange={(e) => setInputText(e.target.value)}
+                placeholder="Ketik atau tempel teks Arab gundul di sini..."
+                className="w-full h-48 bg-transparent text-[#F3F4F6] text-lg font-arabic arabic-text leading-loose resize-none focus:outline-none placeholder:text-[#666] placeholder:font-sans placeholder:text-right"
+                disabled={isLoading}
+              />
+              <div className="flex items-center justify-between pt-4 border-t border-[#232323]">
+                <span className="text-[#9CA3AF] text-xs uppercase tracking-widest font-medium">Arabic Text Input</span>
+                <label className="cursor-pointer flex items-center gap-2 text-[#D4AF37] hover:text-gold-400 transition-colors">
+                  <i className="ph-bold ph-upload-simple"></i>
+                  <span className="text-sm font-medium">Unggah File</span>
+                  <input type="file" className="hidden" onChange={onUpload} accept=".txt,.docx,.pdf,image/*" />
+                </label>
+              </div>
+            </div>
+          </div>
+
+          {parsing && (
+            <div className="flex items-center gap-2 text-[#9CA3AF] text-sm">
+              <div className="w-4 h-4 border-2 border-gold-500/30 border-t-gold-500 rounded-full animate-spin"></div>
+              <span>Mengekstrak teks...</span>
+            </div>
+          )}
+          {fileName && (
+            <div className="flex items-center gap-2 text-[#9CA3AF] text-sm bg-[#1A1A1A] px-4 py-2 rounded-lg border border-[#232323]">
+              <i className="ph-bold ph-file-text text-gold-500"></i>
+              <span>{fileName}</span>
+            </div>
+          )}
+        </div>
+      );
+    }
+
+    function ResultsSection({ results, activeTab, onCopy, onDownload }) {
+      return (
+        <div className="glass-panel rounded-2xl border border-[#232323] overflow-hidden">
+          <div className="border-b border-[#232323] px-6 py-4 bg-gradient-to-r from-[#1A1A1A] to-transparent flex items-center justify-between">
+            <div className="flex items-center gap-2">
+              <i className={`ph-bold ${activeTab === "harokat" ? "ph-book-open" : activeTab === "translator" ? "ph-translate" : "ph-text-aa"} text-gold-500`}></i>
+              <h3 className="font-semibold text-[#F3F4F6]">
+                {activeTab === "harokat" ? "Hasil Harokat" : activeTab === "translator" ? "Terjemahan Indonesia" : "Bacaan Washal"}
+              </h3>
+            </div>
+            <div className="flex gap-2">
+              <button
+                onClick={() => onCopy(activeTab === "harokat" ? results.harokat : activeTab === "translator" ? results.translate : results.washal)}
+                className="p-2 hover:bg-[#232323] rounded-lg transition-colors text-[#9CA3AF] hover:text-[#F3F4F6]"
+                title="Salin"
+              >
+                <i className="ph-bold ph-copy"></i>
+              </button>
+              <button
+                onClick={() => onDownload(results)}
+                className="p-2 hover:bg-[#232323] rounded-lg transition-colors text-[#9CA3AF] hover:text-[#F3F4F6]"
+                title="Unduh TXT"
+              >
+                <i className="ph-bold ph-download-simple"></i>
+              </button>
+            </div>
+          </div>
+
+          <div className="p-6">
+            {activeTab === "harokat" && (
+              <div className="space-y-6">
+                <div>
+                  <label className="text-xs text-[#9CA3AF] uppercase tracking-widest mb-2 block">Teks Asli (Gundul)</label>
+                  <div className="bg-[#1A1A1A] rounded-xl p-4 border border-[#232323]">
+                    <p className="font-arabic arabic-text text-2xl text-[#F3F4F6] leading-loose">{results.original || "-"}</p>
+                  </div>
+                </div>
+                <div>
+                  <label className="text-xs text-[#9CA3AF] uppercase tracking-widest mb-2 block">Bacaan Harokat</label>
+                  <div className="bg-[#1A1A1A] rounded-xl p-4 border border-[#232323]">
+                    <p className="font-arabic arabic-text text-2xl text-gold-400 leading-loose">{results.harokat || "Hasil harokat akan muncul di sini..."}</p>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {activeTab === "translator" && (
+              <div>
+                <label className="text-xs text-[#9CA3AF] uppercase tracking-widest mb-2 block">Terjemahan</label>
+                <div className="bg-[#1A1A1A] rounded-xl p-6 border border-[#232323]">
+                  <p className="text-[#F3F4F6] text-lg leading-relaxed">{results.translate || "Terjemahan akan muncul di sini..."}</p>
+                </div>
+              </div>
+            )}
+
+            {activeTab === "read" && (
+              <div>
+                <label className="text-xs text-[#9CA3AF] uppercase tracking-widest mb-2 block">Bacaan Washal (Latin)</label>
+                <div className="bg-[#1A1A1A] rounded-xl p-6 border border-[#232323]">
+                  <p className="text-[#E6C766] text-xl font-medium tracking-wide leading-loose italic">{results.washal || "Bacaan akan muncul di sini..."}</p>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      );
+    }
+
+    function DropZone({ onFileSelect }) {
+      const [isDragOver, setIsDragOver] = useState(false);
+      return (
+        <div
+          onDragOver={(e) => { e.preventDefault(); setIsDragOver(true); }}
+          onDragLeave={() => setIsDragOver(false)}
+          onDrop={(e) => { e.preventDefault(); setIsDragOver(false); if (e.dataTransfer.files[0]) onFileSelect({ target: { files: e.dataTransfer.files } }); }}
+          className={`relative border-2 border-dashed rounded-2xl p-8 text-center transition-all duration-300 cursor-pointer group ${
+            isDragOver ? "border-gold-500 bg-gold-500/5 scale-[1.02]" : "border-[#333] hover:border-gold-500/50 hover:bg-[#1A1A1A]/50"
+          }`}
+          onClick={() => document.getElementById('file-upload-main').click()}
+        >
+          <input id="file-upload-main" type="file" className="hidden" onChange={onFileSelect} accept=".txt,.docx,.pdf,image/*" />
+          <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-[#232323] flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+            <i className="ph-bold ph-upload-simple text-[#D4AF37] text-3xl"></i>
+          </div>
+          <p className="text-[#F3F4F6] font-semibold mb-1">Seret file ke sini atau klik untuk unggah</p>
+          <p className="text-[#9CA3AF] text-sm">Mendukung TXT, DOCX, PDF, dan Gambar (JPG, PNG)</p>
+        </div>
+      );
+    }
+
+    function SettingsModal({ apiKey, onSave, onClose, onSaveAndClose }) {
+      const [localKey, setLocalKey] = useState(apiKey);
+      const [testing, setTesting] = useState(false);
+      const [testResult, setTestResult] = useState(null);
+
+      const testKey = async () => {
+        if (!localKey.trim()) {
+          setTestResult({ ok: false, msg: "Isi kunci API dulu sebelum menguji." });
+          return;
+        }
+        setTesting(true);
+        setTestResult(null);
+        try {
+          await callGemini({
+            apiKey: localKey.trim(),
+            parts: [{ text: "Balas hanya dengan satu kata: siap" }],
+          });
+          setTestResult({ ok: true, msg: "Koneksi berhasil! Kunci API valid." });
+        } catch (e) {
+          setTestResult({ ok: false, msg: (e.message || String(e)).slice(0, 220) });
+        } finally {
+          setTesting(false);
+        }
+      };
+
+      return (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/80 backdrop-blur-md">
+          <div className="glass-panel rounded-3xl p-8 w-full max-w-md border border-[#333] shadow-2xl">
+            <div className="flex items-center justify-between mb-6">
+              <h2 className="text-2xl font-bold text-[#F3F4F6] font-display flex items-center gap-2">
+                <i className="ph-bold ph-key text-gold-500"></i> Pengaturan API
+              </h2>
+              <button onClick={onClose} className="p-2 hover:bg-[#232323] rounded-lg text-[#9CA3AF] hover:text-white" title="Tutup">
+                <i className="ph-bold ph-x"></i>
+              </button>
+            </div>
+            <div className="space-y-4">
+              <div>
+                <label className="block text-sm font-medium text-[#9CA3AF] mb-2">Gemini API Key</label>
+                <input
+                  type="password"
+                  value={localKey}
+                  onChange={(e) => setLocalKey(e.target.value)}
+                  className="w-full bg-[#121212] border border-[#333] rounded-xl px-4 py-3 text-[#F3F4F6] focus:border-gold-500 focus:ring-1 focus:ring-gold-500/50 outline-none transition-all"
+                  placeholder="Masukkan API Key Anda"
+                />
+                <p className="text-xs text-[#666] mt-2 flex items-start gap-1">
+                  <i className="ph-bold ph-shield-check text-gold-500 mt-0.5"></i>
+                  <span>Kunci disimpan lokal di browser Anda dan dikirim langsung ke Google saat diproses. <a className="text-gold-500 underline" href="https://aistudio.google.com/apikey" target="_blank" rel="noreferrer">Buat kunci di aistudio.google.com/apikey</a>.</span>
+                </p>
+              </div>
+
+              {testResult && (
+                <div className={`p-3 rounded-xl text-sm flex items-start gap-2 ${testResult.ok ? "bg-emerald-950/60 border border-emerald-700/70 text-emerald-200" : "bg-red-950/60 border border-red-800/70 text-red-200"}`}>
+                  <i className={`ph-bold ${testResult.ok ? "ph-check-circle" : "ph-warning-circle"} mt-0.5`}></i>
+                  <span className="break-words">{testResult.msg}</span>
+                </div>
+              )}
+
+              <div className="flex flex-col gap-2">
+                <button onClick={() => onSaveAndClose(localKey.trim())} className="w-full bg-gradient-to-r from-gold-500 to-gold-600 text-[#121212] font-bold py-3 rounded-xl hover:scale-[1.02] transition-transform duration-200">
+                  Simpan
+                </button>
+                <button onClick={testKey} disabled={testing} className="w-full bg-[#232323] text-[#F3F4F6] font-semibold py-3 rounded-xl hover:bg-[#2A2A2A] transition-colors border border-[#333] flex items-center justify-center gap-2">
+                  <i className={`ph-bold ${testing ? "ph-circle-notch animate-spin" : "ph-plug-charging"}`}></i>
+                  <span>{testing ? "Menguji koneksi..." : "Uji Koneksi"}</span>
+                </button>
+                <button onClick={onClose} className="w-full text-[#9CA3AF] py-2 hover:text-[#F3F4F6] transition-colors text-sm">
+                  Lanjut Tanpa Key (Mode Offline Terbatas)
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      );
+    }
+
+    // ==================== KONFIGURASI GEMINI (status model per Okt 2026) ====================
+    // gemini-2.5-flash pensiun 20 Okt 2026 → rantai model terbaru lebih dulu.
+    const MODEL_IDS = [
+      "gemini-flash-latest",
+      "gemini-3.8-flash",
+      "gemini-3.6-flash",
+      "gemini-3.5-flash-lite",
+      "gemini-3.1-flash-lite",
+      "gemini-2.5-flash", // cadangan terakhir (proyek lama)
+    ];
+    const API_URL = "https://generativelanguage.googleapis.com/v1beta/models";
+
+    /** Parse JSON yang toleran terhadap kode pagar ```json ... ``` dari model. */
+    function parseJSON(raw) {
+      if (!raw) throw new Error("Jawaban AI kosong");
+      let text = String(raw).trim();
+      const fence = text.match(/```(?:json)?\s*([\s\S]*?)```/i);
+      if (fence) text = fence[1].trim();
+      const start = text.indexOf("{");
+      const end = text.lastIndexOf("}");
+      if (start !== -1 && end > start) text = text.slice(start, end + 1);
+      try {
+        return JSON.parse(text);
+      } catch (e) {
+        throw new Error("Format jawaban AI tidak valid");
+      }
+    }
+
+    /**
+     * Satu pintu untuk semua panggilan Gemini:
+     * - header x-goog-api-key (aman untuk browser fetch);
+     * - rantai model dari terbaru ke cadangan;
+     * - retry tanpa generationConfig bila ditolak (kompatibilitas lintas model);
+     * - 401/403 berhenti (kunci salah/ditolak), 404/413/429/5xx lanjut model berikutnya.
+     */
+    async function callGemini({ apiKey, parts, systemInstruction, forceJson = false, signal }) {
+      if (!apiKey) throw new Error("API key belum diisi. Buka Konfigurasi API untuk mengisinya.");
+      let lastErr = null;
+      for (const model of MODEL_IDS) {
+        const attempts = [
+          { generationConfig: { responseMimeType: "application/json", thinkingConfig: { thinkingLevel: "LOW" } } },
+          {}, // tanpa generationConfig (kompatibilitas mundur)
+        ];
+        if (!forceJson) attempts[0] = { generationConfig: { thinkingConfig: { thinkingLevel: "LOW" } } };
+        for (const gen of attempts) {
+          try {
+            const body = { contents: [{ role: "user", parts }] };
+            if (systemInstruction) body.systemInstruction = { parts: [{ text: systemInstruction }] };
+            if (Object.keys(gen).length) Object.assign(body, gen);
+            const res = await fetch(`${API_URL}/${model}:generateContent`, {
+              method: "POST",
+              headers: { "Content-Type": "application/json", "x-goog-api-key": apiKey },
+              body: JSON.stringify(body),
+              signal,
+            });
+            if (res.status === 401 || res.status === 403) {
+              const detail = await res.text();
+              throw new Error(`API key ditolak (HTTP ${res.status}). Periksa kunci Anda di aistudio.google.com/apikey. ${detail.slice(0, 160)}`);
+            }
+            if (!res.ok) {
+              const detail = await res.text().catch(() => "");
+              lastErr = new Error(`Model ${model}: HTTP ${res.status} ${detail.slice(0, 120)}`);
+              break; // lanjut konfigurasi/model berikutnya
+            }
+            const data = await res.json();
+            const text = (data && data.candidates && data.candidates[0] && data.candidates[0].content && data.candidates[0].content.parts || [])
+              .map((p) => p.text || "").join("");
+            if (!text.trim()) {
+              lastErr = new Error(`Model ${model} mengembalikan jawaban kosong`);
+              break;
+            }
+            return text;
+          } catch (e) {
+            if (e && (e.name === "AbortError" || String(e.message).startsWith("API key ditolak") || String(e.message).startsWith("API key belum"))) throw e;
+            lastErr = e;
+            // coba tanpa generationConfig, lalu model berikutnya
+          }
+        }
+      }
+      throw lastErr || new Error("Semua model Gemini gagal dihubungi. Cek koneksi internet dan kunci API Anda.");
+    }
+
+    // ==================== FALLBACK OFFLINE (jujur, via NaskahEngine) ====================
+    const localFallbackHarokat = (text) => NaskahEngine.localHarokat(text);
+    const localFallbackWashal = (text) => NaskahEngine.transliterate(NaskahEngine.localHarokat(text).text);
+    const localFallbackTranslation = (text) => NaskahEngine.localTranslation(text);
+
+    async function copyToClipboard(text, setCopied) {
+      if (!text) return;
+      try {
+        await navigator.clipboard.writeText(text);
+      } catch (e) {
+        const ta = document.createElement("textarea");
+        ta.value = text;
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand("copy");
+        document.body.removeChild(ta);
+      }
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    }
+
+    function downloadTXT(results) {
+      const content = `=== HASIL ANALISIS GARSHUNI STUDIO ===\n\n--- BACAAN ASLI (GUNDUL) ---\n${results.original || "-"}\n\n--- BACAAN HAROKAT ---\n${results.harokat || "-"}\n\n--- BACAAN WASHAL (LATIN) ---\n${results.washal || "-"}\n\n--- TERJEMAHAN INDONESIA ---\n${results.translate || "-"}\n`;
+      const blob = new Blob([content], { type: "text/plain;charset=utf-8" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "hasil-analisis-garshuni.txt";
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
+    // ==================== APLIKASI UTAMA ====================
+    const App = () => {
+      const [apiKey, setApiKey] = useState("");
+      const [inputText, setInputText] = useState("");
+      const [activeTab, setActiveTab] = useState("harokat");
+      const [results, setResults] = useState({ original: "", harokat: "", washal: "", translate: "" });
+      const [isProcessing, setIsProcessing] = useState(false);
+      const [showSettings, setShowSettings] = useState(false);
+      const [error, setError] = useState(null);
+      const [notice, setNotice] = useState(null);
+      const [warning, setWarning] = useState(null);
+      const [fileName, setFileName] = useState(null);
+      const [parsing, setParsing] = useState(false);
+      const [copied, setCopied] = useState(false);
+      const timeoutRef = useRef(null);
+
+      useEffect(() => {
+        const savedKey = localStorage.getItem("gemini_api_key");
+        if (savedKey) setApiKey(savedKey);
+      }, []);
+
+      const saveApiKey = (key) => {
+        setApiKey(key);
+        localStorage.setItem("gemini_api_key", key);
+      };
+      const saveAndClose = (key) => { saveApiKey(key); setShowSettings(false); };
+
+      const resetFeedback = () => { setError(null); setNotice(null); setWarning(null); };
+
+      // ==================== EKSTRAKSI FILE ====================
+      const extractTextFromPdf = async (file) => {
+        const pdfjsLib = window.pdfjsLib;
+        if (!pdfjsLib) throw new Error("Pustaka PDF belum termuat. Muat ulang halaman lalu coba lagi.");
+        pdfjsLib.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjsLib.version}/pdf.worker.min.js`;
+        const arrayBuffer = await file.arrayBuffer();
+        const pdf = await pdfjsLib.getDocument({ data: arrayBuffer }).promise;
+        let fullText = "";
+        const maxPages = Math.min(pdf.numPages, 5);
+        if (pdf.numPages > 5) {
+          setNotice(`PDF memiliki ${pdf.numPages} halaman. Hanya ${maxPages} halaman pertama yang diproses.`);
+        }
+        for (let i = 1; i <= maxPages; i++) {
+          const page = await pdf.getPage(i);
+          const textContent = await page.getTextContent();
+          fullText += textContent.items.map((item) => item.str).join(" ") + "\n";
+        }
+        return fullText;
+      };
+
+      const extractTextFromImage = async (file) => {
+        if (!apiKey) throw new Error("Ekstraksi teks dari gambar membutuhkan API key Gemini. Isi di Konfigurasi API.");
+        return new Promise((resolve, reject) => {
+          const reader = new FileReader();
+          reader.onload = async (e) => {
+            try {
+              const base64 = e.target.result.split(",")[1];
+              const model = MODEL_IDS[0];
+              const prompt = `Anda adalah OCR untuk teks Arab gundul (tanpa tasykil/tanda baca).
+Ekstrak teks Arab apa adanya dari gambar ini.
+ATURAN KETAT:
+1. Hasil WAJIB huruf Arab saja (bukan transliterasi Latin).
+2. JANGAN menambahkan tanda baca/harokat/tasykil sama sekali.
+3. JANGAN mengarang/melengkapi kalimat yang tidak terlihat.
+4. Hapus pengantar seperti "Berikut teksnya".
+5. Jika tidak ada tulisan Arab, kembalikan string kosong.`;
+              const raw = await callGemini({
+                apiKey,
+                parts: [{ inline_data: { mime_type: file.type || "image/jpeg", data: base64 } }, { text: prompt }],
+              });
+              const clean = NaskahEngine.cleanExtractedArabic(raw);
+              resolve(clean);
+            } catch (err) {
+              reject(err);
+            }
+          };
+          reader.onerror = () => reject(new Error("Gagal membaca file gambar"));
+          reader.readAsDataURL(file);
+        });
+      };
+
+      const extractTextFromFile = async (file) => {
+        setParsing(true);
+        resetFeedback();
+        try {
+          if (file.type === "application/pdf") {
+            const text = await extractTextFromPdf(file);
+            setInputText(text.trim());
+          } else if (file.type.startsWith("image/")) {
+            const text = await extractTextFromImage(file);
+            if (!text.trim()) {
+              throw new Error("Tidak ada tulisan Arab yang terbaca pada gambar ini.");
+            }
+            setInputText(text.trim());
+            setResults((prev) => ({ ...prev, original: text.trim() }));
+            setActiveTab("translator");
+            setNotice("Gambar berhasil dibaca. Hasilnya sudah dibersihkan menjadi teks Arab gundul — silakan tekan tombol proses untuk mengharokati.");
+          } else {
+            const text = await file.text();
+            setInputText(text.trim());
+          }
+        } catch (e) {
+          setError(`Gagal membaca file: ${e.message || e}`);
+        } finally {
+          setParsing(false);
+        }
+      };
+
+      const handleUpload = (e) => {
+        const file = e.target.files && e.target.files[0];
+        if (file) {
+          setFileName(file.name);
+          extractTextFromFile(file);
+        }
+      };
+
+      // ==================== PEMROSESAN AI (dengan fallback jujur) ====================
+      const runWithTimeout = async (fn) => {
+        const ctrl = new AbortController();
+        timeoutRef.current = setTimeout(() => ctrl.abort(), 90000);
+        try {
+          return await fn(ctrl.signal);
+        } finally {
+          clearTimeout(timeoutRef.current);
+        }
+      };
+
+      const generateHarokat = async () => {
+        if (!inputText.trim()) return;
+        setIsProcessing(true);
+        resetFeedback();
+        setResults((prev) => ({ ...prev, original: inputText }));
+        if (!apiKey) {
+          const h = localFallbackHarokat(inputText);
+          setResults((prev) => ({ ...prev, harokat: h.text }));
+          setNotice(`API key belum diisi — hasil dari kamus lokal (cakupan ${Math.round(h.coverage * 100)}% kata). Isi API key untuk hasil penuh via AI.`);
+          setIsProcessing(false);
+          return;
+        }
+        try {
+          const prompt = `Berikan teks Arab gundul ini dengan harokat (tasykil) yang benar dan akurat sesuai kaidah nahwu dan sharaf.
+
+ATURAN WAJIB:
+1. Pastikan setiap huruf, kata, dan tanda baca (seperti titik, koma, mim) tetap berada di tempatnya seperti aslinya.
+2. JANGAN mengubah, mengurangi, atau menambah kalimat, kata, atau tanda baca. Hasil akhir harus memiliki kerangka teks yang sama persis dengan aslinya, hanya ditambahkan harokat.
+
+TEKS ASLI:
+${inputText}`;
+          const system = "Balas HANYA dengan format JSON valid seperti ini: {\"harokat\": \"...\"}";
+          const raw = await runWithTimeout((signal) =>
+            callGemini({
+              apiKey,
+              parts: [{ text: prompt }],
+              systemInstruction: system,
+              forceJson: true,
+              signal,
+            })
+          );
+          const result = parseJSON(raw);
+          const harokat = result && result.harokat ? String(result.harokat) : "";
+          if (!harokat.trim()) throw new Error("AI tidak mengembalikan hasil harokat");
+          setResults((prev) => ({ ...prev, harokat }));
+          if (!NaskahEngine.isFaithful(inputText, harokat)) {
+            setWarning("Hasil AI tampak menyimpang dari teks asli (kerangka huruf berbeda). Periksa kembali, atau ulangi proses.");
+          }
+        } catch (e) {
+          const h = localFallbackHarokat(inputText);
+          setResults((prev) => ({ ...prev, harokat: h.text }));
+          const reason = e && e.name === "AbortError" ? "waktu tunggu >90 detik" : (e.message || String(e));
+          setNotice(`AI tidak dapat dihubungi (${reason}). Menampilkan hasil kamus lokal (cakupan ${Math.round(h.coverage * 100)}% kata).`);
+        } finally {
+          setIsProcessing(false);
+        }
+      };
+
+      const generateWashal = async () => {
+        if (!inputText.trim()) return;
+        setIsProcessing(true);
+        resetFeedback();
+        setResults((prev) => ({ ...prev, original: inputText }));
+        if (!apiKey) {
+          const washal = localFallbackWashal(inputText);
+          setResults((prev) => ({ ...prev, washal }));
+          setNotice("API key belum diisi — bacaan Washal dibuat mesin transliterasi lokal.");
+          setIsProcessing(false);
+          return;
+        }
+        try {
+          const prompt = `Ubah teks Arab gundul ini menjadi bacaan Washal (Latin/Romawi) sesuai kaidah bacaan sambung (washal).
+
+TEKS:
+${inputText}`;
+          const system = "Balas HANYA dengan format JSON valid seperti ini: {\"washal\": \"...\"}";
+          const raw = await runWithTimeout((signal) =>
+            callGemini({ apiKey, parts: [{ text: prompt }], systemInstruction: system, forceJson: true, signal })
+          );
+          const result = parseJSON(raw);
+          const washal = result && result.washal ? String(result.washal) : "";
+          if (!washal.trim()) throw new Error("AI tidak mengembalikan bacaan Washal");
+          setResults((prev) => ({ ...prev, washal }));
+        } catch (e) {
+          const washal = localFallbackWashal(inputText);
+          setResults((prev) => ({ ...prev, washal }));
+          const reason = e && e.name === "AbortError" ? "waktu tunggu >90 detik" : (e.message || String(e));
+          setNotice(`AI tidak dapat dihubungi (${reason}). Menampilkan bacaan Washal dari mesin transliterasi lokal.`);
+        } finally {
+          setIsProcessing(false);
+        }
+      };
+
+      const translate = async () => {
+        if (!inputText.trim()) return;
+        setIsProcessing(true);
+        resetFeedback();
+        setResults((prev) => ({ ...prev, original: inputText }));
+        if (!apiKey) {
+          const local = localFallbackTranslation(inputText);
+          if (local) {
+            setResults((prev) => ({ ...prev, translate: local }));
+          } else {
+            setNotice("Terjemahan offline hanya tersedia untuk teks contoh bawaan. Isi API key untuk menerjemahkan teks lain.");
+          }
+          setIsProcessing(false);
+          return;
+        }
+        try {
+          const prompt = `Terjemahkan teks Arab gundul ini ke dalam Bahasa Indonesia yang baik dan benar, sesuai konteks kalimat dan kaidah nahwu sharaf.
+
+TEKS:
+${inputText}`;
+          const system = "Balas HANYA dengan format JSON valid seperti ini: {\"translate\": \"...\"}";
+          const raw = await runWithTimeout((signal) =>
+            callGemini({ apiKey, parts: [{ text: prompt }], systemInstruction: system, forceJson: true, signal })
+          );
+          const result = parseJSON(raw);
+          const translate = result && result.translate ? String(result.translate) : "";
+          if (!translate.trim()) throw new Error("AI tidak mengembalikan terjemahan");
+          setResults((prev) => ({ ...prev, translate }));
+        } catch (e) {
+          const local = localFallbackTranslation(inputText);
+          if (local) {
+            setResults((prev) => ({ ...prev, translate: local }));
+          } else {
+            const reason = e && e.name === "AbortError" ? "waktu tunggu >90 detik" : (e.message || String(e));
+            setNotice(`AI tidak dapat dihubungi (${reason}) dan terjemahan offline hanya untuk teks contoh. Silakan coba lagi nanti.`);
+          }
+        } finally {
+          setIsProcessing(false);
+        }
+      };
+
+      return (
+        <div className="min-h-screen relative">
+          <div className="fixed inset-0 z-0 opacity-5 pointer-events-none">
+            <div className="absolute top-20 left-10 w-72 h-72 bg-gold-500 rounded-full blur-3xl"></div>
+            <div className="absolute bottom-20 right-10 w-96 h-96 bg-gold-600 rounded-full blur-3xl"></div>
+          </div>
+
+          <div className="relative z-10 max-w-7xl mx-auto px-4 py-8">
+            <header className="flex flex-col sm:flex-row items-center justify-between gap-6 mb-12">
+              <div className="flex items-center gap-4">
+                <div className="w-16 h-16 rounded-full bg-gradient-to-br from-[#232323] to-[#121212] border border-[#333] flex items-center justify-center shadow-xl">
+                  <div className="w-14 h-14 rounded-full bg-gradient-to-tr from-[#D4AF37] to-[#E6C766] flex items-center justify-center shadow-lg border-2 border-[#E6C766]">
+                    <div className="w-8 h-8 rounded-full bg-[#121212] flex items-center justify-center">
+                      <i className="ph-fill ph-scales text-[#D4AF37] text-xl"></i>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <h1 className="text-3xl font-bold text-[#F3F4F6] font-display">Garshuni <span className="text-[#D4AF37]">Studio</span></h1>
+                  <p className="text-[#9CA3AF] text-sm font-arabic tracking-wider mt-1">
+                    <span className="font-bold text-[#D4AF37]">Nahwu Sharaf</span> • Intelligent Arabic Analysis • Precision Diacritization
+                  </p>
+                </div>
+              </div>
+              <button
+                onClick={() => setShowSettings(true)}
+                className="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-[#1A1A1A] border border-[#333] hover:border-gold-500/50 text-[#9CA3AF] hover:text-[#F3F4F6] transition-colors"
+              >
+                <i className="ph-bold ph-gear text-lg"></i>
+                <span>Konfigurasi API</span>
+              </button>
+            </header>
+
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
+              <div className="lg:col-span-5">
+                <div className="glass-panel rounded-2xl p-6 border border-[#232323]">
+                  <div className="flex items-center gap-2 mb-4">
+                    <i className="ph-bold ph-keyboard text-[#D4AF37] text-xl"></i>
+                    <h2 className="text-lg font-semibold text-[#F3F4F6] font-display">Input / Unggah</h2>
+                  </div>
+                  <EditingArea
+                    inputText={inputText}
+                    setInputText={setInputText}
+                    isLoading={isProcessing}
+                    onUpload={handleUpload}
+                    fileName={fileName}
+                    parsing={parsing}
+                  />
+                  <div className="mt-4">
+                    <DropZone onFileSelect={handleUpload} />
+                  </div>
+                  <div className="mt-6 space-y-3">
+                    <button
+                      onClick={generateHarokat}
+                      disabled={isProcessing || !inputText.trim()}
+                      className="w-full bg-gradient-to-r from-gold-500 to-gold-600 text-[#121212] font-bold py-4 rounded-xl hover:scale-[1.02] transition-transform duration-200 shadow-lg shadow-gold-500/20 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+                    >
+                      <i className="ph-bold ph-magic-wand text-xl"></i>
+                      <span>Proses Bacaan</span>
+                    </button>
+                    <button
+                      onClick={translate}
+                      disabled={isProcessing || !inputText.trim()}
+                      className="w-full bg-[#232323] text-[#F3F4F6] font-semibold py-4 rounded-xl hover:bg-[#2A2A2A] transition-colors border border-[#333] disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+                    >
+                      <i className="ph-bold ph-translate text-xl"></i>
+                      <span>Terjemahkan Semua</span>
+                    </button>
+                    <button
+                      onClick={generateWashal}
+                      disabled={isProcessing || !inputText.trim()}
+                      className="w-full bg-[#232323] text-[#F3F4F6] font-semibold py-4 rounded-xl hover:bg-[#2A2A2A] transition-colors border border-[#333] disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+                    >
+                      <i className="ph-bold ph-text-aa text-xl"></i>
+                      <span>Bacaan Washal (Latin)</span>
+                    </button>
+                  </div>
+                </div>
+
+                {warning && (
+                  <div className="mt-4 bg-amber-950/60 border border-amber-700/70 text-amber-200 p-4 rounded-xl text-sm flex items-start gap-2">
+                    <i className="ph-bold ph-warning-circle mt-0.5"></i>
+                    <span className="flex-1">{warning}</span>
+                    <button onClick={() => setWarning(null)} className="opacity-60 hover:opacity-100"><i className="ph-bold ph-x"></i></button>
+                  </div>
+                )}
+                {notice && (
+                  <div className="mt-4 bg-sky-950/60 border border-sky-700/70 text-sky-200 p-4 rounded-xl text-sm flex items-start gap-2">
+                    <i className="ph-bold ph-info mt-0.5"></i>
+                    <span className="flex-1">{notice}</span>
+                    <button onClick={() => setNotice(null)} className="opacity-60 hover:opacity-100"><i className="ph-bold ph-x"></i></button>
+                  </div>
+                )}
+                {error && (
+                  <div className="mt-4 bg-[#2A1A1A] border border-red-900/50 text-red-300 p-4 rounded-xl text-sm flex items-start gap-2">
+                    <i className="ph-bold ph-warning-circle mt-0.5"></i>
+                    <span className="flex-1">{error}</span>
+                    <button onClick={() => setError(null)} className="opacity-60 hover:opacity-100"><i className="ph-bold ph-x"></i></button>
+                  </div>
+                )}
+              </div>
+
+              <div className="lg:col-span-7">
+                {activeTab === "harokat" && isProcessing ? (
+                  <ProcessingOverlay />
+                ) : (
+                  <div>
+                    <TabBar activeTab={activeTab} setActiveTab={setActiveTab} />
+                    {results.harokat || results.washal || results.translate ? (
+                      <ResultsSection
+                        results={results}
+                        activeTab={activeTab}
+                        onCopy={(text) => copyToClipboard(text, setCopied)}
+                        onDownload={downloadTXT}
+                      />
+                    ) : (
+                      <WelcomeScreen
+                        onTryExample={() => {
+                          setInputText(NaskahEngine.TEST_SAMPLE);
+                          resetFeedback();
+                          setFileName(null);
+                        }}
+                      />
+                    )}
+                  </div>
+                )}
+              </div>
+            </div>
+
+            <footer className="mt-20 pt-8 border-t border-[#232323] text-center">
+              <div className="flex items-center justify-center gap-2 mb-4">
+                <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-[#D4AF37] to-[#E6C766] flex items-center justify-center">
+                  <div className="w-5 h-5 rounded-full bg-[#121212] flex items-center justify-center">
+                    <i className="ph-fill ph-scales text-[#D4AF37] text-xs"></i>
+                  </div>
+                </div>
+                <span className="text-[#F3F4F6] font-bold font-display">Garshuni Studio</span>
+              </div>
+              <p className="text-[#666] text-sm">© 2026 Garshuni Studio • Dibuat dengan Tailwind CSS & Google Gemini</p>
+              <p className="text-[#444] text-xs mt-2">Mode offline: kamus harokat lokal & transliterasi Washal tersedia tanpa API key.</p>
+            </footer>
+          </div>
+
+          {showSettings && (
+            <SettingsModal
+              apiKey={apiKey}
+              onSave={saveApiKey}
+              onSaveAndClose={saveAndClose}
+              onClose={() => setShowSettings(false)}
+            />
+          )}
+        </div>
+      );
+    };
+
+    createRoot(document.getElementById("root")).render(<App />);
+  </script>
+</body>
+</html>
