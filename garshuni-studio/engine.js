@@ -1,12 +1,19 @@
 /**
- * NaskahEngine - mesin teks Arab untuk Garshuni Studio (murni JS, tanpa dependensi).
+ * NaskahEngine - mesin teks Arab untuk Garshuni Studio "Arena Edition"
+ * (murni JS, tanpa dependensi; dipakai index.html dan uji Node).
  *
- * Berisi:
- *  1. stripDiacritics / skeleton / levenshtein / similarity  -> penjaga mutu hasil AI
- *  2. transliterate()  -> "Latin Washal" sadar harokat (port dari ArabicTransliterator.kt)
- *  3. localHarokat()   -> kamus harokat offline berbasis KATA (perbaikan atas regex \b
- *     yang TIDAK PERNAH cocok dengan huruf Arab karena \w di JS hanya ASCII)
- *  4. fallback terjemahan yang JUJUR (tidak mengarang terjemahan untuk sembarang teks)
+ * Isi:
+ *  1. stripDiacritics / skeleton / canonMarks / levenshtein / similarity -> penjaga mutu AI
+ *  2. transliterate(text, mode) -> Latin sadar TIGA HUKUM WASHAL pengucapan:
+ *       Hukum 1  Ta Marbuthah   (ة): washal -> "t", waqaf -> "h"
+ *       Hukum 2  Hamzatul Washl (ا di awal kata): gugur saat menyambung,
+ *                dibaca i/a/u saat memulai kalimat
+ *       Hukum 3  Idgham Al-Lam  (ال): 14 huruf syamsiyah melebur (ar-, asy-, ...),
+ *                qamariyah tetap "al-"; tanwin bersambung ke artikel (fashlul-islaami)
+ *  3. localHarokat()  -> kamus harokat offline per kata (tahan beda hamzah/ta,
+ *     awalan tergabung; bukan regex \b yang buta huruf Arab)
+ *  4. localSyarah()   -> syarah offline: arti per kata dari kamus mufradat kitab
+ *  5. fallback terjemahan yang JUJUR (tidak mengarang untuk sembarang teks)
  */
 (function (factory) {
   // UMD: aman di browser (script klasik), Node CJS, maupun Node yang memuatnya
@@ -186,17 +193,57 @@
     return '';
   }
 
-  // ---------- transliterasi satu kata ----------
-  function transliterateWord(word) {
+  // ---------- transliterasi satu kata (sadar 3 hukum washal) ----------
+
+  // Kata ber-hamzatul washl non-artikel (ibnu, ismu, istaf'ala, ...).
+  // Kaidah: hamzatul washl dibaca kasrah ("i") untuk ism & fi'il madhi;
+  // fathah/dammah hanya untuk fi'il amr (perlu konteks — default "i").
+
+  function isWaslWord(chars) {
+    return chars.length > 1 && (chars[0] === ALEF || chars[0] === A_WASLA) && chars[1] !== LAM;
+  }
+
+  function waslStartVowel() {
+    return 'i';
+  }
+
+  /**
+   * @param word        satu kata Arab (idealnya berharokat)
+   * @param mode        'washal' (default) | 'waqaf'
+   * @param sentenceStart  true bila kata ini memulai kalimat
+   * @param sentenceEnd    true bila kata ini mengakhiri kalimat (titik waqaf)
+   * @return { text, waslDropped }
+   */
+  function transliterateWord(word, mode, sentenceStart, sentenceEnd) {
+    mode = mode === 'waqaf' ? 'waqaf' : 'washal';
+    var waqafHere = (mode === 'waqaf' && sentenceEnd); // hukum waqaf hanya di titik berhenti
     var chars = word.split('');
     var skel = stripDiacritics(word);
+    var waslDropped = false;
 
-    if (SPECIAL[skel]) return SPECIAL[skel] + trailingVowel(chars);
+    if (SPECIAL[skel]) return { text: SPECIAL[skel] + trailingVowel(chars), waslDropped: false };
+
+    // --- Hukum 2: hamzatul washl non-artikel ---
+    if (isWaslWord(chars)) {
+      // tanda harokat yang menempel pada alif ikut digugurkan/diambil
+      while (chars.length > 1 && (IGNORED[chars[1]] || VOW[chars[1]] || chars[1] === SHADDA || chars[1] === SUKUN)) {
+        chars.splice(1, 1);
+      }
+      if (!sentenceStart) {
+        waslDropped = true;
+        chars = chars.slice(1); // alif gugur saat menyambung (washal)
+      } else {
+        var wv = waslStartVowel(skel);
+        chars = chars.slice(1);
+        var rest = transliterateWord(chars.join(''), mode, false, sentenceEnd).text;
+        return { text: wv + rest, waslDropped: false };
+      }
+    }
 
     var out = [];
     var i = 0, lastVowel = '', assimilated = false;
 
-    // artikel "ال" di awal kata
+    // artikel "ال" di awal kata (Hukum 3: idgham al-lam ditangani di bawah)
     if (chars.length > 2 && chars[0] === ALEF && chars[1] === LAM) {
       var lam = scan(chars, 2);
       if (lam.shadda) {
@@ -208,7 +255,7 @@
         var nlT = scan(chars, lam.nextIndex + 1);
         if (!lam.vowel && nlT.shadda && SUN[nl]) {
           out.push('a');
-          assimilated = true; // idgham syamsiyah
+          assimilated = true; // idgham syamsiyah: ar-, asy-, ath-, ...
         } else {
           out.push('al-');
         }
@@ -228,7 +275,8 @@
       var base;
 
       if (ch === TA_MARB) {
-        base = (vowel || t.shadda) ? 't' : 'h';
+        // --- Hukum 1: ta marbuthah — washal "t", waqaf "h" di titik berhenti ---
+        base = waqafHere ? 'h' : 't';
       } else if (ch === A_HAMZA || ch === I_HAMZA || ch === A_WASLA) {
         base = vowel ? '' : (ch === I_HAMZA ? 'i' : 'a');
       } else if (ch === A_MADDA) {
@@ -274,34 +322,84 @@
       i = consumed;
     }
 
-    return out.join('');
+    var s = out.join('');
+    // mode waqaf di titik berhenti: tanwin akhir kata digugurkan
+    if (waqafHere) {
+      s = s.replace(/(an|in|un)$/, '');
+    }
+    return { text: s, waslDropped: waslDropped };
   }
 
   /**
-   * Transliterasi teks Arab (idealnya berharokat) -> Latin Washal.
-   * Konvensi pesantren Indonesia: sy, sh, th, kh, ‘, diftong ai/au.
+   * Transliterasi teks Arab -> Latin mengikuti 3 hukum washal (mode 'washal')
+   * atau bacaan waqaf (mode 'waqaf'). Konvensi pesantren Indonesia:
+   * sy, sh, th, kh, ‘, diftong ai/au.
    */
-  function transliterate(text) {
+  function transliterate(text, mode) {
     if (!text) return '';
-    var tokens = text.split(/(\s+)/);
-    var out = '';
-    for (var i = 0; i < tokens.length; i++) {
-      var tok = tokens[i];
+    mode = mode === 'waqaf' ? 'waqaf' : 'washal';
+    var raw = String(text).split(/(\s+)/);
+    var words = []; // { t, sentenceEnd }
+    for (var i = 0; i < raw.length; i++) {
+      var tok = raw[i];
       if (!tok) continue;
       if (/^\s+$/.test(tok)) {
-        out += tok.indexOf('\n') >= 0 ? '\n' : ' ';
-      } else {
-        out += transliterateWord(tok);
+        if (tok.indexOf('\n') >= 0 && words.length) words[words.length - 1].sentenceEnd = true;
+        continue;
       }
+      words.push({ t: tok, sentenceEnd: /[.؟!\u06D4]/.test(tok) });
     }
-    var s = out
+    if (words.length) words[words.length - 1].sentenceEnd = true;
+
+    var parts = []; // { t, wasl }
+    var sentenceStart = true;
+    for (var i = 0; i < words.length; i++) {
+      var r = transliterateWord(words[i].t, mode, sentenceStart, !!words[i].sentenceEnd);
+      parts.push({ t: r.text, wasl: r.waslDropped });
+      sentenceStart = !!words[i].sentenceEnd;
+    }
+
+    var s = '';
+    for (var i = 0; i < parts.length; i++) {
+      if (i === 0) s = parts[i].t;
+      else if (parts[i].wasl) s += '-' + parts[i].t; // Hukum 2: sambungan washal
+      else s += ' ' + parts[i].t;
+    }
+    s = s
       .replace(/[ \t]+/g, ' ')
-      .replace(/ ?\n ?/g, '\n')
       .replace(/ ([,.:;!?])/g, '$1');
-    // liaison tanwin + artikel: "arkaanu al-islaami" -> "arkaanul-islaami"
-    s = s.replace(/(\w(?:an|in|un)) (al?-)/g, '$1$2');
+    // Hukum 3 (lanjutan): sambungan tanwin + artikel — "fashlun al-islaami" -> "fashlul-islaami"
+    s = s.replace(/([aiu])n (al?-)/g, '$1l-');
     return s.trim();
   }
+
+  /** Tiga hukum washal untuk ditampilkan di UI. */
+  var WASHAL_RULES = [
+    {
+      no: 1,
+      nama: 'Ta Marbuthah (\u0629)',
+      penjelasan: 'Ta marbuthah dibaca "t" bila bacaan disambung (washal), dan dibaca "h" bila berhenti (waqaf).',
+      contoh: '\u062E\u064E\u0645\u0652\u0633\u064E\u0629\u064C',
+      washal: 'khamsatun',
+      waqaf: 'khamsah',
+    },
+    {
+      no: 2,
+      nama: 'Hamzatul Washl (\u0627\u0652 di awal kata)',
+      penjelasan: 'Alif di awal kata (seperti pada اِسْم، اِبْن، اِسْتَفْعَلَ) gugur saat menyambung ke kata sebelumnya, dan dibaca i/a/u bila memulai bacaan.',
+      contoh: '\u0639\u064E\u0644\u064E\u0649 \u0627\u0628\u0652\u0646\u0650\u0647\u0650',
+      washal: '‘alaa-bnihi',
+      waqaf: '‘alaa (berhenti) ibnihi',
+    },
+    {
+      no: 3,
+      nama: 'Idgham Al-Lam (\u0627\u0644)',
+      penjelasan: 'Lam pada artikel "al" melebur ke 14 huruf syamsiyah (ditulis ar-, asy-, ath-, dst. dengan tanda hubung); pada huruf qamariyah tetap "al-". Tanwin pun melebur bersambung ke artikel berikutnya.',
+      contoh: '\u0641\u064E\u0635\u0652\u0644\u064C \u0627\u0644\u0625\u0650\u0633\u0652\u0644\u064E\u0627\u0645\u0650 ... \u0627\u0644\u0634\u0651\u064E\u0645\u0652\u0633\u064F',
+      washal: 'fashlul-islaami ... asy-syamsu',
+      waqaf: 'fashlul-islaami ... asy-syamsu',
+    },
+  ];
 
   // ---------- kamus harokat lokal (berbasis kata, bukan regex \b) ----------
   var HARAKAT_PHRASES = [
@@ -481,6 +579,129 @@
     return stripDiacritics(kept.join(' ')).replace(/\s+/g, ' ').trim();
   }
 
+  // ---------- mufradat kitab & syarah offline ----------
+
+  /** Pemecah kalimat (berbasis tanda baca Arab & Latin, tanpa lookbehind). */
+  function splitSentences(text) {
+    var m = String(text || '').match(/[^.؟!\u06D4\n]+[.؟!\u06D4]*|\n/g);
+    return (m || [])
+      .map(function (s) { return s.replace(/\n/g, ' ').trim(); })
+      .filter(function (s) { return s && /[\u0600-\u06FF]/.test(s); });
+  }
+
+  /** Kamus mufradat: kunci gundul -> arti Indonesia (kosakata kitab kuning umum). */
+  var MUFRADAT = {};
+  (function () {
+    var pairs = [
+      ['\u0643\u062A\u0627\u0628', 'kitab'], ['\u0623\u062D\u0643\u0627\u0645', 'hukum-hukum'],
+      ['\u0627\u0644\u0637\u0647\u0627\u0631\u0629', 'bersuci'], ['\u0627\u0644\u0635\u0651\u0644\u0627\u0629', 'salat'],
+      ['\u0627\u0644\u0632\u0651\u0643\u0627\u0629', 'zakat'], ['\u0627\u0644\u0635\u0651\u0648\u0645', 'puasa'],
+      ['\u0627\u0644\u062D\u0651\u062C\u0651', 'haji'], ['\u0627\u0644\u0646\u0651\u0643\u0627\u062D', 'nikah/perkawinan'],
+      ['\u0627\u0644\u0637\u0651\u0644\u0627\u0642', 'talak'], ['\u0627\u0644\u0645\u0650\u064A\u0631\u0627\u062B', 'waris'],
+      ['\u0641\u064E\u0642\u0652\u0647', 'fiqih'], ['\u0646\u0652\u0635\u0652\u0651', 'nash/dalil'],
+      ['\u0639\u0650\u0644\u0652\u0645', 'ilmu'], ['\u0641\u064E\u0631\u0652\u0636', 'fardu'],
+      ['\u0648\u0627\u062C\u0650\u0628', 'wajib'], ['\u0645\u064F\u0628\u0627\u062D', 'mubah'],
+      ['\u062D\u064E\u0631\u0627\u0645', 'haram'], ['\u0645\u064E\u0643\u0652\u0631\u0648\u0647', 'makruh'],
+      ['\u0645\u064F\u0633\u0652\u062A\u064E\u062D\u064E\u0628\u0651\u0628', 'sunnah/disukai'],
+      ['\u0645\u064F\u0642\u064E\u062F\u0651\u0645\u0629', 'muqaddimah'], ['\u0628\u0627\u0628', 'bab'],
+      ['\u0641\u064E\u0635\u0652\u0644', 'fasal'], ['\u0645\u0633\u0627\u0626\u0644', 'masalah-masalah'],
+      ['\u0645\u0633\u0626\u0644\u0629', 'masalah'], ['\u0641\u064E\u0631\u0652\u0639', 'furuk/cabang'],
+      ['\u062F\u064E\u0644\u0650\u064A\u0644', 'dalil'], ['\u0642\u0650\u064A\u0627\u0633', 'qiyas'],
+      ['\u0625\u0650\u062C\u0652\u0645\u0627\u0639', 'ijmak'], ['\u062E\u064E\u0644\u0627\u0641', 'khilaf/perbedaan'],
+      ['\u0642\u064E\u0648\u0644', 'ucapan/pendapat'], ['\u0631\u064F\u0648\u0627\u064A\u0629', 'riwayat'],
+      ['\u0635\u064E\u062D\u0650\u064A\u062D', 'shahih'], ['\u0636\u064E\u0639\u0650\u064A\u0641', 'lemah'],
+      ['\u0627\u0644\u0641\u0627\u062A\u062D\u0629', 'Al-Fatihah'], ['\u0645\u064F\u062D\u064E\u0645\u0651\u062F', 'Muhammad'],
+      ['\u0631\u064E\u0633\u0648\u0648\u0644', 'utusan/rasul'], ['\u0627\u0644\u0644\u0651\u0647', 'Allah'],
+      ['\u0631\u064E\u0628\u0651', 'Tuhan'], ['\u0627\u0644\u0639\u0651\u0627\u0644\u0645\u0650\u064A\u0646', 'seluruh alam'],
+      ['\u0627\u0644\u0631\u0651\u064E\u062D\u0652\u0645\u064E\u0670\u0646', 'Maha Pengasih'],
+      ['\u0627\u0644\u0631\u0651\u064E\u062D\u0650\u064A\u0645', 'Maha Penyayang'],
+      ['\u0627\u0644\u062F\u0651\u0650\u064A\u0646', 'agama/pembalasan'], ['\u0627\u0644\u0646\u0651\u0627\u0633', 'manusia'],
+      ['\u064A\u064E\u0648\u0645', 'hari'], ['\u062D\u064E\u0633\u0627\u0628', 'hisab/perhitungan'],
+      ['\u0639\u064E\u0645\u064E\u0644', 'amal'], ['\u062E\u064E\u064A\u0652\u0631', 'kebaikan'],
+      ['\u0634\u064E\u0631\u0651', 'keburukan'], ['\u062A\u064E\u0642\u0652\u0648\u0649', 'takwa'],
+      ['\u0625\u0650\u064A\u0645\u0627\u0646', 'iman'], ['\u0643\u064F\u0641\u0652\u0631', 'kekufuran'],
+      ['\u0635\u0651\u0644\u0627\u0629', 'salat'], ['\u0635\u0650\u064A\u0627\u0645', 'puasa'],
+      ['\u062D\u064E\u062C\u0651\u0629', 'haji'], ['\u0639\u064F\u0645\u0652\u0631\u0629', 'umrah'],
+      ['\u0634\u064E\u0647\u064E\u0627\u062F\u064E\u0629', 'syahadah/kesaksian'],
+      ['\u0631\u064F\u0643\u064F\u0648\u0639', 'ruku'], ['\u0633\u064F\u062C\u064F\u0648\u062F', 'sujud'],
+      ['\u0648\u064F\u0636\u064F\u0648\u0621', 'wudu'], ['\u063A\u064F\u0633\u0652\u0644', 'mandi'],
+      ['\u062A\u064E\u064A\u0651\u0645\u064F\u0645', 'tayamum'], ['\u062D\u064E\u064A\u0636', 'haid'],
+      ['\u0625\u0650\u062D\u0652\u0631\u0627\u0645', 'ihram'], ['\u0631\u0650\u0628\u0627\u0648', 'riba'],
+      ['\u0628\u064E\u064A\u0652\u0639', 'jual beli'], ['\u0625\u0650\u062C\u064E\u0627\u0631\u0629', 'sewa'],
+      ['\u0642\u064E\u0627\u0636\u0650\u064A', 'hakim/qadhi'], ['\u0634\u064E\u0627\u0647\u0650\u062F', 'saksi'],
+      ['\u0628\u064E\u064A\u0651\u0650\u0646\u0629', 'bukti'], ['\u062D\u064F\u062F\u064F\u0648\u062F', 'had/hukuman'],
+      ['\u0642\u064E\u0635\u064E\u0627\u0635', 'qisas'], ['\u062F\u0650\u064A\u064E\u0627\u062A', 'diyat/denda'],
+      ['\u0639\u0650\u0628\u064E\u0627\u062F\u0627\u062A', 'ibadah'], ['\u0645\u064F\u0639\u0627\u0645\u064E\u0644\u0627\u062A', 'muamalah'],
+      ['\u0627\u0631\u0652\u0643\u064E\u0627\u0646', 'rukn/syarat utama'], ['\u0627\u0644\u0625\u0650\u0633\u0652\u0644\u064E\u0627\u0645', 'Islam'],
+      ['\u0627\u0644\u0625\u0650\u064A\u0645\u0627\u0646', 'iman'], ['\u0627\u0644\u0625\u0650\u062D\u0652\u0633\u064E\u0627\u0646', 'ihsan'],
+      ['\u0637\u064E\u0647\u064E\u0627\u0631\u0629', 'kesucian'], ['\u0646\u064E\u062C\u0627\u0633\u0629', 'najis'],
+      ['\u0627\u0644\u0645\u0627\u0621', 'air'], ['\u062C\u064E\u0646\u064E\u0627\u0628\u0629', 'junub'],
+      ['\u0633\u064E\u0641\u064E\u0631', 'perjalanan'], ['\u0636\u064E\u064A\u0652\u0641', 'tamu'],
+      ['\u062C\u064E\u0627\u0621\u064E', 'datang'], ['\u0648\u0627\u062C\u064E\u0628\u064E', 'wajib'],
+      ['\u0646\u064E\u0635\u0651\u064E', 'teks'], ['\u0627\u0644\u0644\u0651\u064E\u0647\u064F', 'Allah'],
+      ['\u0627\u062A\u0651\u064E\u0641\u064E\u0642\u064E\u062A\u0652', 'telah sepakat'],
+      ['\u0643\u064E\u0644\u0650\u0645\u064E\u0629\u064F', 'kata/firman'], ['\u0627\u0644\u0633\u0651\u064E\u0645\u0627\u0621', 'langit'],
+      ['\u0627\u0644\u0625\u0650\u0646\u0652\u0633\u064E\u0627\u0646', 'manusia'],
+      ['\u0633\u064E\u0639\u064E\u0627\u062F\u064E\u0629', 'kebahagiaan'], ['\u0639\u064E\u0627\u0644\u0645', 'alam'],
+      ['\u0627\u0644\u062F\u0651\u064F\u0646\u0652\u064A\u064E\u0627', 'dunia'], ['\u062F\u064E\u0628\u064E\u0631\u0627\u062C', 'permulaan'],
+      ['\u0648\u0627\u0644\u0634\u0651\u0647\u0627\u062F\u0629', 'dan kesaksian'],
+      ['\u0627\u0644\u0623\u064E\u0648\u0651\u064E\u0629', 'yang pertama'], ['\u0627\u0644\u062B\u0651\u0627\u0646\u0650\u064A\u0629', 'yang kedua'],
+      ['\u0627\u0644\u062B\u0651\u0627\u0644\u0650\u062B\u0629', 'yang ketiga'], ['\u0627\u0644\u0631\u064E\u0627\u0628\u0650\u0639\u0629', 'yang keempat'],
+      ['\u0627\u0644\u062E\u064E\u0627\u0645\u0650\u0633\u0629', 'yang kelima'], ['\u0648\u062C\u064F\u0647\u0629', 'segi/tujuan'],
+      ['\u0646\u064E\u0641\u064E\u0639', 'manfaat'], ['\u0636\u064E\u0631\u0631', 'bahaya'],
+    ];
+    pairs.forEach(function (p) {
+      MUFRADAT[p[0]] = p[1];
+      MUFRADAT[stripDiacritics(p[0])] = p[1]; // kunci gundul juga
+    });
+  })();
+
+  function lookupMufradat(core) {
+    if (!core) return null;
+    if (MUFRADAT[core]) return MUFRADAT[core];
+    var sk = skeleton(core);
+    var found = null, ambiguous = false;
+    for (var k in MUFRADAT) {
+      if (skeleton(k) !== sk) continue;
+      if (found === null) found = MUFRADAT[k];
+      else if (found !== MUFRADAT[k]) { ambiguous = true; break; } // arti beda = bingung
+    }
+    if (!ambiguous && found) return found;
+    // lepas artikel ال atau awalan tergabung
+    var m = core.match(/^[\u0648\u0641\u0628\u0644\u0643\u0633\u0627\u0644](.+)$/);
+    if (m && m[1].length > 1) {
+      var rest = lookupMufradat(m[1]);
+      if (rest) return rest;
+    }
+    return null;
+  }
+
+  /**
+   * Syarah offline (jujur): arti per kata dari kamus mufradat + perkiraan urutan arti.
+   * Penjelasan i'rab & kaidah nahwu-sharaf penuh hanya via AI (API key).
+   */
+  function localSyarah(text) {
+    var sentences = splitSentences(text);
+    var out = sentences.map(function (kal) {
+      var words = kal.split(/\s+/).filter(Boolean);
+      var kosakata = words.map(function (w) {
+        var core = w.replace(EDGE_PUNCT, '');
+        if (!core || !isArabicChar(core[0])) return { kata: w, arti: null, arab: false };
+        return { kata: core, arti: lookupMufradat(core), arab: true };
+      });
+      var terkira = kosakata
+        .filter(function (k) { return k.arab; })
+        .map(function (k) { return k.arti || '[?]'; })
+        .join(' + ');
+      return { asli: kal, kosakata: kosakata, terkira: terkira };
+    });
+    return {
+      mode: 'offline',
+      catatan: "Syarah offline baru berupa arti per kata dari kamus mufradat; penjelasan i'rab, kaidah nahwu-sharaf, dan penyambungan makna memerlukan API key Gemini (tombol Syarah).",
+      kalimat: out,
+    };
+  }
+
   return {
     isHarakat: isHarakat,
     isArabicChar: isArabicChar,
@@ -491,8 +712,12 @@
     similarity: similarity,
     isFaithful: isFaithful,
     transliterate: transliterate,
+    WASHAL_RULES: WASHAL_RULES,
     localHarokat: localHarokat,
     localTranslation: localTranslation,
+    MUFRADAT: MUFRADAT,
+    splitSentences: splitSentences,
+    localSyarah: localSyarah,
     cleanExtractedArabic: cleanExtractedArabic,
     TEST_SAMPLE: TEST_SAMPLE
   };

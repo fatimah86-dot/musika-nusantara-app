@@ -1,938 +1,1629 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Garshuni Studio - Nahwu Sharaf Pro</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Garshuni Studio — Kitab Gundul, Harokat, Latin Washal & Syarah</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --bg: #101010; --panel: rgba(30,30,30,.72); --panel-solid: #1a1a1a;
+    --line: #2a2a2a; --line2: #383838;
+    --gold: #d4af37; --gold2: #e6c766; --gold-dim: rgba(212,175,55,.16);
+    --text: #f3f4f6; --muted: #9ca3af; --faint: #666;
+    --ok: #34d399; --info: #38bdf8; --warn: #fbbf24; --err: #f87171;
+    --radius: 16px;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background-color: var(--bg);
+    background-image: radial-gradient(rgba(255,255,255,.045) 1px, transparent 1px);
+    background-size: 22px 22px;
+    color: var(--text);
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    line-height: 1.55;
+    min-height: 100vh;
+  }
+  .arabic { font-family: 'Amiri', 'Traditional Arabic', serif; direction: rtl; text-align: right; line-height: 2.1; }
+  .display { font-family: 'Cairo', 'Inter', sans-serif; }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 24px 16px 48px; }
 
-  <!-- Mesin lokal: harokat kamus, transliterasi Washal, penjaga kesetiaan (offline & jujur) -->
-  <script src="naskah-engine.js"></script>
-  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  /* ---------- header ---------- */
+  header { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 22px; }
+  .brand { display: flex; align-items: center; gap: 14px; }
+  .logo {
+    width: 54px; height: 54px; border-radius: 50%;
+    background: linear-gradient(135deg, var(--gold), var(--gold2));
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 8px 24px rgba(212,175,55,.35); flex: none;
+    font-size: 26px;
+  }
+  .logo span { background: var(--bg); width: 34px; height: 34px; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+  h1 { font-size: 26px; margin: 0; letter-spacing: .3px; }
+  h1 .gold { color: var(--gold); }
+  .tagline { color: var(--muted); font-size: 13px; margin-top: 2px; }
+  .head-actions { display: flex; gap: 10px; flex-wrap: wrap; }
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          fontFamily: {
-            sans: ['Inter', 'sans-serif'],
-            display: ['Cairo', 'sans-serif'],
-            arabic: ['Amiri', 'serif'],
-          },
-          colors: {
-            gold: {
-              400: '#E6C766',
-              500: '#D4AF37',
-              600: '#B8962E',
-            },
-          },
-          animation: {
-            'fade-in': 'fadeIn 0.5s ease-out',
-            'slide-up': 'slideUp 0.5s ease-out',
-            'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-            'spin-slow': 'spin 3s linear infinite',
-            'ping-slow': 'ping 2s cubic-bezier(0, 0, 0.2, 1) infinite',
-          },
-          keyframes: {
-            fadeIn: {
-              '0%': { opacity: '0' },
-              '100%': { opacity: '1' },
-            },
-            slideUp: {
-              '0%': { opacity: '0', transform: 'translateY(20px)' },
-              '100%': { opacity: '1', transform: 'translateY(0)' },
-            },
-          },
-        },
-      },
-    };
-  </script>
-  <style>
-    @keyframes border-expand {
-      0% { transform: scaleX(0); }
-      100% { transform: scaleX(1); }
-    }
-    .animate-border-expand {
-      animation: border-expand 1.2s linear infinite;
-    }
-    body {
-      background-color: #121212;
-      background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
-      background-size: 24px 24px;
-    }
-    .glass-panel {
-      background: rgba(30, 30, 30, 0.7);
-      backdrop-filter: blur(16px);
-      -webkit-backdrop-filter: blur(16px);
-    }
-    .arabic-text {
-      direction: rtl;
-      text-align: right;
-      line-height: 2.2;
-    }
-    .custom-scrollbar::-webkit-scrollbar { width: 8px; height: 8px; }
-    .custom-scrollbar::-webkit-scrollbar-track { background: #1a1a1a; }
-    .custom-scrollbar::-webkit-scrollbar-thumb { background: #333; border-radius: 4px; }
-    .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #444; }
-  </style>
+  /* ---------- tombol ---------- */
+  .btn {
+    border: 1px solid var(--line2); background: var(--panel-solid); color: var(--text);
+    padding: 11px 16px; border-radius: 12px; font-size: 14px; font-weight: 600;
+    cursor: pointer; display: inline-flex; align-items: center; gap: 8px;
+    transition: transform .15s, border-color .15s, background .15s;
+    font-family: inherit;
+  }
+  .btn:hover { border-color: var(--gold); transform: translateY(-1px); }
+  .btn:disabled { opacity: .45; cursor: not-allowed; transform: none; }
+  .btn.primary {
+    background: linear-gradient(135deg, var(--gold), #b8962e); color: #121212; border-color: transparent;
+    box-shadow: 0 10px 26px rgba(212,175,55,.22);
+  }
+  .btn.primary:hover { filter: brightness(1.06); }
+  .btn.ghost { background: transparent; }
+  .btn.small { padding: 7px 12px; font-size: 12.5px; border-radius: 10px; }
+  .btn .ic { font-size: 16px; line-height: 1; }
+
+  /* ---------- panel & grid ---------- */
+  .panel {
+    background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius);
+    padding: 20px; backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+  }
+  .grid { display: grid; grid-template-columns: 5fr 7fr; gap: 20px; align-items: start; }
+  @media (max-width: 940px) { .grid { grid-template-columns: 1fr; } }
+  .panel h2 { margin: 0 0 14px; font-size: 17px; display: flex; align-items: center; gap: 9px; }
+  .panel h2 .ic { color: var(--gold); font-size: 20px; }
+
+  textarea#input {
+    width: 100%; min-height: 190px; resize: vertical;
+    background: var(--panel-solid); border: 1px solid var(--line2); border-radius: 12px;
+    color: var(--text); font-size: 21px; padding: 14px; outline: none;
+    font-family: 'Amiri', serif; direction: rtl; text-align: right; line-height: 2.1;
+  }
+  textarea#input:focus { border-color: var(--gold); box-shadow: 0 0 0 3px var(--gold-dim); }
+  .file-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: 10px; flex-wrap: wrap; }
+  .file-name { color: var(--muted); font-size: 12.5px; display: flex; align-items: center; gap: 6px; }
+  .actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 16px; }
+  .actions .full { grid-column: 1 / -1; }
+
+  /* ---------- banner ---------- */
+  .banner {
+    display: flex; gap: 10px; align-items: flex-start; margin-top: 12px;
+    padding: 12px 14px; border-radius: 12px; font-size: 13px;
+  }
+  .banner .x { margin-left: auto; cursor: pointer; opacity: .6; background: none; border: 0; color: inherit; font-size: 15px; }
+  .banner .x:hover { opacity: 1; }
+  .banner.info  { background: rgba(56,189,248,.10); border: 1px solid rgba(56,189,248,.35); color: #bae6fd; }
+  .banner.warn  { background: rgba(251,191,36,.10); border: 1px solid rgba(251,191,36,.35); color: #fde68a; }
+  .banner.err   { background: rgba(248,113,113,.10); border: 1px solid rgba(248,113,113,.35); color: #fecaca; }
+  .banner.ok    { background: rgba(52,211,153,.10); border: 1px solid rgba(52,211,153,.35); color: #a7f3d0; }
+
+  /* ---------- tab ---------- */
+  .tabs { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; margin-bottom: 14px; }
+  .tab {
+    flex: 1; min-width: max-content; justify-content: center;
+    border: 1px solid var(--line2); background: var(--panel-solid); color: var(--muted);
+    padding: 11px 16px; border-radius: 12px; cursor: pointer; font-weight: 600; font-size: 13.5px;
+    display: inline-flex; align-items: center; gap: 8px; font-family: inherit;
+  }
+  .tab.active {
+    background: linear-gradient(135deg, var(--gold), #b8962e); color: #121212; border-color: transparent;
+    box-shadow: 0 8px 22px rgba(212,175,55,.2);
+  }
+
+  .result-box {
+    background: var(--panel-solid); border: 1px solid var(--line2); border-radius: 12px;
+    padding: 16px; min-height: 120px;
+  }
+  .result-box.arabic { font-family: 'Amiri', serif; direction: rtl; text-align: right; font-size: 23px; line-height: 2.2; }
+  .result-box.latin { font-size: 18px; color: var(--gold2); font-style: italic; letter-spacing: .2px; }
+  .result-label { font-size: 11px; letter-spacing: 1.6px; text-transform: uppercase; color: var(--muted); margin: 14px 0 6px; display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+  .result-label:first-child { margin-top: 0; }
+  .result-tools { display: flex; gap: 8px; margin-top: 14px; flex-wrap: wrap; }
+  .placeholder { color: var(--faint); font-style: italic; font-size: 14px; text-align: center; padding: 26px 10px; }
+  .muted { color: var(--muted); font-size: 13px; }
+
+  /* ---------- kartu hukum washal ---------- */
+  #rules { margin-bottom: 20px; display: none; }
+  #rules.open { display: block; }
+  .rules-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+  @media (max-width: 940px) { .rules-grid { grid-template-columns: 1fr; } }
+  .rule-card { background: var(--panel-solid); border: 1px solid var(--line2); border-radius: 12px; padding: 16px; }
+  .rule-no { width: 30px; height: 30px; border-radius: 50%; background: var(--gold-dim); color: var(--gold); font-weight: 700; display: flex; align-items: center; justify-content: center; margin-bottom: 10px; border: 1px solid rgba(212,175,55,.4); }
+  .rule-card h3 { margin: 0 0 8px; font-size: 15px; }
+  .rule-card p { margin: 0 0 10px; color: var(--muted); font-size: 12.8px; }
+  .rule-ex { background: var(--bg); border: 1px solid var(--line); border-radius: 10px; padding: 10px; font-size: 13px; }
+  .rule-ex .ar { font-family: 'Amiri', serif; direction: rtl; text-align: right; font-size: 19px; color: var(--text); }
+  .rule-ex .w { color: var(--ok); } .rule-ex .q { color: var(--warn); }
+  .mode-row { display: flex; align-items: center; gap: 10px; margin-top: 14px; flex-wrap: wrap; }
+  .mode-pill { padding: 8px 16px; border-radius: 999px; border: 1px solid var(--line2); background: var(--panel-solid); color: var(--muted); cursor: pointer; font-size: 13px; font-weight: 600; font-family: inherit; }
+  .mode-pill.active { background: var(--gold-dim); color: var(--gold); border-color: rgba(212,175,55,.5); }
+
+  /* ---------- syarah ---------- */
+  .syarah-card { background: var(--panel-solid); border: 1px solid var(--line2); border-radius: 12px; padding: 16px; margin-bottom: 12px; }
+  .syarah-card .ar { font-family: 'Amiri', serif; direction: rtl; text-align: right; font-size: 21px; color: var(--gold2); line-height: 2.1; margin-bottom: 10px; }
+  .syarah-field { margin: 6px 0; font-size: 13.5px; }
+  .syarah-field b { color: var(--gold); font-weight: 600; }
+  .gloss-list { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+  .gloss { background: var(--bg); border: 1px solid var(--line); padding: 6px 10px; border-radius: 9px; font-size: 12.5px; }
+  .gloss .w { font-family: 'Amiri', serif; direction: rtl; display: block; font-size: 16px; color: var(--text); }
+  .gloss .a { color: var(--muted); }
+  .gloss .a.known { color: var(--ok); }
+
+  /* ---------- modal ---------- */
+  .modal-bg {
+    position: fixed; inset: 0; background: rgba(0,0,0,.72); backdrop-filter: blur(6px);
+    display: flex; align-items: center; justify-content: center; padding: 18px; z-index: 100;
+  }
+  .modal {
+    background: var(--panel-solid); border: 1px solid var(--line2); border-radius: 18px;
+    padding: 24px; width: 100%; max-width: 460px; box-shadow: 0 24px 80px rgba(0,0,0,.5);
+  }
+  .modal h2 { margin: 0 0 16px; font-size: 20px; display: flex; align-items: center; gap: 10px; }
+  .modal label { display: block; font-size: 13px; color: var(--muted); margin: 0 0 6px; }
+  .modal input[type=password], .modal input[type=text] {
+    width: 100%; background: var(--bg); border: 1px solid var(--line2); color: var(--text);
+    border-radius: 12px; padding: 12px 14px; font-size: 14px; outline: none; font-family: inherit;
+  }
+  .modal input:focus { border-color: var(--gold); box-shadow: 0 0 0 3px var(--gold-dim); }
+  .modal .hint { font-size: 11.5px; color: var(--faint); margin: 8px 0 14px; }
+  .modal .hint a { color: var(--gold); }
+  .modal .stack { display: grid; gap: 9px; margin-top: 6px; }
+  .modal-head { display: flex; justify-content: space-between; align-items: center; }
+
+  /* ---------- lain-lain ---------- */
+  .spinner {
+    width: 42px; height: 42px; border-radius: 50%; margin: 6px auto 14px;
+    border: 3px solid var(--line2); border-top-color: var(--gold); animation: spin 1s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  footer { margin-top: 34px; padding-top: 18px; border-top: 1px solid var(--line); text-align: center; color: var(--faint); font-size: 12.5px; }
+  footer .fl { color: var(--muted); }
+  .chips { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+  .chip { font-size: 11.5px; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 4px 11px; }
+</style>
 </head>
-<body class="font-sans text-[#F3F4F6] antialiased selection:bg-gold-500/30 min-h-screen">
-  <div id="root"></div>
+<body>
+<div class="wrap">
 
-  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-  <script type="text/babel">
-    const { useState, useEffect, useRef } = React;
-    const NaskahEngine = window.NaskahEngine;
+  <header>
+    <div class="brand">
+      <div class="logo"><span>⚖</span></div>
+      <div>
+        <h1 class="display">Garshuni <span class="gold">Studio</span></h1>
+        <div class="tagline">Kitab Gundul → Harokat Otomatis • Latin Washal (3 Hukum) • Terjemahan • Syarah</div>
+      </div>
+    </div>
+    <div class="head-actions">
+      <button class="btn ghost" id="btnRules"><span class="ic">📖</span> 3 Hukum Washal</button>
+      <button class="btn" id="btnSettings"><span class="ic">⚙</span> Konfigurasi API</button>
+    </div>
+  </header>
 
-    // ==================== IKON (PHOSPHOR) ====================
-    const Icon = ({ name, className = "w-6 h-6" }) => (
-      <i className={`ph-bold ${name} ${className}`} style={{ fontSize: 'inherit' }}></i>
-    );
+  <!-- panel 3 hukum washal -->
+  <section class="panel" id="rules">
+    <h2><span class="ic">📖</span> Tiga Hukum Washal Pengucapan</h2>
+    <div class="rules-grid" id="rulesGrid"></div>
+    <div class="mode-row">
+      <span class="muted">Mode bacaan Latin:</span>
+      <button class="mode-pill active" data-mode="washal">Washal (sambung)</button>
+      <button class="mode-pill" data-mode="waqaf">Waqaf (berhenti)</button>
+    </div>
+  </section>
 
-    const ICONS = {
-      magic: "ph-magic-wand",
-      upload: "ph-upload-simple",
-      camera: "ph-camera",
-      file: "ph-file-text",
-      sparkle: "ph-sparkle",
-      copy: "ph-copy",
-      download: "ph-download-simple",
-      check: "ph-check-circle",
-      warning: "ph-warning-circle",
-      gear: "ph-gear",
-      key: "ph-key",
-      text: "ph-text-aa",
-      translate: "ph-translate",
-      book: "ph-book-open",
-      paperPlane: "ph-paper-plane-right",
-      arrowRight: "ph-arrow-right",
-      x: "ph-x",
-      info: "ph-info",
-    };
-
-    // ==================== KOMPONEN UI KECIL ====================
-    function TabBar({ activeTab, setActiveTab }) {
-      const tabs = [
-        { id: "harokat", label: "Harokat & Analisis", icon: ICONS.book },
-        { id: "translator", label: "Translator", icon: ICONS.translate },
-        { id: "read", label: "Bacaan Washal", icon: ICONS.text },
-      ];
-      return (
-        <div className="flex space-x-2 bg-[#1A1A1A] p-1.5 rounded-2xl border border-[#232323] mb-8 overflow-x-auto custom-scrollbar">
-          {tabs.map((tab) => (
-            <button
-              key={tab.id}
-              onClick={() => setActiveTab(tab.id)}
-              className={`flex items-center gap-2 px-6 py-3 rounded-xl transition-all duration-300 whitespace-nowrap flex-1 justify-center ${
-                activeTab === tab.id
-                  ? "bg-gradient-to-r from-gold-500 to-gold-600 text-[#121212] font-bold shadow-lg shadow-gold-500/20"
-                  : "text-[#9CA3AF] hover:bg-[#232323] hover:text-[#F3F4F6]"
-              }`}
-            >
-              <i className={`ph-bold ${tab.icon} text-lg`}></i>
-              <span>{tab.label}</span>
-            </button>
-          ))}
+  <div class="grid">
+    <!-- ====== panel kiri: input ====== -->
+    <section class="panel">
+      <h2><span class="ic">⌨</span> Naskah Kitab</h2>
+      <textarea id="input" placeholder="Ketik atau tempel teks kitab Arab gundul di sini… (tanpa harokat)"></textarea>
+      <div class="file-row">
+        <div class="file-name" id="fileName">📄 Belum ada file</div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap">
+          <button class="btn small" id="btnFile"><span class="ic">⬆</span> Unggah</button>
+          <button class="btn small ghost" id="btnSample"><span class="ic">✦</span> Contoh</button>
+          <button class="btn small ghost" id="btnClear"><span class="ic">✕</span> Bersihkan</button>
         </div>
-      );
-    }
+        <input type="file" id="file" hidden accept=".txt,.docx,.pdf,image/*" />
+      </div>
 
-    function WelcomeScreen({ onTryExample }) {
-      return (
-        <div className="glass-panel rounded-3xl p-12 text-center border border-[#232323] relative overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-b from-gold-500/5 to-transparent pointer-events-none"></div>
-          <div className="relative z-10">
-            <div className="w-24 h-24 mx-auto mb-8 rounded-full bg-gradient-to-br from-[#232323] to-[#121212] border border-[#333] flex items-center justify-center shadow-2xl">
-              <i className="ph-fill ph-translate text-[#D4AF37] text-5xl animate-pulse-slow"></i>
-            </div>
-            <h2 className="text-3xl font-bold text-[#F3F4F6] font-display mb-4">Analisis Bahasa Arab Presisi</h2>
-            <p className="text-[#9CA3AF] text-lg max-w-2xl mx-auto leading-relaxed mb-8">
-              Unggah dokumen, foto, atau ketik teks Arab gundul untuk mendapatkan
-              <span className="text-[#D4AF37] font-semibold"> harokat otomatis</span>,
-              <span className="text-[#D4AF37] font-semibold"> transliterasi</span>, dan
-              <span className="text-[#D4AF37] font-semibold"> terjemahan Indonesia</span>.
-            </p>
-            <div className="flex flex-wrap justify-center gap-4">
-              <button onClick={onTryExample} className="bg-gradient-to-r from-gold-500 to-gold-600 text-[#121212] font-bold px-8 py-4 rounded-xl shadow-xl hover:scale-105 transition-transform duration-300 flex items-center gap-2">
-                <i className="ph-bold ph-sparkle text-xl"></i>
-                <span>Coba Contoh Teks</span>
-              </button>
-            </div>
-          </div>
+      <div class="actions">
+        <button class="btn primary full" id="btnAll"><span class="ic">🪄</span> Proses Semua (Harokat → Latin → Terjemah → Syarah)</button>
+        <button class="btn" id="btnHarokat"><span class="ic">🪄</span> Harokat</button>
+        <button class="btn" id="btnLatin"><span class="ic">🔤</span> Latin Washal</button>
+        <button class="btn" id="btnTerjemah"><span class="ic">🌐</span> Terjemah</button>
+        <button class="btn" id="btnSyarah"><span class="ic">📚</span> Syarah</button>
+      </div>
+
+      <div id="banners"></div>
+
+      <div class="chips">
+        <span class="chip">✏️ Ekstraksi teks: TXT • DOCX • PDF • Foto (Gemini Vision)</span>
+        <span class="chip">🔒 Kunci API disimpan lokal di perangkat Anda</span>
+      </div>
+    </section>
+
+    <!-- ====== panel kanan: hasil ====== -->
+    <section class="panel">
+      <div class="tabs" id="tabs">
+        <button class="tab active" data-tab="harokat"><span class="ic">📖</span> Harokat</button>
+        <button class="tab" data-tab="latin"><span class="ic">🔤</span> Latin Washal</button>
+        <button class="tab" data-tab="terjemah"><span class="ic">🌐</span> Terjemahan</button>
+        <button class="tab" data-tab="syarah"><span class="ic">📚</span> Syarah</button>
+      </div>
+
+      <div id="resultArea">
+        <div class="placeholder" id="placeholder">
+          Hasil analisis akan muncul di sini.<br />
+          Mulai dengan menempelkan teks kitab gundul lalu tekan <b>Proses Semua</b>.
         </div>
-      );
-    }
+      </div>
 
-    function ProcessingOverlay() {
-      return (
-        <div className="glass-panel rounded-3xl p-16 text-center border border-gold-500/30 relative overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-b from-gold-500/10 to-transparent"></div>
-          <div className="relative z-10">
-            <div className="w-32 h-32 mx-auto mb-8 relative">
-              <div className="absolute inset-0 border-4 border-gold-500/20 rounded-full"></div>
-              <div className="absolute inset-0 border-4 border-transparent border-t-gold-500 rounded-full animate-spin-slow"></div>
-              <div className="absolute inset-4 border-4 border-gold-500/10 rounded-full"></div>
-              <div className="absolute inset-4 border-4 border-transparent border-b-gold-500 rounded-full animate-spin-slow animation-delay-500" style={{ animationDirection: 'reverse' }}></div>
-              <div className="absolute inset-0 flex items-center justify-center">
-                <i className="ph-fill ph-brain text-[#D4AF37] text-5xl animate-pulse-slow"></i>
-              </div>
-            </div>
-            <h3 className="text-2xl font-bold text-[#F3F4F6] font-display mb-2">Menganalisis Bahasa...</h3>
-            <p className="text-[#9CA3AF] text-sm mb-6">AI sedang memproses teks dengan algoritma Nahwu Sharaf</p>
-            <div className="w-full max-w-md mx-auto bg-[#232323] rounded-full h-2 overflow-hidden">
-              <div className="h-full bg-gradient-to-r from-gold-500 to-gold-400 rounded-full animate-border-expand origin-left"></div>
-            </div>
-            <div className="flex justify-center gap-8 mt-8">
-              <div className="flex items-center gap-2 text-[#9CA3AF] text-xs">
-                <div className="w-2 h-2 rounded-full bg-gold-500 animate-ping-slow"></div>
-                <span>Tokenisasi</span>
-              </div>
-              <div className="flex items-center gap-2 text-[#9CA3AF] text-xs">
-                <div className="w-2 h-2 rounded-full bg-gold-500 animate-ping-slow animation-delay-200"></div>
-                <span>Analisis I'rab</span>
-              </div>
-              <div className="flex items-center gap-2 text-[#9CA3AF] text-xs">
-                <div className="w-2 h-2 rounded-full bg-gold-500 animate-ping-slow animation-delay-500"></div>
-                <span>Render Harokat</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      );
-    }
+      <div class="result-tools" id="resultTools" style="display:none">
+        <button class="btn small" id="btnCopy"><span class="ic">⧉</span> Salin hasil</button>
+        <button class="btn small" id="btnDownload"><span class="ic">⬇</span> Unduh TXT</button>
+      </div>
+    </section>
+  </div>
 
-    function EditingArea({ inputText, setInputText, isLoading, onUpload, fileName, parsing }) {
-      return (
-        <div className="space-y-4">
-          <div className="relative group">
-            <div className="absolute -inset-0.5 bg-gradient-to-r from-gold-500 to-gold-600 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
-            <div className="relative bg-[#1A1A1A] rounded-2xl p-6 border border-[#333] transition-colors">
-              <textarea
-                value={inputText}
-                onChange={(e) => setInputText(e.target.value)}
-                placeholder="Ketik atau tempel teks Arab gundul di sini..."
-                className="w-full h-48 bg-transparent text-[#F3F4F6] text-lg font-arabic arabic-text leading-loose resize-none focus:outline-none placeholder:text-[#666] placeholder:font-sans placeholder:text-right"
-                disabled={isLoading}
-              />
-              <div className="flex items-center justify-between pt-4 border-t border-[#232323]">
-                <span className="text-[#9CA3AF] text-xs uppercase tracking-widest font-medium">Arabic Text Input</span>
-                <label className="cursor-pointer flex items-center gap-2 text-[#D4AF37] hover:text-gold-400 transition-colors">
-                  <i className="ph-bold ph-upload-simple"></i>
-                  <span className="text-sm font-medium">Unggah File</span>
-                  <input type="file" className="hidden" onChange={onUpload} accept=".txt,.docx,.pdf,image/*" />
-                </label>
-              </div>
-            </div>
-          </div>
+  <footer>
+    <div class="fl display">Garshuni Studio — Arena Edition</div>
+    <div>Mesin lokal: harokat kamus • Latin Washal 3 hukum • syarah mufradat — berfungsi tanpa API key.</div>
+    <div>Fitur AI penuh (harokat seluruh naskah, terjemahan bebas, syarah i'rab & kaidah) memerlukan kunci Gemini.</div>
+  </footer>
+</div>
 
-          {parsing && (
-            <div className="flex items-center gap-2 text-[#9CA3AF] text-sm">
-              <div className="w-4 h-4 border-2 border-gold-500/30 border-t-gold-500 rounded-full animate-spin"></div>
-              <span>Mengekstrak teks...</span>
-            </div>
-          )}
-          {fileName && (
-            <div className="flex items-center gap-2 text-[#9CA3AF] text-sm bg-[#1A1A1A] px-4 py-2 rounded-lg border border-[#232323]">
-              <i className="ph-bold ph-file-text text-gold-500"></i>
-              <span>{fileName}</span>
-            </div>
-          )}
-        </div>
-      );
-    }
+<!-- modal API -->
+<div class="modal-bg" id="modal" style="display:none">
+  <div class="modal">
+    <div class="modal-head">
+      <h2><span class="ic" style="color:var(--gold)">🔑</span> Konfigurasi API</h2>
+      <button class="btn small ghost" id="btnModalClose">✕</button>
+    </div>
+    <label>GEMINI_API_KEY</label>
+    <input type="password" id="apiKey" placeholder="AIza..." autocomplete="off" />
+    <div class="hint">
+      Kunci disimpan hanya di browser Anda (localStorage) dan dikirim langsung ke Google saat diproses.
+      Buat kunci gratis di <a href="https://aistudio.google.com/apikey" target="_blank" rel="noreferrer">aistudio.google.com/apikey</a>.
+    </div>
+    <div id="testResult"></div>
+    <div class="stack">
+      <button class="btn primary" id="btnSaveKey"><span class="ic">💾</span> Simpan</button>
+      <button class="btn" id="btnTestKey"><span class="ic">🔌</span> Uji Koneksi</button>
+      <button class="btn ghost" id="btnSkipKey">Lanjut Tanpa Key (Mode Offline Terbatas)</button>
+    </div>
+  </div>
+</div>
 
-    function ResultsSection({ results, activeTab, onCopy, onDownload }) {
-      return (
-        <div className="glass-panel rounded-2xl border border-[#232323] overflow-hidden">
-          <div className="border-b border-[#232323] px-6 py-4 bg-gradient-to-r from-[#1A1A1A] to-transparent flex items-center justify-between">
-            <div className="flex items-center gap-2">
-              <i className={`ph-bold ${activeTab === "harokat" ? "ph-book-open" : activeTab === "translator" ? "ph-translate" : "ph-text-aa"} text-gold-500`}></i>
-              <h3 className="font-semibold text-[#F3F4F6]">
-                {activeTab === "harokat" ? "Hasil Harokat" : activeTab === "translator" ? "Terjemahan Indonesia" : "Bacaan Washal"}
-              </h3>
-            </div>
-            <div className="flex gap-2">
-              <button
-                onClick={() => onCopy(activeTab === "harokat" ? results.harokat : activeTab === "translator" ? results.translate : results.washal)}
-                className="p-2 hover:bg-[#232323] rounded-lg transition-colors text-[#9CA3AF] hover:text-[#F3F4F6]"
-                title="Salin"
-              >
-                <i className="ph-bold ph-copy"></i>
-              </button>
-              <button
-                onClick={() => onDownload(results)}
-                className="p-2 hover:bg-[#232323] rounded-lg transition-colors text-[#9CA3AF] hover:text-[#F3F4F6]"
-                title="Unduh TXT"
-              >
-                <i className="ph-bold ph-download-simple"></i>
-              </button>
-            </div>
-          </div>
+<!-- ====== MESIN LOKAL (NaskahEngine) ====== -->
+<script>
+/**
+ * NaskahEngine - mesin teks Arab untuk Garshuni Studio "Arena Edition"
+ * (murni JS, tanpa dependensi; dipakai index.html dan uji Node).
+ *
+ * Isi:
+ *  1. stripDiacritics / skeleton / canonMarks / levenshtein / similarity -> penjaga mutu AI
+ *  2. transliterate(text, mode) -> Latin sadar TIGA HUKUM WASHAL pengucapan:
+ *       Hukum 1  Ta Marbuthah   (ة): washal -> "t", waqaf -> "h"
+ *       Hukum 2  Hamzatul Washl (ا di awal kata): gugur saat menyambung,
+ *                dibaca i/a/u saat memulai kalimat
+ *       Hukum 3  Idgham Al-Lam  (ال): 14 huruf syamsiyah melebur (ar-, asy-, ...),
+ *                qamariyah tetap "al-"; tanwin bersambung ke artikel (fashlul-islaami)
+ *  3. localHarokat()  -> kamus harokat offline per kata (tahan beda hamzah/ta,
+ *     awalan tergabung; bukan regex \b yang buta huruf Arab)
+ *  4. localSyarah()   -> syarah offline: arti per kata dari kamus mufradat kitab
+ *  5. fallback terjemahan yang JUJUR (tidak mengarang untuk sembarang teks)
+ */
+(function (factory) {
+  // UMD: aman di browser (script klasik), Node CJS, maupun Node yang memuatnya
+  // sebagai ESM (require() modern) — selalu tersedia di globalThis + module.exports.
+  var api = factory();
+  var g = (typeof globalThis !== 'undefined' && globalThis)
+        || (typeof self !== 'undefined' && self)
+        || (typeof window !== 'undefined' && window)
+        || null;
+  if (g) g.NaskahEngine = api;
+  try {
+    if (typeof module === 'object' && module && module.exports) module.exports = api;
+  } catch (e) { /* lingkungan ESM tanpa module */ }
+})(function () {
+  'use strict';
 
-          <div className="p-6">
-            {activeTab === "harokat" && (
-              <div className="space-y-6">
-                <div>
-                  <label className="text-xs text-[#9CA3AF] uppercase tracking-widest mb-2 block">Teks Asli (Gundul)</label>
-                  <div className="bg-[#1A1A1A] rounded-xl p-4 border border-[#232323]">
-                    <p className="font-arabic arabic-text text-2xl text-[#F3F4F6] leading-loose">{results.original || "-"}</p>
-                  </div>
-                </div>
-                <div>
-                  <label className="text-xs text-[#9CA3AF] uppercase tracking-widest mb-2 block">Bacaan Harokat</label>
-                  <div className="bg-[#1A1A1A] rounded-xl p-4 border border-[#232323]">
-                    <p className="font-arabic arabic-text text-2xl text-gold-400 leading-loose">{results.harokat || "Hasil harokat akan muncul di sini..."}</p>
-                  </div>
-                </div>
-              </div>
-            )}
+  // ---------- karakter dasar ----------
+  var FATHAH = '\u064E', KASRAH = '\u0650', DHAMMAH = '\u064F';
+  var FATHATAN = '\u064B', KASRATAN = '\u064D', DHAMMATAN = '\u064C';
+  var SUPER_ALEF = '\u0670', SHADDA = '\u0651', SUKUN = '\u0652';
+  var ALEF = '\u0627', LAM = '\u0644', WAW = '\u0648', YA = '\u064A', YA_MAQ = '\u0649';
+  var TA_MARB = '\u0629', AIN = '\u0639';
+  var HAMZA = '\u0621', A_HAMZA = '\u0623', I_HAMZA = '\u0625', A_MADDA = '\u0622';
+  var U_HAMZA = '\u0624', Y_HAMZA = '\u0626', A_WASLA = '\u0671';
 
-            {activeTab === "translator" && (
-              <div>
-                <label className="text-xs text-[#9CA3AF] uppercase tracking-widest mb-2 block">Terjemahan</label>
-                <div className="bg-[#1A1A1A] rounded-xl p-6 border border-[#232323]">
-                  <p className="text-[#F3F4F6] text-lg leading-relaxed">{results.translate || "Terjemahan akan muncul di sini..."}</p>
-                </div>
-              </div>
-            )}
+  var SUN = {}; // huruf syamsiyah -> idgham "ال"
+  '\u062A\u062B\u062F\u0630\u0631\u0632\u0633\u0634\u0635\u0636\u0637\u0638\u0644\u0646'
+    .split('').forEach(function (c) { SUN[c] = true; });
 
-            {activeTab === "read" && (
-              <div>
-                <label className="text-xs text-[#9CA3AF] uppercase tracking-widest mb-2 block">Bacaan Washal (Latin)</label>
-                <div className="bg-[#1A1A1A] rounded-xl p-6 border border-[#232323]">
-                  <p className="text-[#E6C766] text-xl font-medium tracking-wide leading-loose italic">{results.washal || "Bacaan akan muncul di sini..."}</p>
-                </div>
-              </div>
-            )}
-          </div>
-        </div>
-      );
-    }
+  var HAMZA_CARRIERS = {}; [A_HAMZA, I_HAMZA, U_HAMZA, Y_HAMZA].forEach(function (c) { HAMZA_CARRIERS[c] = true; });
 
-    function DropZone({ onFileSelect }) {
-      const [isDragOver, setIsDragOver] = useState(false);
-      return (
-        <div
-          onDragOver={(e) => { e.preventDefault(); setIsDragOver(true); }}
-          onDragLeave={() => setIsDragOver(false)}
-          onDrop={(e) => { e.preventDefault(); setIsDragOver(false); if (e.dataTransfer.files[0]) onFileSelect({ target: { files: e.dataTransfer.files } }); }}
-          className={`relative border-2 border-dashed rounded-2xl p-8 text-center transition-all duration-300 cursor-pointer group ${
-            isDragOver ? "border-gold-500 bg-gold-500/5 scale-[1.02]" : "border-[#333] hover:border-gold-500/50 hover:bg-[#1A1A1A]/50"
-          }`}
-          onClick={() => document.getElementById('file-upload-main').click()}
-        >
-          <input id="file-upload-main" type="file" className="hidden" onChange={onFileSelect} accept=".txt,.docx,.pdf,image/*" />
-          <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-[#232323] flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-            <i className="ph-bold ph-upload-simple text-[#D4AF37] text-3xl"></i>
-          </div>
-          <p className="text-[#F3F4F6] font-semibold mb-1">Seret file ke sini atau klik untuk unggah</p>
-          <p className="text-[#9CA3AF] text-sm">Mendukung TXT, DOCX, PDF, dan Gambar (JPG, PNG)</p>
-        </div>
-      );
-    }
+  var VOW = {}; VOW[FATHAH] = 'a'; VOW[KASRAH] = 'i'; VOW[DHAMMAH] = 'u';
+  VOW[FATHATAN] = 'an'; VOW[KASRATAN] = 'in'; VOW[DHAMMATAN] = 'un'; VOW[SUPER_ALEF] = 'aa';
 
-    function SettingsModal({ apiKey, onSave, onClose, onSaveAndClose }) {
-      const [localKey, setLocalKey] = useState(apiKey);
-      const [testing, setTesting] = useState(false);
-      const [testResult, setTestResult] = useState(null);
+  var IGNORED = {};
+  ('\u0653\u0654\u0655\u0656\u0657\u0658\u0659\u065A\u065B\u065C\u065D\u065E\u065F' +
+    '\u06D6\u06D7\u06D8\u06D9\u06DA\u06DB\u06DC\u06DF\u06E0\u06E1\u06E2\u06E3\u06E4' +
+    '\u06E7\u06E8\u06EA\u06EB\u06EC\u06ED\u0640')
+    .split('').forEach(function (c) { IGNORED[c] = true; });
 
-      const testKey = async () => {
-        if (!localKey.trim()) {
-          setTestResult({ ok: false, msg: "Isi kunci API dulu sebelum menguji." });
-          return;
-        }
-        setTesting(true);
-        setTestResult(null);
-        try {
-          await callGemini({
-            apiKey: localKey.trim(),
-            parts: [{ text: "Balas hanya dengan satu kata: siap" }],
-          });
-          setTestResult({ ok: true, msg: "Koneksi berhasil! Kunci API valid." });
-        } catch (e) {
-          setTestResult({ ok: false, msg: (e.message || String(e)).slice(0, 220) });
-        } finally {
-          setTesting(false);
-        }
-      };
-
-      return (
-        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/80 backdrop-blur-md">
-          <div className="glass-panel rounded-3xl p-8 w-full max-w-md border border-[#333] shadow-2xl">
-            <div className="flex items-center justify-between mb-6">
-              <h2 className="text-2xl font-bold text-[#F3F4F6] font-display flex items-center gap-2">
-                <i className="ph-bold ph-key text-gold-500"></i> Pengaturan API
-              </h2>
-              <button onClick={onClose} className="p-2 hover:bg-[#232323] rounded-lg text-[#9CA3AF] hover:text-white" title="Tutup">
-                <i className="ph-bold ph-x"></i>
-              </button>
-            </div>
-            <div className="space-y-4">
-              <div>
-                <label className="block text-sm font-medium text-[#9CA3AF] mb-2">Gemini API Key</label>
-                <input
-                  type="password"
-                  value={localKey}
-                  onChange={(e) => setLocalKey(e.target.value)}
-                  className="w-full bg-[#121212] border border-[#333] rounded-xl px-4 py-3 text-[#F3F4F6] focus:border-gold-500 focus:ring-1 focus:ring-gold-500/50 outline-none transition-all"
-                  placeholder="Masukkan API Key Anda"
-                />
-                <p className="text-xs text-[#666] mt-2 flex items-start gap-1">
-                  <i className="ph-bold ph-shield-check text-gold-500 mt-0.5"></i>
-                  <span>Kunci disimpan lokal di browser Anda dan dikirim langsung ke Google saat diproses. <a className="text-gold-500 underline" href="https://aistudio.google.com/apikey" target="_blank" rel="noreferrer">Buat kunci di aistudio.google.com/apikey</a>.</span>
-                </p>
-              </div>
-
-              {testResult && (
-                <div className={`p-3 rounded-xl text-sm flex items-start gap-2 ${testResult.ok ? "bg-emerald-950/60 border border-emerald-700/70 text-emerald-200" : "bg-red-950/60 border border-red-800/70 text-red-200"}`}>
-                  <i className={`ph-bold ${testResult.ok ? "ph-check-circle" : "ph-warning-circle"} mt-0.5`}></i>
-                  <span className="break-words">{testResult.msg}</span>
-                </div>
-              )}
-
-              <div className="flex flex-col gap-2">
-                <button onClick={() => onSaveAndClose(localKey.trim())} className="w-full bg-gradient-to-r from-gold-500 to-gold-600 text-[#121212] font-bold py-3 rounded-xl hover:scale-[1.02] transition-transform duration-200">
-                  Simpan
-                </button>
-                <button onClick={testKey} disabled={testing} className="w-full bg-[#232323] text-[#F3F4F6] font-semibold py-3 rounded-xl hover:bg-[#2A2A2A] transition-colors border border-[#333] flex items-center justify-center gap-2">
-                  <i className={`ph-bold ${testing ? "ph-circle-notch animate-spin" : "ph-plug-charging"}`}></i>
-                  <span>{testing ? "Menguji koneksi..." : "Uji Koneksi"}</span>
-                </button>
-                <button onClick={onClose} className="w-full text-[#9CA3AF] py-2 hover:text-[#F3F4F6] transition-colors text-sm">
-                  Lanjut Tanpa Key (Mode Offline Terbatas)
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      );
-    }
-
-    // ==================== KONFIGURASI GEMINI (status model per Okt 2026) ====================
-    // gemini-2.5-flash pensiun 20 Okt 2026 → rantai model terbaru lebih dulu.
-    const MODEL_IDS = [
-      "gemini-flash-latest",
-      "gemini-3.8-flash",
-      "gemini-3.6-flash",
-      "gemini-3.5-flash-lite",
-      "gemini-3.1-flash-lite",
-      "gemini-2.5-flash", // cadangan terakhir (proyek lama)
+  var LETTERS = {};
+  (function () {
+    var pairs = [
+      ['\u0628', 'b'], ['\u062A', 't'], ['\u062B', 'ts'], ['\u062C', 'j'], ['\u062D', 'h'],
+      ['\u062E', 'kh'], ['\u062F', 'd'], ['\u0630', 'dz'], ['\u0631', 'r'], ['\u0632', 'z'],
+      ['\u0633', 's'], ['\u0634', 'sy'], ['\u0635', 'sh'], ['\u0636', 'dh'], ['\u0637', 'th'],
+      ['\u0638', 'zh'], [AIN, '\u2018'], ['\u063A', 'gh'], ['\u0641', 'f'], ['\u0642', 'q'],
+      ['\u0643', 'k'], [LAM, 'l'], ['\u0645', 'm'], ['\u0646', 'n'], ['\u0647', 'h'],
+      [WAW, 'w'], [YA, 'y'], [YA_MAQ, 'aa'], [ALEF, 'a'], [A_WASLA, 'a'], [HAMZA, "'"],
+      ['\u06A4', 'p'], ['\u067E', 'p'], ['\u06A0', 'ng'], ['\u06AC', 'ng'], ['\u06AE', 'g'],
+      ['\u0762', 'g'], ['\u0686', 'c'], ['\u0683', 'j'], ['\u06BD', 'ny'], ['\u06CF', 'v'],
+      ['\u06BB', 'n'], ['\u06CC', 'y'], ['\u06D2', 'e'], ['\u06BE', 'h'], ['\u06A9', 'k'],
+      ['\u06AF', 'g'], ['\u0681', 'z']
     ];
-    const API_URL = "https://generativelanguage.googleapis.com/v1beta/models";
+    pairs.forEach(function (p) { LETTERS[p[0]] = p[1]; });
+  })();
 
-    /** Parse JSON yang toleran terhadap kode pagar ```json ... ``` dari model. */
-    function parseJSON(raw) {
-      if (!raw) throw new Error("Jawaban AI kosong");
-      let text = String(raw).trim();
-      const fence = text.match(/```(?:json)?\s*([\s\S]*?)```/i);
-      if (fence) text = fence[1].trim();
-      const start = text.indexOf("{");
-      const end = text.lastIndexOf("}");
-      if (start !== -1 && end > start) text = text.slice(start, end + 1);
-      try {
-        return JSON.parse(text);
-      } catch (e) {
-        throw new Error("Format jawaban AI tidak valid");
+  var SPECIAL = {};
+  SPECIAL['\u0627\u0644\u0644\u0647'] = 'Allaah';   // الله
+  SPECIAL['\u0644\u0644\u0647'] = 'Lillaah';        // لله
+  SPECIAL['\u0628\u0627\u0644\u0644\u0647'] = 'Billaah';
+  SPECIAL['\u0648\u0627\u0644\u0644\u0647'] = 'Wallaah';
+
+  // ---------- util dasar ----------
+  function isHarakat(ch) {
+    var c = ch.charCodeAt(0);
+    return (c >= 0x064B && c <= 0x065F) || c === 0x0670 ||
+      (c >= 0x06D6 && c <= 0x06DC) || (c >= 0x06DF && c <= 0x06E4) ||
+      c === 0x06E7 || c === 0x06E8 || (c >= 0x06EA && c <= 0x06ED);
+  }
+
+  function isArabicChar(ch) {
+    var c = ch.charCodeAt(0);
+    return (c >= 0x0600 && c <= 0x06FF) || (c >= 0x0750 && c <= 0x077F) ||
+      (c >= 0x08A0 && c <= 0x08FF) || (c >= 0xFB50 && c <= 0xFDFF) ||
+      (c >= 0xFE70 && c <= 0xFEFF);
+  }
+
+  function stripDiacritics(text) {
+    var out = '';
+    for (var i = 0; i < text.length; i++) {
+      var ch = text[i];
+      if (VOW[ch] || ch === SHADDA || ch === SUKUN || IGNORED[ch]) continue;
+      out += ch;
+    }
+    return out;
+  }
+
+  /** Kerangka huruf (tanpa tasykil; varian disamakan) untuk pembandingan kesetiaan. */
+  function skeleton(text) {
+    var fold = {};
+    fold[A_HAMZA] = ALEF; fold[I_HAMZA] = ALEF; fold[A_MADDA] = ALEF; fold[A_WASLA] = ALEF;
+    fold[YA_MAQ] = YA; fold['\u06CC'] = YA; fold[TA_MARB] = '\u0647';
+    fold[U_HAMZA] = WAW; fold[Y_HAMZA] = YA; fold['\u06A9'] = '\u0643';
+    var stripped = stripDiacritics(text);
+    var out = '';
+    for (var i = 0; i < stripped.length; i++) {
+      var ch = stripped[i];
+      if (/\s/.test(ch)) continue;
+      if (!isArabicChar(ch) && !/[A-Za-z0-9]/.test(ch)) continue;
+      out += fold[ch] || ch;
+    }
+    return out;
+  }
+
+  /**
+   * Kanonikasi urutan tanda tasykil (shadda/fathah/dst.) dalam satu gugus huruf,
+   * sehingga dua penulisan yang hanya beda urutan tanda dianggap sama.
+   */
+  function canonMarks(text) {
+    return String(text == null ? '' : text).normalize('NFC')
+      .replace(/[\u064B-\u0655\u0670\u06D6-\u06ED]+/g, function (m) {
+        return m.split('').sort().join('');
+      });
+  }
+
+  function levenshtein(a, b) {
+    if (a === b) return 0;
+    if (!a.length) return b.length;
+    if (!b.length) return a.length;
+    var prev = new Array(b.length + 1);
+    var curr = new Array(b.length + 1);
+    for (var j = 0; j <= b.length; j++) prev[j] = j;
+    for (var i = 1; i <= a.length; i++) {
+      curr[0] = i;
+      for (var k = 1; k <= b.length; k++) {
+        var cost = a[i - 1] === b[k - 1] ? 0 : 1;
+        curr[k] = Math.min(prev[k] + 1, curr[k - 1] + 1, prev[k - 1] + cost);
+      }
+      var tmp = prev; prev = curr; curr = tmp;
+    }
+    return prev[b.length];
+  }
+
+  /** Skor kemiripan 0..1 antara teks asli (gundul) dan hasil berharokat. */
+  function similarity(original, vocalized) {
+    var a = skeleton(original), b = skeleton(vocalized);
+    if (!a.length && !b.length) return 1;
+    if (!a.length || !b.length) return 0;
+    if (a === b) return 1;
+    a = a.slice(0, 4000); b = b.slice(0, 4000);
+    return Math.max(0, Math.min(1, 1 - levenshtein(a, b) / Math.max(a.length, b.length)));
+  }
+
+  /** True bila hasil harokat AI masih setia pada huruf asli. */
+  function isFaithful(original, vocalized, threshold) {
+    return similarity(original, vocalized) >= (threshold || 0.72);
+  }
+
+  // ---------- pemindai tasykil ----------
+  function scan(chars, start) {
+    var j = start, vowel = '', shadda = false, sukun = false;
+    while (j < chars.length) {
+      var c = chars[j];
+      if (c === SHADDA) { shadda = true; j++; continue; }
+      if (c === SUKUN) { sukun = true; j++; continue; }
+      if (IGNORED[c]) { j++; continue; }
+      if (VOW[c]) {
+        if (c === SUPER_ALEF || !vowel) vowel = VOW[c];
+        j++; continue;
+      }
+      return { vowel: vowel, shadda: shadda, sukun: sukun, nextIndex: j };
+    }
+    return { vowel: vowel, shadda: shadda, sukun: sukun, nextIndex: j };
+  }
+
+  function trailingVowel(chars) {
+    for (var k = chars.length - 1; k >= 0; k--) {
+      var c = chars[k];
+      if (VOW[c]) {
+        var v = VOW[c];
+        return (v === 'a' || v === 'i' || v === 'u') ? v : '';
+      }
+      if (c === SHADDA || c === SUKUN || IGNORED[c]) continue;
+      return '';
+    }
+    return '';
+  }
+
+  // ---------- transliterasi satu kata (sadar 3 hukum washal) ----------
+
+  // Kata ber-hamzatul washl non-artikel (ibnu, ismu, istaf'ala, ...).
+  // Kaidah: hamzatul washl dibaca kasrah ("i") untuk ism & fi'il madhi;
+  // fathah/dammah hanya untuk fi'il amr (perlu konteks — default "i").
+
+  function isWaslWord(chars) {
+    return chars.length > 1 && (chars[0] === ALEF || chars[0] === A_WASLA) && chars[1] !== LAM;
+  }
+
+  function waslStartVowel() {
+    return 'i';
+  }
+
+  /**
+   * @param word        satu kata Arab (idealnya berharokat)
+   * @param mode        'washal' (default) | 'waqaf'
+   * @param sentenceStart  true bila kata ini memulai kalimat
+   * @param sentenceEnd    true bila kata ini mengakhiri kalimat (titik waqaf)
+   * @return { text, waslDropped }
+   */
+  function transliterateWord(word, mode, sentenceStart, sentenceEnd) {
+    mode = mode === 'waqaf' ? 'waqaf' : 'washal';
+    var waqafHere = (mode === 'waqaf' && sentenceEnd); // hukum waqaf hanya di titik berhenti
+    var chars = word.split('');
+    var skel = stripDiacritics(word);
+    var waslDropped = false;
+
+    if (SPECIAL[skel]) return { text: SPECIAL[skel] + trailingVowel(chars), waslDropped: false };
+
+    // --- Hukum 2: hamzatul washl non-artikel ---
+    if (isWaslWord(chars)) {
+      // tanda harokat yang menempel pada alif ikut digugurkan/diambil
+      while (chars.length > 1 && (IGNORED[chars[1]] || VOW[chars[1]] || chars[1] === SHADDA || chars[1] === SUKUN)) {
+        chars.splice(1, 1);
+      }
+      if (!sentenceStart) {
+        waslDropped = true;
+        chars = chars.slice(1); // alif gugur saat menyambung (washal)
+      } else {
+        var wv = waslStartVowel(skel);
+        chars = chars.slice(1);
+        var rest = transliterateWord(chars.join(''), mode, false, sentenceEnd).text;
+        return { text: wv + rest, waslDropped: false };
       }
     }
 
-    /**
-     * Satu pintu untuk semua panggilan Gemini:
-     * - header x-goog-api-key (aman untuk browser fetch);
-     * - rantai model dari terbaru ke cadangan;
-     * - retry tanpa generationConfig bila ditolak (kompatibilitas lintas model);
-     * - 401/403 berhenti (kunci salah/ditolak), 404/413/429/5xx lanjut model berikutnya.
-     */
-    async function callGemini({ apiKey, parts, systemInstruction, forceJson = false, signal }) {
-      if (!apiKey) throw new Error("API key belum diisi. Buka Konfigurasi API untuk mengisinya.");
-      let lastErr = null;
-      for (const model of MODEL_IDS) {
-        const attempts = [
-          { generationConfig: { responseMimeType: "application/json", thinkingConfig: { thinkingLevel: "LOW" } } },
-          {}, // tanpa generationConfig (kompatibilitas mundur)
-        ];
-        if (!forceJson) attempts[0] = { generationConfig: { thinkingConfig: { thinkingLevel: "LOW" } } };
-        for (const gen of attempts) {
-          try {
-            const body = { contents: [{ role: "user", parts }] };
-            if (systemInstruction) body.systemInstruction = { parts: [{ text: systemInstruction }] };
-            if (Object.keys(gen).length) Object.assign(body, gen);
-            const res = await fetch(`${API_URL}/${model}:generateContent`, {
-              method: "POST",
-              headers: { "Content-Type": "application/json", "x-goog-api-key": apiKey },
-              body: JSON.stringify(body),
-              signal,
-            });
-            if (res.status === 401 || res.status === 403) {
-              const detail = await res.text();
-              throw new Error(`API key ditolak (HTTP ${res.status}). Periksa kunci Anda di aistudio.google.com/apikey. ${detail.slice(0, 160)}`);
-            }
-            if (!res.ok) {
-              const detail = await res.text().catch(() => "");
-              lastErr = new Error(`Model ${model}: HTTP ${res.status} ${detail.slice(0, 120)}`);
-              break; // lanjut konfigurasi/model berikutnya
-            }
-            const data = await res.json();
-            const text = (data && data.candidates && data.candidates[0] && data.candidates[0].content && data.candidates[0].content.parts || [])
-              .map((p) => p.text || "").join("");
-            if (!text.trim()) {
-              lastErr = new Error(`Model ${model} mengembalikan jawaban kosong`);
-              break;
-            }
-            return text;
-          } catch (e) {
-            if (e && (e.name === "AbortError" || String(e.message).startsWith("API key ditolak") || String(e.message).startsWith("API key belum"))) throw e;
-            lastErr = e;
-            // coba tanpa generationConfig, lalu model berikutnya
-          }
+    var out = [];
+    var i = 0, lastVowel = '', assimilated = false;
+
+    // artikel "ال" di awal kata (Hukum 3: idgham al-lam ditangani di bawah)
+    if (chars.length > 2 && chars[0] === ALEF && chars[1] === LAM) {
+      var lam = scan(chars, 2);
+      if (lam.shadda) {
+        out.push('all' + (lam.vowel || ''));
+        lastVowel = lam.vowel || lastVowel;
+        i = lam.nextIndex;
+      } else if (lam.nextIndex < chars.length) {
+        var nl = chars[lam.nextIndex];
+        var nlT = scan(chars, lam.nextIndex + 1);
+        if (!lam.vowel && nlT.shadda && SUN[nl]) {
+          out.push('a');
+          assimilated = true; // idgham syamsiyah: ar-, asy-, ath-, ...
+        } else {
+          out.push('al-');
         }
+        i = lam.nextIndex;
       }
-      throw lastErr || new Error("Semua model Gemini gagal dihubungi. Cek koneksi internet dan kunci API Anda.");
     }
 
-    // ==================== FALLBACK OFFLINE (jujur, via NaskahEngine) ====================
-    const localFallbackHarokat = (text) => NaskahEngine.localHarokat(text);
-    const localFallbackWashal = (text) => NaskahEngine.transliterate(NaskahEngine.localHarokat(text).text);
-    const localFallbackTranslation = (text) => NaskahEngine.localTranslation(text);
+    while (i < chars.length) {
+      var ch = chars[i];
+      if (IGNORED[ch] || ch === SHADDA || ch === SUKUN) { i++; continue; }
+      if (VOW[ch]) { out.push(VOW[ch]); lastVowel = VOW[ch]; i++; continue; }
 
-    async function copyToClipboard(text, setCopied) {
-      if (!text) return;
-      try {
-        await navigator.clipboard.writeText(text);
-      } catch (e) {
-        const ta = document.createElement("textarea");
-        ta.value = text;
-        document.body.appendChild(ta);
-        ta.select();
-        document.execCommand("copy");
-        document.body.removeChild(ta);
+      var t = scan(chars, i + 1);
+      var next = t.nextIndex < chars.length ? chars[t.nextIndex] : null;
+      var consumed = t.nextIndex;
+      var vowel = t.vowel;
+      var base;
+
+      if (ch === TA_MARB) {
+        // --- Hukum 1: ta marbuthah — washal "t", waqaf "h" di titik berhenti ---
+        base = waqafHere ? 'h' : 't';
+      } else if (ch === A_HAMZA || ch === I_HAMZA || ch === A_WASLA) {
+        base = vowel ? '' : (ch === I_HAMZA ? 'i' : 'a');
+      } else if (ch === A_MADDA) {
+        base = 'aa';
+      } else if (ch === U_HAMZA || ch === Y_HAMZA) {
+        base = (vowel || t.sukun || t.shadda) ? "'" : (ch === U_HAMZA ? 'u' : 'i');
+      } else if (ch === YA && t.sukun && !vowel &&
+        (lastVowel === 'a' || lastVowel === 'i') && next !== ALEF && next !== TA_MARB) {
+        base = 'i';
+      } else if (ch === WAW && t.sukun && !vowel &&
+        (lastVowel === 'u' || lastVowel === 'a') && next !== ALEF) {
+        base = 'u';
+      } else if (LETTERS[ch]) {
+        base = LETTERS[ch];
+      } else if (/[A-Za-z0-9]/.test(ch) || '.,:;!?-\'"()\u060C\u061B\u061F\u06D4'.indexOf(ch) >= 0) {
+        out.push(ch); i++; continue;
+      } else {
+        i++; continue;
       }
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2000);
+
+      // tasydid: huruf ganda; setelah idgham syamsiyah pakai tanda hubung
+      if (t.shadda) {
+        out.push(base + (assimilated ? '-' : ''));
+      }
+      out.push(base);
+      assimilated = false;
+
+      // vokal panjang: harokat + huruf mad yang tidak berharokat sendiri
+      var nxt = consumed < chars.length ? scan(chars, consumed + 1) : { vowel: '', shadda: false, nextIndex: consumed };
+      if ((vowel === 'a' || vowel === 'an') && (next === ALEF || next === YA_MAQ) && !nxt.shadda) {
+        vowel = 'aa'; consumed = nxt.nextIndex;
+      } else if (vowel === 'u' && next === WAW && !nxt.vowel && !nxt.shadda) {
+        vowel = 'uu'; consumed = nxt.nextIndex;
+      } else if (vowel === 'i' && (next === YA || next === YA_MAQ) && !nxt.vowel && !nxt.shadda) {
+        vowel = 'ii'; consumed = nxt.nextIndex;
+      }
+
+      out.push(vowel);
+      if (vowel) lastVowel = vowel;
+
+      if (ch === WAW && vowel === 'a' && next && HAMZA_CARRIERS[next]) out.push('-');
+
+      i = consumed;
     }
 
-    function downloadTXT(results) {
-      const content = `=== HASIL ANALISIS GARSHUNI STUDIO ===\n\n--- BACAAN ASLI (GUNDUL) ---\n${results.original || "-"}\n\n--- BACAAN HAROKAT ---\n${results.harokat || "-"}\n\n--- BACAAN WASHAL (LATIN) ---\n${results.washal || "-"}\n\n--- TERJEMAHAN INDONESIA ---\n${results.translate || "-"}\n`;
-      const blob = new Blob([content], { type: "text/plain;charset=utf-8" });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement("a");
-      a.href = url;
-      a.download = "hasil-analisis-garshuni.txt";
-      a.click();
-      URL.revokeObjectURL(url);
+    var s = out.join('');
+    // mode waqaf di titik berhenti: tanwin akhir kata digugurkan
+    if (waqafHere) {
+      s = s.replace(/(an|in|un)$/, '');
+    }
+    return { text: s, waslDropped: waslDropped };
+  }
+
+  /**
+   * Transliterasi teks Arab -> Latin mengikuti 3 hukum washal (mode 'washal')
+   * atau bacaan waqaf (mode 'waqaf'). Konvensi pesantren Indonesia:
+   * sy, sh, th, kh, ‘, diftong ai/au.
+   */
+  function transliterate(text, mode) {
+    if (!text) return '';
+    mode = mode === 'waqaf' ? 'waqaf' : 'washal';
+    var raw = String(text).split(/(\s+)/);
+    var words = []; // { t, sentenceEnd }
+    for (var i = 0; i < raw.length; i++) {
+      var tok = raw[i];
+      if (!tok) continue;
+      if (/^\s+$/.test(tok)) {
+        if (tok.indexOf('\n') >= 0 && words.length) words[words.length - 1].sentenceEnd = true;
+        continue;
+      }
+      words.push({ t: tok, sentenceEnd: /[.؟!\u06D4]/.test(tok) });
+    }
+    if (words.length) words[words.length - 1].sentenceEnd = true;
+
+    var parts = []; // { t, wasl }
+    var sentenceStart = true;
+    for (var i = 0; i < words.length; i++) {
+      var r = transliterateWord(words[i].t, mode, sentenceStart, !!words[i].sentenceEnd);
+      parts.push({ t: r.text, wasl: r.waslDropped });
+      sentenceStart = !!words[i].sentenceEnd;
     }
 
-    // ==================== APLIKASI UTAMA ====================
-    const App = () => {
-      const [apiKey, setApiKey] = useState("");
-      const [inputText, setInputText] = useState("");
-      const [activeTab, setActiveTab] = useState("harokat");
-      const [results, setResults] = useState({ original: "", harokat: "", washal: "", translate: "" });
-      const [isProcessing, setIsProcessing] = useState(false);
-      const [showSettings, setShowSettings] = useState(false);
-      const [error, setError] = useState(null);
-      const [notice, setNotice] = useState(null);
-      const [warning, setWarning] = useState(null);
-      const [fileName, setFileName] = useState(null);
-      const [parsing, setParsing] = useState(false);
-      const [copied, setCopied] = useState(false);
-      const timeoutRef = useRef(null);
+    var s = '';
+    for (var i = 0; i < parts.length; i++) {
+      if (i === 0) s = parts[i].t;
+      else if (parts[i].wasl) s += '-' + parts[i].t; // Hukum 2: sambungan washal
+      else s += ' ' + parts[i].t;
+    }
+    s = s
+      .replace(/[ \t]+/g, ' ')
+      .replace(/ ([,.:;!?])/g, '$1');
+    // Hukum 3 (lanjutan): sambungan tanwin + artikel — "fashlun al-islaami" -> "fashlul-islaami"
+    s = s.replace(/([aiu])n (al?-)/g, '$1l-');
+    return s.trim();
+  }
 
-      useEffect(() => {
-        const savedKey = localStorage.getItem("gemini_api_key");
-        if (savedKey) setApiKey(savedKey);
-      }, []);
+  /** Tiga hukum washal untuk ditampilkan di UI. */
+  var WASHAL_RULES = [
+    {
+      no: 1,
+      nama: 'Ta Marbuthah (\u0629)',
+      penjelasan: 'Ta marbuthah dibaca "t" bila bacaan disambung (washal), dan dibaca "h" bila berhenti (waqaf).',
+      contoh: '\u062E\u064E\u0645\u0652\u0633\u064E\u0629\u064C',
+      washal: 'khamsatun',
+      waqaf: 'khamsah',
+    },
+    {
+      no: 2,
+      nama: 'Hamzatul Washl (\u0627\u0652 di awal kata)',
+      penjelasan: 'Alif di awal kata (seperti pada اِسْم، اِبْن، اِسْتَفْعَلَ) gugur saat menyambung ke kata sebelumnya, dan dibaca i/a/u bila memulai bacaan.',
+      contoh: '\u0639\u064E\u0644\u064E\u0649 \u0627\u0628\u0652\u0646\u0650\u0647\u0650',
+      washal: '‘alaa-bnihi',
+      waqaf: '‘alaa (berhenti) ibnihi',
+    },
+    {
+      no: 3,
+      nama: 'Idgham Al-Lam (\u0627\u0644)',
+      penjelasan: 'Lam pada artikel "al" melebur ke 14 huruf syamsiyah (ditulis ar-, asy-, ath-, dst. dengan tanda hubung); pada huruf qamariyah tetap "al-". Tanwin pun melebur bersambung ke artikel berikutnya.',
+      contoh: '\u0641\u064E\u0635\u0652\u0644\u064C \u0627\u0644\u0625\u0650\u0633\u0652\u0644\u064E\u0627\u0645\u0650 ... \u0627\u0644\u0634\u0651\u064E\u0645\u0652\u0633\u064F',
+      washal: 'fashlul-islaami ... asy-syamsu',
+      waqaf: 'fashlul-islaami ... asy-syamsu',
+    },
+  ];
 
-      const saveApiKey = (key) => {
-        setApiKey(key);
-        localStorage.setItem("gemini_api_key", key);
-      };
-      const saveAndClose = (key) => { saveApiKey(key); setShowSettings(false); };
+  // ---------- kamus harokat lokal (berbasis kata, bukan regex \b) ----------
+  var HARAKAT_PHRASES = [
+    ['\u0628\u0633\u0645 \u0627\u0644\u0644\u0647 \u0627\u0644\u0631\u062D\u0645\u0646 \u0627\u0644\u0631\u062D\u064A\u0645',
+      '\u0628\u0650\u0633\u0652\u0645\u0650 \u0627\u0644\u0644\u0651\u064E\u0647\u0650 \u0627\u0644\u0631\u0651\u064E\u062D\u0652\u0645\u064E\u0670\u0646\u0650 \u0627\u0644\u0631\u0651\u064E\u062D\u0650\u064A\u0645\u0650'],
+    ['\u0627\u0644\u062D\u0645\u062F \u0644\u0644\u0647 \u0631\u0628 \u0627\u0644\u0639\u0627\u0644\u0645\u064A\u0646',
+      '\u0627\u0644\u0652\u062D\u064E\u0645\u0652\u062F\u064F \u0644\u0650\u0644\u0651\u064E\u0647\u0650 \u0631\u064E\u0628\u0651\u0650 \u0627\u0644\u0652\u0639\u064E\u0627\u0644\u064E\u0645\u0650\u064A\u0646\u064E'],
+    ['\u0634\u0647\u0627\u062F\u0629 \u0627\u0646 \u0644\u0627 \u0627\u0644\u0647 \u0627\u0644\u0627 \u0627\u0644\u0644\u0647',
+      '\u0634\u064E\u0647\u064E\u0627\u062F\u064E\u0629\u064F \u0623\u064E\u0646\u0651 \u0644\u0627\u064E \u0625\u0650\u0644\u064E\u0647\u064E \u0625\u0650\u0644\u0651\u0627 \u0627\u0644\u0644\u0651\u064E\u0647\u064F'],
+    ['\u0648\u0627\u0646 \u0645\u062D\u0645\u062F\u0627 \u0631\u0633\u0648\u0644 \u0627\u0644\u0644\u0647',
+      '\u0648\u064E\u0623\u064E\u0646\u0651\u064E \u0645\u064F\u062D\u064E\u0645\u0651\u064E\u062F\u064B\u0627 \u0631\u064E\u0633\u0648\u0648\u0644\u064F \u0627\u0644\u0644\u0651\u064E\u0647\u0650'],
+    ['\u0648\u0627\u0642\u0627\u0645 \u0627\u0644\u0635\u0644\u0627\u0629', '\u0648\u064E\u0625\u0650\u0642\u064E\u0627\u0645\u064F \u0627\u0644\u0635\u0651\u064E\u0644\u064E\u0627\u0629\u0650'],
+    ['\u0648\u0627\u064A\u062A\u0627\u0621 \u0627\u0644\u0632\u0643\u0627\u0629', '\u0648\u064E\u0625\u0650\u064A\u062A\u064E\u0627\u0621\u064F \u0627\u0644\u0632\u0651\u064E\u0643\u064E\u0627\u0629\u0650'],
+    ['\u0648\u0635\u0648\u0645 \u0631\u0645\u0636\u0627\u0646', '\u0648\u064E\u0635\u064E\u0648\u0652\u0645\u064F \u0631\u064E\u0645\u064E\u0636\u064E\u0627\u0646\u064E'],
+    ['\u0648\u062D\u062C \u0627\u0644\u0628\u064A\u062A', '\u0648\u064E\u062D\u064E\u062C\u0651\u064F \u0627\u0644\u0628\u064E\u064A\u0652\u062A\u0650'],
+    ['\u0643\u062A\u0627\u0628 \u0627\u062D\u0643\u0627\u0645 \u0627\u0644\u0637\u0647\u0627\u0631\u0629',
+      '\u0643\u0650\u062A\u064E\u0627\u0628\u064F \u0623\u064E\u062D\u0652\u0643\u064E\u0627\u0645\u0650 \u0627\u0644\u0652\u0637\u064E\u0647\u064E\u0627\u0631\u064E\u0629\u0650']
+  ];
 
-      const resetFeedback = () => { setError(null); setNotice(null); setWarning(null); };
+  var HARAKAT_WORDS = {};
+  (function () {
+    var pairs = [
+      // frasa pengujian bawaan
+      ['\u0627\u062A\u0641\u0642\u062A', '\u0627\u0650\u062A\u0651\u064E\u0641\u064E\u0642\u064E\u062A\u0652'],
+      ['\u0643\u0644\u0645\u0629', '\u0643\u064E\u0644\u0650\u0645\u064E\u0629\u064F'],
+      ['\u0627\u0644\u0633\u0645\u0627\u0621', '\u0627\u0644\u0633\u0651\u064E\u0645\u064E\u0627\u0621\u0650'],
+      ['\u0648\u0631\u0633\u0627\u0644\u0627\u062A\u0647\u0627', '\u0648\u064E\u0631\u0650\u0633\u064E\u0627\u0644\u064E\u0627\u062A\u064F\u0647\u064E\u0627'],
+      ['\u0627\u0644\u0627\u0644\u0647\u064A\u0629', '\u0627\u0644\u0652\u0625\u0650\u0644\u064E\u0647\u0650\u064A\u0651\u064E\u0629\u064F'],
+      ['\u0627\u0644\u0625\u0644\u0647\u064A\u0629', '\u0627\u0644\u0652\u0625\u0650\u0644\u064E\u0647\u0650\u064A\u0651\u064E\u0629\u064F'],
+      ['\u0623\u0646', '\u0623\u064E\u0646\u0651\u064E'],
+      ['\u0627\u0646', '\u0623\u064E\u0646\u0651\u064E'],
+      ['\u0645\u0635\u062F\u0631', '\u0645\u064E\u0635\u0652\u062F\u064E\u0631\u064E'],
+      ['\u0633\u0639\u0627\u062F\u0629', '\u0633\u064E\u0639\u064E\u0627\u062F\u064E\u0629\u0650'],
+      ['\u0627\u0644\u0625\u0646\u0633\u0627\u0646', '\u0627\u0644\u0652\u0625\u0650\u0646\u0652\u0633\u064E\u0627\u0646\u0650'],
+      ['\u0627\u0644\u0627\u0646\u0633\u0627\u0646', '\u0627\u0644\u0652\u0625\u0650\u0646\u0652\u0633\u064E\u0627\u0646\u0650'],
+      ['\u0648\u0631\u0642\u064A\u0647', '\u0648\u064E\u0631\u064E\u0642\u0650\u064A\u0651\u0650\u0647\u0650'],
+      ['\u0641\u064A', '\u0641\u0650\u064A'],
+      ['\u0646\u0634\u0623\u0629', '\u0646\u064E\u0634\u0652\u0623\u064E\u0629\u0650'],
+      ['\u0639\u0627\u0644\u0645', '\u0639\u064E\u0627\u0644\u064E\u0645\u0650'],
+      ['\u0627\u0644\u062F\u0646\u064A\u0627', '\u0627\u0644\u062F\u0651\u064F\u0646\u0652\u064A\u064E\u0627'],
+      // kosakata kitab kuning umum
+      ['\u0641\u0635\u0644', '\u0641\u064E\u0635\u0652\u0644\u064C'],
+      ['\u0627\u0631\u0643\u0627\u0646', '\u0623\u064E\u0631\u0652\u0643\u064E\u0627\u0646\u064F'],
+      ['\u0627\u0644\u0627\u0633\u0644\u0627\u0645', '\u0627\u0644\u0652\u0625\u0650\u0633\u0652\u0644\u064E\u0627\u0645\u0650'],
+      ['\u062E\u0645\u0633\u0629', '\u062E\u064E\u0645\u0652\u0633\u064E\u0629\u064C'],
+      ['\u0627\u0644\u0644\u0647', '\u0627\u0644\u0644\u0651\u064E\u0647\u0650'],
+      ['\u0627\u0644\u0631\u062D\u0645\u0646', '\u0627\u0644\u0631\u0651\u064E\u062D\u0652\u0645\u064E\u0670\u0646\u0650'],
+      ['\u0627\u0644\u0631\u062D\u064A\u0645', '\u0627\u0644\u0631\u0651\u064E\u062D\u0650\u064A\u0645\u0650'],
+      ['\u0627\u0644\u0628\u064A\u062A', '\u0627\u0644\u0628\u064E\u064A\u0652\u062A\u0650'],
+      ['\u0627\u0644\u0635\u0644\u0627\u0629', '\u0627\u0644\u0635\u0651\u064E\u0644\u064E\u0627\u0629\u0650'],
+      ['\u0627\u0644\u0632\u0643\u0627\u0629', '\u0627\u0644\u0632\u0651\u064E\u0643\u064E\u0627\u0629\u0650'],
+      ['\u0627\u0644\u0645\u064A\u0627\u0647', '\u0627\u0644\u0652\u0645\u0650\u064A\u064E\u0627\u0647\u064F'],
+      ['\u0627\u0644\u062A\u0637\u0647\u064A\u0631', '\u0627\u0644\u062A\u0651\u064E\u0637\u0652\u0647\u0650\u064A\u0631\u0650'],
+      ['\u0645\u062D\u0645\u062F', '\u0645\u064F\u062D\u064E\u0645\u0651\u064E\u062F\u064C'],
+      ['\u0631\u0633\u0648\u0644', '\u0631\u064E\u0633\u0648\u0648\u0644\u064F'],
+      ['\u0628\u0631\u0647\u062A\u064A\u0629', '\u0628\u064E\u0631\u0652\u0647\u064E\u062A\u0650\u064A\u064E\u0629\u064D'],
+      ['\u0643\u0631\u064A\u0631', '\u0643\u064E\u0631\u0650\u064A\u0652\u0631\u064D'],
+      ['\u062A\u062A\u0644\u064A\u0629', '\u062A\u064E\u062A\u0652\u0644\u0650\u064A\u064E\u0629\u064D'],
+      ['\u0637\u0648\u0631\u0627\u0646', '\u0637\u064E\u0648\u0652\u0631\u064E\u0627\u0646\u064D']
+    ];
+    pairs.forEach(function (p) { HARAKAT_WORDS[p[0]] = p[1]; });
+  })();
 
-      // ==================== EKSTRAKSI FILE ====================
-      const extractTextFromPdf = async (file) => {
-        const pdfjsLib = window.pdfjsLib;
-        if (!pdfjsLib) throw new Error("Pustaka PDF belum termuat. Muat ulang halaman lalu coba lagi.");
-        pdfjsLib.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjsLib.version}/pdf.worker.min.js`;
-        const arrayBuffer = await file.arrayBuffer();
-        const pdf = await pdfjsLib.getDocument({ data: arrayBuffer }).promise;
-        let fullText = "";
-        const maxPages = Math.min(pdf.numPages, 5);
-        if (pdf.numPages > 5) {
-          setNotice(`PDF memiliki ${pdf.numPages} halaman. Hanya ${maxPages} halaman pertama yang diproses.`);
-        }
-        for (let i = 1; i <= maxPages; i++) {
-          const page = await pdf.getPage(i);
-          const textContent = await page.getTextContent();
-          fullText += textContent.items.map((item) => item.str).join(" ") + "\n";
-        }
-        return fullText;
-      };
+  var EDGE_PUNCT = /^[\s\u060C\u061B\u061F.,:;!?()\[\]\u00AB\u00BB"'_=\-+*]+|[\s\u060C\u061B\u061F.,:;!?()\[\]\u00AB\u00BB"'_=\-+*]+$/g;
 
-      const extractTextFromImage = async (file) => {
-        if (!apiKey) throw new Error("Ekstraksi teks dari gambar membutuhkan API key Gemini. Isi di Konfigurasi API.");
-        return new Promise((resolve, reject) => {
-          const reader = new FileReader();
-          reader.onload = async (e) => {
-            try {
-              const base64 = e.target.result.split(",")[1];
-              const model = MODEL_IDS[0];
-              const prompt = `Anda adalah OCR untuk teks Arab gundul (tanpa tasykil/tanda baca).
-Ekstrak teks Arab apa adanya dari gambar ini.
-ATURAN KETAT:
-1. Hasil WAJIB huruf Arab saja (bukan transliterasi Latin).
-2. JANGAN menambahkan tanda baca/harokat/tasykil sama sekali.
-3. JANGAN mengarang/melengkapi kalimat yang tidak terlihat.
-4. Hapus pengantar seperti "Berikut teksnya".
-5. Jika tidak ada tulisan Arab, kembalikan string kosong.`;
-              const raw = await callGemini({
-                apiKey,
-                parts: [{ inline_data: { mime_type: file.type || "image/jpeg", data: base64 } }, { text: prompt }],
-              });
-              const clean = NaskahEngine.cleanExtractedArabic(raw);
-              resolve(clean);
-            } catch (err) {
-              reject(err);
-            }
-          };
-          reader.onerror = () => reject(new Error("Gagal membaca file gambar"));
-          reader.readAsDataURL(file);
-        });
-      };
+  /**
+   * Cari padanan harokat untuk inti kata. Strategi:
+   *  1) padanan persis (gundul);
+   *  2) padanan skeleton (tahan beda hamzah/ta marbuthah) bila TIDAK ambigu;
+   *  3) lepas awalan yang tergabung (و ف ب ل ك س) lalu ulangi (mis. والانسان → وَ + الانسان).
+   */
+  function lookupWord(core) {
+    if (!core) return null;
+    if (HARAKAT_WORDS[core]) return HARAKAT_WORDS[core];
+    var sk = skeleton(core);
+    var found = null, count = 0;
+    for (var k in HARAKAT_WORDS) {
+      if (skeleton(k) === sk) { found = HARAKAT_WORDS[k]; count++; }
+    }
+    if (count === 1) return found;
+    var m = core.match(/^([\u0648\u0641\u0628\u0644\u0643\u0633])(.+)$/);
+    if (m && m[2] !== core) {
+      var pre = { '\u0648': '\u0648\u064E', '\u0641': '\u0641\u064E', '\u0628': '\u0628\u0650',
+                  '\u0644': '\u0644\u0650', '\u0643': '\u0643\u064E', '\u0633': '\u0633\u064E' }[m[1]];
+      var rest = lookupWord(m[2]);
+      if (pre && rest) return pre + rest;
+    }
+    return null;
+  }
 
-      const extractTextFromFile = async (file) => {
-        setParsing(true);
-        resetFeedback();
-        try {
-          if (file.type === "application/pdf") {
-            const text = await extractTextFromPdf(file);
-            setInputText(text.trim());
-          } else if (file.type.startsWith("image/")) {
-            const text = await extractTextFromImage(file);
-            if (!text.trim()) {
-              throw new Error("Tidak ada tulisan Arab yang terbaca pada gambar ini.");
-            }
-            setInputText(text.trim());
-            setResults((prev) => ({ ...prev, original: text.trim() }));
-            setActiveTab("translator");
-            setNotice("Gambar berhasil dibaca. Hasilnya sudah dibersihkan menjadi teks Arab gundul — silakan tekan tombol proses untuk mengharokati.");
-          } else {
-            const text = await file.text();
-            setInputText(text.trim());
+  /**
+   * Harokat offline berbasis kata (bukan regex \b yang buta huruf Arab).
+   * Mengembalikan { text, coverage } — coverage = frasa/kata yang berhasil
+   * diberi harokat (0..1), dilaporkan apa adanya kepada pengguna.
+   */
+  function localHarokat(text) {
+    if (!text) return { text: '', coverage: 0 };
+    var arabicWords = 0, hitWords = 0;
+
+    var phrases = HARAKAT_PHRASES.slice().sort(function (a, b) {
+      return b[0].split(/\s+/).length - a[0].split(/\s+/).length;
+    });
+
+    var result = String(text).split('\n').map(function (line) {
+      if (!/[\u0600-\u06FF]/.test(line)) return line;
+      var words = line.split(/\s+/).filter(Boolean);
+      var used = new Array(words.length);
+
+      // Frasa multi-kata dulu (toleran skeleton), tanda terpakai per posisi.
+      phrases.forEach(function (p) {
+        var keys = p[0].split(/\s+/).filter(Boolean);
+        var vals = p[1].split(/\s+/).filter(Boolean);
+        var n = keys.length;
+        for (var i = 0; i + n <= words.length; i++) {
+          var free = true;
+          for (var j = 0; j < n; j++) if (used[i + j]) { free = false; break; }
+          if (!free) continue;
+          var match = true;
+          for (var j = 0; j < n; j++) {
+            var core = words[i + j].replace(EDGE_PUNCT, '');
+            if (skeleton(core) !== skeleton(keys[j])) { match = false; break; }
           }
-        } catch (e) {
-          setError(`Gagal membaca file: ${e.message || e}`);
-        } finally {
-          setParsing(false);
+          if (match) for (var j = 0; j < n; j++) used[i + j] = vals[j] || words[i + j];
         }
-      };
+      });
 
-      const handleUpload = (e) => {
-        const file = e.target.files && e.target.files[0];
-        if (file) {
-          setFileName(file.name);
-          extractTextFromFile(file);
-        }
-      };
+      return words.map(function (w, i) {
+        if (used[i]) { arabicWords++; hitWords++; return used[i]; }
+        var core = w.replace(EDGE_PUNCT, '');
+        if (!core || !isArabicChar(core[0])) return w;
+        arabicWords++;
+        var res = lookupWord(core);
+        if (res) { hitWords++; return w.split(core).join(res); }
+        return w;
+      }).join(' ');
+    }).join('\n');
 
-      // ==================== PEMROSESAN AI (dengan fallback jujur) ====================
-      const runWithTimeout = async (fn) => {
-        const ctrl = new AbortController();
-        timeoutRef.current = setTimeout(() => ctrl.abort(), 90000);
-        try {
-          return await fn(ctrl.signal);
-        } finally {
-          clearTimeout(timeoutRef.current);
-        }
-      };
+    var coverage = arabicWords > 0 ? hitWords / arabicWords : 0;
+    return { text: result, coverage: coverage };
+  }
 
-      const generateHarokat = async () => {
-        if (!inputText.trim()) return;
-        setIsProcessing(true);
-        resetFeedback();
-        setResults((prev) => ({ ...prev, original: inputText }));
-        if (!apiKey) {
-          const h = localFallbackHarokat(inputText);
-          setResults((prev) => ({ ...prev, harokat: h.text }));
-          setNotice(`API key belum diisi — hasil dari kamus lokal (cakupan ${Math.round(h.coverage * 100)}% kata). Isi API key untuk hasil penuh via AI.`);
-          setIsProcessing(false);
-          return;
-        }
-        try {
-          const prompt = `Berikan teks Arab gundul ini dengan harokat (tasykil) yang benar dan akurat sesuai kaidah nahwu dan sharaf.
+  /**
+   * Terjemahan offline yang JUJUR: hanya untuk teks pengujian bawaan yang maknanya
+   * benar-benar diketahui; selain itu TIDAK mengarang terjemahan.
+   */
+  var TEST_SAMPLE = '\u0627\u062A\u0641\u0642\u062A \u0643\u0644\u0645\u0629 \u0627\u0644\u0633\u0645\u0627\u0621 \u0648\u0631\u0633\u0627\u0644\u0627\u062A\u0647\u0627 \u0627\u0644\u0625\u0644\u0647\u064A\u0629 \u0623\u0646 \u0645\u0635\u062F\u0631 \u0633\u0639\u0627\u062F\u0629 \u0627\u0644\u0625\u0646\u0633\u0627\u0646 \u0648\u0631\u0642\u064A\u0647 \u0641\u064A \u0646\u0634\u0623\u0629 \u0639\u0627\u0644\u0645 \u0627\u0644\u062F\u0646\u064A\u0627';
 
-ATURAN WAJIB:
-1. Pastikan setiap huruf, kata, dan tanda baca (seperti titik, koma, mim) tetap berada di tempatnya seperti aslinya.
-2. JANGAN mengubah, mengurangi, atau menambah kalimat, kata, atau tanda baca. Hasil akhir harus memiliki kerangka teks yang sama persis dengan aslinya, hanya ditambahkan harokat.
+  function normalizeWords(t) {
+    return stripDiacritics(t || '').replace(/[\s\u060C\u061B\u061F.,:;!?]+/g, ' ').trim();
+  }
 
-TEKS ASLI:
-${inputText}`;
-          const system = "Balas HANYA dengan format JSON valid seperti ini: {\"harokat\": \"...\"}";
-          const raw = await runWithTimeout((signal) =>
-            callGemini({
-              apiKey,
-              parts: [{ text: prompt }],
-              systemInstruction: system,
-              forceJson: true,
-              signal,
-            })
-          );
-          const result = parseJSON(raw);
-          const harokat = result && result.harokat ? String(result.harokat) : "";
-          if (!harokat.trim()) throw new Error("AI tidak mengembalikan hasil harokat");
-          setResults((prev) => ({ ...prev, harokat }));
-          if (!NaskahEngine.isFaithful(inputText, harokat)) {
-            setWarning("Hasil AI tampak menyimpang dari teks asli (kerangka huruf berbeda). Periksa kembali, atau ulangi proses.");
-          }
-        } catch (e) {
-          const h = localFallbackHarokat(inputText);
-          setResults((prev) => ({ ...prev, harokat: h.text }));
-          const reason = e && e.name === "AbortError" ? "waktu tunggu >90 detik" : (e.message || String(e));
-          setNotice(`AI tidak dapat dihubungi (${reason}). Menampilkan hasil kamus lokal (cakupan ${Math.round(h.coverage * 100)}% kata).`);
-        } finally {
-          setIsProcessing(false);
-        }
-      };
+  function localTranslation(text) {
+    if (skeleton(normalizeWords(text)) === skeleton(normalizeWords(TEST_SAMPLE))) {
+      return 'Telah sepakat firman langit dan risalah-risalah ketuhanan bahwa sumber kebahagiaan manusia serta kemajuannya berada dalam kehidupan alam dunia.';
+    }
+    return '';
+  }
 
-      const generateWashal = async () => {
-        if (!inputText.trim()) return;
-        setIsProcessing(true);
-        resetFeedback();
-        setResults((prev) => ({ ...prev, original: inputText }));
-        if (!apiKey) {
-          const washal = localFallbackWashal(inputText);
-          setResults((prev) => ({ ...prev, washal }));
-          setNotice("API key belum diisi — bacaan Washal dibuat mesin transliterasi lokal.");
-          setIsProcessing(false);
-          return;
-        }
-        try {
-          const prompt = `Ubah teks Arab gundul ini menjadi bacaan Washal (Latin/Romawi) sesuai kaidah bacaan sambung (washal).
+  /** Membersihkan hasil ekstraksi gambar: pastikan gundul tanpa komentar pengantar. */
+  function cleanExtractedArabic(raw) {
+    if (!raw) return '';
+    var text = raw
+      .replace(/```[a-zA-Z]*/g, '')
+      .replace(/\u201C|\u201D|"|'/g, '')
+      .trim();
+    var lines = text.split(/\r?\n/);
+    var kept = [];
+    var preamble = /^(berikut|ini|teks|hasil|here|below|note|catatan|the text|arabic)\b/i;
+    for (var i = 0; i < lines.length; i++) {
+      var line = lines[i].trim();
+      if (!line) continue;
+      var hasArabic = /[\u0600-\u06FF]/.test(line);
+      if (!hasArabic && preamble.test(line)) continue;
+      kept.push(line);
+    }
+    // buang tasykil agar benar-benar "gundul"
+    return stripDiacritics(kept.join(' ')).replace(/\s+/g, ' ').trim();
+  }
 
-TEKS:
-${inputText}`;
-          const system = "Balas HANYA dengan format JSON valid seperti ini: {\"washal\": \"...\"}";
-          const raw = await runWithTimeout((signal) =>
-            callGemini({ apiKey, parts: [{ text: prompt }], systemInstruction: system, forceJson: true, signal })
-          );
-          const result = parseJSON(raw);
-          const washal = result && result.washal ? String(result.washal) : "";
-          if (!washal.trim()) throw new Error("AI tidak mengembalikan bacaan Washal");
-          setResults((prev) => ({ ...prev, washal }));
-        } catch (e) {
-          const washal = localFallbackWashal(inputText);
-          setResults((prev) => ({ ...prev, washal }));
-          const reason = e && e.name === "AbortError" ? "waktu tunggu >90 detik" : (e.message || String(e));
-          setNotice(`AI tidak dapat dihubungi (${reason}). Menampilkan bacaan Washal dari mesin transliterasi lokal.`);
-        } finally {
-          setIsProcessing(false);
-        }
-      };
+  // ---------- mufradat kitab & syarah offline ----------
 
-      const translate = async () => {
-        if (!inputText.trim()) return;
-        setIsProcessing(true);
-        resetFeedback();
-        setResults((prev) => ({ ...prev, original: inputText }));
-        if (!apiKey) {
-          const local = localFallbackTranslation(inputText);
-          if (local) {
-            setResults((prev) => ({ ...prev, translate: local }));
-          } else {
-            setNotice("Terjemahan offline hanya tersedia untuk teks contoh bawaan. Isi API key untuk menerjemahkan teks lain.");
-          }
-          setIsProcessing(false);
-          return;
-        }
-        try {
-          const prompt = `Terjemahkan teks Arab gundul ini ke dalam Bahasa Indonesia yang baik dan benar, sesuai konteks kalimat dan kaidah nahwu sharaf.
+  /** Pemecah kalimat (berbasis tanda baca Arab & Latin, tanpa lookbehind). */
+  function splitSentences(text) {
+    var m = String(text || '').match(/[^.؟!\u06D4\n]+[.؟!\u06D4]*|\n/g);
+    return (m || [])
+      .map(function (s) { return s.replace(/\n/g, ' ').trim(); })
+      .filter(function (s) { return s && /[\u0600-\u06FF]/.test(s); });
+  }
 
-TEKS:
-${inputText}`;
-          const system = "Balas HANYA dengan format JSON valid seperti ini: {\"translate\": \"...\"}";
-          const raw = await runWithTimeout((signal) =>
-            callGemini({ apiKey, parts: [{ text: prompt }], systemInstruction: system, forceJson: true, signal })
-          );
-          const result = parseJSON(raw);
-          const translate = result && result.translate ? String(result.translate) : "";
-          if (!translate.trim()) throw new Error("AI tidak mengembalikan terjemahan");
-          setResults((prev) => ({ ...prev, translate }));
-        } catch (e) {
-          const local = localFallbackTranslation(inputText);
-          if (local) {
-            setResults((prev) => ({ ...prev, translate: local }));
-          } else {
-            const reason = e && e.name === "AbortError" ? "waktu tunggu >90 detik" : (e.message || String(e));
-            setNotice(`AI tidak dapat dihubungi (${reason}) dan terjemahan offline hanya untuk teks contoh. Silakan coba lagi nanti.`);
-          }
-        } finally {
-          setIsProcessing(false);
-        }
-      };
+  /** Kamus mufradat: kunci gundul -> arti Indonesia (kosakata kitab kuning umum). */
+  var MUFRADAT = {};
+  (function () {
+    var pairs = [
+      ['\u0643\u062A\u0627\u0628', 'kitab'], ['\u0623\u062D\u0643\u0627\u0645', 'hukum-hukum'],
+      ['\u0627\u0644\u0637\u0647\u0627\u0631\u0629', 'bersuci'], ['\u0627\u0644\u0635\u0651\u0644\u0627\u0629', 'salat'],
+      ['\u0627\u0644\u0632\u0651\u0643\u0627\u0629', 'zakat'], ['\u0627\u0644\u0635\u0651\u0648\u0645', 'puasa'],
+      ['\u0627\u0644\u062D\u0651\u062C\u0651', 'haji'], ['\u0627\u0644\u0646\u0651\u0643\u0627\u062D', 'nikah/perkawinan'],
+      ['\u0627\u0644\u0637\u0651\u0644\u0627\u0642', 'talak'], ['\u0627\u0644\u0645\u0650\u064A\u0631\u0627\u062B', 'waris'],
+      ['\u0641\u064E\u0642\u0652\u0647', 'fiqih'], ['\u0646\u0652\u0635\u0652\u0651', 'nash/dalil'],
+      ['\u0639\u0650\u0644\u0652\u0645', 'ilmu'], ['\u0641\u064E\u0631\u0652\u0636', 'fardu'],
+      ['\u0648\u0627\u062C\u0650\u0628', 'wajib'], ['\u0645\u064F\u0628\u0627\u062D', 'mubah'],
+      ['\u062D\u064E\u0631\u0627\u0645', 'haram'], ['\u0645\u064E\u0643\u0652\u0631\u0648\u0647', 'makruh'],
+      ['\u0645\u064F\u0633\u0652\u062A\u064E\u062D\u064E\u0628\u0651\u0628', 'sunnah/disukai'],
+      ['\u0645\u064F\u0642\u064E\u062F\u0651\u0645\u0629', 'muqaddimah'], ['\u0628\u0627\u0628', 'bab'],
+      ['\u0641\u064E\u0635\u0652\u0644', 'fasal'], ['\u0645\u0633\u0627\u0626\u0644', 'masalah-masalah'],
+      ['\u0645\u0633\u0626\u0644\u0629', 'masalah'], ['\u0641\u064E\u0631\u0652\u0639', 'furuk/cabang'],
+      ['\u062F\u064E\u0644\u0650\u064A\u0644', 'dalil'], ['\u0642\u0650\u064A\u0627\u0633', 'qiyas'],
+      ['\u0625\u0650\u062C\u0652\u0645\u0627\u0639', 'ijmak'], ['\u062E\u064E\u0644\u0627\u0641', 'khilaf/perbedaan'],
+      ['\u0642\u064E\u0648\u0644', 'ucapan/pendapat'], ['\u0631\u064F\u0648\u0627\u064A\u0629', 'riwayat'],
+      ['\u0635\u064E\u062D\u0650\u064A\u062D', 'shahih'], ['\u0636\u064E\u0639\u0650\u064A\u0641', 'lemah'],
+      ['\u0627\u0644\u0641\u0627\u062A\u062D\u0629', 'Al-Fatihah'], ['\u0645\u064F\u062D\u064E\u0645\u0651\u062F', 'Muhammad'],
+      ['\u0631\u064E\u0633\u0648\u0648\u0644', 'utusan/rasul'], ['\u0627\u0644\u0644\u0651\u0647', 'Allah'],
+      ['\u0631\u064E\u0628\u0651', 'Tuhan'], ['\u0627\u0644\u0639\u0651\u0627\u0644\u0645\u0650\u064A\u0646', 'seluruh alam'],
+      ['\u0627\u0644\u0631\u0651\u064E\u062D\u0652\u0645\u064E\u0670\u0646', 'Maha Pengasih'],
+      ['\u0627\u0644\u0631\u0651\u064E\u062D\u0650\u064A\u0645', 'Maha Penyayang'],
+      ['\u0627\u0644\u062F\u0651\u0650\u064A\u0646', 'agama/pembalasan'], ['\u0627\u0644\u0646\u0651\u0627\u0633', 'manusia'],
+      ['\u064A\u064E\u0648\u0645', 'hari'], ['\u062D\u064E\u0633\u0627\u0628', 'hisab/perhitungan'],
+      ['\u0639\u064E\u0645\u064E\u0644', 'amal'], ['\u062E\u064E\u064A\u0652\u0631', 'kebaikan'],
+      ['\u0634\u064E\u0631\u0651', 'keburukan'], ['\u062A\u064E\u0642\u0652\u0648\u0649', 'takwa'],
+      ['\u0625\u0650\u064A\u0645\u0627\u0646', 'iman'], ['\u0643\u064F\u0641\u0652\u0631', 'kekufuran'],
+      ['\u0635\u0651\u0644\u0627\u0629', 'salat'], ['\u0635\u0650\u064A\u0627\u0645', 'puasa'],
+      ['\u062D\u064E\u062C\u0651\u0629', 'haji'], ['\u0639\u064F\u0645\u0652\u0631\u0629', 'umrah'],
+      ['\u0634\u064E\u0647\u064E\u0627\u062F\u064E\u0629', 'syahadah/kesaksian'],
+      ['\u0631\u064F\u0643\u064F\u0648\u0639', 'ruku'], ['\u0633\u064F\u062C\u064F\u0648\u062F', 'sujud'],
+      ['\u0648\u064F\u0636\u064F\u0648\u0621', 'wudu'], ['\u063A\u064F\u0633\u0652\u0644', 'mandi'],
+      ['\u062A\u064E\u064A\u0651\u0645\u064F\u0645', 'tayamum'], ['\u062D\u064E\u064A\u0636', 'haid'],
+      ['\u0625\u0650\u062D\u0652\u0631\u0627\u0645', 'ihram'], ['\u0631\u0650\u0628\u0627\u0648', 'riba'],
+      ['\u0628\u064E\u064A\u0652\u0639', 'jual beli'], ['\u0625\u0650\u062C\u064E\u0627\u0631\u0629', 'sewa'],
+      ['\u0642\u064E\u0627\u0636\u0650\u064A', 'hakim/qadhi'], ['\u0634\u064E\u0627\u0647\u0650\u062F', 'saksi'],
+      ['\u0628\u064E\u064A\u0651\u0650\u0646\u0629', 'bukti'], ['\u062D\u064F\u062F\u064F\u0648\u062F', 'had/hukuman'],
+      ['\u0642\u064E\u0635\u064E\u0627\u0635', 'qisas'], ['\u062F\u0650\u064A\u064E\u0627\u062A', 'diyat/denda'],
+      ['\u0639\u0650\u0628\u064E\u0627\u062F\u0627\u062A', 'ibadah'], ['\u0645\u064F\u0639\u0627\u0645\u064E\u0644\u0627\u062A', 'muamalah'],
+      ['\u0627\u0631\u0652\u0643\u064E\u0627\u0646', 'rukn/syarat utama'], ['\u0627\u0644\u0625\u0650\u0633\u0652\u0644\u064E\u0627\u0645', 'Islam'],
+      ['\u0627\u0644\u0625\u0650\u064A\u0645\u0627\u0646', 'iman'], ['\u0627\u0644\u0625\u0650\u062D\u0652\u0633\u064E\u0627\u0646', 'ihsan'],
+      ['\u0637\u064E\u0647\u064E\u0627\u0631\u0629', 'kesucian'], ['\u0646\u064E\u062C\u0627\u0633\u0629', 'najis'],
+      ['\u0627\u0644\u0645\u0627\u0621', 'air'], ['\u062C\u064E\u0646\u064E\u0627\u0628\u0629', 'junub'],
+      ['\u0633\u064E\u0641\u064E\u0631', 'perjalanan'], ['\u0636\u064E\u064A\u0652\u0641', 'tamu'],
+      ['\u062C\u064E\u0627\u0621\u064E', 'datang'], ['\u0648\u0627\u062C\u064E\u0628\u064E', 'wajib'],
+      ['\u0646\u064E\u0635\u0651\u064E', 'teks'], ['\u0627\u0644\u0644\u0651\u064E\u0647\u064F', 'Allah'],
+      ['\u0627\u062A\u0651\u064E\u0641\u064E\u0642\u064E\u062A\u0652', 'telah sepakat'],
+      ['\u0643\u064E\u0644\u0650\u0645\u064E\u0629\u064F', 'kata/firman'], ['\u0627\u0644\u0633\u0651\u064E\u0645\u0627\u0621', 'langit'],
+      ['\u0627\u0644\u0625\u0650\u0646\u0652\u0633\u064E\u0627\u0646', 'manusia'],
+      ['\u0633\u064E\u0639\u064E\u0627\u062F\u064E\u0629', 'kebahagiaan'], ['\u0639\u064E\u0627\u0644\u0645', 'alam'],
+      ['\u0627\u0644\u062F\u0651\u064F\u0646\u0652\u064A\u064E\u0627', 'dunia'], ['\u062F\u064E\u0628\u064E\u0631\u0627\u062C', 'permulaan'],
+      ['\u0648\u0627\u0644\u0634\u0651\u0647\u0627\u062F\u0629', 'dan kesaksian'],
+      ['\u0627\u0644\u0623\u064E\u0648\u0651\u064E\u0629', 'yang pertama'], ['\u0627\u0644\u062B\u0651\u0627\u0646\u0650\u064A\u0629', 'yang kedua'],
+      ['\u0627\u0644\u062B\u0651\u0627\u0644\u0650\u062B\u0629', 'yang ketiga'], ['\u0627\u0644\u0631\u064E\u0627\u0628\u0650\u0639\u0629', 'yang keempat'],
+      ['\u0627\u0644\u062E\u064E\u0627\u0645\u0650\u0633\u0629', 'yang kelima'], ['\u0648\u062C\u064F\u0647\u0629', 'segi/tujuan'],
+      ['\u0646\u064E\u0641\u064E\u0639', 'manfaat'], ['\u0636\u064E\u0631\u0631', 'bahaya'],
+    ];
+    pairs.forEach(function (p) {
+      MUFRADAT[p[0]] = p[1];
+      MUFRADAT[stripDiacritics(p[0])] = p[1]; // kunci gundul juga
+    });
+  })();
 
-      return (
-        <div className="min-h-screen relative">
-          <div className="fixed inset-0 z-0 opacity-5 pointer-events-none">
-            <div className="absolute top-20 left-10 w-72 h-72 bg-gold-500 rounded-full blur-3xl"></div>
-            <div className="absolute bottom-20 right-10 w-96 h-96 bg-gold-600 rounded-full blur-3xl"></div>
-          </div>
+  function lookupMufradat(core) {
+    if (!core) return null;
+    if (MUFRADAT[core]) return MUFRADAT[core];
+    var sk = skeleton(core);
+    var found = null, ambiguous = false;
+    for (var k in MUFRADAT) {
+      if (skeleton(k) !== sk) continue;
+      if (found === null) found = MUFRADAT[k];
+      else if (found !== MUFRADAT[k]) { ambiguous = true; break; } // arti beda = bingung
+    }
+    if (!ambiguous && found) return found;
+    // lepas artikel ال atau awalan tergabung
+    var m = core.match(/^[\u0648\u0641\u0628\u0644\u0643\u0633\u0627\u0644](.+)$/);
+    if (m && m[1].length > 1) {
+      var rest = lookupMufradat(m[1]);
+      if (rest) return rest;
+    }
+    return null;
+  }
 
-          <div className="relative z-10 max-w-7xl mx-auto px-4 py-8">
-            <header className="flex flex-col sm:flex-row items-center justify-between gap-6 mb-12">
-              <div className="flex items-center gap-4">
-                <div className="w-16 h-16 rounded-full bg-gradient-to-br from-[#232323] to-[#121212] border border-[#333] flex items-center justify-center shadow-xl">
-                  <div className="w-14 h-14 rounded-full bg-gradient-to-tr from-[#D4AF37] to-[#E6C766] flex items-center justify-center shadow-lg border-2 border-[#E6C766]">
-                    <div className="w-8 h-8 rounded-full bg-[#121212] flex items-center justify-center">
-                      <i className="ph-fill ph-scales text-[#D4AF37] text-xl"></i>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <h1 className="text-3xl font-bold text-[#F3F4F6] font-display">Garshuni <span className="text-[#D4AF37]">Studio</span></h1>
-                  <p className="text-[#9CA3AF] text-sm font-arabic tracking-wider mt-1">
-                    <span className="font-bold text-[#D4AF37]">Nahwu Sharaf</span> • Intelligent Arabic Analysis • Precision Diacritization
-                  </p>
-                </div>
-              </div>
-              <button
-                onClick={() => setShowSettings(true)}
-                className="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-[#1A1A1A] border border-[#333] hover:border-gold-500/50 text-[#9CA3AF] hover:text-[#F3F4F6] transition-colors"
-              >
-                <i className="ph-bold ph-gear text-lg"></i>
-                <span>Konfigurasi API</span>
-              </button>
-            </header>
-
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
-              <div className="lg:col-span-5">
-                <div className="glass-panel rounded-2xl p-6 border border-[#232323]">
-                  <div className="flex items-center gap-2 mb-4">
-                    <i className="ph-bold ph-keyboard text-[#D4AF37] text-xl"></i>
-                    <h2 className="text-lg font-semibold text-[#F3F4F6] font-display">Input / Unggah</h2>
-                  </div>
-                  <EditingArea
-                    inputText={inputText}
-                    setInputText={setInputText}
-                    isLoading={isProcessing}
-                    onUpload={handleUpload}
-                    fileName={fileName}
-                    parsing={parsing}
-                  />
-                  <div className="mt-4">
-                    <DropZone onFileSelect={handleUpload} />
-                  </div>
-                  <div className="mt-6 space-y-3">
-                    <button
-                      onClick={generateHarokat}
-                      disabled={isProcessing || !inputText.trim()}
-                      className="w-full bg-gradient-to-r from-gold-500 to-gold-600 text-[#121212] font-bold py-4 rounded-xl hover:scale-[1.02] transition-transform duration-200 shadow-lg shadow-gold-500/20 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
-                    >
-                      <i className="ph-bold ph-magic-wand text-xl"></i>
-                      <span>Proses Bacaan</span>
-                    </button>
-                    <button
-                      onClick={translate}
-                      disabled={isProcessing || !inputText.trim()}
-                      className="w-full bg-[#232323] text-[#F3F4F6] font-semibold py-4 rounded-xl hover:bg-[#2A2A2A] transition-colors border border-[#333] disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
-                    >
-                      <i className="ph-bold ph-translate text-xl"></i>
-                      <span>Terjemahkan Semua</span>
-                    </button>
-                    <button
-                      onClick={generateWashal}
-                      disabled={isProcessing || !inputText.trim()}
-                      className="w-full bg-[#232323] text-[#F3F4F6] font-semibold py-4 rounded-xl hover:bg-[#2A2A2A] transition-colors border border-[#333] disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
-                    >
-                      <i className="ph-bold ph-text-aa text-xl"></i>
-                      <span>Bacaan Washal (Latin)</span>
-                    </button>
-                  </div>
-                </div>
-
-                {warning && (
-                  <div className="mt-4 bg-amber-950/60 border border-amber-700/70 text-amber-200 p-4 rounded-xl text-sm flex items-start gap-2">
-                    <i className="ph-bold ph-warning-circle mt-0.5"></i>
-                    <span className="flex-1">{warning}</span>
-                    <button onClick={() => setWarning(null)} className="opacity-60 hover:opacity-100"><i className="ph-bold ph-x"></i></button>
-                  </div>
-                )}
-                {notice && (
-                  <div className="mt-4 bg-sky-950/60 border border-sky-700/70 text-sky-200 p-4 rounded-xl text-sm flex items-start gap-2">
-                    <i className="ph-bold ph-info mt-0.5"></i>
-                    <span className="flex-1">{notice}</span>
-                    <button onClick={() => setNotice(null)} className="opacity-60 hover:opacity-100"><i className="ph-bold ph-x"></i></button>
-                  </div>
-                )}
-                {error && (
-                  <div className="mt-4 bg-[#2A1A1A] border border-red-900/50 text-red-300 p-4 rounded-xl text-sm flex items-start gap-2">
-                    <i className="ph-bold ph-warning-circle mt-0.5"></i>
-                    <span className="flex-1">{error}</span>
-                    <button onClick={() => setError(null)} className="opacity-60 hover:opacity-100"><i className="ph-bold ph-x"></i></button>
-                  </div>
-                )}
-              </div>
-
-              <div className="lg:col-span-7">
-                {activeTab === "harokat" && isProcessing ? (
-                  <ProcessingOverlay />
-                ) : (
-                  <div>
-                    <TabBar activeTab={activeTab} setActiveTab={setActiveTab} />
-                    {results.harokat || results.washal || results.translate ? (
-                      <ResultsSection
-                        results={results}
-                        activeTab={activeTab}
-                        onCopy={(text) => copyToClipboard(text, setCopied)}
-                        onDownload={downloadTXT}
-                      />
-                    ) : (
-                      <WelcomeScreen
-                        onTryExample={() => {
-                          setInputText(NaskahEngine.TEST_SAMPLE);
-                          resetFeedback();
-                          setFileName(null);
-                        }}
-                      />
-                    )}
-                  </div>
-                )}
-              </div>
-            </div>
-
-            <footer className="mt-20 pt-8 border-t border-[#232323] text-center">
-              <div className="flex items-center justify-center gap-2 mb-4">
-                <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-[#D4AF37] to-[#E6C766] flex items-center justify-center">
-                  <div className="w-5 h-5 rounded-full bg-[#121212] flex items-center justify-center">
-                    <i className="ph-fill ph-scales text-[#D4AF37] text-xs"></i>
-                  </div>
-                </div>
-                <span className="text-[#F3F4F6] font-bold font-display">Garshuni Studio</span>
-              </div>
-              <p className="text-[#666] text-sm">© 2026 Garshuni Studio • Dibuat dengan Tailwind CSS & Google Gemini</p>
-              <p className="text-[#444] text-xs mt-2">Mode offline: kamus harokat lokal & transliterasi Washal tersedia tanpa API key.</p>
-            </footer>
-          </div>
-
-          {showSettings && (
-            <SettingsModal
-              apiKey={apiKey}
-              onSave={saveApiKey}
-              onSaveAndClose={saveAndClose}
-              onClose={() => setShowSettings(false)}
-            />
-          )}
-        </div>
-      );
+  /**
+   * Syarah offline (jujur): arti per kata dari kamus mufradat + perkiraan urutan arti.
+   * Penjelasan i'rab & kaidah nahwu-sharaf penuh hanya via AI (API key).
+   */
+  function localSyarah(text) {
+    var sentences = splitSentences(text);
+    var out = sentences.map(function (kal) {
+      var words = kal.split(/\s+/).filter(Boolean);
+      var kosakata = words.map(function (w) {
+        var core = w.replace(EDGE_PUNCT, '');
+        if (!core || !isArabicChar(core[0])) return { kata: w, arti: null, arab: false };
+        return { kata: core, arti: lookupMufradat(core), arab: true };
+      });
+      var terkira = kosakata
+        .filter(function (k) { return k.arab; })
+        .map(function (k) { return k.arti || '[?]'; })
+        .join(' + ');
+      return { asli: kal, kosakata: kosakata, terkira: terkira };
+    });
+    return {
+      mode: 'offline',
+      catatan: "Syarah offline baru berupa arti per kata dari kamus mufradat; penjelasan i'rab, kaidah nahwu-sharaf, dan penyambungan makna memerlukan API key Gemini (tombol Syarah).",
+      kalimat: out,
     };
+  }
 
-    createRoot(document.getElementById("root")).render(<App />);
-  </script>
+  return {
+    isHarakat: isHarakat,
+    isArabicChar: isArabicChar,
+    stripDiacritics: stripDiacritics,
+    skeleton: skeleton,
+    canonMarks: canonMarks,
+    levenshtein: levenshtein,
+    similarity: similarity,
+    isFaithful: isFaithful,
+    transliterate: transliterate,
+    WASHAL_RULES: WASHAL_RULES,
+    localHarokat: localHarokat,
+    localTranslation: localTranslation,
+    MUFRADAT: MUFRADAT,
+    splitSentences: splitSentences,
+    localSyarah: localSyarah,
+    cleanExtractedArabic: cleanExtractedArabic,
+    TEST_SAMPLE: TEST_SAMPLE
+  };
+});
+
+</script>
+
+<!-- ====== APLIKASI ====== -->
+<script>
+(function () {
+  'use strict';
+  var E = window.NaskahEngine;
+  var $ = function (id) { return document.getElementById(id); };
+
+  // ---------- status ----------
+  var state = {
+    apiKey: '',
+    results: { original: '', harokat: '', latin: '', terjemah: '', syarah: null },
+    tab: 'harokat',
+    mode: 'washal',
+    busy: false,
+    coverage: null,
+  };
+
+  // ---------- util ----------
+  function esc(s) {
+    return String(s == null ? '' : s)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  }
+
+  function banner(kind, msg, key) {
+    var box = $('banners');
+    var div = document.createElement('div');
+    div.className = 'banner ' + kind;
+    div.innerHTML = '<span>' + (kind === 'err' ? '⚠️' : kind === 'warn' ? '⚡' : kind === 'ok' ? '✅' : 'ℹ️') +
+      '</span><span style="flex:1">' + esc(msg) + '</span><button class="x">✕</button>';
+    div.querySelector('.x').onclick = function () { div.remove(); };
+    box.appendChild(div);
+    if (key) div.dataset.key = key;
+    // hapus banner lama dengan key sama (biar tidak menumpuk)
+    var olds = box.querySelectorAll('[data-key="' + key + '"]');
+    for (var i = 0; i < olds.length - 1; i++) olds[i].remove();
+  }
+  function clearBanner(key) {
+    var els = $('banners').querySelectorAll('[data-key="' + key + '"]');
+    for (var i = 0; i < els.length; i++) els[i].remove();
+  }
+
+  function setBusy(b, label) {
+    state.busy = b;
+    ['btnAll', 'btnHarokat', 'btnLatin', 'btnTerjemah', 'btnSyarah'].forEach(function (id) {
+      $(id).disabled = b;
+    });
+    if (b) {
+      $('resultArea').innerHTML = '<div class="spinner"></div><div class="placeholder">' + esc(label || 'Memproses…') + '</div>';
+    }
+  }
+
+  // ---------- render hasil ----------
+  function render() {
+    var r = state.results;
+    var area = $('resultArea');
+    var tools = $('resultTools');
+    if (state.busy) return;
+
+    if (state.tab === 'harokat') {
+      if (!r.harokat && !r.original) { area.innerHTML = emptyHtml(); tools.style.display = 'none'; return; }
+      var cov = state.coverage != null
+        ? '<span class="muted">cakupan kamus: ' + Math.round(state.coverage * 100) + '%</span>' : '';
+      area.innerHTML =
+        '<div class="result-label">Teks Asli (Gundul) ' + cov + '</div>' +
+        '<div class="result-box arabic">' + (esc(r.original) || '—') + '</div>' +
+        '<div class="result-label">Bacaan Harokat</div>' +
+        '<div class="result-box arabic" style="color:var(--gold2)">' + (esc(r.harokat) || 'Belum diproses.') + '</div>';
+      tools.style.display = 'flex';
+    } else if (state.tab === 'latin') {
+      if (!r.latin) { area.innerHTML = emptyHtml(); tools.style.display = 'none'; return; }
+      area.innerHTML =
+        '<div class="result-label">Bacaan Latin — mode ' + (state.mode === 'washal' ? 'Washal (sambung)' : 'Waqaf (berhenti)') + '</div>' +
+        '<div class="result-box latin">' + esc(r.latin) + '</div>' +
+        '<div class="muted" style="margin-top:10px">Mengikuti 3 hukum washal: ta marbuthah, hamzatul washl, idgham al-lam (termasuk sambungan tanwin).</div>';
+      tools.style.display = 'flex';
+    } else if (state.tab === 'terjemah') {
+      if (!r.terjemah) { area.innerHTML = emptyHtml(); tools.style.display = 'none'; return; }
+      area.innerHTML =
+        '<div class="result-label">Terjemahan Indonesia</div>' +
+        '<div class="result-box">' + esc(r.terjemah) + '</div>';
+      tools.style.display = 'flex';
+    } else { // syarah
+      if (!r.syarah) { area.innerHTML = emptyHtml(); tools.style.display = 'none'; return; }
+      var html = '';
+      if (r.syarah.mode === 'offline') {
+        html += '<div class="banner info" style="margin:0 0 12px"><span>ℹ️</span><span>' + esc(r.syarah.catatan) + '</span></div>';
+      }
+      r.syarah.kalimat.forEach(function (k, i) {
+        html += '<div class="syarah-card">' +
+          '<div class="ar">' + esc(k.asli) + '</div>';
+        if (k.makna) html += '<div class="syarah-field"><b>Makna:</b> ' + esc(k.makna) + '</div>';
+        if (k.irab) html += '<div class="syarah-field"><b>I\'rab ringkas:</b> ' + esc(k.irab) + '</div>';
+        if (k.kaidah) html += '<div class="syarah-field"><b>Kaidah nahwu/sharaf:</b> ' + esc(k.kaidah) + '</div>';
+        if (k.terkira) html += '<div class="syarah-field"><b>Perkiraan arti per kata:</b> ' + esc(k.terkira) + '</div>';
+        if (k.kosakata && k.kosakata.length) {
+          html += '<div class="gloss-list">';
+          k.kosakata.forEach(function (w) {
+            if (!w.arab) return;
+            html += '<div class="gloss"><span class="w">' + esc(w.kata) + '</span>' +
+              '<span class="a' + (w.arti ? ' known' : '') + '">' + esc(w.arti || 'belum dikenal') + '</span></div>';
+          });
+          html += '</div>';
+        }
+        html += '</div>';
+      });
+      area.innerHTML = html;
+      tools.style.display = 'flex';
+    }
+  }
+  function emptyHtml() {
+    return '<div class="placeholder">Belum ada hasil. Tempelkan naskah lalu tekan tombol proses.</div>';
+  }
+
+  // ---------- Gemini ----------
+  var MODEL_IDS = [
+    'gemini-flash-latest', 'gemini-3.8-flash', 'gemini-3.6-flash',
+    'gemini-3.5-flash-lite', 'gemini-3.1-flash-lite', 'gemini-2.5-flash',
+  ];
+  var API_URL = 'https://generativelanguage.googleapis.com/v1beta/models';
+
+  function parseJSON(raw) {
+    if (!raw) throw new Error('Jawaban AI kosong');
+    var text = String(raw).trim();
+    var fence = text.match(/```(?:json)?\s*([\s\S]*?)```/i);
+    if (fence) text = fence[1].trim();
+    var s = text.indexOf('{'), e = text.lastIndexOf('}');
+    if (s !== -1 && e > s) text = text.slice(s, e + 1);
+    try { return JSON.parse(text); }
+    catch (err) { throw new Error('Format jawaban AI tidak valid'); }
+  }
+
+  async function callGemini(opts) {
+    if (!state.apiKey) throw new Error('API key belum diisi');
+    var lastErr = null;
+    for (var mi = 0; mi < MODEL_IDS.length; mi++) {
+      var model = MODEL_IDS[mi];
+      var attempts = [{ generationConfig: { responseMimeType: 'application/json', thinkingConfig: { thinkingLevel: 'LOW' } } }, {}];
+      if (!opts.forceJson) attempts = [{ generationConfig: { thinkingConfig: { thinkingLevel: 'LOW' } } }, {}];
+      for (var ai = 0; ai < attempts.length; ai++) {
+        try {
+          var body = { contents: [{ role: 'user', parts: opts.parts }] };
+          if (opts.systemInstruction) body.systemInstruction = { parts: [{ text: opts.systemInstruction }] };
+          if (Object.keys(attempts[ai]).length) Object.assign(body, attempts[ai]);
+          var res = await fetch(API_URL + '/' + model + ':generateContent', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'x-goog-api-key': state.apiKey },
+            body: JSON.stringify(body),
+            signal: opts.signal,
+          });
+          if (res.status === 401 || res.status === 403) {
+            var d = await res.text().catch(function () { return ''; });
+            throw new Error('API key ditolak (HTTP ' + res.status + '). Periksa kunci Anda. ' + d.slice(0, 140));
+          }
+          if (!res.ok) {
+            var detail = await res.text().catch(function () { return ''; });
+            lastErr = new Error('Model ' + model + ': HTTP ' + res.status + ' ' + detail.slice(0, 110));
+            break; // coba konfigurasi/model berikutnya
+          }
+          var data = await res.json();
+          var parts = (data && data.candidates && data.candidates[0] && data.candidates[0].content && data.candidates[0].content.parts) || [];
+          var text = parts.map(function (p) { return p.text || ''; }).join('');
+          if (!text.trim()) { lastErr = new Error('Model ' + model + ' menjawab kosong'); break; }
+          return text;
+        } catch (err) {
+          if (err && (err.name === 'AbortError' || /^API key/.test(err.message))) throw err;
+          lastErr = err;
+        }
+      }
+    }
+    throw lastErr || new Error('Semua model Gemini gagal dihubungi');
+  }
+
+  async function withTimeout(fn) {
+    var ctrl = new AbortController();
+    var t = setTimeout(function () { ctrl.abort(); }, 90000);
+    try { return await fn(ctrl.signal); }
+    finally { clearTimeout(t); }
+  }
+
+  // ---------- aksi proses ----------
+  function inputText() { return $('input').value.trim(); }
+
+  function ensureHarokat() {
+    // hasil harokat: pakai yang sudah ada, else lokal
+    if (state.results.harokat) return state.results.harokat;
+    var h = E.localHarokat(inputText());
+    state.results.harokat = h.text;
+    state.coverage = h.coverage;
+    return h.text;
+  }
+
+  async function prosesHarokat() {
+    var teks = inputText();
+    if (!teks) { banner('err', 'Teks masih kosong.', 'harokat'); return; }
+    state.tab = 'harokat'; syncTabs();
+    state.results.original = teks;
+    state.results.latin = ''; state.results.terjemah = ''; state.results.syarah = null;
+    clearBanner('harokat'); clearBanner('faith');
+    if (!state.apiKey) {
+      var h = E.localHarokat(teks);
+      state.results.harokat = h.text;
+      state.coverage = h.coverage;
+      banner('info', 'Mode offline: harokat dari kamus lokal (cakupan ' + Math.round(h.coverage * 100) + '% kata). Isi API key untuk harokat penuh via AI.', 'harokat');
+      render();
+      return;
+    }
+    setBusy(true, 'AI sedang mengharokati naskah…');
+    try {
+      var prompt =
+        'Berikan teks Arab gundul ini dengan harokat (tasykil) yang benar sesuai kaidah nahwu dan sharaf.\n' +
+        'ATURAN WAJIB: 1) Setiap huruf dan tanda baca tetap di tempatnya. ' +
+        '2) JANGAN mengubah, mengurangi, atau menambah kalimat — kerangka teks harus sama persis, hanya ditambahkan harokat.\n\n' +
+        'TEKS ASLI:\n' + teks;
+      var raw = await withTimeout(function (signal) {
+        return callGemini({
+          parts: [{ text: prompt }],
+          systemInstruction: 'Balas HANYA dengan format JSON valid: {"harokat": "..."}',
+          forceJson: true,
+          signal: signal,
+        });
+      });
+      var hasil = parseJSON(raw);
+      var harokat = hasil && hasil.harokat ? String(hasil.harokat) : '';
+      if (!harokat.trim()) throw new Error('AI tidak mengembalikan harokat');
+      state.results.harokat = harokat;
+      state.coverage = 1;
+      if (!E.isFaithful(teks, harokat)) {
+        banner('warn', 'Hasil AI tampak menyimpang dari teks asli (kerangka huruf berbeda). Periksa kembali hasilnya.', 'faith');
+      } else {
+        banner('ok', 'Harokat selesai (AI).', 'harokat');
+      }
+    } catch (err) {
+      var h2 = E.localHarokat(teks);
+      state.results.harokat = h2.text;
+      state.coverage = h2.coverage;
+      var alasan = err && err.name === 'AbortError' ? 'waktu tunggu >90 detik' : (err.message || String(err));
+      banner('info', 'AI tidak dapat dihubungi (' + alasan + '). Menampilkan harokat kamus lokal (cakupan ' + Math.round(h2.coverage * 100) + '%).', 'harokat');
+    } finally {
+      setBusy(false);
+      render();
+    }
+  }
+
+  function prosesLatin() {
+    clearBanner('latin');
+    var teks = state.results.harokat || inputText();
+    if (!teks) { banner('err', 'Teks masih kosong.', 'latin'); return; }
+    if (!state.results.harokat && inputText()) {
+      // pastikan ada harokat minimal dari kamus supaya latin tidak kosong vokal
+      var h = E.localHarokat(inputText());
+      state.results.harokat = h.text;
+      state.coverage = h.coverage;
+      if (h.coverage < 1) {
+        banner('info', 'Sebagian kata belum ada di kamus harokat — hurufnya dilatinkan tanpa vokal. Harokat AI (API key) akan lebih lengkap.', 'latin');
+      }
+    }
+    state.results.latin = E.transliterate(state.results.harokat || inputText(), state.mode);
+    state.tab = 'latin';
+    syncTabs();
+    render();
+  }
+
+  async function prosesTerjemah() {
+    var teks = inputText();
+    if (!teks) { banner('err', 'Teks masih kosong.', 'terjemah'); return; }
+    clearBanner('terjemah');
+    if (!state.apiKey) {
+      var lokal = E.localTranslation(teks);
+      if (lokal) {
+        state.results.terjemah = lokal;
+        banner('ok', 'Terjemahan offline untuk teks contoh bawaan.', 'terjemah');
+      } else {
+        banner('info', 'Terjemahan offline hanya untuk teks contoh bawaan (mesin tidak mengarang). Isi API key untuk menerjemahkan teks ini.', 'terjemah');
+      }
+      state.tab = 'terjemah'; syncTabs(); render();
+      return;
+    }
+    setBusy(true, 'Menerjemahkan…');
+    try {
+      var raw = await withTimeout(function (signal) {
+        return callGemini({
+          parts: [{ text: 'Terjemahkan teks Arab berikut ke Bahasa Indonesia yang baik dan benar sesuai konteks kalimat dan kaidah nahwu sharaf.\n\nTEKS:\n' + teks }],
+          systemInstruction: 'Balas HANYA dengan format JSON valid: {"translate": "..."}',
+          forceJson: true,
+          signal: signal,
+        });
+      });
+      var hasil = parseJSON(raw);
+      var tr = hasil && hasil.translate ? String(hasil.translate) : '';
+      if (!tr.trim()) throw new Error('AI tidak mengembalikan terjemahan');
+      state.results.terjemah = tr;
+    } catch (err) {
+      var lokal2 = E.localTranslation(teks);
+      if (lokal2) {
+        state.results.terjemah = lokal2;
+      } else {
+        var alasan = err && err.name === 'AbortError' ? 'waktu tunggu >90 detik' : (err.message || String(err));
+        banner('info', 'Terjemahan AI gagal (' + alasan + '). Mesin tidak mengarang terjemahan offline untuk teks ini.', 'terjemah');
+      }
+    } finally {
+      setBusy(false);
+      state.tab = 'terjemah'; syncTabs(); render();
+    }
+  }
+
+  async function prosesSyarah() {
+    var teks = inputText();
+    if (!teks) { banner('err', 'Teks masih kosong.', 'syarah'); return; }
+    clearBanner('syarah');
+    if (!state.apiKey) {
+      state.results.syarah = E.localSyarah(teks);
+      state.tab = 'syarah'; syncTabs(); render();
+      return;
+    }
+    setBusy(true, 'Menyusun syarah…');
+    try {
+      var prompt =
+        'Buatlah SYARAH (penjelasan) kitab berikut untuk pelajar pesantren Indonesia. ' +
+        'Untuk SETIAP kalimat berikan: makna bebas dalam Bahasa Indonesia, i\'rab ringkas (kedudukan kata penting), ' +
+        'dan kaidah nahwu/sharaf yang dipakai. Jangan mengarang; jika ragu tulis "wallahu a\'lam".\n\n' +
+        'TEKS KITAB:\n' + teks;
+      var raw = await withTimeout(function (signal) {
+        return callGemini({
+          parts: [{ text: prompt }],
+          systemInstruction: 'Balas HANYA dengan format JSON valid: {"syarah": [{"kalimat": "...", "makna": "...", "irab": "...", "kaidah": "..."}]}',
+          forceJson: true,
+          signal: signal,
+        });
+      });
+      var hasil = parseJSON(raw);
+      if (!hasil || !Array.isArray(hasil.syarah) || !hasil.syarah.length) throw new Error('AI tidak mengembalikan syarah');
+      var offline = E.localSyarah(teks);
+      hasil.syarah.forEach(function (k, i) {
+        var base = offline.kalimat[i];
+        k.kosakata = base ? base.kosakata : [];
+        if (!k.terkira && base) k.terkira = base.terkira;
+      });
+      state.results.syarah = { mode: 'ai', catatan: '', kalimat: hasil.syarah };
+    } catch (err) {
+      state.results.syarah = E.localSyarah(teks);
+      var alasan = err && err.name === 'AbortError' ? 'waktu tunggu >90 detik' : (err.message || String(err));
+      banner('info', 'Syarah AI gagal (' + alasan + '). Menampilkan syarah offline (arti per kata).', 'syarah');
+    } finally {
+      setBusy(false);
+      state.tab = 'syarah'; syncTabs(); render();
+    }
+  }
+
+  async function prosesSemua() {
+    if (!inputText()) { banner('err', 'Teks masih kosong.', 'all'); return; }
+    await prosesHarokat();
+    prosesLatin();
+    await prosesTerjemah();
+    await prosesSyarah();
+  }
+
+  // ---------- unggah file ----------
+  async function handleFile(file) {
+    $('fileName').textContent = '📄 ' + file.name;
+    clearBanner('file');
+    try {
+      if (file.type === 'application/pdf') {
+        banner('info', 'Memuat pustaka PDF dari internet (sekali saja)…', 'file');
+        if (!window.pdfjsLib) {
+          await loadScript('https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js');
+        }
+        window.pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+        var buf = await file.arrayBuffer();
+        var pdf = await window.pdfjsLib.getDocument({ data: buf }).promise;
+        var max = Math.min(pdf.numPages, 5);
+        if (pdf.numPages > 5) banner('info', 'PDF memiliki ' + pdf.numPages + ' halaman — hanya ' + max + ' halaman pertama yang diproses.', 'file');
+        var teks = '';
+        for (var i = 1; i <= max; i++) {
+          var page = await pdf.getPage(i);
+          var tc = await page.getTextContent();
+          teks += tc.items.map(function (it) { return it.str; }).join(' ') + '\n';
+        }
+        $('input').value = teks.trim();
+      } else if (/^image\//.test(file.type)) {
+        if (!state.apiKey) throw new Error('Membaca foto kitab memerlukan API key Gemini (Konfigurasi API).');
+        banner('info', 'Membaca foto via Gemini Vision…', 'file');
+        var b64 = await fileToDataURL(file);
+        var raw = await withTimeout(function (signal) {
+          return callGemini({
+            parts: [
+              { inline_data: { mime_type: file.type || 'image/jpeg', data: b64 } },
+              { text: 'Ekstrak teks Arab gundul dari gambar ini. ATURAN: huruf Arab saja; TANPA tasykil; jangan mengarang; hapus komentar pengantar; jika tidak ada tulisan Arab kembalikan kosong.' },
+            ],
+            signal: signal,
+          });
+        });
+        var bersih = E.cleanExtractedArabic(raw);
+        if (!bersih) throw new Error('Tidak ada tulisan Arab yang terbaca pada foto ini.');
+        $('input').value = bersih;
+        banner('ok', 'Foto berhasil dibaca dan dibersihkan menjadi teks gundul.', 'file');
+      } else if (/\.docx$/i.test(file.name)) {
+        banner('info', 'Memuat pustaka DOCX dari internet (sekali saja)…', 'file');
+        if (!window.mammoth) {
+          await loadScript('https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js');
+        }
+        var buf2 = await file.arrayBuffer();
+        var res = await window.mammoth.extractRawText({ arrayBuffer: buf2 });
+        $('input').value = (res.value || '').trim();
+      } else {
+        $('input').value = (await file.text()).trim();
+      }
+    } catch (err) {
+      banner('err', 'Gagal membaca file: ' + (err.message || err), 'file');
+    }
+  }
+  function fileToDataURL(file) {
+    return new Promise(function (resolve, reject) {
+      var fr = new FileReader();
+      fr.onload = function () { resolve(String(fr.result).split(',')[1]); };
+      fr.onerror = function () { reject(new Error('Gagal membaca file')); };
+      fr.readAsDataURL(file);
+    });
+  }
+  function loadScript(src) {
+    return new Promise(function (resolve, reject) {
+      var s = document.createElement('script');
+      s.src = src;
+      s.onload = resolve;
+      s.onerror = function () { reject(new Error('Gagal memuat ' + src + ' — periksa koneksi internet')); };
+      document.head.appendChild(s);
+    });
+  }
+
+  // ---------- tab & mode ----------
+  function syncTabs() {
+    var tabs = document.querySelectorAll('.tab');
+    for (var i = 0; i < tabs.length; i++) {
+      tabs[i].classList.toggle('active', tabs[i].dataset.tab === state.tab);
+    }
+  }
+
+  // ---------- modal API ----------
+  function openModal() { $('modal').style.display = 'flex'; $('apiKey').value = state.apiKey; }
+  function closeModal() { $('modal').style.display = 'none'; $('testResult').innerHTML = ''; }
+
+  async function testKey() {
+    var key = $('apiKey').value.trim();
+    if (!key) { $('testResult').innerHTML = '<div class="banner err"><span>⚠️</span><span>Isi kunci dulu.</span></div>'; return; }
+    $('testResult').innerHTML = '<div class="banner info"><span>ℹ️</span><span>Menguji…</span></div>';
+    var save = state.apiKey;
+    state.apiKey = key;
+    try {
+      await callGemini({ parts: [{ text: 'Balas hanya dengan satu kata: siap' }] });
+      $('testResult').innerHTML = '<div class="banner ok"><span>✅</span><span>Koneksi berhasil! Kunci valid.</span></div>';
+    } catch (err) {
+      $('testResult').innerHTML = '<div class="banner err"><span>⚠️</span><span>' + esc((err.message || err).slice(0, 220)) + '</span></div>';
+    } finally {
+      state.apiKey = save;
+    }
+  }
+
+  // ---------- salin & unduh ----------
+  function teksAktif() {
+    var r = state.results;
+    if (state.tab === 'harokat') return r.harokat || r.original;
+    if (state.tab === 'latin') return r.latin;
+    if (state.tab === 'terjemah') return r.terjemah;
+    if (state.tab === 'syarah' && r.syarah) {
+      return r.syarah.kalimat.map(function (k, i) {
+        return (i + 1) + '. ' + k.asli + '\n   Makna: ' + (k.makna || k.terkira || '-') +
+          (k.irab ? '\n   I\'rab: ' + k.irab : '') + (k.kaidah ? '\n   Kaidah: ' + k.kaidah : '');
+      }).join('\n\n');
+    }
+    return '';
+  }
+  function salin() {
+    var t = teksAktif();
+    if (!t) return;
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(t).then(function () { banner('ok', 'Hasil disalin.', 'copy'); },
+        function () { fallbackCopy(t); });
+    } else fallbackCopy(t);
+  }
+  function fallbackCopy(t) {
+    var ta = document.createElement('textarea');
+    ta.value = t; document.body.appendChild(ta); ta.select();
+    try { document.execCommand('copy'); banner('ok', 'Hasil disalin.', 'copy'); }
+    catch (e) { banner('err', 'Gagal menyalin.', 'copy'); }
+    ta.remove();
+  }
+  function unduh() {
+    var r = state.results;
+    var isi = '=== HASIL GARSHUNI STUDIO ===\n\n' +
+      '--- NASKAH ASLI (GUNDUL) ---\n' + (r.original || '-') + '\n\n' +
+      '--- HAROKAT ---\n' + (r.harokat || '-') + '\n\n' +
+      '--- LATIN WASHAL (' + state.mode.toUpperCase() + ') ---\n' + (r.latin || '-') + '\n\n' +
+      '--- TERJEMAHAN ---\n' + (r.terjemah || '-') + '\n\n' +
+      '--- SYARAH ---\n' + teksAktifSyarah() + '\n';
+    var blob = new Blob([isi], { type: 'text/plain;charset=utf-8' });
+    var a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'hasil-garshuni.txt';
+    a.click();
+    URL.revokeObjectURL(a.href);
+  }
+  function teksAktifSyarah() {
+    var r = state.results;
+    if (!r.syarah) return '-';
+    return r.syarah.kalimat.map(function (k, i) {
+      return (i + 1) + '. ' + k.asli + '\n   Makna: ' + (k.makna || k.terkira || '-') +
+        (k.irab ? '\n   I\'rab: ' + k.irab : '') + (k.kaidah ? '\n   Kaidah: ' + k.kaidah : '');
+    }).join('\n\n');
+  }
+
+  // ---------- render aturan 3 hukum ----------
+  function renderRules() {
+    var box = $('rulesGrid');
+    box.innerHTML = E.WASHAL_RULES.map(function (r) {
+      return '<div class="rule-card">' +
+        '<div class="rule-no">' + r.no + '</div>' +
+        '<h3>' + esc(r.nama) + '</h3>' +
+        '<p>' + esc(r.penjelasan) + '</p>' +
+        '<div class="rule-ex">' +
+          '<div class="ar">' + esc(r.contoh) + '</div>' +
+          '<div class="w">washal: ' + esc(r.washal) + '</div>' +
+          '<div class="q">waqaf: ' + esc(r.waqaf) + '</div>' +
+        '</div></div>';
+    }).join('');
+  }
+
+  // ---------- event binding ----------
+  function bind() {
+    $('btnRules').onclick = function () { $('rules').classList.toggle('open'); };
+    $('btnSettings').onclick = openModal;
+    $('btnModalClose').onclick = closeModal;
+    $('btnSkipKey').onclick = closeModal;
+    $('btnSaveKey').onclick = function () {
+      state.apiKey = $('apiKey').value.trim();
+      try { localStorage.setItem('gemini_api_key', state.apiKey); } catch (e) {}
+      banner('ok', 'Kunci API tersimpan.', 'key');
+      closeModal();
+    };
+    $('btnTestKey').onclick = testKey;
+
+    $('btnSample').onclick = function () {
+      $('input').value = E.TEST_SAMPLE;
+      $('fileName').textContent = '📄 (teks contoh bawaan)';
+    };
+    $('btnClear').onclick = function () {
+      $('input').value = '';
+      state.results = { original: '', harokat: '', latin: '', terjemah: '', syarah: null };
+      state.coverage = null;
+      $('fileName').textContent = '📄 Belum ada file';
+      $('banners').innerHTML = '';
+      render();
+    };
+    $('btnFile').onclick = function () { $('file').click(); };
+    $('file').onchange = function (e) { if (e.target.files[0]) handleFile(e.target.files[0]); };
+
+    $('btnHarokat').onclick = prosesHarokat;
+    $('btnLatin').onclick = prosesLatin;
+    $('btnTerjemah').onclick = prosesTerjemah;
+    $('btnSyarah').onclick = prosesSyarah;
+    $('btnAll').onclick = prosesSemua;
+
+    $('btnCopy').onclick = salin;
+    $('btnDownload').onclick = unduh;
+
+    var tabs = document.querySelectorAll('.tab');
+    for (var i = 0; i < tabs.length; i++) {
+      tabs[i].onclick = (function (el) {
+        return function () { state.tab = el.dataset.tab; syncTabs(); render(); };
+      })(tabs[i]);
+    }
+
+    var pills = document.querySelectorAll('.mode-pill');
+    for (var j = 0; j < pills.length; j++) {
+      pills[j].onclick = (function (el) {
+        return function () {
+          state.mode = el.dataset.mode;
+          for (var k = 0; k < pills.length; k++) pills[k].classList.toggle('active', pills[k] === el);
+          // hitung ulang latin bila sudah ada
+          if (state.results.harokat) state.results.latin = E.transliterate(state.results.harokat, state.mode);
+          render();
+        };
+      })(pills[j]);
+    }
+  }
+
+  // ---------- init ----------
+  function init() {
+    try { state.apiKey = localStorage.getItem('gemini_api_key') || ''; } catch (e) {}
+    renderRules();
+    bind();
+    render();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+</script>
 </body>
 </html>
