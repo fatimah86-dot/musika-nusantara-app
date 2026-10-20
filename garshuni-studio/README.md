@@ -8,7 +8,7 @@ makna, i'rab ringkas, kaidah nahwu/sharaf).
 
 | Fitur | Offline (tanpa API key) | Dengan API key Gemini |
 |---|---|---|
-| **Harokat otomatis** | Kamus harokat lokal (cakupan dilaporkan jujur) | Harokat penuh seluruh naskah |
+| **Harokat otomatis** | Kamus muqaddimah + partikel + penebak pola — **semua kata terisi vokal** (dilaporkan jujur: X% kamus, Y% dikira) | Harokat penuh seluruh naskah |
 | **Latin Washal** | ✅ Mesin transliterasi 3 hukum (selalu lokal) | sama |
 | **Terjemahan Indonesia** | Hanya teks contoh bawaan (tidak mengarang) | Bebas untuk teks apa pun |
 | **Syarah** | Arti per kata dari kamus mufradat (~100 kosakata kitab) | Makna, i'rab ringkas, kaidah nahwu/sharaf per kalimat |
@@ -65,10 +65,10 @@ digugurkan) hanya di akhir kalimat.
 
 ## Uji
 ```bash
-node uji-engine.js        # 77 tes mesin (transliterasi, 3 hukum washal, kamus, syarah, penjaga mutu)
+node uji-engine.js        # 87 tes mesin (transliterasi, 3 hukum washal, kamus, syarah, harokat-full, penjaga mutu)
 ```
 Uji render DOM (opsional, butuh `npm i jsdom`): memuat `index.html` di jsdom dan mengklik
-tombol-tombol utama — 20 skenario (13 + 7 pemeriksa nahwu).
+tombol-tombol utama — 24 skenario (13 + 7 pemeriksa nahwu + 4 harokat-full/Latin-terbaca).
 
 ## Catatan desain
 - **Tanpa framework CDN**: versi sebelumnya (React + Babel standalone + Tailwind CDN) blank

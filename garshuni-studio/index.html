@@ -768,6 +768,83 @@
 
   var EDGE_PUNCT = /^[\s\u060C\u061B\u061F.,:;!?()\[\]\u00AB\u00BB"'_=\-+*]+|[\s\u060C\u061B\u061F.,:;!?()\[\]\u00AB\u00BB"'_=\-+*]+$/g;
 
+  // ---------- partikel & kata baku (harokat tetap) ----------
+  (function () {
+    var particles = [
+      ['\u0648', '\u0648\u064E'], ['\u0641', '\u0641\u064E'], ['\u0628', '\u0628\u0650'],
+      ['\u0644', '\u0644\u0650'], ['\u0643', '\u0643\u064E'],
+      ['\u0645\u0646', '\u0645\u0650\u0646\u0652'], ['\u0639\u0646', '\u0639\u064E\u0646\u0652'],
+      ['\u0639\u0644\u0649', '\u0639\u064E\u0644\u064E\u0649'], ['\u0627\u0644\u0649', '\u0625\u0650\u0644\u064E\u0649'],
+      ['\u062D\u062A\u0649', '\u062D\u064E\u062A\u0651\u064E\u0649'], ['\u062B\u0645', '\u062B\u064F\u0645\u0651\u064E'],
+      ['\u0628\u0644', '\u0628\u064E\u0644\u0652'], ['\u0644\u0627', '\u0644\u064E\u0627'],
+      ['\u0644\u0643\u0646', '\u0644\u064E\u0643\u0650\u0646\u0651\u064E'], ['\u0643\u064A', '\u0643\u064E\u064A\u0652'],
+      ['\u0644\u0648', '\u0644\u064E\u0648'], ['\u0644\u0645', '\u0644\u064E\u0645\u0652'],
+      ['\u0644\u0645\u0627', '\u0644\u064E\u0645\u0651\u064E\u0627'], ['\u0645\u0627', '\u0645\u064E\u0627'],
+      ['\u0647\u0630\u0627', '\u0647\u064E\u0630\u064E\u0627'], ['\u0647\u0630\u0647', '\u0647\u064E\u0630\u0650\u0647\u0650'],
+      ['\u0630\u0644\u0643', '\u0630\u064E\u0644\u0650\u0643\u064E'], ['\u062A\u0644\u0643', '\u062A\u0650\u0644\u0652\u0643\u064E'],
+      ['\u0627\u0644\u0630\u064A', '\u0627\u0644\u0651\u064E\u062F\u0650\u064A'], ['\u0627\u0644\u062A\u064A', '\u0627\u0644\u0651\u064E\u062A\u0650\u064A'],
+      ['\u0627\u0644\u0630\u064A\u0646', '\u0627\u0644\u0651\u064E\u0630\u0650\u064A\u0646\u064E'], ['\u0643\u0644', '\u0643\u064F\u0644\u0651\u064E'],
+      ['\u0628\u0639\u0636', '\u0628\u064E\u0639\u0652\u0636\u064E'], ['\u063A\u064A\u0631', '\u063A\u064E\u064A\u0652\u0631\u064E'],
+      ['\u0639\u0646\u062F', '\u0639\u0650\u0646\u0652\u062F\u064E'], ['\u0628\u0639\u062F', '\u0628\u064E\u0639\u0652\u062F\u064E'],
+      ['\u0642\u0628\u0644', '\u0642\u064E\u0628\u0652\u0644\u064E'], ['\u0641\u0648\u0642', '\u0641\u064E\u0648\u0642\u064E'],
+      ['\u062A\u062D\u062A', '\u062A\u064E\u062D\u0652\u062A\u064E'], ['\u0647\u0644', '\u0647\u064E\u0644\u0652'],
+      ['\u0642\u062F', '\u0642\u064E\u062F\u0652'], ['\u0644\u0642\u062F', '\u0644\u064E\u0642\u064E\u062F\u0652'],
+      ['\u0643\u0645\u0627', '\u0643\u064E\u0645\u064E\u0627'], ['\u0627\u0630\u0627', '\u0625\u0650\u0630\u064E\u0627'],
+      ['\u0627\u0630', '\u0625\u0650\u0630\u0652'], ['\u062D\u064A\u0646', '\u062D\u0650\u064A\u0646\u064E'],
+      ['\u064A\u0648\u0645', '\u064A\u064E\u0648\u0652\u0645\u064E'], ['\u0643\u0627\u0646', '\u0643\u064E\u0627\u0646\u064E'],
+      ['\u0642\u0627\u0644', '\u0642\u064E\u0627\u0644\u064E'], ['\u0644\u064A\u0633', '\u0644\u064E\u064A\u0652\u0633\u064E'],
+      ['\u062C\u0639\u0644', '\u062C\u064E\u0639\u064E\u0644\u064E'], ['\u0635\u0627\u0631', '\u0635\u064E\u0627\u0631\u064E'],
+      ['\u064A\u0643\u0648\u0646', '\u064A\u064E\u0643\u064F\u0648\u0646\u064F'], ['\u064A\u0642\u0648\u0644', '\u064A\u064E\u0642\u064F\u0648\u0644\u064F'],
+      ['\u0625\u0646', '\u0625\u0650\u0646\u0651\u064E'], ['\u0623\u0646', '\u0623\u064E\u0646\u0651\u064E'],
+      ['\u0648\u0644\u0627', '\u0648\u064E\u0644\u064E\u0627'], ['\u0641\u0644\u0627', '\u0641\u064E\u0644\u064E\u0627'],
+      ['\u0623\u064A\u0636\u0627', '\u0623\u064E\u064A\u0652\u0636\u064B\u0627'], ['\u0641\u0642\u0637', '\u0641\u064E\u0642\u064E\u0637\u0652'],
+      ['\u0644\u0648\u0644\u0627', '\u0644\u064E\u0648\u0652\u0644\u064E\u0627'], ['\u0623\u0644\u0627', '\u0623\u064E\u0644\u064E\u0627'],
+    ];
+    particles.forEach(function (p) {
+      if (!HARAKAT_WORDS[p[0]]) HARAKAT_WORDS[p[0]] = p[1];
+    });
+  })();
+
+  /**
+   * Penebak vokal untuk kata yang tidak ada di kamus — agar hasil tidak pernah
+   * menjadi tumpukan konsonan ("al-mqdmt"). Kualitas "dikira", bukan pasti benar.
+   */
+  function guessHarokat(core) {
+    var letters = stripDiacritics(core).split('');
+    if (!letters.length) return null;
+    var out = [];
+    var i = 0;
+    // proklitik + artikel: وَالْ... / فَالْ... / بِالْ... / لِالْ...
+    if (letters.length > 4 && '\u0648\u0641\u0628\u0644\u0643\u0633'.indexOf(letters[0]) >= 0 &&
+        letters[1] === ALEF && letters[2] === LAM) {
+      var PROCL = { '\u0648': '\u0648\u064E', '\u0641': '\u0641\u064E', '\u0628': '\u0628\u0650', '\u0644': '\u0644\u0650', '\u0643': '\u0643\u064E', '\u0633': '\u0633\u064E' };
+      return PROCL[letters[0]] + guessHarokat(letters.slice(1).join(''));
+    }
+    // artikel الْ — idgham syamsiyah: sun letter diberi syaddah
+    var sunFirst = false;
+    if (letters.length > 2 && letters[0] === ALEF && letters[1] === LAM) {
+      out.push('\u0627\u0644\u0652');
+      i = 2;
+      if (SUN[letters[2]]) sunFirst = true;
+    } else if ((letters[0] === ALEF || letters[0] === A_WASLA) && letters[1] !== LAM && letters.length > 1) {
+      out.push('\u0627\u0650'); // اِ hamzatul washl non-artikel
+      i = 1;
+    }
+    for (; i < letters.length; i++) {
+      var ch = letters[i];
+      if (ch === TA_MARB) { out.push('\u0629\u064F'); continue; } // ةُ (dikira marfu')
+      out.push(ch);
+      if (sunFirst && i === 2) out.push(SHADDA);                 // idgham syamsiyah
+      var next = letters[i + 1];
+      if (next === ALEF) { out.push('\u064E'); continue; }          // ...a + ا = aa
+      if (next === WAW) { out.push('\u064F'); continue; }           // ...u + و = uu
+      if (next === YA || next === YA_MAQ) { out.push('\u0650'); continue; } // ...i + ي = ii
+      if (i === letters.length - 1) out.push('\u064F');             // akhir: dammah (dikira marfu')
+      else out.push('\u064E');                                      // sela: fathah
+    }
+    return out.join('');
+  }
+
   /**
    * Cari padanan harokat untuk inti kata. Strategi:
    *  1) padanan persis (gundul);
@@ -799,8 +876,8 @@
    * diberi harokat (0..1), dilaporkan apa adanya kepada pengguna.
    */
   function localHarokat(text) {
-    if (!text) return { text: '', coverage: 0 };
-    var arabicWords = 0, hitWords = 0;
+    if (!text) return { text: '', coverage: 0, guessed: 0 };
+    var arabicWords = 0, hitWords = 0, guessedWords = 0;
 
     var phrases = HARAKAT_PHRASES.slice().sort(function (a, b) {
       return b[0].split(/\s+/).length - a[0].split(/\s+/).length;
@@ -836,12 +913,15 @@
         arabicWords++;
         var res = lookupWord(core);
         if (res) { hitWords++; return w.split(core).join(res); }
+        var g = guessHarokat(core); // vokal dikira — jangan biarkan jadi tumpukan konsonan
+        if (g) { guessedWords++; return w.split(core).join(g); }
         return w;
       }).join(' ');
     }).join('\n');
 
     var coverage = arabicWords > 0 ? hitWords / arabicWords : 0;
-    return { text: result, coverage: coverage };
+    var guessed = arabicWords > 0 ? guessedWords / arabicWords : 0;
+    return { text: result, coverage: coverage, guessed: guessed };
   }
 
   /**
@@ -1033,11 +1113,19 @@
   ];
 
   // Contoh muqaddimah (versi final yang sudah dikoreksi 100% sesuai 3 hukum).
-  var MUQADDIMAH_HAROKAT = '\u0627\u0644\u0652\u0645\u064F\u0642\u064E\u062F\u0651\u0650\u0645\u064E\u0629\u064F\n' +
-    '\u0627\u0650\u062A\u0651\u064E\u0641\u064E\u0642\u064E\u062A\u0652 \u0643\u064E\u0644\u0650\u0645\u064E\u0629\u064F \u0627\u0644\u0633\u0651\u064E\u0645\u0627\u0621\u0650 \u0648\u064E\u0631\u0650\u0633\u064E\u0627\u0644\u064E\u0627\u062A\u064F\u0647\u064E\u0627 \u0627\u0644\u0625\u0650\u0644\u064E\u0647\u0650\u064A\u0651\u064E\u0629\u064F \u0623\u064E\u0646\u0651\u064E \u0645\u064E\u0635\u0652\u062F\u064E\u0631\u064E \u0633\u064E\u0639\u064E\u0627\u062F\u064E\u0629\u0650 \u0627\u0644\u0625\u0650\u0646\u0652\u0633\u064E\u0627\u0646\u0650 \u0648\u064E\u0631\u064F\u0642\u0650\u064A\u0651\u0650\u0647\u0650 \u0641\u0650\u064A \u0646\u064E\u0634\u0652\u0623\u064E\u0629\u0650 \u0639\u064E\u0627\u0644\u064E\u0645\u0650 \u0627\u0644\u062F\u0651\u064F\u0646\u0652\u064A\u064E\u0627 \u0644\u064E\u0627 \u062A\u064E\u0646\u0652\u062D\u064E\u0635\u0650\u0631\u064F \u0641\u0650\u064A \u062E\u064F\u0635\u064F\u0648\u0635\u0650 \u0625\u0650\u0634\u0652\u0628\u064E\u0627\u0639\u0650 \u063A\u064E\u0631\u064E\u0627\u0626\u0650\u0632\u0650\u0647\u0650 \u0627\u0644\u062D\u064E\u064A\u064E\u0648\u064E\u0627\u0646\u0650\u064A\u0651\u064E\u0629\u0650 \u0648\u064E\u062A\u064E\u0644\u0652\u0628\u0650\u064A\u064E\u0629\u0650 \u0637\u064E\u0644\u064E\u0628\u064E\u0627\u062A\u0650\u0647\u0650 \u0648\u064E\u0631\u064E\u063A\u064E\u0628\u064E\u0627\u062A\u0650\u0647\u0650 \u0627\u0644\u0645\u064E\u0627\u062F\u0651\u0650\u064A\u0651\u064E\u0629\u0650 \u0627\u0644\u0628\u064E\u062D\u0652\u062A\u064E\u0629\u0650 \u0627\u0644\u0651\u064E\u062A\u0650\u064A \u0623\u064E\u0636\u0652\u062D\u064E\u062A\u0650 \u0627\u0644\u0647\u064E\u0645\u0651\u064E \u0627\u0644\u0623\u064E\u0643\u0652\u0628\u064E\u0631\u064E \u0641\u0650\u064A \u0645\u064F\u062C\u0652\u062A\u064E\u0645\u064E\u0639\u0650\u0646\u064E\u0627 \u0627\u0644\u0634\u0651\u064E\u0631\u0652\u0642\u0650\u064A\u0651\u0650 \u0648\u064E\u0627\u0644\u0625\u0650\u0633\u0652\u0644\u064E\u0627\u0645\u0650\u064A\u0651\u0650 \u0648\u064E\u0627\u0644\u0651\u064E\u062A\u0650\u064A \u062A\u064E\u0631\u064E\u0643\u064E\u062A\u0650 \u0627\u0644\u0622\u062B\u064E\u0627\u0631\u064E \u0627\u0644\u0648\u064E\u062E\u0650\u064A\u0645\u064E\u0629\u064E \u0639\u064E\u0644\u0649 \u062D\u064E\u0631\u064E\u0643\u064E\u0629\u0650 \u0627\u0644\u0641\u0650\u0643\u0652\u0631\u0650 \u0648\u064E\u0627\u0644\u0633\u0651\u064F\u0644\u064F\u0648\u0643\u0650 \u0627\u0644\u0623\u064E\u062E\u0652\u0644\u064E\u0627\u0642\u0650\u064A\u0651\u0650 \u0645\u0650\u0645\u0651\u064E\u0627 \u062C\u064E\u0639\u064E\u0644\u064E \u0627\u0644\u0623\u064F\u0645\u0651\u064E\u0629\u064E \u0627\u0644\u0625\u0650\u0633\u0652\u0644\u064E\u0627\u0645\u0650\u064A\u0651\u064E\u0629\u064E \u062A\u064E\u0639\u0650\u064A\u0634\u064F \u062D\u064E\u0627\u0644\u064E\u0629\u064E \u0627\u0644\u062C\u064E\u0641\u064E\u0627\u0641\u0650 \u0627\u0644\u0631\u0651\u064F\u0648\u062D\u0650\u064A\u0651\u0650 \u0648\u064E\u0627\u0644\u0636\u0651\u064E\u064A\u064E\u0627\u0639\u0650 \u0627\u0644\u0641\u0650\u0643\u0652\u0631\u0650\u064A\u0651\u0650 \u0648\u064E\u0627\u0644\u062E\u064F\u0644\u064F\u0642\u0650\u064A\u0651\u0650\u060C \u0645\u064E\u0639\u064E \u0627\u0644\u0639\u0650\u0644\u0652\u0645\u0650 \u0628\u0650\u0623\u064E\u0646\u0651\u064E \u0627\u0644\u0633\u0651\u064E\u0639\u064E\u0627\u062F\u064E\u0629\u064E \u0643\u064F\u0644\u0651\u064E \u0627\u0644\u0633\u0651\u064E\u0639\u064E\u0627\u062F\u064E\u0629\u0650 \u0647\u064F\u0648\u064E \u0623\u064E\u0646\u0652 \u064A\u064E\u0645\u0652\u062A\u064E\u0644\u0650\u0643\u064E \u0627\u0644\u0641\u064E\u0631\u0652\u062F\u064F \u0627\u0644\u0645\u064F\u0633\u0652\u0644\u0650\u0645\u064F \u0627\u0644\u0642\u064F\u0648\u0651\u064E\u0629\u064E \u0627\u0644\u0631\u0651\u064F\u0648\u062D\u0650\u064A\u0651\u064E\u0629\u064E \u0627\u0644\u0651\u064E\u062A\u0650\u064A \u062A\u064E\u0639\u0652\u062A\u064E\u0645\u0650\u062F\u064F \u0639\u064E\u0644\u0649 \u0645\u064F\u0642\u064E\u0648\u0651\u0650\u0645\u064E\u0627\u062A\u0650 \u062A\u064E\u0639\u064E\u0627\u0644\u0650\u064A\u0645\u0650 \u0627\u0644\u0642\u064F\u0631\u0652\u0622\u0646\u0650 \u0648\u064E\u0627\u0644\u0633\u0651\u064F\u0646\u0651\u064E\u0629\u0650 \u0627\u0644\u0646\u0651\u064E\u0628\u064E\u0648\u0650\u064A\u0651\u064E\u0629\u0650 \u0627\u0644\u0643\u064E\u0627\u0645\u0650\u0644\u064E\u0629\u0650 \u0627\u0644\u0651\u064E\u062A\u0650\u064A \u0623\u064E\u0636\u064E\u0627\u0621\u064E\u062A\u0652 \u0637\u064E\u0631\u0650\u064A\u0642\u064E \u0627\u0644\u0631\u0651\u064E\u0627\u063A\u0650\u0628\u0650\u064A\u0646\u064E \u0641\u0650\u064A \u0627\u0644\u062D\u064F\u0635\u064F\u0648\u0644\u0650 \u0639\u064E\u0644\u0649 \u0627\u0644\u062A\u0651\u064E\u0639\u064E\u0627\u0644\u0650\u064A\u0645\u0650 \u0627\u0644\u0633\u0651\u064E\u0627\u0645\u0650\u064A\u064E\u0629\u0650 \u0627\u0644\u0651\u064E\u062A\u0650\u064A \u062A\u064F\u0639\u064E\u0627\u0644\u0650\u062C\u064F \u0645\u064E\u0634\u064E\u0627\u0643\u0650\u0644\u064E \u0648\u064E\u062D\u064E\u0648\u064E\u0627\u062F\u0650\u062B\u064E \u0627\u0644\u062C\u064E\u0627\u0646\u0650\u0628\u0650 \u0627\u0644\u0631\u0651\u064F\u0648\u062D\u0650\u064A\u0651\u0650 \u0641\u0650\u064A \u062D\u064E\u064A\u064E\u0627\u064E\u0629\u0650 \u0627\u0644\u0625\u0650\u0646\u0652\u0633\u064E\u0627\u0646\u0650 \u0641\u0650\u064A \u0623\u064E\u0643\u0652\u062B\u064E\u0631\u064E \u0645\u0650\u0646\u0652 \u062C\u064E\u0627\u0646\u0650\u0628\u064D \u0639\u064E\u0645\u064E\u0644\u0650\u064A\u0651\u064D.' +
-    '\u0643\u064E\u0645\u064E\u0627 \u0623\u064E\u0646\u0651\u064E\u0646\u064E\u0627 \u0646\u064E\u0644\u0652\u0641\u0650\u062A\u064F \u0623\u064E\u0646\u0652\u0638\u064E\u0627\u0631\u064E \u0627\u0644\u0642\u064F\u0631\u0651\u064E\u0627\u0621\u0650 \u0625\u0650\u0644\u0649 \u0623\u064E\u0646\u0651\u064E \u0647\u064E\u0630\u064E\u0627 \u0627\u0644\u0643\u0650\u062A\u064E\u0627\u0628\u064E \u0627\u0644\u0651\u064E\u062F\u0650\u064A \u0628\u064E\u064A\u0652\u0646\u064E \u064A\u064E\u062F\u064E\u064A\u0652\u0643\u064E \u0625\u0650\u0646\u0652 \u0647\u064F\u0648\u064E \u0625\u0650\u0644\u0651\u064E\u0627 \u0645\u064E\u062C\u0652\u0645\u064F\u0648\u0639\u064E\u0629\u064C \u0642\u064E\u064A\u0651\u0650\u0645\u064E\u0629\u064C \u062E\u064E\u0631\u064E\u062C\u064E\u062A\u0652 \u0645\u0650\u0646\u0652 \u0644\u0650\u0633\u064E\u0627\u0646\u0650 \u0627\u0644\u0646\u0651\u064F\u0648\u0631\u0650 \u0627\u0644\u0645\u064F\u062D\u064E\u0645\u0651\u064E\u062F\u0650\u064A\u0651\u0650 \u0627\u0644\u0634\u0651\u064E\u0631\u0650\u064A\u0641\u0650 \u0627\u0644\u0651\u064E\u062F\u0650\u064A \u0623\u064E\u0636\u064E\u0627\u0621\u064E \u0627\u0644\u0643\u064E\u0648\u0652\u0646\u064E \u0628\u0650\u062A\u064E\u0639\u064E\u0627\u0644\u0650\u064A\u0645\u0650\u0647\u0650 \u0627\u0644\u0642\u064E\u064A\u0651\u0650\u0645\u064E\u0629\u0650 \u0627\u0644\u0633\u0651\u064E\u0627\u0645\u0650\u064A\u064E\u0629\u0650 \u0627\u0644\u0651\u064E\u062A\u0650\u064A \u0647\u0650\u064A\u064E \u062A\u064E\u0631\u0652\u062C\u064F\u0645\u064E\u0627\u0646\u064C \u0643\u064E\u0627\u0645\u0650\u0644\u064C \u0644\u0650\u0645\u064E\u0646\u0652\u0637\u0650\u0642\u0650 \u0627\u0644\u0648\u064E\u062D\u0652\u064A\u0650 \u0627\u0644\u0625\u0650\u0644\u064E\u0647\u0650\u064A\u0651\u0650...' +
-    '\u0641\u064E\u0642\u064E\u062F\u0652 \u062A\u064E\u0636\u064E\u0645\u0651\u064E\u0646\u064E \u062C\u064F\u0645\u0652\u0644\u064E\u0629\u064D \u0648\u064E\u0627\u0641\u0650\u0631\u064E\u0629\u064D \u0645\u064F\u062A\u064E\u0646\u064E\u0648\u0651\u0650\u0641\u064E\u0629\u064D \u0644\u0650\u0645\u064F\u0639\u064E\u0627\u0644\u064E\u062C\u064E\u0629\u0650 \u0627\u0644\u0623\u064E\u0645\u0652\u0631\u064E\u0627\u0636\u0650 \u0627\u0644\u0631\u0651\u064F\u0648\u062D\u0650\u064A\u0651\u064E\u0629\u0650 \u0628\u0650\u0645\u064F\u062E\u0652\u062A\u064E\u0644\u064E\u0641\u0650 \u0623\u064E\u0646\u0652\u0648\u064E\u0627\u0639\u0650\u0647\u064E\u0627 \u0648\u064E\u062A\u064E\u0641\u064E\u0631\u0651\u064F\u0639\u064E\u0627\u062A\u0650\u0647\u064E\u0627 \u0648\u064E\u0642\u064E\u062F\u0651\u064E\u0645\u064E \u0644\u0650\u0643\u064F\u0644\u0651\u0650 \u0645\u064E\u0631\u064E\u0636\u064D \u064A\u064F\u0628\u0652\u062A\u064E\u0644\u0649 \u0628\u0650\u0647\u0650 \u0627\u0644\u0641\u064E\u0631\u0652\u062F\u064F \u0627\u0644\u0645\u064F\u0633\u0652\u0644\u0650\u0645\u064F \u0639\u0650\u0644\u064E\u0627\u062C\u064E\u0647\u064F \u0627\u0644\u0645\u064F\u0646\u064E\u0627\u0633\u0650\u0628\u064E \u0628\u0650\u0627\u0644\u0637\u0651\u064E\u0631\u0650\u064A\u0642\u064E\u0629\u0650 \u0627\u0644\u0645\u064F\u0642\u064E\u0631\u0651\u064E\u0631\u064E\u0629\u0650 \u0627\u0644\u0651\u064E\u062A\u0650\u064A \u062A\u064E\u0636\u064E\u0645\u0651\u064E\u0646\u064E\u0647\u064E\u0627 \u0643\u064E\u0644\u064E\u0627\u0645\u064F \u0631\u064E\u0633\u064F\u0648\u0644\u0650 \u0627\u0644\u0644\u0651\u064E\u0647\u0650 \u0635\u064E\u0644\u0651\u064E\u0649 \u0627\u0644\u0644\u0651\u064E\u0647\u064F \u0639\u064E\u0644\u064E\u064A\u0652\u0647\u0650 \u0648\u064E\u0633\u064E\u0644\u0651\u064E\u0645\u064E \u0641\u0650\u064A \u062E\u0650\u0637\u064E\u0627\u0628\u064E\u0627\u062A\u0650\u0647\u0650 \u0627\u0644\u0625\u0650\u0644\u064E\u0647\u0650\u064A\u0651\u064E\u0629\u0650 \u0644\u0650\u0645\u064F\u0639\u064E\u0627\u0644\u064E\u062C\u064E\u0629\u0650 \u0627\u0644\u0645\u064E\u0634\u064E\u0627\u0643\u0650\u0644\u0650 \u0648\u064E\u0627\u0644\u062D\u064E\u0648\u064E\u0627\u062F\u0650\u062B\u0650 \u0627\u0644\u0631\u0651\u064F\u0648\u062D\u0650\u064A\u0651\u064E\u0629\u0650 \u0627\u0644\u0651\u064E\u062A\u0650\u064A \u0644\u0647\u064E\u0627 \u0627\u0644\u0635\u0651\u064E\u062F\u0649 \u0627\u0644\u0639\u064E\u0645\u0650\u064A\u0642\u064F \u0641\u0650\u064A \u0645\u064F\u062C\u0652\u062A\u064E\u0645\u064E\u0639\u0650\u0646\u064E\u0627 \u0627\u0644\u0634\u0651\u064E\u0631\u0652\u0642\u0650\u064A\u0651\u0650 \u0627\u0644\u0625\u0650\u0633\u0652\u0644\u064E\u0627\u0645\u0650\u064A\u0651\u0650.' +
-    '\u0643\u064E\u0645\u064E\u0627 \u0646\u064E\u0648\u064E\u062F\u0651\u064F \u0623\u064E\u0646\u0652 \u0646\u064E\u0644\u0652\u0641\u0650\u062A\u064E \u0623\u064E\u0646\u0652\u0638\u064E\u0627\u0631\u064E \u0627\u0644\u0642\u064F\u0631\u0651\u064E\u0627\u0621\u0650 \u0627\u0644\u0643\u0650\u0631\u064E\u0627\u0645\u0650 \u0625\u0650\u0644\u0649 \u0623\u064E\u0646\u0651\u064E \u0647\u064E\u0630\u064E\u0627 \u0627\u0644\u0643\u0650\u062A\u064E\u0627\u0628\u064E \u0645\u064F\u062E\u0652\u062A\u064E\u0635\u0651\u064C \u0644\u0650\u0628\u064E\u064A\u064E\u0627\u0646\u064D...' ;
+  var MUQADDIMAH_HAROKAT = 'الْمُقَدِّمَةُ\nاِتَّفَقَتْ كَلِمَةُ السَّمَاءِ وَرِسَالَاتُهَا الْإِلَهِيَّةُ أَنَّ مَصْدَرَ سَعَادَةِ الْإِنْسَانِ وَرُقِيِّهِ فِي نَشْأَةِ عَالَمِ الدُّنْيَا لَا تَنْحَصِرُ فِي خُصُوصِ إِشْبَاعِ غَرَائِزِهِ الْحَيَوَانِيَّةِ وَتَلْبِيَةِ طَلَبَاتِهِ وَرَغَبَاتِهِ الْمَادِّيَّةِ الْبَحْتَةِ الَّتِي أَضْحَتِ الْهَمَّ الْأَكْبَرَ فِي مُجْتَمَعِنَا الشَّرْقِيِّ وَالْإِسْلَامِيِّ وَالَّتِي تَرَكَتِ الْآثَارَ الْوَخِيمَةَ عَلَى حَرَكَةِ الْفِكْرِ وَالسُّلُوكِ الْأَخْلَاقِيِّ مِمَّا جَعَلَ الْأُمَّةَ الْإِسْلَامِيَّةَ تَعِيشُ حَالَةَ الْجَفَافِ الرُّوحِيِّ وَالضَّيَاعِ الْفِكْرِيِّ وَالْخُلُقِيِّ، مَعَ الْعِلْمِ بِأَنَّ السَّعَادَةَ كُلَّ السَّعَادَةِ هُوَ أَنْ يَمْتَلِكَ الْفَرْدُ الْمُسْلِمُ الْقُوَّةَ الرُّوحِيَّةَ الَّتِي تَعْتَمِدُ عَلَى مُقَوِّمَاتِ تَعَالِيمِ الْقُرْآنِ وَالسُّنَّةِ النَّبَوِيَّةِ الْكَامِلَةِ الَّتِي أَضَاءَتْ طَرِيقَ الرَّاغِبِينَ فِي الْحُصُولِ عَلَى التَّعَالِيمِ السَّامِيَةِ الَّتِي تُعَالِجُ مَشَاكِلَ وَحَوَادِثَ الْجَانِبِ الرُّوحِيِّ فِي حَيَاةِ الْإِنْسَانِ فِي أَكْثَرَ مِنْ جَانِبٍ عَمَلِيٍّ.\nكَمَا أَنَّنَا نَلْفِتُ أَنْظَارَ الْقُرَّاءِ إِلَى أَنَّ هَذَا الْكِتَابَ الَّذِي بَيْنَ يَدَيْكَ إِنْ هُوَ إِلَّا مَجْمُوعَةٌ قَيِّمَةٌ خَرَجَتْ مِنْ لِسَانِ النُّورِ الْمُحَمَّدِيِّ الشَّرِيفِ الَّذِي أَضَاءَ الْكَوْنَ بِتَعَالِيمِهِ الْقَيِّمَةِ السَّامِيَةِ الَّتِي هِيَ تَرْجُمَانٌ كَامِلٌ لِمَنْطِقِ الْوَحْيِ الْإِلَهِيِّ...\nفَقَدْ تَضَمَّنَ جُمْلَةً وَافِرَةً مُتَنَوِّعَةً لِمُعَالَجَةِ الْأَمْرَاضِ الرُّوحِيَّةِ بِمُخْتَلِفِ أَنْوَاعِهَا وَتَفَرُّعَاتِهَا وَقَدَّمَ لِكُلِّ مَرَضٍ يُبْتَلَى بِهِ الْفَرْدُ الْمُسْلِمُ عِلَاجَهُ الْمُنَاسِبَ بِالطَّرِيقَةِ الْمُقَرَّرَةِ الَّتِي تَضَمَّنَهَا كَلَامُ رَسُولِ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ فِي خِطَابَاتِهِ الْإِلَهِيَّةِ لِمُعَالَجَةِ الْمَشَاكِلِ وَالْحَوَادِثِ الرُّوحِيَّةِ الَّتِي لَهَا الصَّدَى الْعَمِيقُ فِي مُجْتَمَعِنَا الشَّرْقِيِّ الْإِسْلَامِيِّ.\nكَمَا نَوَدُّ أَنْ نَلْفِتَ أَنْظَارَ الْقُرَّاءِ الْكِرَامِ إِلَى أَنَّ هَذَا الْكِتَابَ مُخْتَصٌّ لِبَيَانِ...';
+
+  // Kamus otomatis: seluruh kata dari muqaddimah ground truth + partikel umum.
+  (function () {
+    var parts = String(MUQADDIMAH_HAROKAT || '').split(/[\s\u060C\u061B\u061F\u0640\n]+/);
+    for (var i = 0; i < parts.length; i++) {
+      // buang tanda baca di tepi SAJA — tanda vokal wajib ikut tersimpan
+      var word = parts[i].replace(/^[^\u0621-\u064A\u064B-\u0652\u0670]+|[^\u0621-\u064A\u064B-\u0652\u0670]+$/g, '');
+      if (!word) continue;
+      var w = stripDiacritics(word);
+      if (w && HARAKAT_WORDS[w] === undefined) HARAKAT_WORDS[w] = word;
+    }
+  })();
 
   /** Pemeriksa 3 hukum nahwu-sharaf (otomatis, deterministik). */
   function checkNahwu(text) {
@@ -1124,6 +1212,7 @@
     checkNahwu: checkNahwu,
     MUQADDIMAH_HAROKAT: MUQADDIMAH_HAROKAT,
     localHarokat: localHarokat,
+    guessHarokat: guessHarokat,
     localTranslation: localTranslation,
     MUFRADAT: MUFRADAT,
     splitSentences: splitSentences,
@@ -1150,6 +1239,7 @@
     mode: 'washal',
     busy: false,
     coverage: null,
+    guessed: 0,
   };
 
   // ---------- util ----------
@@ -1197,7 +1287,7 @@
     if (state.tab === 'harokat') {
       if (!r.harokat && !r.original) { area.innerHTML = emptyHtml(); tools.style.display = 'none'; return; }
       var cov = state.coverage != null
-        ? '<span class="muted">cakupan kamus: ' + Math.round(state.coverage * 100) + '%</span>' : '';
+        ? '<span class="muted">kamus: ' + Math.round(state.coverage * 100) + '% • dikira pola: ' + Math.round((state.guessed || 0) * 100) + '%</span>' : '';
       var checkHtml = '';
       if (r.harokat) {
         var check = E.checkNahwu(r.harokat);
@@ -1335,11 +1425,12 @@
   function inputText() { return $('input').value.trim(); }
 
   function ensureHarokat() {
-    // hasil harokat: pakai yang sudah ada, else lokal
+    // hasil harokat: pakai yang sudah ada, else lokal (kamus + penebak pola → selalu terisi)
     if (state.results.harokat) return state.results.harokat;
     var h = E.localHarokat(inputText());
     state.results.harokat = h.text;
     state.coverage = h.coverage;
+    state.guessed = h.guessed || 0;
     return h.text;
   }
 
@@ -1354,7 +1445,8 @@
       var h = E.localHarokat(teks);
       state.results.harokat = h.text;
       state.coverage = h.coverage;
-      banner('info', 'Mode offline: harokat dari kamus lokal (cakupan ' + Math.round(h.coverage * 100) + '% kata). Isi API key untuk harokat penuh via AI.', 'harokat');
+      state.guessed = h.guessed || 0;
+      banner('ok', 'Harokat lokal: SEMUA kata terisi — kamus ' + Math.round(h.coverage * 100) + '%, sisanya ' + Math.round((h.guessed || 0) * 100) + '% dikira pola (perlu diperiksa). Isi API key untuk kepastian i\u02bfrab penuh.', 'harokat');
       render();
       return;
     }
@@ -1390,8 +1482,9 @@
       var h2 = E.localHarokat(teks);
       state.results.harokat = h2.text;
       state.coverage = h2.coverage;
+      state.guessed = h2.guessed || 0;
       var alasan = err && err.name === 'AbortError' ? 'waktu tunggu >90 detik' : (err.message || String(err));
-      banner('info', 'AI tidak dapat dihubungi (' + alasan + '). Menampilkan harokat kamus lokal (cakupan ' + Math.round(h2.coverage * 100) + '%).', 'harokat');
+      banner('info', 'AI tidak dapat dihubungi (' + alasan + '). Harokat lokal tetap mengisi SEMUA kata (kamus ' + Math.round(h2.coverage * 100) + '% • dikira pola ' + Math.round((h2.guessed || 0) * 100) + '%).', 'harokat');
     } finally {
       setBusy(false);
       render();
@@ -1402,16 +1495,19 @@
     clearBanner('latin');
     var teks = state.results.harokat || inputText();
     if (!teks) { banner('err', 'Teks masih kosong.', 'latin'); return; }
+    var dariLokal = false;
     if (!state.results.harokat && inputText()) {
-      // pastikan ada harokat minimal dari kamus supaya latin tidak kosong vokal
+      // vocalisasi penuh dulu (kamus + penebak pola) supaya Latin selalu terbaca
       var h = E.localHarokat(inputText());
       state.results.harokat = h.text;
       state.coverage = h.coverage;
-      if (h.coverage < 1) {
-        banner('info', 'Sebagian kata belum ada di kamus harokat — hurufnya dilatinkan tanpa vokal. Harokat AI (API key) akan lebih lengkap.', 'latin');
-      }
+      state.guessed = h.guessed || 0;
+      dariLokal = true;
     }
     state.results.latin = E.transliterate(state.results.harokat || inputText(), state.mode);
+    if (dariLokal) {
+      banner('ok', 'Latin dari harokat lokal — semua kata ber-vokal (kamus ' + Math.round((state.coverage || 0) * 100) + '% • dikira pola ' + Math.round((state.guessed || 0) * 100) + '%). Isi API key untuk kepastian i\u02bfrab.', 'latin');
+    }
     state.tab = 'latin';
     syncTabs();
     render();
@@ -1715,6 +1811,7 @@
       $('input').value = '';
       state.results = { original: '', harokat: '', latin: '', terjemah: '', syarah: null };
       state.coverage = null;
+      state.guessed = 0;
       $('fileName').textContent = '📄 Belum ada file';
       $('banners').innerHTML = '';
       render();

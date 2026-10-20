@@ -122,5 +122,25 @@ ok('mufradat >= 100 entri', Object.keys(E.MUFRADAT).length >= 100);
 ok('cleanExtractedArabic membuang harokat', E.cleanExtractedArabic('بِسْمِ اللَّهِ') === 'بسم الله');
 ok('cleanExtractedArabic buang pengantar', E.cleanExtractedArabic('Berikut teksnya:\nفصل اركان') === 'فصل اركان');
 
+// ---------- Harokat FULL + Latin terbaca (keluhan 20 Okt 2026) ----------
+{
+  const gundul = E.stripDiacritics(E.MUQADDIMAH_HAROKAT);
+  const hg = E.localHarokat(gundul);
+  const gundulTersisa = hg.text.split(/\s+/).filter(w => /[\u0621-\u064A]/.test(w) && !/[\u064B-\u0652\u0670]/.test(w)).length;
+  ok('muqaddimah gundul: 0 kata tanpa vokal', gundulTersisa === 0, hg.text.slice(0, 80));
+  ok('muqaddimah gundul: kamus + dikira = 100%', hg.coverage + hg.guessed >= 0.999, hg.coverage + '+' + hg.guessed);
+  ok('muqaddimah gundul: cakupan kamus >= 90%', hg.coverage >= 0.9, String(hg.coverage));
+  const lat = E.transliterate(hg.text);
+  ok('Latin muqaddimah terbaca (awal benar)', lat.startsWith('al-muqaddimatu ittafaqat kalimatu'), lat.slice(0, 60));
+  const kataAneh = lat.split(/\s+/).filter(w => w.replace(/[^a-zA-Z']/g, '').length > 16);
+  ok('Latin tanpa kata-konsonan raksasa', kataAneh.length === 0, kataAneh.join(' '));
+  ok('penebak: artikel ال-', E.guessHarokat('المفهوم').startsWith('الْ'), E.guessHarokat('المفهوم'));
+  ok('penebak: proklitik + artikel', E.guessHarokat('والفكر').startsWith('وَالْ'), E.guessHarokat('والفكر'));
+  ok('penebak: idgham syamsiyah (syaddah)', E.guessHarokat('الشمس').indexOf('\u0651') >= 0, E.guessHarokat('الشمس'));
+  ok('partikel من dimuat', cm(E.localHarokat('من').text) === cm('مِنْ'), E.localHarokat('من').text);
+  const xt = E.localHarokat('الكتاب المفيد');
+  ok('kata tak dikenal pun terisi vokal', /[\u064B-\u0652]/.test(xt.text) && xt.guessed > 0, xt.text);
+}
+
 console.log(`\nHASIL: ${pass} lulus, ${fail} gagal`);
 process.exit(fail ? 1 : 0);
