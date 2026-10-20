@@ -197,15 +197,17 @@
       </div>
     </div>
     <div class="head-actions">
-      <button class="btn ghost" id="btnRules"><span class="ic">📖</span> 3 Hukum Washal</button>
+      <button class="btn ghost" id="btnRules"><span class="ic">📖</span> 3 Hukum Nahwu &amp; Washal</button>
       <button class="btn" id="btnSettings"><span class="ic">⚙</span> Konfigurasi API</button>
     </div>
   </header>
 
   <!-- panel 3 hukum washal -->
   <section class="panel" id="rules">
-    <h2><span class="ic">📖</span> Tiga Hukum Washal Pengucapan</h2>
+    <h2><span class="ic">📖</span> 3 Hukum Nahwu Sharaf (ketepatan harokat)</h2>
     <div class="rules-grid" id="rulesGrid"></div>
+    <h2 style="margin-top:20px"><span class="ic">🔤</span> Kaidah Latin Washal (transliterasi)</h2>
+    <div class="rules-grid" id="washalGrid"></div>
     <div class="mode-row">
       <span class="muted">Mode bacaan Latin:</span>
       <button class="mode-pill active" data-mode="washal">Washal (sambung)</button>
@@ -223,6 +225,7 @@
         <div style="display:flex;gap:8px;flex-wrap:wrap">
           <button class="btn small" id="btnFile"><span class="ic">⬆</span> Unggah</button>
           <button class="btn small ghost" id="btnSample"><span class="ic">✦</span> Contoh</button>
+          <button class="btn small ghost" id="btnSampleMuq"><span class="ic">📜</span> Muqaddimah</button>
           <button class="btn small ghost" id="btnClear"><span class="ic">✕</span> Bersihkan</button>
         </div>
         <input type="file" id="file" hidden accept=".txt,.docx,.pdf,image/*" />
@@ -1002,6 +1005,110 @@
     };
   }
 
+  // ---------- 3 Hukum Nahwu Sharaf & pemeriksa otomatis ----------
+
+  /** Tiga hukum nahwu-sharaf untuk ketepatan harokat (versi final pengguna). */
+  var NAWHU_RULES = [
+    {
+      no: 1,
+      nama: "Fi'il & Isim ber-AL tidak bertanwin",
+      penjelasan: "Kata kerja (fi'il) tidak pernah bertanwin. Isim yang ber-AL (ma'rifah) juga tidak bertanwin — harokatnya fathah/dammah/kasrah sesuai i'rab.",
+      contohSalah: 'لَا تَنْحَصِرْ / الْهَمُّ الْأَكْبَرُ',
+      contohBenar: 'لَا تَنْحَصِرُ (fi\'il mudhari\' marfu\' dammah) / الْهَمَّ الْأَكْبَرَ (maf\'ul mansub, tasydid)',
+    },
+    {
+      no: 2,
+      nama: 'Idhafah: mudhaf tanpa AL, tanpa tanwin',
+      penjelasan: 'Kata pertama sambungan idhafah (mudhaf) ditulis TANPA AL dan TANPA tanwin; harokatnya mengikuti i\'rabnya (umumnya kasrah bila majrur).',
+      contohSalah: 'الْكَلِمَةُ السَّمَاءِ / لِسَان النُّور',
+      contohBenar: 'كَلِمَةُ السَّمَاءِ / لِسَانِ النُّورِ الْمُحَمَّدِيِّ / رَسُولِ اللهِ',
+    },
+    {
+      no: 3,
+      nama: 'Anna = أَنَّ (tasydid) + mansub',
+      penjelasan: 'Anna ditulis أَنَّ dengan tasydid pada nun-nya; kata sesudahnya wajib mansub (berfathah).',
+      contohSalah: 'أَنَّ مَصْدِرِ',
+      contohBenar: 'أَنَّ مَصْدَرَ',
+    },
+  ];
+
+  // Contoh muqaddimah (versi final yang sudah dikoreksi 100% sesuai 3 hukum).
+  var MUQADDIMAH_HAROKAT = '\u0627\u0644\u0652\u0645\u064F\u0642\u064E\u062F\u0651\u0650\u0645\u064E\u0629\u064F\n' +
+    '\u0627\u0650\u062A\u0651\u064E\u0641\u064E\u0642\u064E\u062A\u0652 \u0643\u064E\u0644\u0650\u0645\u064E\u0629\u064F \u0627\u0644\u0633\u0651\u064E\u0645\u0627\u0621\u0650 \u0648\u064E\u0631\u0650\u0633\u064E\u0627\u0644\u064E\u0627\u062A\u064F\u0647\u064E\u0627 \u0627\u0644\u0625\u0650\u0644\u064E\u0647\u0650\u064A\u0651\u064E\u0629\u064F \u0623\u064E\u0646\u0651\u064E \u0645\u064E\u0635\u0652\u062F\u064E\u0631\u064E \u0633\u064E\u0639\u064E\u0627\u062F\u064E\u0629\u0650 \u0627\u0644\u0625\u0650\u0646\u0652\u0633\u064E\u0627\u0646\u0650 \u0648\u064E\u0631\u064F\u0642\u0650\u064A\u0651\u0650\u0647\u0650 \u0641\u0650\u064A \u0646\u064E\u0634\u0652\u0623\u064E\u0629\u0650 \u0639\u064E\u0627\u0644\u064E\u0645\u0650 \u0627\u0644\u062F\u0651\u064F\u0646\u0652\u064A\u064E\u0627 \u0644\u064E\u0627 \u062A\u064E\u0646\u0652\u062D\u064E\u0635\u0650\u0631\u064F \u0641\u0650\u064A \u062E\u064F\u0635\u064F\u0648\u0635\u0650 \u0625\u0650\u0634\u0652\u0628\u064E\u0627\u0639\u0650 \u063A\u064E\u0631\u064E\u0627\u0626\u0650\u0632\u0650\u0647\u0650 \u0627\u0644\u062D\u064E\u064A\u064E\u0648\u064E\u0627\u0646\u0650\u064A\u0651\u064E\u0629\u0650 \u0648\u064E\u062A\u064E\u0644\u0652\u0628\u0650\u064A\u064E\u0629\u0650 \u0637\u064E\u0644\u064E\u0628\u064E\u0627\u062A\u0650\u0647\u0650 \u0648\u064E\u0631\u064E\u063A\u064E\u0628\u064E\u0627\u062A\u0650\u0647\u0650 \u0627\u0644\u0645\u064E\u0627\u062F\u0651\u0650\u064A\u0651\u064E\u0629\u0650 \u0627\u0644\u0628\u064E\u062D\u0652\u062A\u064E\u0629\u0650 \u0627\u0644\u0651\u064E\u062A\u0650\u064A \u0623\u064E\u0636\u0652\u062D\u064E\u062A\u0650 \u0627\u0644\u0647\u064E\u0645\u0651\u064E \u0627\u0644\u0623\u064E\u0643\u0652\u0628\u064E\u0631\u064E \u0641\u0650\u064A \u0645\u064F\u062C\u0652\u062A\u064E\u0645\u064E\u0639\u0650\u0646\u064E\u0627 \u0627\u0644\u0634\u0651\u064E\u0631\u0652\u0642\u0650\u064A\u0651\u0650 \u0648\u064E\u0627\u0644\u0625\u0650\u0633\u0652\u0644\u064E\u0627\u0645\u0650\u064A\u0651\u0650 \u0648\u064E\u0627\u0644\u0651\u064E\u062A\u0650\u064A \u062A\u064E\u0631\u064E\u0643\u064E\u062A\u0650 \u0627\u0644\u0622\u062B\u064E\u0627\u0631\u064E \u0627\u0644\u0648\u064E\u062E\u0650\u064A\u0645\u064E\u0629\u064E \u0639\u064E\u0644\u0649 \u062D\u064E\u0631\u064E\u0643\u064E\u0629\u0650 \u0627\u0644\u0641\u0650\u0643\u0652\u0631\u0650 \u0648\u064E\u0627\u0644\u0633\u0651\u064F\u0644\u064F\u0648\u0643\u0650 \u0627\u0644\u0623\u064E\u062E\u0652\u0644\u064E\u0627\u0642\u0650\u064A\u0651\u0650 \u0645\u0650\u0645\u0651\u064E\u0627 \u062C\u064E\u0639\u064E\u0644\u064E \u0627\u0644\u0623\u064F\u0645\u0651\u064E\u0629\u064E \u0627\u0644\u0625\u0650\u0633\u0652\u0644\u064E\u0627\u0645\u0650\u064A\u0651\u064E\u0629\u064E \u062A\u064E\u0639\u0650\u064A\u0634\u064F \u062D\u064E\u0627\u0644\u064E\u0629\u064E \u0627\u0644\u062C\u064E\u0641\u064E\u0627\u0641\u0650 \u0627\u0644\u0631\u0651\u064F\u0648\u062D\u0650\u064A\u0651\u0650 \u0648\u064E\u0627\u0644\u0636\u0651\u064E\u064A\u064E\u0627\u0639\u0650 \u0627\u0644\u0641\u0650\u0643\u0652\u0631\u0650\u064A\u0651\u0650 \u0648\u064E\u0627\u0644\u062E\u064F\u0644\u064F\u0642\u0650\u064A\u0651\u0650\u060C \u0645\u064E\u0639\u064E \u0627\u0644\u0639\u0650\u0644\u0652\u0645\u0650 \u0628\u0650\u0623\u064E\u0646\u0651\u064E \u0627\u0644\u0633\u0651\u064E\u0639\u064E\u0627\u062F\u064E\u0629\u064E \u0643\u064F\u0644\u0651\u064E \u0627\u0644\u0633\u0651\u064E\u0639\u064E\u0627\u062F\u064E\u0629\u0650 \u0647\u064F\u0648\u064E \u0623\u064E\u0646\u0652 \u064A\u064E\u0645\u0652\u062A\u064E\u0644\u0650\u0643\u064E \u0627\u0644\u0641\u064E\u0631\u0652\u062F\u064F \u0627\u0644\u0645\u064F\u0633\u0652\u0644\u0650\u0645\u064F \u0627\u0644\u0642\u064F\u0648\u0651\u064E\u0629\u064E \u0627\u0644\u0631\u0651\u064F\u0648\u062D\u0650\u064A\u0651\u064E\u0629\u064E \u0627\u0644\u0651\u064E\u062A\u0650\u064A \u062A\u064E\u0639\u0652\u062A\u064E\u0645\u0650\u062F\u064F \u0639\u064E\u0644\u0649 \u0645\u064F\u0642\u064E\u0648\u0651\u0650\u0645\u064E\u0627\u062A\u0650 \u062A\u064E\u0639\u064E\u0627\u0644\u0650\u064A\u0645\u0650 \u0627\u0644\u0642\u064F\u0631\u0652\u0622\u0646\u0650 \u0648\u064E\u0627\u0644\u0633\u0651\u064F\u0646\u0651\u064E\u0629\u0650 \u0627\u0644\u0646\u0651\u064E\u0628\u064E\u0648\u0650\u064A\u0651\u064E\u0629\u0650 \u0627\u0644\u0643\u064E\u0627\u0645\u0650\u0644\u064E\u0629\u0650 \u0627\u0644\u0651\u064E\u062A\u0650\u064A \u0623\u064E\u0636\u064E\u0627\u0621\u064E\u062A\u0652 \u0637\u064E\u0631\u0650\u064A\u0642\u064E \u0627\u0644\u0631\u0651\u064E\u0627\u063A\u0650\u0628\u0650\u064A\u0646\u064E \u0641\u0650\u064A \u0627\u0644\u062D\u064F\u0635\u064F\u0648\u0644\u0650 \u0639\u064E\u0644\u0649 \u0627\u0644\u062A\u0651\u064E\u0639\u064E\u0627\u0644\u0650\u064A\u0645\u0650 \u0627\u0644\u0633\u0651\u064E\u0627\u0645\u0650\u064A\u064E\u0629\u0650 \u0627\u0644\u0651\u064E\u062A\u0650\u064A \u062A\u064F\u0639\u064E\u0627\u0644\u0650\u062C\u064F \u0645\u064E\u0634\u064E\u0627\u0643\u0650\u0644\u064E \u0648\u064E\u062D\u064E\u0648\u064E\u0627\u062F\u0650\u062B\u064E \u0627\u0644\u062C\u064E\u0627\u0646\u0650\u0628\u0650 \u0627\u0644\u0631\u0651\u064F\u0648\u062D\u0650\u064A\u0651\u0650 \u0641\u0650\u064A \u062D\u064E\u064A\u064E\u0627\u064E\u0629\u0650 \u0627\u0644\u0625\u0650\u0646\u0652\u0633\u064E\u0627\u0646\u0650 \u0641\u0650\u064A \u0623\u064E\u0643\u0652\u062B\u064E\u0631\u064E \u0645\u0650\u0646\u0652 \u062C\u064E\u0627\u0646\u0650\u0628\u064D \u0639\u064E\u0645\u064E\u0644\u0650\u064A\u0651\u064D.' +
+    '\u0643\u064E\u0645\u064E\u0627 \u0623\u064E\u0646\u0651\u064E\u0646\u064E\u0627 \u0646\u064E\u0644\u0652\u0641\u0650\u062A\u064F \u0623\u064E\u0646\u0652\u0638\u064E\u0627\u0631\u064E \u0627\u0644\u0642\u064F\u0631\u0651\u064E\u0627\u0621\u0650 \u0625\u0650\u0644\u0649 \u0623\u064E\u0646\u0651\u064E \u0647\u064E\u0630\u064E\u0627 \u0627\u0644\u0643\u0650\u062A\u064E\u0627\u0628\u064E \u0627\u0644\u0651\u064E\u062F\u0650\u064A \u0628\u064E\u064A\u0652\u0646\u064E \u064A\u064E\u062F\u064E\u064A\u0652\u0643\u064E \u0625\u0650\u0646\u0652 \u0647\u064F\u0648\u064E \u0625\u0650\u0644\u0651\u064E\u0627 \u0645\u064E\u062C\u0652\u0645\u064F\u0648\u0639\u064E\u0629\u064C \u0642\u064E\u064A\u0651\u0650\u0645\u064E\u0629\u064C \u062E\u064E\u0631\u064E\u062C\u064E\u062A\u0652 \u0645\u0650\u0646\u0652 \u0644\u0650\u0633\u064E\u0627\u0646\u0650 \u0627\u0644\u0646\u0651\u064F\u0648\u0631\u0650 \u0627\u0644\u0645\u064F\u062D\u064E\u0645\u0651\u064E\u062F\u0650\u064A\u0651\u0650 \u0627\u0644\u0634\u0651\u064E\u0631\u0650\u064A\u0641\u0650 \u0627\u0644\u0651\u064E\u062F\u0650\u064A \u0623\u064E\u0636\u064E\u0627\u0621\u064E \u0627\u0644\u0643\u064E\u0648\u0652\u0646\u064E \u0628\u0650\u062A\u064E\u0639\u064E\u0627\u0644\u0650\u064A\u0645\u0650\u0647\u0650 \u0627\u0644\u0642\u064E\u064A\u0651\u0650\u0645\u064E\u0629\u0650 \u0627\u0644\u0633\u0651\u064E\u0627\u0645\u0650\u064A\u064E\u0629\u0650 \u0627\u0644\u0651\u064E\u062A\u0650\u064A \u0647\u0650\u064A\u064E \u062A\u064E\u0631\u0652\u062C\u064F\u0645\u064E\u0627\u0646\u064C \u0643\u064E\u0627\u0645\u0650\u0644\u064C \u0644\u0650\u0645\u064E\u0646\u0652\u0637\u0650\u0642\u0650 \u0627\u0644\u0648\u064E\u062D\u0652\u064A\u0650 \u0627\u0644\u0625\u0650\u0644\u064E\u0647\u0650\u064A\u0651\u0650...' +
+    '\u0641\u064E\u0642\u064E\u062F\u0652 \u062A\u064E\u0636\u064E\u0645\u0651\u064E\u0646\u064E \u062C\u064F\u0645\u0652\u0644\u064E\u0629\u064D \u0648\u064E\u0627\u0641\u0650\u0631\u064E\u0629\u064D \u0645\u064F\u062A\u064E\u0646\u064E\u0648\u0651\u0650\u0641\u064E\u0629\u064D \u0644\u0650\u0645\u064F\u0639\u064E\u0627\u0644\u064E\u062C\u064E\u0629\u0650 \u0627\u0644\u0623\u064E\u0645\u0652\u0631\u064E\u0627\u0636\u0650 \u0627\u0644\u0631\u0651\u064F\u0648\u062D\u0650\u064A\u0651\u064E\u0629\u0650 \u0628\u0650\u0645\u064F\u062E\u0652\u062A\u064E\u0644\u064E\u0641\u0650 \u0623\u064E\u0646\u0652\u0648\u064E\u0627\u0639\u0650\u0647\u064E\u0627 \u0648\u064E\u062A\u064E\u0641\u064E\u0631\u0651\u064F\u0639\u064E\u0627\u062A\u0650\u0647\u064E\u0627 \u0648\u064E\u0642\u064E\u062F\u0651\u064E\u0645\u064E \u0644\u0650\u0643\u064F\u0644\u0651\u0650 \u0645\u064E\u0631\u064E\u0636\u064D \u064A\u064F\u0628\u0652\u062A\u064E\u0644\u0649 \u0628\u0650\u0647\u0650 \u0627\u0644\u0641\u064E\u0631\u0652\u062F\u064F \u0627\u0644\u0645\u064F\u0633\u0652\u0644\u0650\u0645\u064F \u0639\u0650\u0644\u064E\u0627\u062C\u064E\u0647\u064F \u0627\u0644\u0645\u064F\u0646\u064E\u0627\u0633\u0650\u0628\u064E \u0628\u0650\u0627\u0644\u0637\u0651\u064E\u0631\u0650\u064A\u0642\u064E\u0629\u0650 \u0627\u0644\u0645\u064F\u0642\u064E\u0631\u0651\u064E\u0631\u064E\u0629\u0650 \u0627\u0644\u0651\u064E\u062A\u0650\u064A \u062A\u064E\u0636\u064E\u0645\u0651\u064E\u0646\u064E\u0647\u064E\u0627 \u0643\u064E\u0644\u064E\u0627\u0645\u064F \u0631\u064E\u0633\u064F\u0648\u0644\u0650 \u0627\u0644\u0644\u0651\u064E\u0647\u0650 \u0635\u064E\u0644\u0651\u064E\u0649 \u0627\u0644\u0644\u0651\u064E\u0647\u064F \u0639\u064E\u0644\u064E\u064A\u0652\u0647\u0650 \u0648\u064E\u0633\u064E\u0644\u0651\u064E\u0645\u064E \u0641\u0650\u064A \u062E\u0650\u0637\u064E\u0627\u0628\u064E\u0627\u062A\u0650\u0647\u0650 \u0627\u0644\u0625\u0650\u0644\u064E\u0647\u0650\u064A\u0651\u064E\u0629\u0650 \u0644\u0650\u0645\u064F\u0639\u064E\u0627\u0644\u064E\u062C\u064E\u0629\u0650 \u0627\u0644\u0645\u064E\u0634\u064E\u0627\u0643\u0650\u0644\u0650 \u0648\u064E\u0627\u0644\u062D\u064E\u0648\u064E\u0627\u062F\u0650\u062B\u0650 \u0627\u0644\u0631\u0651\u064F\u0648\u062D\u0650\u064A\u0651\u064E\u0629\u0650 \u0627\u0644\u0651\u064E\u062A\u0650\u064A \u0644\u0647\u064E\u0627 \u0627\u0644\u0635\u0651\u064E\u062F\u0649 \u0627\u0644\u0639\u064E\u0645\u0650\u064A\u0642\u064F \u0641\u0650\u064A \u0645\u064F\u062C\u0652\u062A\u064E\u0645\u064E\u0639\u0650\u0646\u064E\u0627 \u0627\u0644\u0634\u0651\u064E\u0631\u0652\u0642\u0650\u064A\u0651\u0650 \u0627\u0644\u0625\u0650\u0633\u0652\u0644\u064E\u0627\u0645\u0650\u064A\u0651\u0650.' +
+    '\u0643\u064E\u0645\u064E\u0627 \u0646\u064E\u0648\u064E\u062F\u0651\u064F \u0623\u064E\u0646\u0652 \u0646\u064E\u0644\u0652\u0641\u0650\u062A\u064E \u0623\u064E\u0646\u0652\u0638\u064E\u0627\u0631\u064E \u0627\u0644\u0642\u064F\u0631\u0651\u064E\u0627\u0621\u0650 \u0627\u0644\u0643\u0650\u0631\u064E\u0627\u0645\u0650 \u0625\u0650\u0644\u0649 \u0623\u064E\u0646\u0651\u064E \u0647\u064E\u0630\u064E\u0627 \u0627\u0644\u0643\u0650\u062A\u064E\u0627\u0628\u064E \u0645\u064F\u062E\u0652\u062A\u064E\u0635\u0651\u064C \u0644\u0650\u0628\u064E\u064A\u064E\u0627\u0646\u064D...' ;
+
+  /** Pemeriksa 3 hukum nahwu-sharaf (otomatis, deterministik). */
+  function checkNahwu(text) {
+    var temuan = [];
+    var raw = String(text || '').split(/\s+/).filter(Boolean);
+    function coreOf(w) { return stripDiacritics(w).replace(EDGE_PUNCT, ''); }
+    function hasTanwin(w) { return w.indexOf(FATHATAN) >= 0 || w.indexOf(KASRATAN) >= 0 || w.indexOf(DHAMMATAN) >= 0; }
+    function hasAL(core) {
+      return core.indexOf('\u0627\u0644') === 0 ||
+        /^[\u0648\u0641\u0628\u0644\u0643\u0633]\u0627\u0644/.test(core);
+    }
+    function isMuthanna(w) { return /\u064E?\u0627\u0646\u0650?$/.test(w) && /\u0627\u0646\u0650?$/.test(coreOf(w)); } // ...ani/ayni
+    function hasMark(w, mark) { return w.indexOf(mark) >= 0; }
+    function endsMansub(w) {
+      // fathah, fathatan, alif panjang/khanjariyah di akhir = tanda mansub
+      var chars = w.split('');
+      for (var k = chars.length - 1; k >= 0; k--) {
+        var c = chars[k];
+        if (IGNORED[c] || c === SHADDA) continue;
+        if (VOW[c]) {
+          var v = VOW[c];
+          return v === 'a' || v === 'an' || v === 'aa';
+        }
+        if (c === SUKUN) return false;
+        return c === ALEF; // manqus/mamdud: "...a" panjang
+      }
+      return false;
+    }
+
+    for (var i = 0; i < raw.length; i++) {
+      var w = raw[i], core = coreOf(w);
+      if (!core || !isArabicChar(core[0])) continue;
+
+      // --- Hukum 1: isim ber-AL tidak bertanwin ---
+      if (hasAL(core) && hasTanwin(w) && !isMuthanna(w)) {
+        temuan.push({
+          hukum: 1, jenis: 'pasti', kata: core,
+          alasan: "Isim ber-AL tidak bertanwin.",
+          saran: 'Ganti tanwin dengan harokat i\u2019rab (fathah/dammah/kasrah) sesuai kedudukan kata.',
+        });
+      }
+
+      // --- Hukum 2: dicurigai idhafah — kata bertanwin diikuti kata ber-AL ---
+      if (hasTanwin(w) && i + 1 < raw.length) {
+        var next = coreOf(raw[i + 1]);
+        if (next && isArabicChar(next[0]) && hasAL(next) && !/^[.,،؛:!?؟]/.test(raw[i + 1])) {
+          temuan.push({
+            hukum: 2, jenis: 'dicurigai', kata: core,
+            alasan: 'Kata bertanwin diikuti kata ber-AL — kemungkinan idhafah; mudhaf tidak bertanwin.',
+            saran: 'Periksa: bila ini idhafah, gugurkan tanwin (mis. كَلِمَةُ السَّمَاءِ, لِسَانِ النُّورِ).',
+          });
+        }
+      }
+
+      // --- Hukum 3: kata setelah أَنَّ wajib mansub ---
+      var isAnna = (core === '\u0623\u0646' || core === '\u0627\u0646' ||
+        /^[\u0648\u0641\u0628\u0644\u0643]\u0623?\u0646$/.test(core)) && hasMark(w, SHADDA);
+      if (isAnna && i + 1 < raw.length) {
+        var w2 = raw[i + 1], c2 = coreOf(w2);
+        if (c2 && isArabicChar(c2[0]) && !endsMansub(w2)) {
+          temuan.push({
+            hukum: 3, jenis: 'pasti', kata: c2,
+            alasan: 'Kata setelah أَنَّ harusnya mansub (berfathah).',
+            saran: 'Ubah akhiran menjadi fathah (mis. أَنَّ مَصْدَرَ, bukan مَصْدِرِ).',
+          });
+        }
+      }
+    }
+    return { ok: temuan.length === 0, temuan: temuan };
+  }
+
   return {
     isHarakat: isHarakat,
     isArabicChar: isArabicChar,
@@ -1013,6 +1120,9 @@
     isFaithful: isFaithful,
     transliterate: transliterate,
     WASHAL_RULES: WASHAL_RULES,
+    NAWHU_RULES: NAWHU_RULES,
+    checkNahwu: checkNahwu,
+    MUQADDIMAH_HAROKAT: MUQADDIMAH_HAROKAT,
     localHarokat: localHarokat,
     localTranslation: localTranslation,
     MUFRADAT: MUFRADAT,
@@ -1088,11 +1198,27 @@
       if (!r.harokat && !r.original) { area.innerHTML = emptyHtml(); tools.style.display = 'none'; return; }
       var cov = state.coverage != null
         ? '<span class="muted">cakupan kamus: ' + Math.round(state.coverage * 100) + '%</span>' : '';
+      var checkHtml = '';
+      if (r.harokat) {
+        var check = E.checkNahwu(r.harokat);
+        if (check.temuan.length) {
+          checkHtml = '<div class="result-label">Pemeriksa Nahwu — 3 Hukum (' + check.temuan.length + ' temuan)</div>' +
+            check.temuan.map(function (t) {
+              return '<div class="banner ' + (t.jenis === 'pasti' ? 'err' : 'warn') + '" style="margin-top:8px">' +
+                '<span>' + (t.jenis === 'pasti' ? '⚠️' : '🔍') + '</span>' +
+                '<span style="flex:1"><b>Hukum ' + t.hukum + '</b> • <span class="arabic" style="font-size:18px">' + esc(t.kata) + '</span> — ' + esc(t.alasan) +
+                '<br /><span class="muted">' + esc(t.saran) + '</span></span></div>';
+            }).join('');
+        } else {
+          checkHtml = '<div class="banner ok" style="margin-top:8px"><span>✅</span><span>Pemeriksa Nahwu: tidak ada pelanggaran 3 hukum terdeteksi (fi\'il/isim-AL tanpa tanwin, idhafah, anna+mansub).</span></div>';
+        }
+      }
       area.innerHTML =
         '<div class="result-label">Teks Asli (Gundul) ' + cov + '</div>' +
         '<div class="result-box arabic">' + (esc(r.original) || '—') + '</div>' +
         '<div class="result-label">Bacaan Harokat</div>' +
-        '<div class="result-box arabic" style="color:var(--gold2)">' + (esc(r.harokat) || 'Belum diproses.') + '</div>';
+        '<div class="result-box arabic" style="color:var(--gold2)">' + (esc(r.harokat) || 'Belum diproses.') + '</div>' +
+        checkHtml;
       tools.style.display = 'flex';
     } else if (state.tab === 'latin') {
       if (!r.latin) { area.innerHTML = emptyHtml(); tools.style.display = 'none'; return; }
@@ -1235,9 +1361,12 @@
     setBusy(true, 'AI sedang mengharokati naskah…');
     try {
       var prompt =
-        'Berikan teks Arab gundul ini dengan harokat (tasykil) yang benar sesuai kaidah nahwu dan sharaf.\n' +
-        'ATURAN WAJIB: 1) Setiap huruf dan tanda baca tetap di tempatnya. ' +
-        '2) JANGAN mengubah, mengurangi, atau menambah kalimat — kerangka teks harus sama persis, hanya ditambahkan harokat.\n\n' +
+        'Berikan teks Arab gundul ini dengan harokat (tasykil) yang benar 100% SESUAI 3 HUKUM NAHWU SHARAF berikut:\n' +
+        '1) Fi\u2019il tidak pernah bertanwin. Isim yang ber-AL tidak bertanwin (harokatnya fathah/dammah/kasrah sesuai i\u2019rab).\n' +
+        '2) Idhafah: mudhaf TANPA AL dan TANPA tanwin (benar: \u0643\u064E\u0644\u0650\u0645\u064E\u0629\u064F \u0627\u0644\u0633\u0651\u064E\u0645\u0627\u0621\u0650\u060C \u0644\u0650\u0633\u064E\u0627\u0646\u0650 \u0627\u0644\u0646\u0651\u064F\u0648\u0631\u0650 \u0627\u0644\u0645\u064F\u062D\u064E\u0645\u0651\u064E\u062F\u0650\u064A\u0651\u0650\u060C \u0631\u064E\u0633\u064F\u0648\u0644\u0650 \u0627\u0644\u0644\u0651\u064E\u0647\u0650).\n' +
+        '3) Anna ditulis \u0623\u064E\u0646\u0651\u064E (tasydid) dan kata sesudahnya WAJIB mansub/berfathah (benar: \u0623\u064E\u0646\u0651\u064E \u0645\u064E\u0635\u0652\u062F\u064E\u0631\u064E).\n' +
+        'CONTOH PERBAIKAN: \u0644\u0627 \u062A\u064E\u0646\u0652\u062D\u064E\u0635\u0650\u0631\u064F (fi\u2019il mudhari\u2019 marfu\u2019 dammah, bukan tanwin) \u2022 \u0641\u0650\u064A \u062E\u064F\u0635\u064F\u0648\u0635\u0650 (majrur kasrah) \u2022 \u0627\u0644\u0647\u064E\u0645\u0651\u064E \u0627\u0644\u0623\u064E\u0643\u0652\u0628\u064E\u0631\u064E (maf\u2019ul mansub fathah + tasydid).\n' +
+        'ATURAN WAJIB: setiap huruf dan tanda baca tetap di tempatnya; JANGAN mengubah, mengurangi, atau menambah kalimat \u2014 kerangka teks harus sama persis, hanya ditambahkan harokat.\n\n' +
         'TEKS ASLI:\n' + teks;
       var raw = await withTimeout(function (signal) {
         return callGemini({
@@ -1537,8 +1666,17 @@
 
   // ---------- render aturan 3 hukum ----------
   function renderRules() {
-    var box = $('rulesGrid');
-    box.innerHTML = E.WASHAL_RULES.map(function (r) {
+    $('rulesGrid').innerHTML = E.NAWHU_RULES.map(function (r) {
+      return '<div class="rule-card">' +
+        '<div class="rule-no">' + r.no + '</div>' +
+        '<h3>' + esc(r.nama) + '</h3>' +
+        '<p>' + esc(r.penjelasan) + '</p>' +
+        '<div class="rule-ex">' +
+          '<div class="q">✕ ' + esc(r.contohSalah) + '</div>' +
+          '<div class="w">✓ ' + esc(r.contohBenar) + '</div>' +
+        '</div></div>';
+    }).join('');
+    $('washalGrid').innerHTML = E.WASHAL_RULES.map(function (r) {
       return '<div class="rule-card">' +
         '<div class="rule-no">' + r.no + '</div>' +
         '<h3>' + esc(r.nama) + '</h3>' +
@@ -1568,6 +1706,10 @@
     $('btnSample').onclick = function () {
       $('input').value = E.TEST_SAMPLE;
       $('fileName').textContent = '📄 (teks contoh bawaan)';
+    };
+    $('btnSampleMuq').onclick = function () {
+      $('input').value = E.stripDiacritics(E.MUQADDIMAH_HAROKAT);
+      $('fileName').textContent = '📄 (contoh muqaddimah — gundul)';
     };
     $('btnClear').onclick = function () {
       $('input').value = '';

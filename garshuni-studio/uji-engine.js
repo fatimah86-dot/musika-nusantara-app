@@ -67,6 +67,28 @@ eq('hukum3 syamsiyah tsa', E.transliterate('الثَّمَرَةِ'), 'ats-tsama
 eq('hukum3 qamariyah qaf', E.transliterate('الْقَمَرُ'), 'al-qamaru');
 eq('hukum3 liaison tanwin', E.transliterate('فَصْلٌ الْإِسْلَامِ'), 'fashlul-islaami');
 
+// ---------- 3 Hukum Nahwu Sharaf & pemeriksa ----------
+ok('NAWHU_RULES berisi tepat 3 hukum', E.NAWHU_RULES.length === 3);
+ok('judul hukum 1 fiil & isim AL tanpa tanwin', /tidak bertanwin/.test(E.NAWHU_RULES[0].nama));
+ok('judul hukum 2 idhafah', /Idhafah/.test(E.NAWHU_RULES[1].nama));
+ok('judul hukum 3 anna', /Anna/.test(E.NAWHU_RULES[2].nama));
+
+const nf = E.checkNahwu(E.MUQADDIMAH_HAROKAT);
+ok('teks final muqaddimah: 0 temuan (ground truth)', nf.ok && nf.temuan.length === 0, JSON.stringify(nf.temuan.slice(0, 2)));
+ok('muqaddimah fixture > 500 karakter', E.MUQADDIMAH_HAROKAT.length > 500);
+
+const n1 = E.checkNahwu('الْبَيْتٌ كَبِيرٌ');
+ok('hukum1: AL+tanwin ditangkap', n1.temuan.some(t => t.hukum === 1 && t.kata === 'البيت'));
+const n1b = E.checkNahwu('الْكِتَابَانِ الْجَدِيدَانِ');
+ok('hukum1: muthanna tidak salah di-flag', n1b.temuan.filter(t => t.hukum === 1).length === 0);
+const n2 = E.checkNahwu('فَصْلٌ الْإِسْلَامِ خَمْسَةٌ');
+ok('hukum2: tanwin + AL dicurigai idhafah', n2.temuan.some(t => t.hukum === 2 && t.jenis === 'dicurigai'));
+ok('hukum2: contoh perbaikan pengguna benar', E.checkNahwu('كَلِمَةُ السَّمَاءِ').ok);
+const n3 = E.checkNahwu('أَنَّ مَصْدِرِ سَعَادَةٍ');
+ok('hukum3: non-mansub setelah anna ditangkap', n3.temuan.some(t => t.hukum === 3 && t.kata === 'مصدر'));
+ok('hukum3: anna + mansub lolos', E.checkNahwu('أَنَّ مَصْدَرَ سَعَادَةِ').ok);
+ok('hukum3: أَنْ (sukun) bukan anna — tidak di-flag', E.checkNahwu('أَنْ يَمْتَلِكَ الْفَرْدُ').ok);
+
 // ---------- Penjaga mutu ----------
 ok('similarity setia > 0.9', E.similarity('فصل اركان الاسلام خمسة',
   'فَصْلٌ أَرْكَانُ الْإِسْلَامِ خَمْسَةٌ') > 0.9);

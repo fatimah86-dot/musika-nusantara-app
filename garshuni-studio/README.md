@@ -15,7 +15,17 @@ makna, i'rab ringkas, kaidah nahwu/sharaf).
 | **Ekstraksi foto kitab** | — | Gemini Vision → teks gundul bersih |
 | **Dokumen** | TXT langsung; DOCX & PDF via pustaka saat dipakai | sama |
 
-### 3 Hukum Washal Pengucapan (dipakai mesin Latin)
+### 3 Hukum Nahwu Sharaf (ketepatan harokat)
+1. **Fi'il & Isim ber-AL tidak bertanwin** — `لَا تَنْحَصِرُ` (fi'il mudhari' marfu' dammah),
+   `الْهَمَّ الْأَكْبَرَ` (maf'ul mansub + tasydid).
+2. **Idhafah: mudhaf tanpa AL, tanpa tanwin** — `كَلِمَةُ السَّمَاءِ`, `لِسَانِ النُّورِ الْمُحَمَّدِيِّ`, `رَسُولِ اللهِ`.
+3. **Anna = أَنَّ (tasydid) + mansub** — `أَنَّ مَصْدَرَ` (bukan `مَصْدِرِ`).
+
+Pemeriksa nahwu otomatis (`checkNahwu`) menandai pelanggaran di tab Harokat
+(kasus pasti: AL+tanwin, anna non-mansub; dicurigai: tanwin + kata ber-AL).
+Teks muqaddimah versi final (sudah dikoreksi 100%) dipakai sebagai acuan uji.
+
+### Kaidah Latin Washal (dipakai mesin transliterasi)
 1. **Ta Marbuthah (ة)** — dibaca "t" saat washal (sambung), "h" saat waqaf (berhenti).
 2. **Hamzatul Washl (ا di awal kata)** — gugur saat menyambung (`عَلَى ابْنِهِ` → *‘alaa-bnihi*),
    dibaca "i" saat memulai kalimat (`اِبْنُ` → *ibnu*).
@@ -55,10 +65,10 @@ digugurkan) hanya di akhir kalimat.
 
 ## Uji
 ```bash
-node uji-engine.js        # 64 tes mesin (transliterasi, 3 hukum washal, kamus, syarah, penjaga mutu)
+node uji-engine.js        # 77 tes mesin (transliterasi, 3 hukum washal, kamus, syarah, penjaga mutu)
 ```
 Uji render DOM (opsional, butuh `npm i jsdom`): memuat `index.html` di jsdom dan mengklik
-tombol-tombol utama — 13 skenario.
+tombol-tombol utama — 20 skenario (13 + 7 pemeriksa nahwu).
 
 ## Catatan desain
 - **Tanpa framework CDN**: versi sebelumnya (React + Babel standalone + Tailwind CDN) blank
